@@ -1,0 +1,288 @@
+<mxfile host="app.diagrams.net" modified="2026-04-04" type="device">
+  <diagram name="Lauras Zimmer" id="lauras-zimmer-grundriss">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- ===== RAUMSTRUKTUR ===== -->
+
+        <!-- Raum-Umriss (5m x 9.5m, Massstab 1m = 80px) -->
+        <mxCell id="room" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#333333;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="400" height="760" as="geometry"/>
+        </mxCell>
+
+        <!-- Dachschräge links (schraffiert) -->
+        <mxCell id="slope-left" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F0;strokeColor=none;fillStyle=cross-hatch;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="65" height="760" as="geometry"/>
+        </mxCell>
+
+        <!-- Dachschräge rechts (schraffiert) -->
+        <mxCell id="slope-right" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F0;strokeColor=none;fillStyle=cross-hatch;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="455" y="60" width="65" height="760" as="geometry"/>
+        </mxCell>
+
+        <!-- Kniestock-Linie links -->
+        <mxCell id="knie-left" value="" style="endArrow=none;dashed=1;dashPattern=4 4;strokeColor=#999999;strokeWidth=0.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="60" as="sourcePoint"/>
+            <mxPoint x="185" y="820" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Kniestock-Linie rechts -->
+        <mxCell id="knie-right" value="" style="endArrow=none;dashed=1;dashPattern=4 4;strokeColor=#999999;strokeWidth=0.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="60" as="sourcePoint"/>
+            <mxPoint x="455" y="820" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ===== ZONE 1: SCHLAFBEREICH ===== -->
+
+        <mxCell id="zone1-label" value="Zone 1: Schlafbereich" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;fontSize=10;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="255" y="68" width="130" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Bett (90cm x 200cm) -->
+        <mxCell id="bett" value="Bett" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="210" y="90" width="72" height="160" as="geometry"/>
+        </mxCell>
+
+        <!-- Kopfkissen -->
+        <mxCell id="kissen" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=0.5;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="216" y="95" width="60" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Plüschtiere auf dem Bett -->
+        <mxCell id="teddy" value="🧸" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="220" y="150" width="25" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Nachttisch -->
+        <mxCell id="nachttisch" value="NT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=0.5;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="290" y="90" width="36" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Mond-Lampe -->
+        <mxCell id="mond-lampe" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=0.5;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="94" width="12" height="12" as="geometry"/>
+        </mxCell>
+
+        <!-- Laternen-Lampe bei Bett -->
+        <mxCell id="lampe1" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=0.5;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="192" y="150" width="12" height="12" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== RAUMTEILER ===== -->
+
+        <!-- Regal/Raumteiler -->
+        <mxCell id="raumteiler" value="Raumteiler-Regal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0b8;strokeColor=#ae8b5e;strokeWidth=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="205" y="275" width="200" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- BT-Boxen auf Regal -->
+        <mxCell id="bt-box1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;strokeWidth=0.5;" vertex="1" parent="1">
+          <mxGeometry x="220" y="280" width="8" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="bt-box2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;strokeWidth=0.5;" vertex="1" parent="1">
+          <mxGeometry x="235" y="280" width="8" height="10" as="geometry"/>
+        </mxCell>
+
+        <!-- Zonentrenner-Linie -->
+        <mxCell id="zone-div-1" value="" style="endArrow=none;dashed=1;dashPattern=2 4;strokeColor=#cccccc;strokeWidth=0.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="300" as="sourcePoint"/>
+            <mxPoint x="510" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ===== ZONE 2: WOHNBEREICH ===== -->
+
+        <mxCell id="zone2-label" value="Zone 2: Wohnbereich" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;fontSize=10;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="255" y="305" width="130" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Couch (220cm x 90cm) -->
+        <mxCell id="couch" value="Couch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="195" y="330" width="176" height="72" as="geometry"/>
+        </mxCell>
+
+        <!-- Couch Rückenlehne -->
+        <mxCell id="couch-back" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="197" y="332" width="172" height="16" as="geometry"/>
+        </mxCell>
+
+        <!-- Sessel (80cm x 80cm) -->
+        <mxCell id="sessel" value="Sessel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="385" y="335" width="64" height="64" as="geometry"/>
+        </mxCell>
+
+        <!-- TV -->
+        <mxCell id="tv" value="TV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=0.5;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="90" height="10" as="geometry"/>
+        </mxCell>
+
+        <!-- Laternen-Lampe Wohnbereich -->
+        <mxCell id="lampe2" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=0.5;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="192" y="360" width="12" height="12" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== SCHMINKTISCH (rechte Seite unter Schräge) ===== -->
+
+        <!-- Schminktisch -->
+        <mxCell id="schminktisch" value="Schmink-&#xa;tisch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="455" y="440" width="50" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- Spiegel-Lichter (am Schminktisch) -->
+        <mxCell id="spiegel-licht1" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=0.3;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="508" y="445" width="6" height="6" as="geometry"/>
+        </mxCell>
+        <mxCell id="spiegel-licht2" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=0.3;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="508" y="460" width="6" height="6" as="geometry"/>
+        </mxCell>
+        <mxCell id="spiegel-licht3" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=0.3;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="508" y="475" width="6" height="6" as="geometry"/>
+        </mxCell>
+        <mxCell id="spiegel-licht4" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=0.3;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="508" y="490" width="6" height="6" as="geometry"/>
+        </mxCell>
+        <mxCell id="spiegel-licht5" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=0.3;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="508" y="505" width="6" height="6" as="geometry"/>
+        </mxCell>
+        <mxCell id="spiegel-licht6" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=0.3;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="508" y="520" width="6" height="6" as="geometry"/>
+        </mxCell>
+
+        <!-- Ganzkörperspiegel -->
+        <mxCell id="spiegel" value="Spiegel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#999999;strokeWidth=0.5;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="460" y="545" width="40" height="8" as="geometry"/>
+        </mxCell>
+
+        <!-- Zonentrenner-Linie -->
+        <mxCell id="zone-div-2" value="" style="endArrow=none;dashed=1;dashPattern=2 4;strokeColor=#cccccc;strokeWidth=0.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="580" as="sourcePoint"/>
+            <mxPoint x="510" y="580" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ===== ZONE 3: ARBEITSBEREICH ===== -->
+
+        <mxCell id="zone3-label" value="Zone 3: Arbeitsbereich" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;fontSize=10;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="252" y="585" width="140" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Schreibtisch (140cm x 70cm) -->
+        <mxCell id="schreibtisch" value="Schreibtisch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="345" y="615" width="112" height="56" as="geometry"/>
+        </mxCell>
+
+        <!-- Regal über Schreibtisch -->
+        <mxCell id="desk-regal" value="Regal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0b8;strokeColor=#ae8b5e;strokeWidth=0.5;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="352" y="607" width="98" height="8" as="geometry"/>
+        </mxCell>
+
+        <!-- Schreibtischstuhl -->
+        <mxCell id="stuhl" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=0.5;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="381" y="685" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="stuhl-label" value="Stuhl" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="374" y="690" width="44" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Kleiderschrank (150cm x 60cm) -->
+        <mxCell id="schrank" value="Kleider-&#xa;schrank" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="125" y="620" width="48" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Laternen-Lampe Arbeitsbereich -->
+        <mxCell id="lampe3" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=0.5;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="650" width="12" height="12" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== TÜR ===== -->
+
+        <!-- Türöffnung (Lücke in der unteren Wand) -->
+        <mxCell id="tuer-gap" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="816" width="60" height="8" as="geometry"/>
+        </mxCell>
+
+        <!-- Tür-Bogen (Schwenkbereich) -->
+        <mxCell id="tuer-arc" value="" style="shape=mxgraph.floorplan.wall.doorswing;direction=west;fillColor=none;strokeColor=#999999;strokeWidth=0.5;" vertex="1" parent="1">
+          <mxGeometry x="220" y="760" width="60" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Treppe-Hinweis -->
+        <mxCell id="treppe" value="↓ Treppe zur Elternwohnung" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="225" y="835" width="160" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== DACHFENSTER ===== -->
+
+        <!-- Dachfenster links -->
+        <mxCell id="fenster-left" value="Dach-&#xa;fenster" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="113" y="380" width="14" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Dachfenster rechts -->
+        <mxCell id="fenster-right" value="Dach-&#xa;fenster" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="513" y="180" width="14" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== MASSBESCHRIFTUNG ===== -->
+
+        <!-- Breite -->
+        <mxCell id="dim-w" value="ca. 5,0 m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#666666;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="275" y="870" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="dim-w-line" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;strokeColor=#999999;strokeWidth=0.5;endSize=4;startSize=4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="880" as="sourcePoint"/>
+            <mxPoint x="520" y="880" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Länge -->
+        <mxCell id="dim-h" value="ca. 9,5 m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#666666;fontSize=10;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="545" y="430" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="dim-h-line" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;strokeColor=#999999;strokeWidth=0.5;endSize=4;startSize=4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="60" as="sourcePoint"/>
+            <mxPoint x="560" y="820" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ===== LEGENDE ===== -->
+
+        <mxCell id="legend-title" value="Legende" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#333333;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="60" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-slope" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F0;strokeColor=#999999;fillStyle=cross-hatch;opacity=40;strokeWidth=0.5;" vertex="1" parent="1">
+          <mxGeometry x="20" y="85" width="30" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-slope-label" value="Dachschräge" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="55" y="82" width="80" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-lamp" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=0.5;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="28" y="107" width="12" height="12" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-lamp-label" value="Bodenlampe" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="55" y="104" width="70" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-window" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=0.5;" vertex="1" parent="1">
+          <mxGeometry x="22" y="130" width="24" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-window-label" value="Fenster" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="55" y="126" width="50" height="20" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

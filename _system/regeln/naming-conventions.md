@@ -2,7 +2,11 @@
 typ: regel
 id: REG-naming
 titel: "Namenskonventionen"
+version: "2.1"
 status: aktiv
+siehe_auch:
+  - "[[ADR-0002-keine-umlaute-dateinamen]]"
+  - "[[ADR-0003-einheitliche-prefixe-und-dateinamen]]"
 tags:
   - regel
   - namenskonvention
@@ -10,49 +14,95 @@ tags:
 
 # Namenskonventionen
 
-## Dateinamen
+## Allgemeine Regeln
 
 - Kleinbuchstaben, Bindestrich als Worttrenner
 - Keine Umlaute: `ae/oe/ue/ss` (siehe [[ADR-0002-keine-umlaute-dateinamen]])
 - Keine Leerzeichen, keine Sonderzeichen ausser Bindestrich
+- Prefixe verwenden Bindestrich (nicht Unterstrich): `CHAR-` nicht `CHAR_`
+- Innerhalb der Dateien (Frontmatter, Titel, Inhalt) dürfen Umlaute und Grossbuchstaben verwendet werden
 
-## ID-Prefixe
+---
+
+## ID-Prefixe (Referenz-IDs im Frontmatter)
+
+> Diese IDs werden im Frontmatter-Feld `doc_id` verwendet und dienen als systemweite Referenz.
 
 | Prefix | Typ | Beispiel |
 |---|---|---|
-| `SZ-{nnnn}` | Szene | `SZ-0001-der-sturm-bricht-los.md` |
-| `CHAR-` | Charakter | `CHAR-maren-steinfeld` (in Frontmatter) |
-| `ORT-` | Ort | `ORT-hafen-von-eldara` |
-| `GGS-` | Gegenstand | `GGS-kompass-der-gezeiten` |
-| `BEZ-` | Beziehung | `BEZ-maren-steinfeld--jonas-krath` |
-| `PLOT-` | Plot-Strang | `PLOT-hauptplot` |
-| `KAN-OBJ-` | Kanon objektiv | `KAN-OBJ-RT0001-00-00-geographie` |
-| `KAN-SUB-` | Kanon subjektiv | `KAN-SUB-maren-RT0003-07-01-wissen` |
-| `KON-{nnnn}` | Konzeptdokument | `KON-0001-systemkonzept.md` |
-| `ADR-{nnnn}` | Architektur-Entscheidung | `ADR-0001-kanon-objektiv-subjektiv.md` |
+| `CHAR-{vorname-nachname}` | Charakter | `CHAR-laura-ahler` |
+| `ORT-{name}` | Ort | `ORT-lauras-zimmer` |
+| `GGS-{name}` | Gegenstand | `GGS-pentagramm-armband` |
+| `BEZ-{char1}--{char2}` | Beziehung | `BEZ-laura-ahler--marie-kanter` |
+| `SZ-{nnnn}` | Szene | `SZ-0001` |
+| `PLOT-{name}` | Plot-Strang | `PLOT-verschwinden-marie` |
+| `KAN-OBJ-{zeit}-{thema}` | Kanon objektiv | `KAN-OBJ-RT2025-03-15-tatort` |
+| `KAN-SUB-{char}-{zeit}-{thema}` | Kanon subjektiv | `KAN-SUB-laura-RT2025-03-15-wissen` |
+| `KON-{nnnn}` | Konzeptdokument | `KON-0001` |
+| `ADR-{nnnn}` | Architektur-Entscheidung | `ADR-0001` |
+| `REG-{name}` | Regel | `REG-naming` |
+| `TMPL-{typ}` | Template | `TMPL-charakter` |
+| `AGT-{name}` | Agent | `AGT-ghostwriter` |
 
-## Dateinamen-Muster
+---
+
+## Dateinamen-Muster (pro Verzeichnis)
+
+### Inhaltsdateien
 
 | Verzeichnis | Muster | Beispiel |
 |---|---|---|
-| `szenen/` | `SZ-{nnnn}-{kurztitel}.md` | `SZ-0042-erstes-treffen-am-hafen.md` |
-| `charaktere/` | `{vorname-nachname}.md` | `maren-steinfeld.md` |
-| `beziehungen/` | `{char1}--{char2}.md` | `maren-steinfeld--jonas-krath.md` |
-| `orte/` | `{ort-name}.md` | `hafen-von-eldara.md` |
-| `gegenstaende/` | `{gegenstand-name}.md` | `kompass-der-gezeiten.md` |
-| `kanon/objektiv/` | `RT{zeit}-{thema}.md` | `RT0001-00-00-eldara-geographie.md` |
-| `kanon/subjektiv/{char}/` | `RT{zeit}-{thema}.md` | `RT0003-07-01-wissen-ueber-jonas.md` |
-| `plot/` | `{strang-name}.md` | `hauptplot.md` |
+| `charaktere/` | `{vorname-nachname}.md` | `laura-ahler.md` |
+| `beziehungen/` | `{char1}--{char2}.md` | `laura-ahler--marie-kanter.md` |
+| `orte/` | `{ort-name}.md` | `lauras-zimmer.md` |
+| `gegenstaende/` | `{gegenstand-name}.md` | `pentagramm-armband.md` |
+| `szenen/` | `SZ-{nnnn}-{kurztitel}.md` | `SZ-0001-marie-verschwindet.md` |
+| `plot/` | `{strang-name}.md` | `verschwinden-marie.md` |
+| `kanon/objektiv/` | `RT{zeit}-{thema}.md` | `RT2025-03-15-tatort-befunde.md` |
+| `kanon/subjektiv/{char}/` | `RT{zeit}-{thema}.md` | `RT2025-03-15-wissen-ueber-marie.md` |
+| `reihenfolge/` | `{name}.md` | `kapitelplan.md` |
 
-## Romanzeit-Format
+### Systemdateien
 
-- Prefix: `RT` (Romanzeit)
-- Format: `RT{jahr}-{monat}-{tag}` mit optionaler Uhrzeit `T{stunde}:{minute}`
-- Jahr ist vierstellig, beginnt bei `0000` oder `0001` (projektspezifisch)
-- Beispiel: `RT0003-07-22T14:00` = Jahr 3, 22. Juli, 14:00 Uhr
+| Verzeichnis | Muster | Beispiel |
+|---|---|---|
+| `_system/templates/` | `TEMPLATE-{typ}.md` | `TEMPLATE-charakter.md` |
+| `_system/agenten/` | `{agenten-name}.md` | `ghostwriter.md` |
+| `_system/regeln/` | `{regel-name}.md` | `naming-conventions.md` |
+| `_system/konzept/` | `KON-{nnnn}-{titel}.md` | `KON-0001-systemkonzept.md` |
+| `_system/entscheidungen/` | `ADR-{nnnn}-{titel}.md` | `ADR-0001-kanon-objektiv-subjektiv.md` |
+
+---
 
 ## Beziehungsdateien
 
 - Beide Charakternamen alphabetisch sortiert
 - Getrennt durch Doppel-Bindestrich `--`
 - Beispiel: `anna-berg--karl-mueller.md` (Anna vor Karl)
+
+---
+
+## Romanzeit-Format
+
+- Prefix: `RT` (Romanzeit)
+- Format: `RT{jahr}-{monat}-{tag}` mit optionaler Uhrzeit `T{stunde}:{minute}`
+- Jahr ist vierstellig
+- Beispiel: `RT2025-07-22T14:00` = 22. Juli 2025, 14:00 Uhr
+- Bei unbekanntem Tag: `RT2025-07-00`
+- Bei unbekanntem Monat: `RT2025-00-00`
+
+---
+
+## Verweise innerhalb von Dokumenten
+
+| Kontext | Format | Beispiel |
+|---|---|---|
+| Obsidian-Wiki-Link | `[[dateiname]]` | `[[laura-ahler]]` |
+| Frontmatter-Referenz | `doc_id` Wert | `CHAR-laura-ahler` |
+| Inline-Verweis im Text | `→ siehe DOC_ID` | `→ siehe CHAR-franz-ahler` |
+
+---
+
+## Migrationhinweis
+
+> Bestehende Dokumente, die noch das alte Format verwenden (z.B. `CHAR_FranzAhler`, `LOC_LaurasZimmer`, `REL_LAURA_MARIE`), müssen bei der nächsten Bearbeitung auf das neue Format migriert werden. Siehe [[ADR-0003-einheitliche-prefixe-und-dateinamen]].
