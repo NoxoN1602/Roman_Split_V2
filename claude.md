@@ -53,7 +53,8 @@ Kleinbuchstaben, Bindestrich, keine Umlaute in Dateinamen.
 
 ```
 /Roman_Split/
-├── claude.md
+├── claude.md                  # Permanentes Gedächtnis (diese Datei)
+├── commands.md                # Befehlsreferenz aller Slash-Befehle
 ├── _system/
 │   ├── agenten/
 │   ├── templates/
@@ -147,13 +148,15 @@ Siehe vorherige Abschnitte (keine Änderungen). Kanon-System, Agenten-Pipeline, 
 | 04-03 | Grundidee, Systemkonzept, Verzeichnisse, ADR-0001–0003, Agenten, CHAR/BEZ-Templates + Tests |
 | 04-04 | ORT/GGS-Templates, Charakterentwickler v1.5→v1.7, ADR-0004–0008 |
 | 04-04 | Ort-Test Lauras Zimmer, Grundriss-System (.drawio/.drawio.svg), Bilder-System für Gegenstände |
+| 04-04 | `commands.md` erstellt: Befehlsreferenz aller Slash-Befehle (10 Befehle, Charakterentwickler) |
 
 ---
 
 <!-- 
 ANWEISUNGEN FÜR CLAUDE:
-- Lies diese Datei zu Beginn jeder Session.
+- Lies diese Datei und commands.md zu Beginn jeder Session.
 - Bei architektonischen Entscheidungen: IMMER ADR erstellen.
 - Bei Widersprüchen: claude.md + ADRs gelten.
 - Namenskonventionen: ADR-0003 / naming-conventions.md v2.1.
+- Neue Slash-Befehle: IMMER in commands.md eintragen.
 -->
