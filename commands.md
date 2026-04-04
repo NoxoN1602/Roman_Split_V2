@@ -20,6 +20,8 @@
 | 8 | `/beziehung-aktualisieren [A] [B]` | Charakterentwickler | Aktualisieren | Bestehende Beziehung manuell aktualisieren |
 | 9 | `/check [Name]` | Charakterentwickler | Prüfen | Vollständigkeit und Konsistenz prüfen (alle Typen) |
 | 10 | `/szene-auswerten [SZ-ID]` | Charakterentwickler | Pipeline | Veränderungen aus Szene extrahieren und eintragen |
+| 11 | `/plot` | Plotarchitect | Kreativ | Plotentwicklung starten oder fortsetzen |
+| 12 | `/plot-check` | Plotanalyst | Prüfung | Plot gegen gewähltes Modell analysieren |
 
 ---
 
@@ -153,8 +155,47 @@
 
 ---
 
+### /plot
+
+> Startet oder setzt die Plotentwicklung fort. Auch über freie Ansprache aufrufbar (z.B. „Lass uns über den Plot reden").
+
+- **Agent:** Plotarchitect
+- **Parameter:** keine
+- **Zustandserkennung:** Agent liest `plot/PLOT_WORKING.md` und erkennt den aktuellen Stand automatisch.
+- **Erster Aufruf:** Startet bei Stufe 1 (Kern/Logline). Agent fragt nach der Grundidee.
+- **Folgende Aufrufe:** Agent meldet den Stand und bietet an, dort weiterzumachen oder etwas anderes aufzugreifen.
+- **Workflow (5 Stufen):**
+  1. **Kern** – Logline & Prämisse erarbeiten
+  2. **Methodik** – Dramaturgiemodell wählen oder ablehnen
+  3. **Makrostruktur** – Akte, Wendepunkte, Schlüsselmomente
+  4. **Sequenzen & Subplots** – Feinauflösung, Nebenhandlungen
+  5. **Szenen-Outline** – Fertige Szenenfolge
+- **Output:** `plot/plot-hauptplot.md` (oder `plot/plot-{strangname}.md`) + `plot/PLOT_WORKING.md`
+- **Session-Ende:** Agent aktualisiert PLOT_WORKING mit aktuellem Stand, offenen Fragen, nächsten Schritten.
+- **Agenten-Vorschläge:** Bei Meilensteinen schlägt der Agent vor, Prüfagenten (plotanalyst, conflictanalyst, canonguardian) einzusetzen.
+
+---
+
+### /plot-check
+
+> Analysiert den aktuellen Plot gegen das gewählte Dramaturgiemodell.
+
+- **Agent:** Plotanalyst
+- **Parameter:** keine
+- **Ablauf:** Agent liest Plot-Dokument + PLOT_WORKING + Referenzdokument des gewählten Modells.
+- **Prüfkategorien:**
+  - Beat-Abgleich: Welche Beats fehlen, sind zu schwach oder falsch platziert?
+  - Timing/Proportionen: Stimmen die Akt-Verhältnisse?
+  - Kohärenz: Hängende Fäden, unaufgelöste Setups?
+  - Bewusste Abweichungen: Konsequenzen dokumentierter Abweichungen?
+- **Output:** Prüfbericht im Chat mit Schweregrad-Markierungen (❌ Kritisch, ⚠️ Wichtig, 💡 Hinweis)
+- **Nach Szenenausarbeitung:** Kann auch prüfen, ob eine fertige Szene ihren vorgesehenen Beat erfüllt.
+
+---
+
 ## Hinweise
 
 - **Kein Autocomplete:** In Claude.ai gibt es kein natives Slash-Command-System. Die Befehle werden als normaler Text eingegeben. Bei Unsicherheit einfach fragen: *„Welche Befehle gibt es?"*
+- **Freie Ansprache:** Der `/plot`-Befehl kann auch durch natürliche Formulierungen aktiviert werden (z.B. „Lass uns am Plot arbeiten").
 - **Neue Befehle:** Werden hier ergänzt, sobald sie definiert sind – unabhängig davon, welcher Agent sie ausführt.
 - **Neue Agenten:** Sobald weitere Agenten Slash-Befehle erhalten, wird die Spalte „Agent" in der Übersichtstabelle entsprechend aktualisiert.

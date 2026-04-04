@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-04-04 – v2.0
+- **Neu:** [[ADR-0009-plotentwicklung-agenten-und-workflow]] – Plotentwicklung: 6 neue Agenten, 5-Stufen-Workflow, Kreativ/Pruef-Trennung, Methoden-Referenzsystem
+- **Neu:** [[plotarchitect]] v1.0 – Kreativagent fuer Plotentwicklung (5-Stufen-Workflow, Methoden-Beratung, Agenten-Bewusstsein)
+- **Neu:** [[plotanalyst]] v1.0 – Pruefagent fuer Strukturanalyse gegen Dramaturgiemodell
+- **Neu:** [[conflictanalyst]] v1.0 – Pruefagent fuer Spannungs-/Konfliktanalyse
+- **Neu:** [[canonguardian]] v1.0 – Pruefagent fuer Kanon-Konsistenz (Plot, Szenenvertraege, Szenen)
+- **Neu:** [[sceneideationpartner]] v1.0 – Kreativagent fuer Szenen-Aufloesung und Szenenvertraege
+- **Neu:** Verzeichnis `_system/referenz/` – Dramaturgiemodelle
+- **Neu:** [[REF-save-the-cat]] – Save the Cat Beat Sheet (15 Beats)
+- **Neu:** [[REF-drei-akt]] – Drei-Akt-Struktur
+- **Neu:** [[REF-heldenreise]] – Heldenreise (Campbell/Vogler, 12 Stufen)
+- **Neu:** [[REF-story-circle]] – Dan Harmons Story Circle (8 Schritte)
+- **Neu:** [[TEMPLATE-plot]] – Template fuer Plot-Dokumente
+- **Neu:** [[TEMPLATE-plot-working]] – Template fuer Arbeitszustand
+- **Aktualisiert:** [[commands]] – `/plot` und `/plot-check` hinzugefuegt (12 Befehle gesamt)
+- **Aktualisiert:** [[claude]] – Neue Abschnitte: Agenten-System, Plot-System, erweiterte ADR-Tabelle
+
 ## 2026-04-03 – v1.5
 - **Neu:** [[szenen-lebenszyklus]] – Regel fuer Szenen-Status (entwurf → abgenommen → revision → archiviert)
 - **Neu:** [[szenen-pipeline]] – Pipeline-Regel nach Szenen-Abnahme (Kontinuitaet → Charakter-Auswertung → Kanon-Ableitung)

@@ -1,7 +1,7 @@
 ---
 doc_type: agent
 doc_id: AGT-charakterentwickler
-version: "1.7"
+version: "1.8"
 status: aktiv
 erstellt: 2026-04-03
 letzte_aenderung: 2026-04-04
@@ -34,10 +34,12 @@ tags:
 - Stilistische Signatur ausarbeiten (Erzählstimme)
 
 ### Nicht zuständig
-- Plot-Architektur (→ AGT-plot-architekt)
-- Szenen schreiben (→ AGT-ghostwriter)
-- Kanon-Prüfung (→ AGT-kanon-waechter)
-- Konsistenz-Checks über Szenen hinweg (→ AGT-kontinuitaets-pruefer)
+- Plot-Entwicklung (→ [[plotarchitect]])
+- Szenen schreiben (→ Ghostwriter, noch zu definieren)
+- Kanon-Prüfung (→ [[canonguardian]])
+- Strukturanalyse (→ [[plotanalyst]])
+- Spannungs-/Konfliktanalyse (→ [[conflictanalyst]])
+- Szenen-Auflösung in Szenenverträge (→ [[sceneideationpartner]])
 
 ---
 
@@ -210,7 +212,7 @@ Unabhängig davon, ob Phase 3 durchlaufen wurde oder nicht, weist der Agent am E
 | **Gegenstand: Bedeutungsveränderungen** | GGS-Datei | 7 |
 | **Neue Verknüpfungen** | Alle betroffenen Dateien | Verknüpfungen |
 | **Bekannte Ereignisse** | CHAR-, ORT-, GGS-, BEZ-Dateien | jeweiliger Abschnitt |
-| **Wissen und Geheimnisse** | Vorschlag an Kanon-Wächter | → KAN-SUB-Eintrag |
+| **Wissen und Geheimnisse** | Vorschlag an [[canonguardian]] | → KAN-SUB-Eintrag |
 
 #### Ablauf
 
@@ -220,7 +222,7 @@ Unabhängig davon, ob Phase 3 durchlaufen wurde oder nicht, weist der Agent am E
 4. Agent trägt bestätigte Änderungen ein.
 5. **Bekannte Ereignisse** in alle betroffenen Dokumente eintragen.
 6. **Neue Entitäten:** Falls BEZ/ORT/GGS noch nicht existiert → Angebot zur Neuanlage.
-7. Frontmatter aktualisieren, Änderungsliste an Kanon-Wächter übergeben.
+7. Frontmatter aktualisieren, Änderungsliste an [[canonguardian]] übergeben.
 
 #### Delta-Modus (bei Revision)
 
@@ -334,12 +336,12 @@ Dateinamenmuster: `{char-a}--{char-b}.md` (alphabetisch), `{char}--ggs-{name}.md
 
 | Situation | Aktion |
 | --------- | ------ |
-| Neuer Charakter/Ort/Gegenstand erstellt | *„Soll der Kanon-Wächter einen initialen Kanon-Eintrag erstellen?"* |
-| Beziehung erstellt | *„Soll der Plot-Architekt prüfen, ob diese Beziehung plot-relevant ist?"* |
-| Beziehung aktualisiert (kanon-relevant) | *„Soll der Kanon-Wächter informiert werden?"* |
-| Stilistische Signatur fertig | *„Der Ghostwriter kann jetzt Szenen aus dieser Perspektive schreiben."* |
-| Widerspruch zum Kanon | Agent stoppt, verweist an Kanon-Wächter |
-| `/szene-auswerten` abgeschlossen | Änderungsliste an Kanon-Wächter |
+| Neuer Charakter/Ort/Gegenstand erstellt | *„Soll der [[canonguardian]] einen initialen Kanon-Eintrag erstellen?"* |
+| Beziehung erstellt | *„Soll der [[plotarchitect]] prüfen, ob diese Beziehung plot-relevant ist?"* |
+| Beziehung aktualisiert (kanon-relevant) | *„Soll der [[canonguardian]] informiert werden?"* |
+| Stilistische Signatur fertig | *„Der Ghostwriter (noch zu definieren) kann jetzt Szenen aus dieser Perspektive schreiben."* |
+| Widerspruch zum Kanon | Agent stoppt, verweist an [[canonguardian]] |
+| `/szene-auswerten` abgeschlossen | Änderungsliste an [[canonguardian]] |
 | Undokumentierte Entität in Szene | Angebot zur Neuanlage via `/ort`, `/gegenstand`, `/beziehung` |
 
 ---
