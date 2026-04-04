@@ -16,6 +16,40 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 
 ---
 
+## 1b. ROMAN-KURZPROFIL
+
+> **Logline:** Ein traumatisierter Journalist, der den Tod seiner Tochter und seiner Frau nie verwunden hat, beginnt eine Mordserie zu recherchieren, die seine Stadt erschüttert. Was er nicht weiß: Er selbst ist der Mörder. Seine Psyche spaltet die Realität – wo er romantische Begegnungen erlebt, hinterlässt er Leichen. Als er sich mit der ermittelnden Kommissarin verbündet und verliebt, jagt er sich selbst in eine Wahrheit, die alles zerstören wird.
+
+> **Prämisse:** Kann ein Mensch schuldig sein, wenn er seine Schuld nicht kennt?
+
+> **Genre:** Psychologischer Thriller
+
+> **Inspirationen:** Angel Heart (Selbstjagd-Prinzip), Shutter Island (unzuverlässiger Erzähler)
+
+> **Methode:** Save the Cat (modifiziert für Anti-Held) + Story Circle (Subplots)
+
+> **Plot-Status:** Stufe 1 (Kern) ✅ + Stufe 2 (Methodik) ✅ – Stufe 3 (Makrostruktur) steht an
+
+### Kernfiguren
+
+| Figur | Rolle | CHAR-Status |
+|-------|-------|-------------|
+| Johannes Breier | Protagonist, dissoziativer Serienmörder, Journalist | ✅ v0.1 (Entwurf, viele offene Details) |
+| Kommissarin (Name offen) | Ermittlerin, romantisches Interesse, entdeckt Wahrheit vor dem Leser | ⬜ noch nicht angelegt |
+| Sündenbock (Name offen) | Hauptverdächtiger, Ablenkungsfigur | ⬜ noch nicht angelegt |
+| Redaktions-Vertrauter (Name offen) | Johannes' Anker zur Realität | ⬜ noch nicht angelegt |
+
+### Strukturelle Grundentscheidungen
+
+- **Drei Zeitebenen:** Kindheit (Missbrauch/Prolog), Zwischenzeit (Tod Tochter/Frau), Gegenwart (Mordserie)
+- **Zwei-Ebenen-Erzählung:** Mordszenen IMMER aus Johannes' subjektiver (romantisierter) Perspektive; alles andere objektiv
+- **Leserführung:** Hinweis-/Gegenhinweis-Waage. Leser ahnt zunehmend, weiß bis zum Ende nicht sicher. Sündenbock als plausible Alternative.
+- **Kommissarin-Twist:** Erkennt Wahrheit vor dem Leser; verrät es nicht; Leser erfährt es erst durch ihren letzten Akt
+- **Enthüllung Tochter/Frau:** Sehr spät (NICHT letztes Drittel – zu früh), zusammen mit finaler Mörder-Auflösung
+- **Save the Cat-Modifikationen:** Mitleid statt Sympathie; tragisches Finale statt positiver Transformation; B-Story = Liebe + Nemesis
+
+---
+
 ## 2. ARCHITEKTUR-ENTSCHEIDUNGEN (Kurzreferenz)
 
 > ⚠️ **Pflicht:** Jede architektonische Entscheidung wird als ADR in `_system/entscheidungen/` dokumentiert.
@@ -121,9 +155,9 @@ Der `00_ORCHESTRATOR` aus der Entwurfsphase entfällt (ADR-0009). Stattdessen: d
 
 ### Fünf-Stufen-Workflow
 
-1. **Kern** – Logline & Prämisse (1–3 Sätze)
-2. **Methodik** – Strukturmodell wählen oder ablehnen
-3. **Makrostruktur** – Akte, Wendepunkte, Schlüsselmomente
+1. **Kern** – Logline & Prämisse ✅
+2. **Methodik** – Save the Cat (modifiziert) + Story Circle (Subplots) ✅
+3. **Makrostruktur** – Akte, Wendepunkte, Schlüsselmomente ⬜ ← nächster Schritt
 4. **Sequenzen & Subplots** – Feinauflösung, Nebenhandlungen
 5. **Szenen-Outline** – Fertige Szenenfolge → Szenenverträge
 
@@ -131,12 +165,12 @@ Rücksprünge jederzeit möglich. Nicht-linear.
 
 ### Dramaturgiemodelle (in `_system/referenz/`)
 
-| Modell | Datei | Kern |
-|--------|-------|------|
-| Save the Cat | `REF-save-the-cat.md` | 15 Beats, genre-orientiert |
-| Drei-Akt-Struktur | `REF-drei-akt.md` | Klassisch, universell |
-| Heldenreise | `REF-heldenreise.md` | Campbell/Vogler, Transformation |
-| Story Circle | `REF-story-circle.md` | Dan Harmon, 8 Schritte, pragmatisch |
+| Modell | Datei | Kern | Verwendung |
+|--------|-------|------|-----------|
+| **Save the Cat** | `REF-save-the-cat.md` | 15 Beats, genre-orientiert | **Hauptmodell** |
+| Drei-Akt-Struktur | `REF-drei-akt.md` | Klassisch, universell | Nicht gewählt |
+| Heldenreise | `REF-heldenreise.md` | Campbell/Vogler, Transformation | Nicht gewählt |
+| **Story Circle** | `REF-story-circle.md` | Dan Harmon, 8 Schritte, pragmatisch | **Ergänzend (Subplots)** |
 
 Gewählte Methode = Leitplanke, nicht Korsett. Agent kennt Details, darf begründet abweichen.
 
@@ -161,6 +195,8 @@ Gewählte Methode = Leitplanke, nicht Korsett. Agent kennt Details, darf begrün
 ## 7. KANON-SYSTEM
 
 Siehe `_system/regeln/kanon-regeln.md`. Keine Änderungen.
+
+**Hinweis für diesen Roman:** Das objektiv/subjektiv-System (ADR-0001) ist besonders relevant: Johannes' subjektiver Kanon weicht fundamental vom objektiven Kanon ab (romantisierte Morde vs. tatsächliche Morde). Die Dramatic-Irony-Modellierung ist Kernmechanik des Romans.
 
 ---
 
@@ -224,17 +260,24 @@ Siehe `_system/regeln/szenen-pipeline.md` und `_system/regeln/szenen-lebenszyklu
 
 ## 12. OFFENE PUNKTE
 
-- [x] ~~**Plot-System aufbauen (ADR-0009):**~~
-  - [x] ~~Agenten-Prompts erstellen: plotarchitect, plotanalyst, conflictanalyst, canonguardian, sceneideationpartner~~
-  - [x] ~~Methoden-Referenzdokumente erstellen (Save the Cat, Drei-Akt, Heldenreise, Story Circle)~~
-  - [x] ~~Templates erstellen: TEMPLATE-plot.md, TEMPLATE-plot-working.md~~
-  - [x] ~~Verzeichnis `_system/referenz/` anlegen~~
-  - [x] ~~`commands.md` um `/plot` und `/plot-check` erweitern~~
-  - [ ] `szenen-pipeline.md` um Plot-Prüfschritte erweitern
+### Plot-Entwicklung (aktuell)
+- [x] Stufe 1 (Kern): Logline, Prämisse, zentrale Frage ✅
+- [x] Stufe 2 (Methodik): Save the Cat + Story Circle ✅
+- [ ] **Stufe 3 (Makrostruktur): 15 Beats mit konkreten Inhalten befüllen**
+- [x] Johannes Breier als CHAR-Dokument anlegen ✅ (v0.1 Entwurf – Vertiefung nötig)
+- [ ] **Johannes Breier vertiefen** (körperliche Details, Trigger, Hobbys, Ticks, exaktes Geburtsdatum)
+- [ ] **Kommissarin benennen und als CHAR anlegen** ← nächster Charakter
+- [ ] Sündenbock-Charakter entwickeln und als CHAR anlegen
+- [ ] Redaktions-Vertrauten entwickeln
+- [ ] Trigger-System definieren (Kindheit → Morde)
+- [ ] Rolle der Testdaten-Charaktere (Laura, Marie) im fertigen Roman klären
+
+### System-Entwicklung
+- [x] ~~**Plot-System aufbauen (ADR-0009)**~~
+- [ ] `szenen-pipeline.md` um Plot-Prüfschritte erweitern
 - [ ] Kanon- und Szenen-Templates fertigstellen
 - [ ] Abschnitt „Sexualität & Beziehungsverhalten" ins Charakter-Template
 - [ ] Bestehende Dateien (Laura, Marie, Laura↔Marie) auf neue Nummerierung aktualisieren
-- [x] ~~Gegenstand-Template testen (Lauras Armband)~~
 - [ ] Bootstrap.md erstellen
 - [ ] themenmotivationagent definieren (wenn Bedarf klarer)
 - [ ] Ghostwriter-Agent definieren
@@ -253,6 +296,9 @@ Siehe `_system/regeln/szenen-pipeline.md` und `_system/regeln/szenen-lebenszyklu
 | 04-04 | **ADR-0009: Plotentwicklung** – 5 Agenten erstellt, 4 Methoden-Referenzen, 2 Templates, 12 Befehle |
 | 04-04 | Charakterentwickler v1.7→v1.8: Agenten-Referenzen auf neue IDs aktualisiert |
 | 04-04 | Vermerk: Google Drive ist NICHT relevant für dieses Projekt – nur Filesystem-Zugriff |
+| 04-04 | **Plot Stufe 1 (Kern) abgeschlossen.** Logline, Prämisse, Erzählstruktur, Leserführung (Waage-System), Kommissarin-Twist, Sündenbock-Konzept. `plot-hauptplot.md` + `PLOT_WORKING.md` erstellt. |
+| 04-04 | **Plot Stufe 2 (Methodik) abgeschlossen.** Save the Cat (modifiziert) als Hauptmodell, Story Circle für Subplots. Inspirationen: Angel Heart, Shutter Island. |
+| 04-04 | **CHAR-johannes-breier v0.1 angelegt.** Erster Entwurf: Körperlich, Beruf, Wertesystem, Selbstbild, Konflikte, Psychologie, Beziehungsachsen, Entwicklungsbogen, stilistische Signatur, Grenzen. Viele Details noch offen (Augenfarbe, Haarfarbe, Stimmlage, Trigger, Hobbys etc.). Vertiefung in nächster Session. |
 
 ---
 
@@ -266,4 +312,6 @@ ANWEISUNGEN FÜR CLAUDE:
 - Agenten-IDs: zusammengeschriebene Kleinbuchstaben ohne Bindestriche (ADR-0009 E1).
 - Neue Slash-Befehle: IMMER in commands.md eintragen.
 - Kreativ/Prüf-Trennung beachten (ADR-0009 E2).
+- Roman-Plot: Lies PLOT_WORKING.md für den aktuellen Stand der Plotentwicklung.
+- Dramaturgiemodell: Save the Cat (modifiziert) + Story Circle (Subplots).
 -->
