@@ -1,7 +1,8 @@
 ---
 typ: index
 titel: "Plot-Übersicht"
-status: in-arbeit
+status: aktuell
+letzte_aenderung: 2026-04-05
 tags:
   - plot
   - index
@@ -9,19 +10,39 @@ tags:
 
 # Plot-Übersicht
 
-> Dieses Dokument wird automatisch gepflegt und zeigt alle Plot-Stränge im Überblick.
+> Index aller Plot-Dokumente. Einstiegspunkt für den Plotarchitect und den Autor.
 
-## Hauptplot
+---
 
-**Dokument:** [[plot-hauptplot]]
-**Status:** Stufe 1 (Kern) abgeschlossen, Stufe 2 (Methodik) offen
-**Logline:** Ein traumatisierter Journalist beginnt eine Mordserie zu recherchieren, ohne zu wissen, dass er selbst der Mörder ist. Als er sich mit der ermittelnden Kommissarin verbündet und verliebt, jagt er sich selbst in eine Wahrheit, die alles zerstören wird.
+## Dokumentenstruktur
 
-## Nebenstränge
+| Dokument | Typ | Inhalt | Wann lesen |
+|----------|-----|--------|-----------|
+| **[[plot-hauptplot]]** | Übersicht | Kern (Logline, Prämisse, Tonalität), Methodik, Figuren, Motive, Subplots | Immer zuerst |
+| **[[plot-struktur]]** | Stabil | Erzählebenen, Konfabulations-Prinzip, Waage, Kommissarin-Twist, Intermezzi | Bei strukturellen Fragen |
+| **[[plot-beats]]** | Arbeitsdokument | 15 Beats mit konkreten Inhalten (Stufe 3) | Bei Makrostruktur-Arbeit |
+| **[[PLOT_WORKING]]** | Arbeitszustand | Aktuelle Stufe, offene Fragen, nächste Schritte, Session-Protokoll | Immer zuerst (mit hauptplot) |
+| `plot-subplots.md` | Arbeitsdokument | Subplots mit Story Circles, Sequenzen | Wird in Stufe 4 angelegt |
+| `plot-szenen.md` | Arbeitsdokument | Szenen-Outline | Wird in Stufe 5 angelegt |
 
-_Noch keine Nebenstränge definiert._
+---
 
-## Arbeitszustand
+## Aktueller Stand
 
-**Dokument:** [[PLOT_WORKING]]
-**Letzte Session:** 2026-04-04
+**Stufe:** 2 (Methodik) abgeschlossen – Stufe 3 (Makrostruktur) steht an
+
+**Logline:** Ein traumatisierter Journalist beginnt eine Mordserie zu recherchieren, ohne zu wissen, dass er selbst der Mörder ist. Seine Psyche spaltet die Realität – wo er harmlose Begegnungen erlebt, hinterlässt er Leichen. Als er sich mit der ermittelnden Kommissarin verbündet und verliebt, jagt er sich selbst in eine Wahrheit, die alles zerstören wird.
+
+---
+
+## Verwandte Dokumente
+
+| Typ | Dokument | Relevanz |
+|-----|----------|----------|
+| Charakter | [[johannes-breier]] (v0.4) | Protagonist, Trigger-System, Konfabulations-Prinzip |
+| Referenz | [[REF-save-the-cat]] | Hauptmodell (15 Beats) |
+| Referenz | [[REF-story-circle]] | Ergänzend (Subplots) |
+| Agent | [[plotarchitect]] | Dialogischer Plot-Entwicklungspartner |
+| Agent | [[plotanalyst]] | Strukturanalyse |
+
+---

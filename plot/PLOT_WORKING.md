@@ -1,8 +1,8 @@
 ---
 doc_type: plot-working
 titel: "PLOT_WORKING – Arbeitszustand"
-version: "0.2"
-letzte_session: 2026-04-04
+version: "0.4"
+letzte_session: 2026-04-05
 tags:
   - plot
   - working
@@ -10,44 +10,55 @@ tags:
 
 # PLOT_WORKING – Arbeitszustand
 
-> **Zweck:** Zustandsdokument für die laufende Plotentwicklung. Wird vom Plotarchitect nach jeder Session aktualisiert. Ermöglicht den Wiedereinstieg nach beliebig langer Pause.
+> **Zweck:** Zustandsdokument für die laufende Plotentwicklung. Wird nach jeder Session aktualisiert.
 
 ---
 
 ## Aktueller Stand
 
-**Stufe:** 2 – Methodik (abgeschlossen)
-**Letzte Session:** 2026-04-04
+**Stufe:** 2 – Methodik (abgeschlossen) + Vorarbeiten für Stufe 3
+**Letzte Session:** 2026-04-05
 **Gewählte Methode:** Save the Cat (modifiziert) + Story Circle für Subplots
-**Plot-Dokument:** `plot/plot-hauptplot.md`
+
+### Plot-Dokumente (neue Struktur seit 04-05)
+
+| Dokument | Inhalt | Version |
+|----------|--------|---------|
+| `plot-hauptplot.md` | Kompakte Übersicht: Kern, Methodik, Figuren, Verweise | v1.0 |
+| `plot-struktur.md` | Stabile Entscheidungen: Erzählebenen, Konfabulation, Waage, Intermezzi | v1.0 |
+| `plot-beats.md` | 15 Beats – leeres Raster, wartet auf Stufe 3 | v1.0 |
+| `PLOT_WORKING.md` | Dieses Dokument | v0.4 |
+| `_plot-uebersicht.md` | Index aller Plot-Dokumente | aktuell |
 
 ### Zusammenfassung
-> Stufe 1 (Kern) und Stufe 2 (Methodik) sind abgeschlossen. Logline, Prämisse und zentrale Frage stehen. Die Grundstruktur des Romans ist definiert: Drei Zeitebenen, Zwei-Ebenen-Erzählung, Hinweis-/Gegenhinweis-Waage mit Sündenbock, Kommissarin-Twist. Save the Cat wurde als Hauptmodell gewählt (modifiziert für Anti-Held), Story Circle als ergänzendes Werkzeug für Subplots. Die 15 Beats sind als leeres Raster angelegt und warten auf konkrete Inhalte (Stufe 3). Inspirationen: Angel Heart, Shutter Island. Keine Charaktere sind bisher als CHAR-Dokumente angelegt.
+> Stufe 1 (Kern) und Stufe 2 (Methodik) sind abgeschlossen. Johannes Breier ist als Charakter angelegt (v0.4) mit Trigger-System, klinischem Profil und Konfabulations-Prinzip (Entlastung, nicht Romantisierung). Intermezzi sind als Erzähltechnik definiert. Die Plot-Dokumente wurden aufgeteilt: hauptplot (Übersicht), struktur (stabile Entscheidungen), beats (Arbeitsdokument Stufe 3). Die 15 Beats warten auf konkrete Inhalte.
 
 ---
 
 ## Offene Fragen
 
-| Nr. | Frage | Kontext | Priorität |
-|-----|-------|---------|-----------|
-| 1 | Wie heißt die Kommissarin? | Zentrale Figur, braucht Namen für weitere Arbeit | hoch |
-| 2 | Wie heißt der Sündenbock? Was ist sein Motiv? | Rückgrat des Spannungsbogens | hoch |
-| 3 | Was sind die konkreten Trigger aus der Kindheit? | Verbindung zwischen Prolog und Mordszenen | mittel |
-| 4 | Wie heißen Tochter und Frau? | Für Rückblenden nötig | mittel |
-| 5 | Wer ist der Vertraute in der Redaktion? | Ankerfigur zur Realität | mittel |
-| 6 | In welcher Stadt spielt der Roman? | Setting für Ermittlung und Atmosphäre | mittel |
-| 7 | Wie viele Opfer hat die aktuelle Mordserie? | Strukturierung der Mordszenen | mittel |
-| 8 | Wie genau entdeckt Johannes seine eigenen Taten? | Zentraler Plotmechanismus (Catalyst?) | hoch |
-| 9 | Welche Rolle spielen Laura Ahler und Marie Kanter im fertigen Roman? | Testdaten – bleiben sie oder werden sie angepasst? | niedrig |
+| Nr. | Frage | Priorität |
+|-----|-------|-----------|
+| 1 | Wie heißt die Kommissarin? | hoch |
+| 2 | Wie heißt der Sündenbock? Was ist sein Motiv? | hoch |
+| 3 | Wie tötet Johannes? (Tötungsmethode / Modus Operandi) | hoch |
+| 4 | Wie heißen Tochter und Frau? | mittel |
+| 5 | Wer ist der Vertraute in der Redaktion? | mittel |
+| 6 | In welcher Stadt spielt der Roman? | mittel |
+| 7 | Wie viele Opfer hat die aktuelle Mordserie? | mittel |
+| 8 | Wie genau entdeckt Johannes seine eigenen Taten? | hoch |
+| 9 | Rolle von Laura Ahler und Marie Kanter im fertigen Roman? | niedrig |
 
 ---
 
 ## Aufgeschobene Entscheidungen
 
-| Nr. | Entscheidung | Grund für Vertagung | Deadline? |
-|-----|-------------|---------------------|-----------|
-| 1 | Zeitpunkt der Enthüllung Tochter/Frau | Til will es spät (NICHT letztes Drittel). Genaues Timing bei Makrostruktur. | Stufe 3 |
-| 2 | Rolle der Testdaten-Charaktere (Laura, Marie) | Abhängig davon, ob Marie als Opfer bleibt | Stufe 3/4 |
+| Nr. | Entscheidung | Grund | Deadline |
+|-----|-------------|-------|----------|
+| 1 | Zeitpunkt Enthüllung Tochter/Frau | Genaues Timing bei Makrostruktur | Stufe 3 |
+| 2 | Rolle Testdaten-Charaktere (Laura, Marie) | Abhängig von Opfer-Planung | Stufe 3/4 |
+| 3 | Phase-3-Intermezzi (Einbruch in Gegenwart) | Gefährlich, könnte Auflösung vorwegnehmen | Szenenarbeit |
+| 4 | Tötungsmethode | Nächstes Thema | Nächste Session |
 
 ---
 
@@ -55,20 +66,10 @@ tags:
 
 | Nr. | Aktion | Agent | Priorität |
 |-----|--------|-------|-----------|
-| 1 | **Stufe 3: Makrostruktur** – 15 Beats mit konkreten Inhalten befüllen | plotarchitect | hoch |
-| 2 | Johannes Breier als CHAR-Dokument anlegen | charakterentwickler | hoch |
-| 3 | Kommissarin benennen und als CHAR anlegen | charakterentwickler | hoch |
-| 4 | Sündenbock-Charakter entwickeln | charakterentwickler + plotarchitect | hoch |
-| 5 | Trigger-System definieren (Kindheit → Morde) | plotarchitect | mittel |
-
----
-
-## Vorgeschlagene Agenten-Einsätze
-
-| Agent | Grund | Status |
-|-------|-------|--------|
-| charakterentwickler | Johannes Breier, Kommissarin, Sündenbock als CHAR anlegen | offen |
-| plotarchitect | Stufe 3 (Makrostruktur) erarbeiten | offen – nächster Schritt |
+| 1 | **Tötungsmethode / Modus Operandi definieren** | charakterentwickler + plotarchitect | hoch |
+| 2 | **Kommissarin benennen und als CHAR anlegen** | charakterentwickler | hoch |
+| 3 | **Sündenbock-Charakter entwickeln** | charakterentwickler + plotarchitect | hoch |
+| 4 | **Stufe 3: 15 Beats befüllen** (braucht Figuren) | plotarchitect | hoch |
 
 ---
 
@@ -76,7 +77,11 @@ tags:
 
 | Datum | Stufe | Was wurde bearbeitet | Ergebnis |
 |-------|-------|---------------------|----------|
-| 2026-04-04 | 1 (Kern) | Grundidee, Protagonist, Erzählstruktur, Leserführung, Kommissarin-Twist, Sündenbock-Konzept, Logline, Prämisse | Logline und Prämisse stehen. Grundstruktur definiert. Plot-Dokument angelegt. |
-| 2026-04-04 | 2 (Methodik) | Alle 4 Modelle analysiert und gegen die Geschichte gehalten. Inspirationen (Angel Heart, Shutter Island) notiert. | **Save the Cat (modifiziert)** als Hauptmodell gewählt. **Story Circle** für Subplots. Bewusste Modifikationen dokumentiert (Anti-Held, Mitleid statt Sympathie, tragisches Finale). Beat-Raster angelegt. |
+| 04-04 | 1 (Kern) | Grundidee, Protagonist, Erzählstruktur, Leserführung, Kommissarin-Twist, Sündenbock | Logline, Prämisse stehen. Grundstruktur definiert. |
+| 04-04 | 2 (Methodik) | 4 Modelle analysiert. Inspirationen notiert. | Save the Cat (modifiziert) + Story Circle. Beat-Raster angelegt. |
+| 04-05 | CHAR | Johannes v0.1→v0.4: körperliche Details, Trigger-System, klinisches Profil, Konfabulations-Prinzip | 4 Trigger kanonisch. Entlastung statt Romantisierung. Spezifische Verfälschungen definiert. |
+| 04-05 | Erzähltechnik | Intermezzi definiert. 3-Phasen-Modell besprochen. | Phase 1+2 bestätigt, Phase 3 nur mit äußerster Vorsicht. 5 erzählerische Regeln. |
+| 04-05 | Struktur | Drei Erzählebenen statt vier. Terminologie korrigiert. | Entlastung als Kern, nicht Romantisierung. |
+| 04-05 | System | Plot-Dokumente aufgeteilt: hauptplot, struktur, beats. Delta-Regel eingeführt. | Schnellere Bearbeitung durch kleinere Dateien. |
 
 ---

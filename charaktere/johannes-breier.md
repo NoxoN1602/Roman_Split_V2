@@ -1,11 +1,11 @@
 ---
 doc_type: charakter
 doc_id: "CHAR-johannes-breier"
-version: "0.2"
+version: "0.4"
 status: entwurf
 kanon_stufe: objektiv
 erstellt: 2026-04-04
-letzte_aenderung: 2026-04-04
+letzte_aenderung: 2026-04-05
 autor_agent: charakterentwickler
 tags:
   - charakter
@@ -15,14 +15,14 @@ tags:
 # Charakter-Kanon – Johannes Breier
 
 > **Rolle im Roman:** Protagonist. Dissoziativer Serienmörder, der nicht weiß, dass er der Mörder ist. Journalist, der seine eigenen Taten recherchiert und sich selbst jagt.
-> **Dramaturgische Funktion:** Unzuverlässiger Erzähler und tragische Hauptfigur. Seine verzerrte Wahrnehmung ist der Motor der Geschichte. Der Leser erlebt die Morde durch seine romantisierten Erinnerungen und die Ermittlung durch seine objektive Perspektive – beides durch denselben Mann. Die Fallhöhe seiner finalen Erkenntnis ist die zentrale dramaturgische Kraft.
+> **Dramaturgische Funktion:** Unzuverlässiger Erzähler und tragische Hauptfigur. Seine verzerrte Wahrnehmung ist der Motor der Geschichte. Der Leser erlebt die Morde durch Johannes' subjektiv entlastete Erinnerungen – Erinnerungen, aus denen seine Schuld entfernt wurde – und die Ermittlung durch die objektive Perspektive. Beides durch denselben Mann. Die Fallhöhe seiner finalen Erkenntnis ist die zentrale dramaturgische Kraft.
 
 ---
 
 ## 1. ROLLE & FUNKTION (MUSS)
 
 **Narrative Rolle:**
-Protagonist und unzuverlässiger Erzähler. Johannes ist gleichzeitig Ermittler und Täter, ohne es zu wissen. Er recherchiert als Journalist eine Mordserie und jagt dabei sich selbst. Seine dissoziative Spaltung erzeugt zwei Erzählebenen: romantisierte Mordszenen (subjektiv) und objektive Realität.
+Protagonist und unzuverlässiger Erzähler. Johannes ist gleichzeitig Ermittler und Täter, ohne es zu wissen. Er recherchiert als Journalist eine Mordserie und jagt dabei sich selbst. Seine dissoziative Spaltung erzeugt zwei Erzählebenen: subjektiv entlastete Szenen (in denen seine Schuld nicht existiert) und objektive Realität.
 
 **Dramaturgische Funktion:**
 Tragischer Anti-Held im Sinne von Save the Cat: Kein „Save the Cat-Moment" durch Sympathie, sondern durch Mitleid – ein gebrochener Mann, dessen Tochter ertrunken ist und dessen Frau sich das Leben genommen hat (so die Fassade). Der Leser will verstehen, nicht mögen. Johannes' Erkenntnis am Ende, dass er selbst der Mörder ist, ist die zentrale Katharsis des Romans.
@@ -273,6 +273,12 @@ Wahrheit vs. Verdrängung. Johannes hält sich für einen Menschen, der die Wahr
 | Dominanter Antrieb          | Kontrolle – über sich, über andere, über die Wahrheit. Paradox: Die größte Wahrheit entzieht sich seiner Kontrolle. |
 | Grundangst                  | Kontrollverlust; Bedeutungslosigkeit; die Entdeckung, dass er nicht der ist, für den er sich hält |
 
+**Klinisches Profil:**
+- Komplexe Posttraumatische Belastungsstörung (K-PTBS) als Grundlage, verursacht durch chronischen Kindheitsmissbrauch
+- Dissoziative Amnesie mit Fugue-Episoden als Mechanismus der Taten
+- Konfabulation als Erinnerungsersatz – das Gehirn ersetzt die gelöschten Erinnerungen durch **entlastende Versionen, die Johannes' Schuld entfernen**. Diese Versionen sind nicht zwingend romantisch – sie sind die plausibelste unschuldige Erklärung für das, was passiert ist.
+- Funktionaler Alkoholismus als komorbide Störung und Verstärker dissoziativer Episoden
+
 **Typische Stressreaktionen:**
 - Sarkastische Aggression
 - Alkohol
@@ -285,16 +291,87 @@ Wahrheit vs. Verdrängung. Johannes hält sich für einen Menschen, der die Wahr
 - Zieht sich in die Wohnung zurück
 - Im Extremfall: dissoziative Episode → Mord (unbewusst)
 
+---
+
 ### Trigger-System (Dissoziation)
 
-> ⚠️ Dieses System ist zentral für den Roman und muss weiter ausgearbeitet werden.
+> ⚠️ Dieses System ist zentral für den Roman. Die Trigger sind kanonisch.
 
-**Bekannter Trigger:**
-- **Rote hochhackige Frauenschuhe** – Lösen eine dissoziative Episode aus. Die genaue Verbindung zum Kindheitstrauma ist noch offen, muss aber in der Prolog-Rückblende verankert werden. Mögliche Verbindung: Die Mutter trug solche Schuhe während der Missbrauchssituationen (noch zu bestätigen). (abgeleitet: Verbindung)
+#### Übersicht
 
-**Weitere Trigger:** Noch zu definieren. Es sollten mindestens 2–3 weitere Trigger existieren, um die dissoziativen Episoden nicht zu vorhersehbar zu machen.
+| Nr. | Trigger | Sinneskanal | Kindheitsverankerung | Seltenheit im Alltag |
+|-----|---------|-------------|---------------------|---------------------|
+| T1 | Rote hochhackige Frauenschuhe | visuell | Schuhe der Mutter während der Missbrauchssituationen | mittel |
+| T2 | Metallisches Klirren (Schlüsselbund) | auditiv (metallisch) | Geräusch des Schlüssels, der die Tür zu dem Raum öffnete, in dem der Missbrauch stattfand | mittel-hoch |
+| T3 | Reißender Stoff | auditiv/taktil | Kleidung, die dem Kind vom Leib gerissen wurde als Akt der Entblößung und Erniedrigung | selten |
+| T4 | Weibliches Flüstern (nah, intim) | auditiv (stimmlich) | Die Mutter flüsterte dem Kind während des Missbrauchs Dinge zu – liebevolle Worte im Kontext der Gewalt | selten |
 
-**Mechanismus:** Der Trigger versetzt Johannes in einen veränderten Bewusstseinszustand, in dem er Gewalttaten begeht, diese aber als romantische/positive Begegnungen wahrnimmt. Nach der Episode hat er keine Erinnerung an die Tat, sondern nur die romantisierte Version.
+#### Trigger-Details
+
+**T1 – Rote hochhackige Frauenschuhe (visuell)**
+
+Die Mutter war eine Frau, die nach außen gepflegt und attraktiv auftrat – die Fassade einer funktionierenden Familie. Die roten Schuhe waren Teil dieses Auftritts. Für das Kind auf dem Boden, auf Augenhöhe mit den Schuhen, waren sie das Letzte, was es sah, bevor die Demütigung begann. Die Schuhe symbolisieren die Doppelnatur der Mutter: außen schön, innen zerstörerisch. Im Erwachsenenalter: Jede Frau in roten Highheels kann den Trigger auslösen.
+
+**T2 – Metallisches Klirren / Schlüsselbund (auditiv)**
+
+Die Mutter (oder der Vater) sperrte Johannes als Kind in einen Raum ein. Das Rasseln des Schlüsselbunds war der Vorbote: Jemand kommt. Aber das Kommen bedeutete nicht Befreiung, sondern den Beginn des nächsten Missbrauchs. Ein klassischer konditionierter Reiz. Im Erwachsenenalter: Eine Frau, die in der Handtasche nach Schlüsseln sucht. Ein Schlüsselbund, der auf einen Tresen fällt.
+
+**T3 – Reißender Stoff (auditiv/taktil)**
+
+In den Missbrauchssituationen wurde dem Kind die Kleidung vom Leib gerissen – ein Akt der Erniedrigung, der den Übergang von verbaler zu physischer Gewalt markierte. Im Erwachsenenalter: Ein Kleidungsstück, das einreißt. Eine Verpackung, die aufgerissen wird. Selten genug, um nicht ständig zu feuern.
+
+**T4 – Weibliches Flüstern (auditiv/stimmlich)**
+
+Die Mutter flüsterte dem Kind während des Missbrauchs Dinge zu – liebevolle Worte im Kontext der Gewalt. „Mama hat dich lieb", geflüstert, während sie ihm wehtat. Zärtlichkeit und Gewalt sind in Johannes' Psyche untrennbar verschmolzen. Im Erwachsenenalter: Eine Frau, die sich in einer Bar zu jemandem beugt und flüstert.
+
+#### Trigger-Interaktion und Verstärker
+
+**Einzelner Trigger:** Kann eine Episode auslösen, muss aber nicht. Erzeugt Unruhe und Anspannung.
+
+**Kombination zweier Trigger:** Deutlich erhöhte Wahrscheinlichkeit. Beispiel: Frau in roten Highheels, die flüstert (T1 + T4).
+
+**Drei oder mehr Trigger:** Maximale Intensität.
+
+**Verstärker:** Alkohol (senkt Hemmschwelle), Erschöpfung/Schlafmangel, emotionaler Stress.
+
+#### Ablauf einer dissoziativen Episode (4 Phasen)
+
+**Phase 1 – Trigger:** Ein oder mehrere Trigger treten auf. Etwas in Johannes' limbischem System wird aktiviert.
+
+**Phase 2 – Dissoziation:** Johannes' Bewusstsein koppelt sich von der Realität ab. Sein Körper folgt Impulsen aus dem Trauma, während sein Bewusstsein eine andere Geschichte erlebt.
+
+**Phase 3 – Die Tat (aus Johannes' Perspektive: harmlose Begegnung):** Johannes begeht den Mord. In seinem Erleben findet gleichzeitig etwas völlig anderes statt – eine alltägliche, unschuldige Begegnung. **Das ist die Szene, die wir aus seiner subjektiven Perspektive schreiben.** Die Form variiert: harmlos-alltäglich, leicht romantisch, beiläufig. Der Kern ist: Seine Schuld ist nicht da.
+
+**Phase 4 – Konfabulation und Rückkehr:** Johannes kommt aus der Episode „zurück". Sein Gehirn füllt die Erinnerungslücke mit der entlastenden Version. Der Mord existiert in seiner Erinnerung nicht.
+
+#### Varianten der Entlastung (kanonisch)
+
+> ⚠️ Die Konfabulation produziert nicht immer dasselbe Muster. Sie wählt die plausibelste unschuldige Version:
+
+| Situation | Objektive Realität | Johannes' entlastete Erinnerung |
+|-----------|-------------------|-------------------------------|
+| **Tod der Tochter** | Johannes hat seine Tochter unter das Eis gedrückt | Die Tochter ist eingebrochen; Johannes hat verzweifelt versucht, sie herauszuziehen. Fast identisch mit der Realität – nur ein einziges Detail ist gespiegelt. |
+| **Tod der Frau** | Johannes hat seine Frau ermordet | Die Frau hat sich das Leben genommen. Tragisch, zerstörerisch, aber nicht seine Schuld. Er ist der Mann, der sie gefunden hat, nicht der, der sie getötet hat. |
+| **Aktuelle Morde** | Johannes ermordet eine Frau | Er erinnert sich an eine harmlose Begegnung – ein Gespräch, ein Flirt, eine Verabredung. Alltäglich, unschuldig. Einiges kann der Leser nicht ganz einordnen, aber nichts deutet auf einen Mord hin. |
+
+**Prinzip:** Der gemeinsame Nenner ist **Entlastung** (Entfernung der Schuld), nicht Romantisierung. Romantisch ist eine mögliche Ausprägung, aber nicht die Regel. Die Variation (alltäglich, tragisch, angenehm, romantisch) macht die Täuschung stärker – der Leser hat kein verlässliches Warnsignal.
+
+**Erzählerische Konsequenz:** Die Auflösung ist verstörender als bei reiner Romantisierung: Nicht „die schönen Szenen waren Morde", sondern „die ganz normalen Szenen waren Morde".
+
+#### Konsequenzen für die Ermittlung
+
+- Johannes war tatsächlich am Tatort → kein Alibi, aber eine konfabulierte „Erinnerung" an den Abend
+- Er räumt nicht auf, versteckt nichts → Spuren (DNA, Fasern, Fingerabdrücke) bleiben
+- Er kennt möglicherweise Details, die er nicht kennen sollte → Indizien auf der Waage
+- Er hat keine Waffe → Tötungsmethode muss ohne Werkzeug funktionieren (noch zu definieren)
+
+#### Steigerung über den Roman hinweg
+
+Im Laufe des Romans werden die Episoden häufiger und die Konfabulation brüchiger:
+- Die entlasteten Erinnerungen werden fragmentarischer, widersprüchlicher
+- Zum ersten Mal blitzen Bilder durch, die nicht passen – Blut an einer Hand, ein Schrei statt eines Lachens
+- Zeitlücken werden länger und schwerer zu erklären
+- Physische Spuren (Kratzer, Blut unter den Nägeln) lassen sich nicht mit der Erinnerung vereinbaren
 
 ---
 
@@ -394,16 +471,16 @@ Zerstörung. Johannes' tragischer Bogen ist keine Transformation zum Besseren, s
 
 ### Wahrnehmung
 
-- Analytisch und zynisch. Nimmt Details wahr, die anderen entgehen – typisch für einen guten Journalisten. Sieht in Menschen zuerst die Schwäche, die Lüge, das Konstrukt. Emotionen werden als körperliche Reaktionen registriert, nicht als Gefühle benannt. Neigt dazu, andere zu unterschätzen und ihre Stärken zu übersehen.
+- Analytisch und zynisch. Nimmt Details wahr, die anderen entgehen. Sieht in Menschen zuerst die Schwäche, die Lüge, das Konstrukt. Emotionen werden als körperliche Reaktionen registriert, nicht als Gefühle benannt. Neigt dazu, andere zu unterschätzen und ihre Stärken zu übersehen.
 
 ### Haltung
 
-- Distanziert, wertend, latent aggressiv. Johannes kommentiert die Welt innerlich mit beißendem Sarkasmus. Er verachtet Mittelmäßigkeit und durchschaut Fassaden – außer seine eigene. Hält sich für überlegen, was seine Wahrnehmung verzerrt.
+- Distanziert, wertend, latent aggressiv. Johannes kommentiert die Welt innerlich mit beißendem Sarkasmus. Er verachtet Mittelmäßigkeit und durchschaut Fassaden – außer seine eigene.
 
 ### Ausschlüsse
 
 - Keine Selbstmitleidsmonologe (er hasst Selbstmitleid, auch bei sich – obwohl er sich als Opfer fühlt, transportiert er das arrogant, nicht weinerlich)
-- Keine romantisierende Sprache im Alltag (nur in den dissoziativen Mordszenen – dort ist sie bewusst eingesetzt als Kontrast)
+- Im Alltag: nüchterne, analytische Sprache. In den dissoziativen Szenen: Die Sprache wechselt je nach Art der Konfabulation – kann alltäglich, romantisch oder beiläufig sein. Der Stilbruch zwischen Alltags-Johannes und Konfabulations-Johannes ist ein Werkzeug für den aufmerksamen Leser.
 - Keine Sentimentalität
 - Keine offenen Gefühlsbekenntnisse
 - Humor ist immer schwarz, nie warmherzig
@@ -414,7 +491,7 @@ Zerstörung. Johannes' tragischer Bogen ist keine Transformation zum Besseren, s
 
 | Kategorie              | Grenze |
 | ---------------------- | ------ |
-| Bewusst wissen         | Dass er der Mörder ist; dass er Tochter und Frau getötet hat; dass seine „romantischen Erinnerungen" Morde sind |
+| Bewusst wissen         | Dass er der Mörder ist; dass er Tochter und Frau getötet hat; dass seine entlasteten Erinnerungen Morde verbergen |
 | Bewusst tun            | Sich jemandem emotional vollständig öffnen; um Hilfe bitten; Schwäche zeigen; eigene Fehlbarkeit eingestehen |
 | Explizit aussprechen   | „Ich brauche Hilfe" / „Ich habe Angst" / „Es tut mir leid" (ehrlich gemeint) / „Ich habe mich geirrt" |
 | Emotional zulassen     | Echte, unkontrollierte Trauer; Schuld ohne Rationalisierung; die Möglichkeit, selbst das Monster zu sein; die Möglichkeit, dass er nicht überlegen ist |
@@ -432,12 +509,17 @@ Zerstörung. Johannes' tragischer Bogen ist keine Transformation zum Besseren, s
 ## 12. BIOGRAFISCHE NOTIZEN (KANN)
 
 **Kindheit:**
-Physischer und psychischer Missbrauch durch die Eltern. Details noch offen. Diese Erfahrungen haben eine dissoziative Bruchstelle in seiner Psyche erzeugt. Bestimmte Impulse aus den Demütigungen fungieren als Trigger, die ihn in einen Zustand versetzen, in dem er Gewalttaten begeht, die er als etwas anderes wahrnimmt. Der Prolog zeigt ein unbekanntes Kind (= Johannes) in einer Demütigungsszene, ohne seine Identität zu enthüllen. Erster bekannter Trigger: Rote hochhackige Frauenschuhe – vermutlich verbunden mit der Mutter während der Missbrauchssituationen (noch zu bestätigen).
+Physischer und psychischer Missbrauch durch beide Eltern (Details der Rollenverteilung noch offen). Die Mutter spielte eine zentrale Rolle – sie trat nach außen gepflegt und attraktiv auf (rote Highheels als Teil der Fassade), war aber hinter geschlossenen Türen eine Missbraucherin. Der Missbrauch beinhaltete:
+
+- **Einsperren:** Johannes wurde in einen abgeschlossenen Raum gesperrt. Das Rasseln des Schlüsselbunds kündigte das Kommen der Eltern an – nicht Befreiung, sondern den Beginn des nächsten Missbrauchs. (→ Trigger T2)
+- **Entblößung und Erniedrigung:** Dem Kind wurde die Kleidung vom Leib gerissen – ein Akt der Demütigung, der den Übergang von verbaler zu physischer Gewalt markierte. (→ Trigger T3)
+- **Pervertierte Intimität:** Die Mutter flüsterte dem Kind während des Missbrauchs Dinge zu – liebevolle Worte im Kontext der Gewalt. Die Verschmelzung von Zärtlichkeit und Gewalt ist der Kern der dissoziativen Spaltung. (→ Trigger T4)
+- **Visuelle Prägung:** Das Kind auf dem Boden, auf Augenhöhe mit den roten Schuhen der Mutter. (→ Trigger T1)
 
 **Prägende Erfahrungen:**
-- Kindheitstrauma: Missbrauch durch die Eltern → Bruchstelle → dissoziative Spaltung
-- Tod der Tochter (ca. 3 Jahre vor Romanhandlung): Offiziell ertrunken im zugefrorenen See beim Schlittschuhlaufen. Subjektiv: Johannes hat sie unter Wasser gedrückt. Er erinnert sich romantisiert.
-- Tod der Frau (ca. 2 Jahre vor Romanhandlung): Offiziell Suizid, zerbrochen an Trauer und Johannes' Rückzug. Subjektiv: Johannes hat sie getötet. Er erinnert sich nicht an die Tat.
+- Kindheitstrauma: Chronischer Missbrauch durch die Eltern → Komplexe PTBS → dissoziative Spaltung
+- Tod der Tochter (ca. 3 Jahre vor Romanhandlung): Offiziell ertrunken im zugefrorenen See beim Schlittschuhlaufen. Subjektiv erinnert Johannes, dass er verzweifelt versucht hat, sie herauszuziehen. In Wahrheit hat er sie unter Wasser gedrückt. Die Szene ist in seiner Erinnerung fast identisch mit der Realität – nur der entscheidende Moment ist gespiegelt.
+- Tod der Frau (ca. 2 Jahre vor Romanhandlung): Offiziell und in Johannes' Erinnerung ein Suizid – zerbrochen an Trauer und seinem Rückzug. Er erinnert sich, dass er sie gefunden hat. In Wahrheit hat er sie getötet.
 - Berufliche Isolation nach dem Tod der Familie
 
 **Brüche:**
@@ -449,20 +531,21 @@ Physischer und psychischer Missbrauch durch die Eltern. Details noch offen. Dies
 ## 13. SYMBOLIK & MOTIVE (KANN)
 
 **Wiederkehrende Bilder:**
-- Der zugefrorene See: Oberfläche vs. Tiefe; Schönheit über dem Tod; Erstarrung
-- Romantisierte Morde vs. brutale Realität: Die Kluft zwischen Johannes' Wahrnehmung und der Wirklichkeit
-- Rote hochhackige Frauenschuhe: Trigger; Verbindung zur Kindheit; sexuelle Konnotation; tauchen im Alltag unerwartet auf
+- Der zugefrorene See: Oberfläche vs. Tiefe; Schönheit über dem Tod; Erstarrung; das zentrale Bild für die Diskrepanz zwischen Johannes' Wahrnehmung und der Realität
+- Entlastete Erinnerungen vs. brutale Realität: Die Kluft zwischen dem, was Johannes erlebt/erinnert, und dem, was tatsächlich geschieht. Die Variation (alltäglich, angenehm, tragisch, manchmal romantisch) macht das Muster unsichtbar.
+- Trigger-Motive im Alltag: Rote Schuhe, Schlüsselklirren, reißender Stoff, Flüstern
 - Brille: Sieht scharf, aber nur, was er ertragen kann (abgeleitet)
-- Das zerschlissene Sakko: Hülle eines früheren Lebens, das nicht mehr existiert (abgeleitet)
-- Blaue Augen: Kälte, Aggression, Durchdringung – aber auch Eis/Winter (Leitmotiv See) (abgeleitet)
+- Das zerschlissene Sakko: Hülle eines früheren Lebens (abgeleitet)
+- Blaue Augen: Kälte, Aggression, Eis/Winter-Leitmotiv (abgeleitet)
+- Verschmelzung von Zärtlichkeit und Gewalt: Das Motiv aus der Kindheit, das den Konfabulationsmechanismus erklärt
 
 **Gegenstände:**
-- noch offen (Gibt es einen Gegenstand, der Johannes mit seinen Taten verbindet, ohne dass er es weiß?)
+- noch offen
 
 **Orte:**
-- Johannes' Wohnung (→ ORT noch anzulegen): 2-Zimmer, 60 m², durchschnittlich – unter seinem Niveau
+- Johannes' Wohnung (→ ORT noch anzulegen)
 - Redaktion (→ ORT noch anzulegen)
-- Zugefrorener See (→ ORT noch anzulegen): Ort des Todes der Tochter
+- Zugefrorener See (→ ORT noch anzulegen)
 
 ---
 
@@ -474,60 +557,43 @@ Physischer und psychischer Missbrauch durch die Eltern. Details noch offen. Dies
 - Die Beziehung zur Kommissarin könnte Johannes zum ersten Mal seit Jahren öffnen – was die finale Erkenntnis noch vernichtender macht
 - Der Sündenbock könnte jemand sein, den Johannes kennt oder dem er ähnelt – ein dunkler Spiegel
 - Die Trigger könnten im Laufe des Romans stärker werden, die dissoziativen Episoden häufiger
-- Johannes' Überheblichkeit könnte ihn dazu bringen, Hinweise auf sich selbst zu übersehen, weil er sich für unfähig hält, der Mörder zu sein
+- Johannes' Überheblichkeit könnte ihn dazu bringen, Hinweise auf sich selbst zu übersehen
+- Die Kommissarin könnte bewusst Trigger-Situationen herbeiführen, um Johannes zu testen
 
 **Bruchpunkte:**
-- Wenn physische Beweise auftauchen, die er nicht erklären kann (Blut, Zeitlücken, Gegenstände)
-- Wenn die Kommissarin Fragen stellt, die zu nah kommen
-- Wenn Erinnerungen an die Kindheit durchbrechen und sich mit den Mordszenen überlagern
-- Wenn rote Schuhe in einer Szene auftauchen und der Leser die Spannung spürt, bevor Johannes „verschwindet"
+- Physische Beweise, die er nicht erklären kann
+- Fragen der Kommissarin, die zu nah kommen
+- Erinnerungen an die Kindheit, die in die Gegenwart durchbrechen
+- Entlastete Erinnerungen, die Risse bekommen – ein Bild, das nicht passt
 
 **Risiken:**
-- Johannes' Zynismus und Überheblichkeit könnten den Leser abstoßen, wenn er nicht genug Mitleid erzeugt
-- Die dissoziative Spaltung muss psychologisch glaubwürdig sein, nicht „Hollywood-Dissoziation"
-- Die romantisierten Mordszenen müssen so geschrieben sein, dass der Leser das Unbehagen spürt, ohne dass es ins Absurde kippt
-- Der Trigger (rote Schuhe) darf nicht zu oft eingesetzt werden, sonst wird er vorhersehbar
+- Zynismus/Überheblichkeit könnten den Leser abstoßen
+- Dissoziative Spaltung muss psychologisch glaubwürdig sein
+- Subjektive Szenen müssen Unbehagen erzeugen, ohne ins Absurde zu kippen
+- Trigger nicht zu oft einsetzen; Variation und Kombination nutzen
 
 ---
 
 ## 15. STATUS & OFFENES
 
 **Was ist noch unklar?**
-- Geburtsdatum (exakt)
-- Augenform, Augenbrauen, Nase, Mund – Feinheiten im Gesicht
-- Stimmlage
-- Exakte Haarstruktur (Länge etc.)
-- Name und Details der Tochter
-- Name und Details der Frau
-- Details der Eltern und des Kindheitstraumas
-- Verbindung zwischen Trigger (rote Schuhe) und Kindheitstrauma
-- Stadt, in der der Roman spielt
-- Art der Zeitung/Redaktion
-- Weitere Trigger-Mechanismen (2–3 zusätzliche)
-- Wie genau entdeckt Johannes seine eigenen Taten?
-- Gibt es einen verbindenden Gegenstand?
-- Frühere Hobbys (vor dem Tod der Familie)
-- Narben aus der Kindheit?
-- Leben die Eltern noch?
-
-**Was darf sich später ändern?**
-- Alle mit „(abgeleitet)" markierten Einträge
-- Beziehungsdynamiken (insbesondere Kommissarin, Sündenbock)
-- Entwicklungsbogen-Details (abhängig von Makrostruktur)
-- Biografische Details (insbesondere Kindheit)
-- Weitere Trigger
+- Geburtsdatum, Gesichtsdetails, Stimmlage
+- Name und Details der Tochter, der Frau, der Eltern
+- Stadt und Art der Redaktion
+- Tötungsmethode
+- Wie Johannes seine Taten entdeckt
+- Verbindender Gegenstand
+- Narben aus der Kindheit
 
 **Was ist festgesetzt?**
-- Stammdaten: Johannes Breier, männlich, verwitwet, Mittvierziger, keine Spitznamen
-- Beruf: Journalist, Journalismus studiert, intelligent, isoliert, Beruf = einziges Hobby
-- Körperlich: 1,82 m, 74 kg, hager, Brille, Dreitagebart, strubbelige stumpfgraue Haare, blaue Augen, schmales Gesicht, blasse Haut, keine Ticks
-- Kleidung: Schlampig, zerschlissenes Sakko, Pullover, kein Trenchcoat
-- Auftreten: Aggressiv, arrogant, Kopf hoch; leise/kontrolliert → schnell sarkastisch/verletzend/präzise; überheblich, hält sich für überlegen, fühlt sich als Opfer (arrogant transportiert)
-- Psychologisch: Dissoziativer Serienmörder (unbewusst), funktionaler Trinker, überheblich, anfällig für Fehlschlüsse
-- Trigger: Rote hochhackige Frauenschuhe (erster bestätigter Trigger)
-- Vorgeschichte: Kindheitsmissbrauch, Tochter vor ca. 3 Jahren getötet (objektiv: Unfall), Frau vor ca. 2 Jahren getötet (objektiv: Suizid)
-- Wohnung: 2 Zimmer, 60 m², unter Niveau
-- Chef-Beziehung: Schwierig, aber Chef schützt ihn auch
+- Stammdaten, Beruf, Körperliches (1,82 m, 74 kg, hager, Brille, Dreitagebart, stumpfgraues Haar, blaue Augen, blass)
+- Auftreten: aggressiv, arrogant, überheblich, sarkastisch, funktionaler Trinker
+- Klinisches Profil: K-PTBS + dissoziative Amnesie + Konfabulation + funktionaler Alkoholismus
+- **Trigger (4 kanonische):** T1 Rote Highheels, T2 Schlüsselklirren, T3 Reißender Stoff, T4 Weibliches Flüstern
+- **Trigger-Mechanismus:** 4-Phasen-Modell (Trigger → Dissoziation → Tat/entlastende Wahrnehmung → Konfabulation/Rückkehr)
+- **Konfabulations-Mechanismus:** Entlastung (Entfernung der Schuld), nicht zwingend Romantisierung. Variiert: alltäglich, angenehm, tragisch oder romantisch.
+- **Spezifische Verfälschungen:** Tochter (versuchte Rettung statt Ertränken), Frau (Suizid statt Mord), aktuelle Morde (harmlose Begegnungen statt Tötung).
+- Vorgeschichte: Kindheitsmissbrauch, Tochter vor ca. 3 Jahren, Frau vor ca. 2 Jahren
 
 ---
 

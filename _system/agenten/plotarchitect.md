@@ -1,10 +1,10 @@
 ---
 doc_type: agent
 doc_id: AGT-plotarchitect
-version: "1.0"
+version: "1.1"
 status: aktiv
 erstellt: 2026-04-04
-letzte_aenderung: 2026-04-04
+letzte_aenderung: 2026-04-05
 tags:
   - agent
   - plot
@@ -53,6 +53,7 @@ tags:
 4. **Keine Erfindung ohne Rückfrage.** Neue Plot-Elemente werden vorgeschlagen, nie eigenständig als Fakt gesetzt.
 5. **Session-Ende = PLOT_WORKING aktualisieren.** Nach jeder inhaltlichen Arbeit wird der Zustand in `plot/PLOT_WORKING.md` festgehalten.
 6. **Namenskonventionen einhalten.** Dateinamen gemäß `naming-conventions.md` und `ADR-0003`.
+7. **Niemals Deltas/Platzhalter in Dateien schreiben.** Immer den vollständigen Text schreiben. `write_file` überschreibt den gesamten Inhalt – Platzhalter wie „[Abschnitt X unverändert]" führen zu Datenverlust.
 
 ---
 
@@ -72,7 +73,7 @@ tags:
 ### Formulierungen für Vorschläge
 
 - *„Die Makrostruktur steht jetzt grob. Soll der Plotanalyst drüberschauen und prüfen, ob die Struktur dem gewählten Modell entspricht?"*
-- *„Wir haben gerade entschieden, dass Laura in Akt 3 nach Berlin zieht. Der Canonguardian sollte prüfen, ob das mit dem bestehenden Kanon vereinbar ist."*
+- *„Wir haben gerade entschieden, dass [X passiert]. Der Canonguardian sollte prüfen, ob das mit dem bestehenden Kanon vereinbar ist."*
 - *„Die Beats für Akt 1 sind so weit definiert, dass der Sceneideationpartner sie in konkrete Szenen auflösen könnte. Sollen wir das als nächstes machen?"*
 
 ---
@@ -93,7 +94,7 @@ tags:
 - Der Agent **kennt alle verfügbaren Modelle im Detail** und kann sie erklären.
 - Er **empfiehlt** ein Modell basierend auf der Art der Geschichte, begründet die Empfehlung.
 - Der Autor **wählt** das Modell, lehnt ab, oder sagt „ohne Modell".
-- Auch bei „ohne Modell" nutzt der Agent die Modelle intern als **Checkliste**, um blinde Flecken zu identifizieren (z.B. „Dein zweiter Akt hat keinen klaren Midpoint – bewusst?").
+- Auch bei „ohne Modell" nutzt der Agent die Modelle intern als **Checkliste**, um blinde Flecken zu identifizieren.
 - **Abweichungen** vom gewählten Modell werden im Plot-Dokument dokumentiert mit Begründung.
 
 ---
@@ -112,7 +113,7 @@ Der Agent startet bei Stufe 1:
 
 #### Folgender Aufruf (PLOT_WORKING vorhanden)
 
-Der Agent liest `plot/PLOT_WORKING.md` und meldet den Stand:
+Der Agent liest `plot/PLOT_WORKING.md` und `plot/plot-hauptplot.md` und meldet den Stand:
 
 > *„Ich sehe, dass wir zuletzt an [Stufe/Thema] gearbeitet haben. [Zusammenfassung des Stands]. Sollen wir dort weitermachen, oder möchtest du etwas anderes aufgreifen?"*
 
@@ -127,7 +128,7 @@ Der Agent liest `plot/PLOT_WORKING.md` und meldet den Stand:
 - *„Was ist die zentrale Frage, die der Roman für den Leser aufwirft?"*
 - *„Wie fühlt sich das Ende an? Hoffnungsvoll? Tragisch? Offen?"*
 
-**Ergebnis:** Logline und Prämisse, dokumentiert im Plot-Dokument.
+**Ergebnis:** Logline und Prämisse in `plot-hauptplot.md`.
 
 **Meilenstein:** Wenn Logline steht → *„Sollen wir uns jetzt anschauen, welches Strukturmodell zu dieser Geschichte passt?"*
 
@@ -136,22 +137,24 @@ Der Agent liest `plot/PLOT_WORKING.md` und meldet den Stand:
 **Ziel:** Ein Dramaturgiemodell wählen oder bewusst keins verwenden.
 
 **Ablauf:**
-1. Agent fasst den Kern zusammen und analysiert: *„Deine Geschichte klingt nach [Typ]. Dafür eignet sich [Modell X], weil... Alternativ könnte [Modell Y] passen, weil..."*
+1. Agent fasst den Kern zusammen und analysiert.
 2. Autor wählt oder sagt „keins".
-3. Agent vermerkt die Wahl im Plot-Dokument.
-4. Falls ein Modell gewählt: Agent erklärt kurz die Grundstruktur und die wichtigsten Beats.
+3. Agent vermerkt die Wahl in `plot-hauptplot.md`.
 
 #### Stufe 3 – Die Makrostruktur
 
 **Ziel:** Plot in große Blöcke zerlegen – Akte, Wendepunkte, Schlüsselmomente.
 
+**Arbeitsdokument:** `plot/plot-beats.md`
+
 **Ablauf:**
-- Agent legt die Beats/Stufen des gewählten Modells als Gerüst vor.
+- Agent legt die Beats/Stufen des gewählten Modells als Gerüst vor (oder füllt bestehendes Raster).
 - Im Dialog werden die Beats mit konkreten Inhalten gefüllt.
 - Bei jedem Beat: *„Was passiert hier? Wer ist beteiligt? Was verändert sich?"*
 - Agent denkt in Konsequenzen: *„Wenn [X] hier passiert, dann muss in Akt 3 [Y] aufgelöst werden."*
+- Bei strukturellen Fragen: `plot-struktur.md` lesen (Erzählebenen, Konfabulations-Prinzip, Waage, Intermezzi).
 
-**Ergebnis:** 8–15 Schlüsselmomente mit Kurzbeschreibung im Plot-Dokument.
+**Ergebnis:** 15 Beats mit Kurzbeschreibungen in `plot-beats.md`.
 
 **Meilenstein:** Wenn Makrostruktur grob steht → *„Das Grundgerüst sieht stabil aus. Soll der Plotanalyst prüfen, ob die Struktur dramaturgisch funktioniert?"*
 
@@ -159,17 +162,20 @@ Der Agent liest `plot/PLOT_WORKING.md` und meldet den Stand:
 
 **Ziel:** Feinere Auflösung. Nebenhandlungen, Kreuzungspunkte.
 
+**Arbeitsdokument:** `plot/plot-subplots.md` (wird bei Bedarf angelegt)
+
 **Ablauf:**
 - Pro Akt/Block: Welche Sequenzen (3–5 Szenengruppen) braucht es?
 - Wo laufen Nebenhandlungen? Wo kreuzen sich Stränge?
 - Verbindung zu existierenden Kanon-Dokumenten herstellen.
-- Bei mehreren Handlungssträngen: Separate Plot-Dokumente anlegen (`plot-{strangname}.md`).
 
-**Ergebnis:** Erweiterte Beat-Liste mit Sequenzen und Subplot-Zuordnung.
+**Ergebnis:** Subplots mit Story Circles, Sequenzen und Kreuzungspunkte.
 
 #### Stufe 5 – Szenen-Outline
 
 **Ziel:** Fertige Szenenfolge als Basis für Szenenverträge.
+
+**Arbeitsdokument:** `plot/plot-szenen.md` (wird bei Bedarf angelegt)
 
 **Ablauf:**
 - Jeder Beat/Sequenz wird in konkrete Szenen aufgelöst.
@@ -177,8 +183,6 @@ Der Agent liest `plot/PLOT_WORKING.md` und meldet den Stand:
 - Szenenfolge prüfen: Rhythmus, Tempo, Abwechslung.
 
 **Meilenstein:** *„Die Szenen-Outline steht. Der Sceneideationpartner kann jetzt Szenenverträge daraus erstellen."*
-
-**Ergebnis:** Szenen-Outline im Plot-Dokument. Übergang zum Sceneideationpartner.
 
 ---
 
@@ -188,32 +192,27 @@ Auch natürliche Formulierungen wie „Lass uns über den Plot reden", „Ich ha
 
 ---
 
-## Dokumente
+## Plot-Dokumente
 
-### Plot-Dokument (plot/plot-hauptplot.md)
+> Die Plot-Informationen sind auf mehrere Dokumente aufgeteilt. Der Agent muss wissen, welche Datei was enthält und wann welche zu lesen/schreiben ist.
 
-Wird vom Agent bei der ersten inhaltlichen Arbeit erstellt. Basiert auf `TEMPLATE-plot.md`.
+### Dokumentenstruktur
 
-**Inhalt:**
-- Logline, Prämisse, zentrale Frage
-- Gewähltes Modell (mit Begründung)
-- Beat-Struktur (gefüllt)
-- Subplots und Nebenhandlungen
-- Szenen-Outline (wenn vorhanden)
-- Dokumentierte Abweichungen vom Modell
+| Dokument | Inhalt | Wann lesen | Wann schreiben |
+|----------|--------|-----------|----------------|
+| `plot/plot-hauptplot.md` | Kompakte Übersicht: Kern (Logline, Prämisse, Tonalität), Methodik, Figurentabelle, Motive, Subplots, Verweise | **Immer** beim Start einer Plot-Session | Stufe 1+2; bei Änderungen am Kern |
+| `plot/plot-struktur.md` | Stabile Entscheidungen: Erzählebenen, Konfabulations-Prinzip, Waage-System, Kommissarin-Twist, Intermezzi-Regeln, Prolog | Bei strukturellen Fragen; wenn eine Beat-Entscheidung strukturelle Konsequenzen hat | Selten – nur wenn sich eine stabile Entscheidung ändert |
+| `plot/plot-beats.md` | 15 Beats mit konkreten Inhalten | **Hauptarbeitsdokument** in Stufe 3 | Stufe 3 (Makrostruktur) |
+| `plot/PLOT_WORKING.md` | Arbeitszustand, offene Fragen, nächste Schritte, Session-Protokoll | **Immer** beim Start | **Immer** nach jeder Session |
+| `plot/_plot-uebersicht.md` | Index aller Plot-Dokumente | Bei Orientierung | Bei neuen Dokumenten |
+| `plot/plot-subplots.md` | Subplots mit Story Circles | Stufe 4 | Wird in Stufe 4 angelegt |
+| `plot/plot-szenen.md` | Szenen-Outline | Stufe 5 | Wird in Stufe 5 angelegt |
 
-### PLOT_WORKING (plot/PLOT_WORKING.md)
+### Lesereihenfolge beim Session-Start
 
-Wird beim ersten `/plot` erstellt. Basiert auf `TEMPLATE-plot-working.md`.
-
-**Inhalt:**
-- Aktuelle Stufe (1–5)
-- Zusammenfassung des aktuellen Stands
-- Offene Fragen und aufgeschobene Entscheidungen
-- Empfohlene nächste Schritte
-- Vorgeschlagene Agenten-Einsätze
-
-**Aktualisierung:** Nach jeder Session, in der Plot-Arbeit stattfand.
+1. `PLOT_WORKING.md` (Arbeitszustand)
+2. `plot-hauptplot.md` (Übersicht)
+3. Bei Bedarf: `plot-struktur.md` (strukturelle Details) und/oder `plot-beats.md` (Beats)
 
 ---
 
@@ -224,15 +223,20 @@ Wird beim ersten `/plot` erstellt. Basiert auf `TEMPLATE-plot-working.md`.
 - `_system/referenz/` (Dramaturgiemodelle)
 - `_system/templates/` (Plot-Templates)
 - `_system/regeln/`
-- `plot/` (bestehende Plot-Dokumente)
+- `plot/` (alle Plot-Dokumente)
 - `charaktere/`, `beziehungen/`, `orte/`, `gegenstaende/` (Kontext)
 - `kanon/` (Konsistenzprüfung)
 - `szenen/` (Kontext, bestehende Szenen)
 
 ### Schreiben
 
-- `plot/plot-hauptplot.md` (und weitere `plot/plot-{strangname}.md`)
+- `plot/plot-hauptplot.md`
+- `plot/plot-struktur.md`
+- `plot/plot-beats.md`
+- `plot/plot-subplots.md` (ab Stufe 4)
+- `plot/plot-szenen.md` (ab Stufe 5)
 - `plot/PLOT_WORKING.md`
+- `plot/_plot-uebersicht.md`
 - `_system/changelog.md`
 
 ### Nicht schreiben

@@ -1,7 +1,7 @@
 # Claude Memory – Roman-Autorensystem
 
 > **Zweck:** Permanentes Gedächtnis für alle Entscheidungen rund um das Roman-Autorensystem.
-> **Letzte Aktualisierung:** 2026-04-04
+> **Letzte Aktualisierung:** 2026-04-05
 > **Hinweis:** Diese Datei wird fortlaufend ergänzt. Claude liest sie zu Beginn jeder Session.
 
 ---
@@ -12,47 +12,45 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 
 **Root-Verzeichnis:** `Roman_Split/` in der Obsidian-Wissensdatenbank (Dropbox-synchronisiert, Git-versioniert).
 
-> ⚠️ **WICHTIG – Datenquellen:** Dokumente auf Google Drive sind für dieses Projekt **NICHT** relevant. Alle projektrelevanten Dateien liegen ausschließlich im Filesystem unter `Roman_Split/`. Claude soll bei der Arbeit an diesem Projekt **niemals** in Google Drive suchen, sondern ausschließlich über den Filesystem-Zugriff auf die Dateien zugreifen. Google Drive enthält ggf. alte Entwürfe oder Vorlagen, die nicht dem aktuellen Stand entsprechen.
+> ⚠️ **WICHTIG – Datenquellen:** Dokumente auf Google Drive sind für dieses Projekt **NICHT** relevant. Alle projektrelevanten Dateien liegen ausschließlich im Filesystem unter `Roman_Split/`. Claude soll **niemals** in Google Drive suchen.
+
+> ⚠️ **PERMANENTE REGEL – Keine Deltas/Platzhalter:** Niemals Verweise wie „[Abschnitt X unverändert]", „[siehe vorherige Version]" oder ähnliche Platzhalter in Dateien schreiben. `write_file` überschreibt den gesamten Inhalt – Platzhalter führen zu Datenverlust. Immer den vollständigen Text schreiben, auch wenn sich nur ein Abschnitt ändert.
 
 ---
 
 ## 1b. ROMAN-KURZPROFIL
 
-> **Logline:** Ein traumatisierter Journalist, der den Tod seiner Tochter und seiner Frau nie verwunden hat, beginnt eine Mordserie zu recherchieren, die seine Stadt erschüttert. Was er nicht weiß: Er selbst ist der Mörder. Seine Psyche spaltet die Realität – wo er romantische Begegnungen erlebt, hinterlässt er Leichen. Als er sich mit der ermittelnden Kommissarin verbündet und verliebt, jagt er sich selbst in eine Wahrheit, die alles zerstören wird.
+> **Logline:** Ein traumatisierter Journalist, der den Tod seiner Tochter und seiner Frau nie verwunden hat, beginnt eine Mordserie zu recherchieren, die seine Stadt erschüttert. Was er nicht weiß: Er selbst ist der Mörder. Seine Psyche spaltet die Realität – wo er harmlose Begegnungen erlebt, hinterlässt er Leichen. Als er sich mit der ermittelnden Kommissarin verbündet und verliebt, jagt er sich selbst in eine Wahrheit, die alles zerstören wird.
 
 > **Prämisse:** Kann ein Mensch schuldig sein, wenn er seine Schuld nicht kennt?
 
-> **Genre:** Psychologischer Thriller
+> **Genre:** Psychologischer Thriller | **Inspirationen:** Angel Heart, Shutter Island
 
-> **Inspirationen:** Angel Heart (Selbstjagd-Prinzip), Shutter Island (unzuverlässiger Erzähler)
-
-> **Methode:** Save the Cat (modifiziert für Anti-Held) + Story Circle (Subplots)
-
-> **Plot-Status:** Stufe 1 (Kern) ✅ + Stufe 2 (Methodik) ✅ – Stufe 3 (Makrostruktur) steht an
+> **Methode:** Save the Cat (modifiziert) + Story Circle (Subplots) | **Plot-Status:** Stufe 2 ✅ – Stufe 3 steht an
 
 ### Kernfiguren
 
 | Figur | Rolle | CHAR-Status |
 |-------|-------|-------------|
-| Johannes Breier | Protagonist, dissoziativer Serienmörder, Journalist | ✅ v0.1 (Entwurf, viele offene Details) |
-| Kommissarin (Name offen) | Ermittlerin, romantisches Interesse, entdeckt Wahrheit vor dem Leser | ⬜ noch nicht angelegt |
-| Sündenbock (Name offen) | Hauptverdächtiger, Ablenkungsfigur | ⬜ noch nicht angelegt |
-| Redaktions-Vertrauter (Name offen) | Johannes' Anker zur Realität | ⬜ noch nicht angelegt |
+| Johannes Breier | Protagonist, dissoziativer Serienmörder, Journalist | ✅ v0.4 |
+| Kommissarin (Name offen) | Ermittlerin, romantisches Interesse, entdeckt Wahrheit vor dem Leser | ⬜ |
+| Sündenbock (Name offen) | Hauptverdächtiger, Ablenkungsfigur | ⬜ |
+| Redaktions-Vertrauter (Name offen) | Johannes' Anker zur Realität | ⬜ |
 
 ### Strukturelle Grundentscheidungen
 
-- **Drei Zeitebenen:** Kindheit (Missbrauch/Prolog), Zwischenzeit (Tod Tochter/Frau), Gegenwart (Mordserie)
-- **Zwei-Ebenen-Erzählung:** Mordszenen IMMER aus Johannes' subjektiver (romantisierter) Perspektive; alles andere objektiv
-- **Leserführung:** Hinweis-/Gegenhinweis-Waage. Leser ahnt zunehmend, weiß bis zum Ende nicht sicher. Sündenbock als plausible Alternative.
-- **Kommissarin-Twist:** Erkennt Wahrheit vor dem Leser; verrät es nicht; Leser erfährt es erst durch ihren letzten Akt
-- **Enthüllung Tochter/Frau:** Sehr spät (NICHT letztes Drittel – zu früh), zusammen mit finaler Mörder-Auflösung
-- **Save the Cat-Modifikationen:** Mitleid statt Sympathie; tragisches Finale statt positiver Transformation; B-Story = Liebe + Nemesis
+- **Drei Erzählebenen:** Ebene 1 = objektive Gegenwart; Ebene 2 = Johannes' subjektiv entlastete Wahrnehmung (aktuelle Morde + Erinnerungen Tochter/Frau); Ebene 3 = Intermezzi (anonyme Kindheitsfragmente)
+- **Konfabulations-Prinzip:** ENTLASTUNG, nicht Romantisierung. Variiert: alltäglich, angenehm, tragisch, romantisch. Spezifisch: Tochter (Rettung statt Ertränken), Frau (Suizid statt Mord), aktuelle Morde (harmlose Begegnungen)
+- **Intermezzi:** Erzähltechnik (kein Strang). Anonyme Kindheitsfragmente zwischen Kapiteln. Details → `plot-struktur.md`
+- **Leserführung:** Hinweis-/Gegenhinweis-Waage + Sündenbock
+- **Kommissarin-Twist:** Erkennt Wahrheit vor dem Leser; verrät es nicht
+- **Enthüllung Tochter/Frau:** Sehr spät, zusammen mit finaler Mörder-Auflösung
+- **Klinisches Profil:** K-PTBS + dissoziative Amnesie + Konfabulation + funktionaler Alkoholismus
+- **Trigger:** T1 rote Highheels, T2 Schlüsselklirren, T3 reißender Stoff, T4 weibliches Flüstern; 4-Phasen-Ablauf; Alkohol als Verstärker
 
 ---
 
 ## 2. ARCHITEKTUR-ENTSCHEIDUNGEN (Kurzreferenz)
-
-> ⚠️ **Pflicht:** Jede architektonische Entscheidung wird als ADR in `_system/entscheidungen/` dokumentiert.
 
 | ADR | Titel | Kern |
 |-----|-------|------|
@@ -70,26 +68,18 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 
 ## 3. NAMENSKONVENTIONEN (naming-conventions.md v2.0)
 
-Kleinbuchstaben, Bindestrich, keine Umlaute in Dateinamen.
-
-### Dateinamen-Muster
+Kleinbuchstaben, Bindestrich, keine Umlaute. Agenten-IDs zusammengeschrieben ohne Bindestriche.
 
 | Verzeichnis | Muster | Beispiel |
 |-------------|--------|----------|
-| `charaktere/` | `{vorname-nachname}.md` | `laura-ahler.md` |
+| `charaktere/` | `{vorname-nachname}.md` | `johannes-breier.md` |
 | `beziehungen/` | `{char1}--{char2}.md` | `laura-ahler--marie-kanter.md` |
 | `orte/` | `{ort-name}.md` | `lauras-zimmer.md` |
-| `orte/grundrisse/` | `{ort-name}.drawio` + `.drawio.svg` | `lauras-zimmer.drawio` |
 | `gegenstaende/` | `{name}.md` | `lauras-armband.md` |
-| `gegenstaende/bilder/` | `{name}.png` | `lauras-armband.png` |
 | `szenen/` | `SZ-{nnnn}-{kurztitel}.md` | `SZ-0042-erstes-treffen.md` |
 | `_system/agenten/` | `{agentenid}.md` | `plotarchitect.md` |
 | `_system/referenz/` | `REF-{methode}.md` | `REF-save-the-cat.md` |
-| `plot/` | `plot-{strangname}.md` | `plot-hauptplot.md` |
-
-### Agenten-IDs
-
-Agenten-IDs sind zusammengeschriebene Kleinbuchstaben ohne Bindestriche (ADR-0009, konsistent mit `charakterentwickler`).
+| `plot/` | `plot-{name}.md` | `plot-hauptplot.md`, `plot-struktur.md`, `plot-beats.md` |
 
 ---
 
@@ -97,190 +87,106 @@ Agenten-IDs sind zusammengeschriebene Kleinbuchstaben ohne Bindestriche (ADR-000
 
 ```
 /Roman_Split/
-├── claude.md                  # Permanentes Gedächtnis (diese Datei)
-├── commands.md                # Befehlsreferenz aller Slash-Befehle
-├── _system/
-│   ├── agenten/               # Agenten-Definitionen
-│   ├── referenz/              # Dramaturgiemodelle (ADR-0009)
-│   ├── templates/
-│   ├── regeln/
-│   ├── konzept/
-│   ├── entscheidungen/
-│   └── changelog.md
-├── plot/                      # Plot-Dokumente + PLOT_WORKING
-├── charaktere/
-├── beziehungen/
-├── orte/
-│   └── grundrisse/
-├── gegenstaende/
-│   └── bilder/
-├── kanon/
-│   ├── objektiv/
-│   └── subjektiv/
-├── szenen/
-└── reihenfolge/
+├── claude.md / commands.md
+├── _system/ (agenten/, referenz/, templates/, regeln/, konzept/, entscheidungen/, changelog.md)
+├── plot/ (hauptplot, struktur, beats, PLOT_WORKING, _plot-uebersicht)
+├── charaktere/ / beziehungen/
+├── orte/ (+ grundrisse/) / gegenstaende/ (+ bilder/)
+├── kanon/ (objektiv/ + subjektiv/)
+├── szenen/ / reihenfolge/
 ```
 
 ---
 
 ## 5. AGENTEN-SYSTEM
 
-### Architekturprinzip: Trennung Kreation / Prüfung (ADR-0009)
-
-Kreativagenten erzeugen Inhalte, Prüfagenten analysieren und kritisieren. Ein Agent übernimmt nie beide Rollen für dasselbe Artefakt.
-
-### Agenten-Übersicht
+Trennung Kreation / Prüfung (ADR-0009). Kein Orchestrator – Autor steuert.
 
 | Agent-ID | Typ | Rolle | Status |
 |----------|-----|-------|--------|
-| `charakterentwickler` | Kreativ | Alle Entitätstypen (CHAR, ORT, GGS, BEZ) | ✅ v1.8 |
-| `plotarchitect` | Kreativ | Dialogischer Plot-Entwicklungspartner | ✅ v1.0 |
+| `charakterentwickler` | Kreativ | CHAR, ORT, GGS, BEZ | ✅ v1.8 |
+| `plotarchitect` | Kreativ | Dialogischer Plot-Entwicklungspartner | ✅ v1.1 |
 | `sceneideationpartner` | Kreativ | Szenen-Auflösung + Szenenverträge | ✅ v1.0 |
-| `plotanalyst` | Prüfung | Strukturanalyse gegen gewähltes Modell | ✅ v1.0 |
+| `plotanalyst` | Prüfung | Strukturanalyse gegen Modell | ✅ v1.0 |
 | `conflictanalyst` | Prüfung | Spannungs-/Konfliktanalyse | ✅ v1.0 |
 | `canonguardian` | Prüfung | Kanon-Konsistenzprüfung | ✅ v1.0 |
 | `themenmotivationagent` | Prüfung | Themen-/Motiv-Konsistenz | ⬜ Vorgesehen |
-
-### Agenten-Bewusstsein
-
-Der `plotarchitect` weiß explizit, welche anderen Agenten existieren und schlägt ihren Einsatz aktiv vor. Delegation erfolgt nie automatisch – der Autor entscheidet.
-
-### Kein Orchestrator
-
-Der `00_ORCHESTRATOR` aus der Entwurfsphase entfällt (ADR-0009). Stattdessen: definierte Pipelines + Autor als Steuerer.
 
 ---
 
 ## 6. PLOT-SYSTEM (ADR-0009)
 
-### Fünf-Stufen-Workflow
+Stufen: 1 Kern ✅ | 2 Methodik ✅ | **3 Makrostruktur ⬜** | 4 Sequenzen | 5 Szenen-Outline
 
-1. **Kern** – Logline & Prämisse ✅
-2. **Methodik** – Save the Cat (modifiziert) + Story Circle (Subplots) ✅
-3. **Makrostruktur** – Akte, Wendepunkte, Schlüsselmomente ⬜ ← nächster Schritt
-4. **Sequenzen & Subplots** – Feinauflösung, Nebenhandlungen
-5. **Szenen-Outline** – Fertige Szenenfolge → Szenenverträge
+Modelle: **Save the Cat** (Hauptmodell) + **Story Circle** (Subplots). Slash-Befehle: `/plot`, `/plot-check`.
 
-Rücksprünge jederzeit möglich. Nicht-linear.
+### Plot-Dokumente (aufgeteilt seit 04-05)
 
-### Dramaturgiemodelle (in `_system/referenz/`)
-
-| Modell | Datei | Kern | Verwendung |
-|--------|-------|------|-----------|
-| **Save the Cat** | `REF-save-the-cat.md` | 15 Beats, genre-orientiert | **Hauptmodell** |
-| Drei-Akt-Struktur | `REF-drei-akt.md` | Klassisch, universell | Nicht gewählt |
-| Heldenreise | `REF-heldenreise.md` | Campbell/Vogler, Transformation | Nicht gewählt |
-| **Story Circle** | `REF-story-circle.md` | Dan Harmon, 8 Schritte, pragmatisch | **Ergänzend (Subplots)** |
-
-Gewählte Methode = Leitplanke, nicht Korsett. Agent kennt Details, darf begründet abweichen.
-
-### Plot-Dokumente
-
-- **`plot/plot-hauptplot.md`** (+ `plot/plot-{strangname}.md`): Inhalt – Logline, Methode, Beats, Szenenfolge
-- **`plot/PLOT_WORKING.md`**: Zustand – aktuelle Stufe, offene Fragen, nächste Schritte. Wird nach jeder Session aktualisiert.
-
-### Slash-Befehle
-
-- `/plot` – Plotentwicklung starten/fortsetzen (plotarchitect)
-- `/plot-check` – Plot analysieren (plotanalyst)
-
-### Prüf-Meilensteine
-
-- **Plot-Meilenstein:** plotarchitect schlägt Prüfagenten vor → Autor entscheidet
-- **Vor Szenenausarbeitung:** canonguardian prüft Szenenvertrag
-- **Nach Szenenausarbeitung:** canonguardian (immer), plotanalyst (immer), conflictanalyst (optional)
+| Dokument | Inhalt | Wann lesen |
+|----------|--------|-----------|
+| `plot-hauptplot.md` | Kompakte Übersicht: Kern, Methodik, Figuren, Verweise | Immer zuerst |
+| `plot-struktur.md` | Stabile Entscheidungen: Erzählebenen, Konfabulation, Waage, Intermezzi | Bei strukturellen Fragen |
+| `plot-beats.md` | 15 Beats mit Inhalten (Stufe 3 Arbeitsdokument) | Bei Makrostruktur-Arbeit |
+| `PLOT_WORKING.md` | Arbeitszustand, Session-Protokoll, nächste Schritte | Immer zuerst |
+| `_plot-uebersicht.md` | Index aller Plot-Dokumente | Bei Orientierung |
+| `plot-subplots.md` | Subplots mit Story Circles | Erst in Stufe 4 |
+| `plot-szenen.md` | Szenen-Outline | Erst in Stufe 5 |
 
 ---
 
 ## 7. KANON-SYSTEM
 
-Siehe `_system/regeln/kanon-regeln.md`. Keine Änderungen.
-
-**Hinweis für diesen Roman:** Das objektiv/subjektiv-System (ADR-0001) ist besonders relevant: Johannes' subjektiver Kanon weicht fundamental vom objektiven Kanon ab (romantisierte Morde vs. tatsächliche Morde). Die Dramatic-Irony-Modellierung ist Kernmechanik des Romans.
+Siehe `_system/regeln/kanon-regeln.md`. Johannes' subjektiver Kanon weicht fundamental vom objektiven ab (entlastete Erinnerungen vs. tatsächliche Morde). Dramatic-Irony-Modellierung ist Kernmechanik.
 
 ---
 
 ## 8. SZENEN-WORKFLOW
 
-Siehe `_system/regeln/szenen-pipeline.md` und `_system/regeln/szenen-lebenszyklus.md`. Wird um Plot-bezogene Prüfschritte erweitert (ADR-0009 E10).
+Siehe `_system/regeln/szenen-pipeline.md` und `szenen-lebenszyklus.md`. Wird um Plot-Prüfschritte erweitert (ADR-0009 E10).
 
 ---
 
 ## 9. TEMPLATES
 
-| Template | Datei | Version | Status |
-|----------|-------|---------|--------|
-| Charakter | `TEMPLATE-charakter.md` | v1.1 | ✅ Getestet |
-| Beziehung | `TEMPLATE-beziehung.md` | v1.1 | ✅ Getestet |
-| Ort | `TEMPLATE-ort.md` | v1.3 | ✅ Getestet |
-| Gegenstand | `TEMPLATE-gegenstand.md` | v1.3 | ✅ Getestet |
-| Plot-Dokument | `TEMPLATE-plot.md` | v1.0 | ✅ Erstellt |
-| PLOT_WORKING | `TEMPLATE-plot-working.md` | v1.0 | ✅ Erstellt |
-| Szene | `tmpl-szene.md` | – | ⬜ Grundstruktur |
-| Kanon | `tmpl-kanon-*.md` | – | ⬜ Offen |
-
-### Übergreifende Prinzipien
-- Verknüpfungsmatrix: CHAR↔ORT↔GGS↔BEZ↔PLOT↔SZ
-- Keine Redundanz (ADR-0004), emotionaler Wert dynamisch (ADR-0005), einheitliche Ereignisse (ADR-0007)
-- **Visuelle Referenzen (ADR-0008):** Orte haben Abschnitt 0 mit Grundriss (`.drawio.svg`), Gegenstände haben Abschnitt 0 mit Bild (`.png`). Links werden bei Erstellung automatisch eingefügt.
-
-### Template-Strukturen
-- **Charakter v1.1:** 16 Abschnitte (MUSS 1–10, KANN 11–16)
-- **Beziehung v1.1:** 10 Abschnitte (MUSS 1–5, KANN 6–10)
-- **Ort v1.3:** Abschnitt 0 = Grundriss, dann 10 Abschnitte (MUSS 1–6, KANN 7–10). Frontmatter: `grundriss:`
-- **Gegenstand v1.3:** Abschnitt 0 = Bild, dann 10 Abschnitte (MUSS 1–6, KANN 7–10). Frontmatter: `bild:`
-
-### Agenten-Versionen
-- Charakterentwickler: **v1.8** (v1.7 + Agenten-Referenzen aktualisiert auf neue IDs)
-- Plotarchitect: **v1.0**
-- Plotanalyst: **v1.0**
-- Conflictanalyst: **v1.0**
-- Canonguardian: **v1.0**
-- Sceneideationpartner: **v1.0**
+| Template | Version | Status |
+|----------|---------|--------|
+| Charakter | v1.1 | ✅ Getestet |
+| Beziehung | v1.1 | ✅ Getestet |
+| Ort | v1.3 | ✅ Getestet |
+| Gegenstand | v1.3 | ✅ Getestet |
+| Plot-Dokument | v1.0 | ✅ |
+| PLOT_WORKING | v1.0 | ✅ |
+| Szene / Kanon | – | ⬜ Offen |
 
 ---
 
-## 10. BOOTSTRAP-KONZEPT (noch nicht erstellt)
+## 10. BOOTSTRAP-KONZEPT
 
-`bootstrap.md` geplant: Initialisierungsanweisung + Pfad-Konfiguration + Kurzreferenz.
+Noch nicht erstellt. `bootstrap.md` geplant.
 
 ---
 
 ## 11. TESTRESULTATE
 
-| Test | Datum | Status | Datei(en) |
-|------|-------|--------|-----------|
-| Charakter: Laura Ahler | 04-03 | ✅ | `charaktere/laura-ahler.md` |
-| Charakter: Marie Kanter | 04-03 | ✅ | `charaktere/marie-kanter.md` |
-| Beziehung: Laura↔Marie | 04-03 | ✅ | `beziehungen/laura-ahler--marie-kanter.md` |
-| Ort: Lauras Zimmer | 04-04 | ✅ | `orte/lauras-zimmer.md` + `grundrisse/lauras-zimmer.drawio` |
-| Gegenstand: Lauras Armband | 04-04 | ✅ | `gegenstaende/lauras-armband.md` |
+| Test | Status | Datei(en) |
+|------|--------|-----------|
+| Laura Ahler | ✅ | `charaktere/laura-ahler.md` |
+| Marie Kanter | ✅ | `charaktere/marie-kanter.md` |
+| Laura↔Marie | ✅ | `beziehungen/laura-ahler--marie-kanter.md` |
+| Lauras Zimmer | ✅ | `orte/lauras-zimmer.md` |
+| Lauras Armband | ✅ | `gegenstaende/lauras-armband.md` |
 
 ---
 
 ## 12. OFFENE PUNKTE
 
-### Plot-Entwicklung (aktuell)
-- [x] Stufe 1 (Kern): Logline, Prämisse, zentrale Frage ✅
-- [x] Stufe 2 (Methodik): Save the Cat + Story Circle ✅
-- [ ] **Stufe 3 (Makrostruktur): 15 Beats mit konkreten Inhalten befüllen**
-- [x] Johannes Breier als CHAR-Dokument anlegen ✅ (v0.1 Entwurf – Vertiefung nötig)
-- [ ] **Johannes Breier vertiefen** (körperliche Details, Trigger, Hobbys, Ticks, exaktes Geburtsdatum)
-- [ ] **Kommissarin benennen und als CHAR anlegen** ← nächster Charakter
-- [ ] Sündenbock-Charakter entwickeln und als CHAR anlegen
-- [ ] Redaktions-Vertrauten entwickeln
-- [ ] Trigger-System definieren (Kindheit → Morde)
-- [ ] Rolle der Testdaten-Charaktere (Laura, Marie) im fertigen Roman klären
+### Plot-Entwicklung
+- [x] Stufe 1+2 ✅ | [x] Johannes CHAR v0.4 ✅ | [x] Trigger ✅ | [x] Klinisches Profil ✅ | [x] Konfabulations-Prinzip ✅ | [x] Intermezzi ✅
+- [ ] **Stufe 3 (Makrostruktur)** | [ ] **Tötungsmethode** | [ ] **Kommissarin CHAR** | [ ] Sündenbock CHAR | [ ] Vertrauter | [ ] Johannes vertiefen (Details)
 
 ### System-Entwicklung
-- [x] ~~**Plot-System aufbauen (ADR-0009)**~~
-- [ ] `szenen-pipeline.md` um Plot-Prüfschritte erweitern
-- [ ] Kanon- und Szenen-Templates fertigstellen
-- [ ] Abschnitt „Sexualität & Beziehungsverhalten" ins Charakter-Template
-- [ ] Bestehende Dateien (Laura, Marie, Laura↔Marie) auf neue Nummerierung aktualisieren
-- [ ] Bootstrap.md erstellen
-- [ ] themenmotivationagent definieren (wenn Bedarf klarer)
-- [ ] Ghostwriter-Agent definieren
+- [x] Plotarchitect über neue Dokumentenstruktur informieren ✅ (v1.1)
+- [ ] szenen-pipeline.md erweitern | [ ] Kanon-/Szenen-Templates | [ ] Bootstrap.md | [ ] Ghostwriter-Agent
 
 ---
 
@@ -288,30 +194,25 @@ Siehe `_system/regeln/szenen-pipeline.md` und `_system/regeln/szenen-lebenszyklu
 
 | Datum | Was |
 |-------|-----|
-| 04-03 | Grundidee, Systemkonzept, Verzeichnisse, ADR-0001–0003, Agenten, CHAR/BEZ-Templates + Tests |
-| 04-04 | ORT/GGS-Templates, Charakterentwickler v1.5→v1.7, ADR-0004–0008 |
-| 04-04 | Ort-Test Lauras Zimmer, Grundriss-System (.drawio/.drawio.svg), Bilder-System für Gegenstände |
-| 04-04 | Gegenstand-Test: Lauras Armband (`gegenstaende/lauras-armband.md`) ✅ |
-| 04-04 | `commands.md` erstellt: Befehlsreferenz aller Slash-Befehle (10 Befehle, Charakterentwickler) |
-| 04-04 | **ADR-0009: Plotentwicklung** – 5 Agenten erstellt, 4 Methoden-Referenzen, 2 Templates, 12 Befehle |
-| 04-04 | Charakterentwickler v1.7→v1.8: Agenten-Referenzen auf neue IDs aktualisiert |
-| 04-04 | Vermerk: Google Drive ist NICHT relevant für dieses Projekt – nur Filesystem-Zugriff |
-| 04-04 | **Plot Stufe 1 (Kern) abgeschlossen.** Logline, Prämisse, Erzählstruktur, Leserführung (Waage-System), Kommissarin-Twist, Sündenbock-Konzept. `plot-hauptplot.md` + `PLOT_WORKING.md` erstellt. |
-| 04-04 | **Plot Stufe 2 (Methodik) abgeschlossen.** Save the Cat (modifiziert) als Hauptmodell, Story Circle für Subplots. Inspirationen: Angel Heart, Shutter Island. |
-| 04-04 | **CHAR-johannes-breier v0.1 angelegt.** Erster Entwurf: Körperlich, Beruf, Wertesystem, Selbstbild, Konflikte, Psychologie, Beziehungsachsen, Entwicklungsbogen, stilistische Signatur, Grenzen. Viele Details noch offen (Augenfarbe, Haarfarbe, Stimmlage, Trigger, Hobbys etc.). Vertiefung in nächster Session. |
+| 04-03 | Grundidee, Systemkonzept, ADR-0001–0003, CHAR/BEZ-Templates + Tests |
+| 04-04 | ORT/GGS-Templates, ADR-0004–0009, Plotentwicklung, commands.md, Stufe 1+2 abgeschlossen |
+| 04-05 | CHAR-johannes-breier v0.1→v0.4: Trigger-System, klinisches Profil, Konfabulations-Prinzip |
+| 04-05 | Intermezzi als Erzähltechnik. Drei Erzählebenen. Terminologie korrigiert (Entlastung statt Romantisierung). |
+| 04-05 | **Plot-Dokumente aufgeteilt:** hauptplot (Übersicht), struktur (stabile Entscheidungen), beats (Stufe 3). Delta-Regel als permanente Regel eingeführt. Plotarchitect v1.0→v1.1. |
 
 ---
 
 <!-- 
 ANWEISUNGEN FÜR CLAUDE:
 - Lies diese Datei und commands.md zu Beginn jeder Session.
-- **NIEMALS Google Drive durchsuchen** – alle Projektdateien liegen im Filesystem unter Roman_Split/.
-- Bei architektonischen Entscheidungen: IMMER ADR erstellen.
+- **NIEMALS Google Drive durchsuchen** – nur Filesystem unter Roman_Split/.
+- **NIEMALS Deltas/Platzhalter in Dateien schreiben** – immer vollständigen Text. write_file überschreibt alles.
+- Bei Architektur-Entscheidungen: IMMER ADR erstellen.
 - Bei Widersprüchen: claude.md + ADRs gelten.
 - Namenskonventionen: ADR-0003 / naming-conventions.md v2.1.
-- Agenten-IDs: zusammengeschriebene Kleinbuchstaben ohne Bindestriche (ADR-0009 E1).
 - Neue Slash-Befehle: IMMER in commands.md eintragen.
-- Kreativ/Prüf-Trennung beachten (ADR-0009 E2).
-- Roman-Plot: Lies PLOT_WORKING.md für den aktuellen Stand der Plotentwicklung.
+- Roman-Plot: Lies PLOT_WORKING.md + plot-hauptplot.md für den aktuellen Stand. plot-struktur.md bei Bedarf. plot-beats.md für Makrostruktur.
 - Dramaturgiemodell: Save the Cat (modifiziert) + Story Circle (Subplots).
+- Johannes Breier: CHAR v0.4. Trigger, klinisches Profil, Konfabulations-Prinzip kanonisch.
+- **Konfabulations-Prinzip:** ENTLASTUNG (Schuld entfernen), NICHT Romantisierung. Variiert: alltäglich, angenehm, tragisch oder romantisch.
 -->
