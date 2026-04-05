@@ -24,11 +24,11 @@ tags:
 
 | Dokument | Inhalt | Version |
 |----------|--------|---------|
-| `plot-hauptplot.md` | Kompakte Übersicht: Kern, Methodik, Figuren, Verweise | v1.0 |
-| `plot-struktur.md` | Stabile Entscheidungen: Erzählebenen, Konfabulation, Waage, Intermezzi | v1.0 |
-| `plot-beats.md` | 15 Beats – leeres Raster, wartet auf Stufe 3 | v1.0 |
-| `PLOT_WORKING.md` | Dieses Dokument | v0.4 |
-| `_plot-uebersicht.md` | Index aller Plot-Dokumente | aktuell |
+| [[Roman_Split/plot/plot-hauptplot]] | Kompakte Übersicht: Kern, Methodik, Figuren, Verweise | v1.0 |
+| [[Roman_Split/plot/plot-struktur]] | Stabile Entscheidungen: Erzählebenen, Konfabulation, Waage, Intermezzi | v1.0 |
+| [[Roman_Split/plot/plot-beats]] | 15 Beats – leeres Raster, wartet auf Stufe 3 | v1.0 |
+| [[Roman_Split/plot/PLOT_WORKING]] | Dieses Dokument | v0.4 |
+| [[Roman_Split/plot/_plot-uebersicht]] | Index aller Plot-Dokumente | aktuell |
 
 ### Zusammenfassung
 > Stufe 1 (Kern) und Stufe 2 (Methodik) sind abgeschlossen. Johannes Breier ist als Charakter angelegt (v0.4) mit Trigger-System, klinischem Profil und Konfabulations-Prinzip (Entlastung, nicht Romantisierung). Intermezzi sind als Erzähltechnik definiert. Die Plot-Dokumente wurden aufgeteilt: hauptplot (Übersicht), struktur (stabile Entscheidungen), beats (Arbeitsdokument Stufe 3). Die 15 Beats warten auf konkrete Inhalte.

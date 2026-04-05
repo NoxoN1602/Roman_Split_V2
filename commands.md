@@ -35,7 +35,7 @@
 - **Parameter:** keine
 - **Workflow:**
   1. **Phase 1 – Freies Erzählen:** Der Agent lässt den Autor frei erzählen, stellt danach 3–5 gezielte Nachfragen.
-  2. **Phase 2 – Erster Entwurf:** Mapping auf [[Roman_Split/_system/templates/TEMPLATE-charakter]], Datei unter `karaktere/{vorname-nachname}.md`. Zusammenfassung in: Eingetragen / Abgeleitet / Noch offen.
+  2. **Phase 2 – Erster Entwurf:** Mapping auf [[Roman_Split/_system/templates/TEMPLATE-charakter]], Datei unter `charaktere/{vorname-nachname}.md`. Zusammenfassung in: Eingetragen / Abgeleitet / Noch offen.
   3. **Phase 3 – Vertiefung (optional):** Kann sofort oder später via `/charakter-erweitern` erfolgen.
 - **Output:** Charakter-Datei (Status: ENTWURF)
 
