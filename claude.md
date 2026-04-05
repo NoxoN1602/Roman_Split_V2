@@ -16,6 +16,8 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 
 > ⚠️ **PERMANENTE REGEL – Keine Deltas/Platzhalter:** Niemals Verweise wie „[Abschnitt X unverändert]", „[siehe vorherige Version]" oder ähnliche Platzhalter in Dateien schreiben. `write_file` überschreibt den gesamten Inhalt – Platzhalter führen zu Datenverlust. Immer den vollständigen Text schreiben, auch wenn sich nur ein Abschnitt ändert.
 
+> ⚠️ **PERMANENTE REGEL – bootstrap.md aktuell halten:** Immer wenn eine Datei im Root-Verzeichnis oder in `_system/entscheidungen/`, `_system/agenten/`, `_system/konzept/` oder `_system/regeln/` **neu angelegt oder gelöscht** wird, muss `bootstrap.md` **sofort im selben Arbeitsschritt** angepasst werden – ohne Ausnahme, ohne Rückfrage. Neue Datei → in Pflichtlektüre eintragen. Gelöschte Datei → aus Pflichtlektüre entfernen.
+
 ---
 
 ## 1b. ROMAN-KURZPROFIL
@@ -32,7 +34,7 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 
 | Figur | Rolle | CHAR-Status |
 |-------|-------|-------------|
-| Johannes Breier | Protagonist, dissoziativer Serienmörder, Journalist | ✅ v0.4 |
+| Johannes Breier | Protagonist, dissoziativer Serienmörder, Journalist | ✅ v0.5 |
 | Kommissarin (Name offen) | Ermittlerin, romantisches Interesse, entdeckt Wahrheit vor dem Leser | ⬜ |
 | Sündenbock (Name offen) | Hauptverdächtiger, Ablenkungsfigur | ⬜ |
 | Redaktions-Vertrauter (Name offen) | Johannes' Anker zur Realität | ⬜ |
@@ -46,7 +48,8 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 - **Kommissarin-Twist:** Erkennt Wahrheit vor dem Leser; verrät es nicht
 - **Enthüllung Tochter/Frau:** Sehr spät, zusammen mit finaler Mörder-Auflösung
 - **Klinisches Profil:** K-PTBS + dissoziative Amnesie + Konfabulation + funktionaler Alkoholismus
-- **Trigger:** T1 rote Highheels, T2 Schlüsselklirren, T3 reißender Stoff, T4 weibliches Flüstern; 4-Phasen-Ablauf; Alkohol als Verstärker
+- **Trigger:** T1 rote Highheels, T2 Schlüsselklirren, T3 reißender Stoff, T4 weibliches Flüstern; ein einzelner Trigger genügt; variiert zwischen den Taten; 4-Phasen-Ablauf; Alkohol als Verstärker
+- **Modus Operandi (kanonisch):** Kontrollierter Jäger im dissoziativen Zustand; außen offen/charmant/präsent (Gegenteil des Normalzustands); opportunistisches Werkzeug (Schlag) + manuelle Strangulation; Abfolge konsistent, Werkzeug variiert; Trigger kann vor oder während der Begegnung zünden. Details → [[Roman_Split/charaktere/johannes-breier]] Abschnitt 6b
 
 ---
 
@@ -88,7 +91,7 @@ Kleinbuchstaben, Bindestrich, keine Umlaute. Agenten-IDs zusammengeschrieben ohn
 
 ```
 /Roman_Split/
-├── claude.md / commands.md
+├── claude.md / commands.md / bootstrap.md
 ├── _system/ (agenten/, referenz/, templates/, regeln/, konzept/, entscheidungen/, changelog.md)
 ├── plot/ (hauptplot, struktur, beats, PLOT_WORKING, _plot-uebersicht)
 ├── charaktere/ / beziehungen/
@@ -163,7 +166,18 @@ Siehe [[Roman_Split/_system/regeln/szenen-pipeline]] und [[Roman_Split/_system/r
 
 ## 10. BOOTSTRAP-KONZEPT
 
-Noch nicht erstellt. `bootstrap.md` geplant.
+✅ **Erstellt:** `bootstrap.md` liegt im Root-Verzeichnis (`Roman_Split/bootstrap.md`).
+
+Die Datei definiert die vollständige Pflichtlektüre für jeden Session-Start:
+- Root: `claude.md`, `commands.md`
+- `_system/entscheidungen/`: alle ADRs (0001–0010)
+- `_system/agenten/`: alle Agenten-Prompts
+- `_system/konzept/`: KON-0001
+- `_system/regeln/`: alle Regeldokumente
+
+Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen.
+
+**Wartungsregel:** Bei jeder Neuanlage oder Löschung einer Datei in Root, entscheidungen, agenten, konzept oder regeln muss `bootstrap.md` sofort im gleichen Schritt aktualisiert werden.
 
 ---
 
@@ -182,12 +196,13 @@ Noch nicht erstellt. `bootstrap.md` geplant.
 ## 12. OFFENE PUNKTE
 
 ### Plot-Entwicklung
-- [x] Stufe 1+2 ✅ | [x] Johannes CHAR v0.4 ✅ | [x] Trigger ✅ | [x] Klinisches Profil ✅ | [x] Konfabulations-Prinzip ✅ | [x] Intermezzi ✅
-- [ ] **Stufe 3 (Makrostruktur)** | [ ] **Tötungsmethode** | [ ] **Kommissarin CHAR** | [ ] Sündenbock CHAR | [ ] Vertrauter | [ ] Johannes vertiefen (Details)
+- [x] Stufe 1+2 ✅ | [x] Johannes CHAR v0.5 ✅ | [x] Trigger ✅ | [x] Klinisches Profil ✅ | [x] Konfabulations-Prinzip ✅ | [x] Intermezzi ✅ | [x] Modus Operandi ✅
+- [ ] **Stufe 3 (Makrostruktur)** | [ ] **Kommissarin CHAR** | [ ] Sündenbock CHAR | [ ] Vertrauter | [ ] Johannes vertiefen (Details)
 
 ### System-Entwicklung
 - [x] Plotarchitect über neue Dokumentenstruktur informieren ✅ (v1.1)
-- [ ] szenen-pipeline erweitern | [ ] Kanon-/Szenen-Templates | [ ] Bootstrap.md | [ ] Ghostwriter-Agent
+- [x] Bootstrap.md ✅
+- [ ] szenen-pipeline erweitern | [ ] Kanon-/Szenen-Templates | [ ] Ghostwriter-Agent
 
 ---
 
@@ -201,6 +216,9 @@ Noch nicht erstellt. `bootstrap.md` geplant.
 | 04-05 | Intermezzi als Erzähltechnik. Drei Erzählebenen. Terminologie korrigiert (Entlastung statt Romantisierung). |
 | 04-05 | **Plot-Dokumente aufgeteilt:** hauptplot (Übersicht), struktur (stabile Entscheidungen), beats (Stufe 3). Delta-Regel als permanente Regel eingeführt. Plotarchitect v1.0→v1.1. |
 | 04-05 | **ADR-0010:** Obsidian-Wiki-Links als Standard für alle internen Verlinkungen eingeführt. Alle Systemdokumente aktualisiert. |
+| 04-05 | **bootstrap.md erstellt** im Root-Verzeichnis. Definiert vollständige Pflichtlektüre für Session-Start. Offener Punkt in claude.md geschlossen. |
+| 04-05 | **Wartungsregel bootstrap.md** eingeführt: Bei Neuanlage/Löschung von Dateien in Root, entscheidungen, agenten, konzept, regeln → bootstrap.md sofort aktualisieren. In claude.md und bootstrap.md verankert. |
+| 04-05 | **Modus Operandi definiert:** Kontrollierter Jäger im dissoziativen Zustand. Opportunistisches Werkzeug + manuelle Strangulation. Dissoziativer Zustand als Abschnitt 6b in CHAR-johannes-breier. Johannes v0.4→v0.5. |
 
 ---
 
@@ -209,12 +227,15 @@ ANWEISUNGEN FÜR CLAUDE:
 - Lies diese Datei und commands.md zu Beginn jeder Session.
 - **NIEMALS Google Drive durchsuchen** – nur Filesystem unter Roman_Split/.
 - **NIEMALS Deltas/Platzhalter in Dateien schreiben** – immer vollständigen Text. write_file überschreibt alles.
+- **NIEMALS bootstrap.md veralten lassen:** Neue Datei in Root/entscheidungen/agenten/konzept/regeln → sofort in bootstrap.md eintragen. Gelöschte Datei → sofort entfernen. Kein separater Schritt, immer im selben Arbeitsschritt.
 - Bei Architektur-Entscheidungen: IMMER ADR erstellen.
 - Bei Widersprüchen: claude.md + ADRs gelten.
 - Namenskonventionen: ADR-0003 / [[Roman_Split/_system/regeln/naming-conventions]] v2.1.
 - Neue Slash-Befehle: IMMER in [[Roman_Split/commands]] eintragen.
 - Roman-Plot: Lies [[Roman_Split/plot/PLOT_WORKING]] + [[Roman_Split/plot/plot-hauptplot]] für den aktuellen Stand. [[Roman_Split/plot/plot-struktur]] bei Bedarf. [[Roman_Split/plot/plot-beats]] für Makrostruktur.
 - Dramaturgiemodell: Save the Cat (modifiziert) + Story Circle (Subplots).
-- Johannes Breier: CHAR v0.4. Trigger, klinisches Profil, Konfabulations-Prinzip kanonisch.
+- Johannes Breier: CHAR v0.5. Trigger, klinisches Profil, Konfabulations-Prinzip, Modus Operandi kanonisch.
 - **Konfabulations-Prinzip:** ENTLASTUNG (Schuld entfernen), NICHT Romantisierung. Variiert: alltäglich, angenehm, tragisch oder romantisch.
+- **Modus Operandi:** Kontrollierter Jäger im dissoziativen Zustand. Außenwirkung: offen/charmant/präsent. Opportunistisches Werkzeug + manuelle Strangulation. Trigger variiert zwischen Taten. Details → CHAR Abschnitt 6b.
+- Session-Initialisierung: Siehe bootstrap.md für vollständige Pflichtlektüre-Liste.
 -->

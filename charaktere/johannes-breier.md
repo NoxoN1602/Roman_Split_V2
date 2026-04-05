@@ -1,7 +1,7 @@
 ---
 doc_type: charakter
 doc_id: "CHAR-johannes-breier"
-version: "0.4"
+version: "0.5"
 status: entwurf
 kanon_stufe: objektiv
 erstellt: 2026-04-04
@@ -326,13 +326,15 @@ Die Mutter flüsterte dem Kind während des Missbrauchs Dinge zu – liebevolle 
 
 #### Trigger-Interaktion und Verstärker
 
-**Einzelner Trigger:** Kann eine Episode auslösen, muss aber nicht. Erzeugt Unruhe und Anspannung.
+**Einzelner Trigger:** Genügt, um eine Episode auszulösen – muss aber nicht. Erzeugt Unruhe und Anspannung. Ein einzelner Trigger pro Episode ist der Normalfall; welcher es ist, variiert.
 
-**Kombination zweier Trigger:** Deutlich erhöhte Wahrscheinlichkeit. Beispiel: Frau in roten Highheels, die flüstert (T1 + T4).
+**Kombination zweier Trigger:** Deutlich erhöhte Wahrscheinlichkeit und Intensität.
 
 **Drei oder mehr Trigger:** Maximale Intensität.
 
 **Verstärker:** Alkohol (senkt Hemmschwelle), Erschöpfung/Schlafmangel, emotionaler Stress.
+
+**Zeitpunkt des Trigger-Zündens:** Der Trigger kann *vor* der eigentlichen Begegnung mit dem Opfer feuern – Johannes betritt einen Ort dann bereits dissoziiert und sucht sein Opfer dort. Er kann aber auch *während* einer laufenden Interaktion zünden, wenn mitten im Gespräch ein Trigger-Stimulus auftritt. Beide Varianten sind kanonisch.
 
 #### Ablauf einer dissoziativen Episode (4 Phasen)
 
@@ -363,7 +365,7 @@ Die Mutter flüsterte dem Kind während des Missbrauchs Dinge zu – liebevolle 
 - Johannes war tatsächlich am Tatort → kein Alibi, aber eine konfabulierte „Erinnerung" an den Abend
 - Er räumt nicht auf, versteckt nichts → Spuren (DNA, Fasern, Fingerabdrücke) bleiben
 - Er kennt möglicherweise Details, die er nicht kennen sollte → Indizien auf der Waage
-- Er hat keine Waffe → Tötungsmethode muss ohne Werkzeug funktionieren (noch zu definieren)
+- Tötungsmethode: kein festes Werkzeug → opportunistisch, was gerade da ist (siehe Abschnitt 6b)
 
 #### Steigerung über den Roman hinweg
 
@@ -372,6 +374,54 @@ Im Laufe des Romans werden die Episoden häufiger und die Konfabulation brüchig
 - Zum ersten Mal blitzen Bilder durch, die nicht passen – Blut an einer Hand, ein Schrei statt eines Lachens
 - Zeitlücken werden länger und schwerer zu erklären
 - Physische Spuren (Kratzer, Blut unter den Nägeln) lassen sich nicht mit der Erinnerung vereinbaren
+
+---
+
+## 6b. PROFIL: DISSOZIATIVER ZUSTAND – Modus Operandi (Ghostwriter-Referenz)
+
+> ⚠️ Dieser Abschnitt ist kanonisch. Er beschreibt, wie Johannes im dissoziativen Zustand wirkt, handelt und tötet. Er ist primär eine Regieanweisung für die subjektiven Szenen und für die Ermittlungsperspektive.
+
+### Außenwirkung im dissoziativen Zustand
+
+Der dissoziierte Johannes ist das Gegenteil des normalen Johannes. Was im Alltag als Schutzwall funktioniert – Sarkasmus, Distanz, Ablehnung, Arroganz – ist weg, weil das Ich, das diesen Wall aufbaut, gerade nicht anwesend ist. Was bleibt, ist der Rohstoff: Intelligenz, Präsenz, Intensität.
+
+| Merkmal | Normalzustand | Dissoziativer Zustand |
+|---------|--------------|----------------------|
+| Blickkontakt | ausweichend, durchbohrend wenn absichtlich | direkt, zugewandt, warmherzig |
+| Sprache | abgehackt, sarkastisch, präzise-verletzend | ruhiger, offener, ohne inneren Kommentar |
+| Sozialverhalten | stößt ab, hält Distanz | zugewandt, verständnisvoll, angenehm |
+| Wirkung auf andere | Menschen weichen aus | Menschen öffnen sich |
+| Humor | schwarz, nie warmherzig | leicht, intelligent, einladend |
+| Innerer Monolog | zynisch-kommentierend | gedämpft oder absent |
+
+**Kerncharakteristik:** Er ist der Mensch, dem man sich anvertrauen möchte. Nicht übertrieben charmant – das würde auffallen. Sondern einfach präsent, offen, intelligent. Jemand, der wirklich zuhört. Das ist für eine Frau, die einen fremden Mann gerade kennengelernt hat, kein Warnsignal.
+
+**Wichtig für den Ghostwriter:** Die veränderte Außenwirkung wird im Text nicht explizit thematisiert. Der Leser erfährt nicht aktiv, dass Johannes anders wirkt. Er bemerkt nur, dass die Szene eine seltsame Glätte hat – kein beißender innerer Kommentar, keine zynische Bewertung, keine Abwehr. Das ist das subtile Warnsignal für den sehr aufmerksamen Leser.
+
+### Inneres Ziel (handlungsleitend, nicht bewusst)
+
+Der dissoziierte Johannes ist ein Jäger. Er sucht aktiv ein Opfer. Das ist kein Affekt, kein unkontrollierter Ausbruch – es ist kontrolliertes, zielgerichtetes Verhalten im dissoziativen Zustand. Er sucht Nähe, bewertet Gelegenheiten, wartet auf den richtigen Moment. Die Intelligenz ist intakt – sie steht nur im Dienst eines anderen Ziels.
+
+### Modus Operandi (kanonisch)
+
+**Trigger-Zeitpunkt:** Variiert. Der Trigger kann vor der Begegnung feuern (Johannes betritt den Ort bereits dissoziiert, sucht dort sein Opfer) oder mitten in einer laufenden Interaktion zünden (Gespräch läuft bereits, dann das Klirren von Schlüsseln auf dem Tresen). Beide Varianten sind möglich. Kein festes Muster – das erschwert das Täterprofil.
+
+**Kontaktaufnahme:** Im dissoziativen Zustand nimmt Johannes Kontakt auf, oder er vertieft einen bereits laufenden Kontakt. Er wirkt angenehm, nicht bedrohlich. Das Opfer geht freiwillig mit – in Johannes' Konfabulation: eine Einladung, ein Spaziergang, etwas Unauffälliges.
+
+**Verlagerung aus dem öffentlichen Raum:** Er bringt das Opfer aus dem öffentlichen Raum heraus – auf den Weg zum Auto, in eine Seitenstraße, irgendwo, wo Zeugenmangel herrscht. In seiner konfabulierten Erinnerung: Sie sind zusammen rausgegangen, es war selbstverständlich.
+
+**Tötungsablauf:**
+1. Opportunistisches Werkzeug: was gerade vorhanden ist – ein Ast, eine Flasche, ein Stein. Das Werkzeug variiert von Tat zu Tat. Kein rituelles Objekt, keine Vorbereitung.
+2. Schlag zur Bewusstlosigkeit – kurz, zielgerichtet.
+3. Manuelle Strangulation als Abschluss.
+
+**Forensische Signatur:** Das Werkzeug variiert → kein konsistentes Tatwerkzeug → kein klares Profil. Aber: Die Abfolge Schlag + Strangulation ist bei allen Taten identisch. Das ist der Faden, den die Kommissarin irgendwann erkennt. Dazu: DNA (Hautpartikel unter den Nägeln des Opfers bei Gegenwehr), Fasern seines Sakkos, keine Aufräumspuren – er weiß nicht, was er getan hat.
+
+**Kein Ritual, kein Fetisch:** Die Taten sind keine Inszenierungen. Er hinterlässt keine Botschaft, keine Symbolik. Der Körper wird so zurückgelassen, wie die Situation ihn hinterlässt. Das macht ihn schwerer fassbar – und erklärt, warum der Sündenbock als alternatives Täterprofil plausibel wirkt.
+
+### Kommissarin-Beobachtung
+
+An einem Punkt des Romans beobachtet die Kommissarin Johannes aus der Ferne im dissoziativen Zustand – ohne zu wissen, was sie sieht. Sie nimmt wahr, dass er anders auftritt als der Johannes, den sie kennt: offen, zugewandt, angenehm. Das irritiert sie. Sie kann es nicht einordnen. Diese Szene ist ein subtiler Hinweis – früh genug, um übersehen zu werden, spät genug, um im Nachhinein als Schlüsselmoment lesbar zu sein. Genaue Platzierung → Stufe 3 (Makrostruktur).
 
 ---
 
@@ -480,7 +530,7 @@ Zerstörung. Johannes' tragischer Bogen ist keine Transformation zum Besseren, s
 ### Ausschlüsse
 
 - Keine Selbstmitleidsmonologe (er hasst Selbstmitleid, auch bei sich – obwohl er sich als Opfer fühlt, transportiert er das arrogant, nicht weinerlich)
-- Im Alltag: nüchterne, analytische Sprache. In den dissoziativen Szenen: Die Sprache wechselt je nach Art der Konfabulation – kann alltäglich, romantisch oder beiläufig sein. Der Stilbruch zwischen Alltags-Johannes und Konfabulations-Johannes ist ein Werkzeug für den aufmerksamen Leser.
+- Im Alltag: nüchterne, analytische Sprache. In den dissoziativen Szenen: Die Sprache wechselt je nach Art der Konfabulation – kann alltäglich, romantisch oder beiläufig sein. Der innere Kommentar fehlt oder ist gedämpft. Der Stilbruch zwischen Alltags-Johannes und Konfabulations-Johannes ist ein Werkzeug für den aufmerksamen Leser.
 - Keine Sentimentalität
 - Keine offenen Gefühlsbekenntnisse
 - Humor ist immer schwarz, nie warmherzig
@@ -535,9 +585,9 @@ Physischer und psychischer Missbrauch durch beide Eltern (Details der Rollenvert
 - Entlastete Erinnerungen vs. brutale Realität: Die Kluft zwischen dem, was Johannes erlebt/erinnert, und dem, was tatsächlich geschieht. Die Variation (alltäglich, angenehm, tragisch, manchmal romantisch) macht das Muster unsichtbar.
 - Trigger-Motive im Alltag: Rote Schuhe, Schlüsselklirren, reißender Stoff, Flüstern
 - Brille: Sieht scharf, aber nur, was er ertragen kann (abgeleitet)
-- Das zerschlissene Sakko: Hülle eines früheren Lebens (abgeleitet)
+- Das zerschlissene Sakko: Hülle eines früheren Lebens; Fasern als ungewollte forensische Spur (abgeleitet)
 - Blaue Augen: Kälte, Aggression, Eis/Winter-Leitmotiv (abgeleitet)
-- Verschmelzung von Zärtlichkeit und Gewalt: Das Motiv aus der Kindheit, das den Konfabulationsmechanismus erklärt
+- Verschmelzung von Zärtlichkeit und Gewalt: Das Motiv aus der Kindheit, das den Konfabulationsmechanismus erklärt und sich im MO widerspiegelt
 
 **Gegenstände:**
 - noch offen
@@ -580,19 +630,20 @@ Physischer und psychischer Missbrauch durch beide Eltern (Details der Rollenvert
 - Geburtsdatum, Gesichtsdetails, Stimmlage
 - Name und Details der Tochter, der Frau, der Eltern
 - Stadt und Art der Redaktion
-- Tötungsmethode
-- Wie Johannes seine Taten entdeckt
+- Wie Johannes seine Taten entdeckt (narrativer Mechanismus)
 - Verbindender Gegenstand
 - Narben aus der Kindheit
+- Genaue Platzierung der Kommissarin-Beobachtungsszene (dissoziativer Zustand)
 
 **Was ist festgesetzt?**
 - Stammdaten, Beruf, Körperliches (1,82 m, 74 kg, hager, Brille, Dreitagebart, stumpfgraues Haar, blaue Augen, blass)
 - Auftreten: aggressiv, arrogant, überheblich, sarkastisch, funktionaler Trinker
 - Klinisches Profil: K-PTBS + dissoziative Amnesie + Konfabulation + funktionaler Alkoholismus
-- **Trigger (4 kanonische):** T1 Rote Highheels, T2 Schlüsselklirren, T3 Reißender Stoff, T4 Weibliches Flüstern
+- **Trigger (4 kanonische):** T1 Rote Highheels, T2 Schlüsselklirren, T3 Reißender Stoff, T4 Weibliches Flüstern; ein einzelner Trigger genügt; Varianz zwischen den Taten
 - **Trigger-Mechanismus:** 4-Phasen-Modell (Trigger → Dissoziation → Tat/entlastende Wahrnehmung → Konfabulation/Rückkehr)
 - **Konfabulations-Mechanismus:** Entlastung (Entfernung der Schuld), nicht zwingend Romantisierung. Variiert: alltäglich, angenehm, tragisch oder romantisch.
 - **Spezifische Verfälschungen:** Tochter (versuchte Rettung statt Ertränken), Frau (Suizid statt Mord), aktuelle Morde (harmlose Begegnungen statt Tötung).
+- **Modus Operandi (kanonisch):** Kontrollierter Jäger im dissoziativen Zustand; Außenwirkung offen/charmant/präsent (Gegenteil des Normalzustands); opportunistisches Werkzeug (Schlag) + manuelle Strangulation; Trigger kann vor oder während der Begegnung zünden; Tötungsablauf variabel im Werkzeug, konsistent in der Abfolge.
 - Vorgeschichte: Kindheitsmissbrauch, Tochter vor ca. 3 Jahren, Frau vor ca. 2 Jahren
 
 ---
