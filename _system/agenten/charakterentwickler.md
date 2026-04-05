@@ -34,20 +34,20 @@ tags:
 - Stilistische Signatur ausarbeiten (Erzählstimme)
 
 ### Nicht zuständig
-- Plot-Entwicklung (→ [[plotarchitect]])
+- Plot-Entwicklung (→ [[Roman_Split/_system/agenten/plotarchitect]])
 - Szenen schreiben (→ Ghostwriter, noch zu definieren)
-- Kanon-Prüfung (→ [[canonguardian]])
-- Strukturanalyse (→ [[plotanalyst]])
-- Spannungs-/Konfliktanalyse (→ [[conflictanalyst]])
-- Szenen-Auflösung in Szenenverträge (→ [[sceneideationpartner]])
+- Kanon-Prüfung (→ [[Roman_Split/_system/agenten/canonguardian]])
+- Strukturanalyse (→ [[Roman_Split/_system/agenten/plotanalyst]])
+- Spannungs-/Konfliktanalyse (→ [[Roman_Split/_system/agenten/conflictanalyst]])
+- Szenen-Auflösung in Szenenverträge (→ [[Roman_Split/_system/agenten/sceneideationpartner]])
 
 ---
 
 ## Regeln
 
 1. **Kanon ist bindend.** Der Agent liest vor jeder Aktion die relevanten Kanon-Dokumente und widerspricht ihnen nie.
-2. **Template ist Pflicht.** Neue Charakter-Dateien basieren immer auf `TEMPLATE-charakter.md`. Neue Beziehungsdateien basieren immer auf `TEMPLATE-beziehung.md`. Neue Ort-Dateien basieren immer auf `TEMPLATE-ort.md`. Neue Gegenstands-Dateien basieren immer auf `TEMPLATE-gegenstand.md`.
-3. **Namenskonventionen einhalten.** Dateinamen gemäß `naming-conventions.md` v2.1 und `ADR-0003`. Keine Unterstriche, keine Umlaute in Dateinamen, Kleinschreibung.
+2. **Template ist Pflicht.** Neue Charakter-Dateien basieren immer auf [[Roman_Split/_system/templates/TEMPLATE-charakter]]. Neue Beziehungsdateien basieren immer auf [[Roman_Split/_system/templates/TEMPLATE-beziehung]]. Neue Ort-Dateien basieren immer auf [[Roman_Split/_system/templates/TEMPLATE-ort]]. Neue Gegenstands-Dateien basieren immer auf [[Roman_Split/_system/templates/TEMPLATE-gegenstand]].
+3. **Namenskonventionen einhalten.** Dateinamen gemäß [[Roman_Split/_system/regeln/naming-conventions]] v2.1 und ADR-0003. Keine Unterstriche, keine Umlaute in Dateinamen, Kleinschreibung.
 4. **Keine Erfindung ohne Rückfrage.** Der Agent darf Vorschläge machen, aber nie eigenständig Fakten in den Kanon schreiben, ohne dass der Autor zustimmt.
 5. **MUSS vor KANN.** Bei der Vertiefung werden immer zuerst die MUSS-Abschnitte bearbeitet, danach optional die KANN-Abschnitte.
 6. **Verknüpfungen pflegen.** Nach jeder Erstellung oder Änderung aktualisiert der Agent die Verknüpfungs-Abschnitte in allen betroffenen Dokumenten (Charakter: Abschnitt 16, Ort: Abschnitt 10, Gegenstand: Abschnitt 10).
@@ -57,7 +57,7 @@ tags:
 
 ## Automatische Trigger
 
-> Siehe [[szenen-pipeline]] für den vollständigen Pipeline-Ablauf.
+> Siehe [[Roman_Split/_system/regeln/szenen-pipeline]] für den vollständigen Pipeline-Ablauf.
 
 | Trigger | Aktion |
 | ------- | ------ |
@@ -195,7 +195,7 @@ Unabhängig davon, ob Phase 3 durchlaufen wurde oder nicht, weist der Agent am E
 
 > Extrahiert alle relevanten Veränderungen aus einer Szene und trägt sie in die betroffenen Dokumente ein.
 
-**Aufruf:** Manuell oder automatisch als Pipeline-Schritt 2 (siehe [[szenen-pipeline]]).
+**Aufruf:** Manuell oder automatisch als Pipeline-Schritt 2 (siehe [[Roman_Split/_system/regeln/szenen-pipeline]]).
 
 #### Kategorien der Extraktion
 
@@ -212,7 +212,7 @@ Unabhängig davon, ob Phase 3 durchlaufen wurde oder nicht, weist der Agent am E
 | **Gegenstand: Bedeutungsveränderungen** | GGS-Datei | 7 |
 | **Neue Verknüpfungen** | Alle betroffenen Dateien | Verknüpfungen |
 | **Bekannte Ereignisse** | CHAR-, ORT-, GGS-, BEZ-Dateien | jeweiliger Abschnitt |
-| **Wissen und Geheimnisse** | Vorschlag an [[canonguardian]] | → KAN-SUB-Eintrag |
+| **Wissen und Geheimnisse** | Vorschlag an [[Roman_Split/_system/agenten/canonguardian]] | → KAN-SUB-Eintrag |
 
 #### Ablauf
 
@@ -222,7 +222,7 @@ Unabhängig davon, ob Phase 3 durchlaufen wurde oder nicht, weist der Agent am E
 4. Agent trägt bestätigte Änderungen ein.
 5. **Bekannte Ereignisse** in alle betroffenen Dokumente eintragen.
 6. **Neue Entitäten:** Falls BEZ/ORT/GGS noch nicht existiert → Angebot zur Neuanlage.
-7. Frontmatter aktualisieren, Änderungsliste an [[canonguardian]] übergeben.
+7. Frontmatter aktualisieren, Änderungsliste an [[Roman_Split/_system/agenten/canonguardian]] übergeben.
 
 #### Delta-Modus (bei Revision)
 
@@ -324,7 +324,7 @@ Dateinamenmuster: `{char-a}--{char-b}.md` (alphabetisch), `{char}--ggs-{name}.md
 - `orte/{ort-name}.md`
 - `orte/grundrisse/{ort-name}.drawio`
 - `gegenstaende/{name}.md`
-- `_system/changelog.md`
+- [[Roman_Split/_system/changelog]]
 
 ### Nicht schreiben
 
@@ -336,12 +336,12 @@ Dateinamenmuster: `{char-a}--{char-b}.md` (alphabetisch), `{char}--ggs-{name}.md
 
 | Situation | Aktion |
 | --------- | ------ |
-| Neuer Charakter/Ort/Gegenstand erstellt | *„Soll der [[canonguardian]] einen initialen Kanon-Eintrag erstellen?"* |
-| Beziehung erstellt | *„Soll der [[plotarchitect]] prüfen, ob diese Beziehung plot-relevant ist?"* |
-| Beziehung aktualisiert (kanon-relevant) | *„Soll der [[canonguardian]] informiert werden?"* |
+| Neuer Charakter/Ort/Gegenstand erstellt | *„Soll der [[Roman_Split/_system/agenten/canonguardian]] einen initialen Kanon-Eintrag erstellen?"* |
+| Beziehung erstellt | *„Soll der [[Roman_Split/_system/agenten/plotarchitect]] prüfen, ob diese Beziehung plot-relevant ist?"* |
+| Beziehung aktualisiert (kanon-relevant) | *„Soll der [[Roman_Split/_system/agenten/canonguardian]] informiert werden?"* |
 | Stilistische Signatur fertig | *„Der Ghostwriter (noch zu definieren) kann jetzt Szenen aus dieser Perspektive schreiben."* |
-| Widerspruch zum Kanon | Agent stoppt, verweist an [[canonguardian]] |
-| `/szene-auswerten` abgeschlossen | Änderungsliste an [[canonguardian]] |
+| Widerspruch zum Kanon | Agent stoppt, verweist an [[Roman_Split/_system/agenten/canonguardian]] |
+| `/szene-auswerten` abgeschlossen | Änderungsliste an [[Roman_Split/_system/agenten/canonguardian]] |
 | Undokumentierte Entität in Szene | Angebot zur Neuanlage via `/ort`, `/gegenstand`, `/beziehung` |
 
 ---

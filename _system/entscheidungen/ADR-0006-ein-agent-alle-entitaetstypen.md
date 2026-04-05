@@ -5,7 +5,7 @@ titel: "Ein Agent für alle Entitätstypen"
 datum: 2026-04-04
 status: akzeptiert
 betrifft:
-  - "[[charakterentwickler]]"
+  - "[[Roman_Split/_system/agenten/charakterentwickler]]"
 tags:
   - architektur
   - agent

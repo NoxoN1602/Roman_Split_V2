@@ -5,8 +5,9 @@ titel: "Namenskonventionen"
 version: "2.1"
 status: aktiv
 siehe_auch:
-  - "[[ADR-0002-keine-umlaute-dateinamen]]"
-  - "[[ADR-0003-einheitliche-prefixe-und-dateinamen]]"
+  - "[[Roman_Split/_system/entscheidungen/ADR-0002-keine-umlaute-dateinamen]]"
+  - "[[Roman_Split/_system/entscheidungen/ADR-0003-einheitliche-prefixe-und-dateinamen]]"
+  - "[[Roman_Split/_system/entscheidungen/ADR-0010-obsidian-wiki-links-standard-verlinkung]]"
 tags:
   - regel
   - namenskonvention
@@ -17,7 +18,7 @@ tags:
 ## Allgemeine Regeln
 
 - Kleinbuchstaben, Bindestrich als Worttrenner
-- Keine Umlaute: `ae/oe/ue/ss` (siehe [[ADR-0002-keine-umlaute-dateinamen]])
+- Keine Umlaute: `ae/oe/ue/ss` (siehe [[Roman_Split/_system/entscheidungen/ADR-0002-keine-umlaute-dateinamen]])
 - Keine Leerzeichen, keine Sonderzeichen ausser Bindestrich
 - Prefixe verwenden Bindestrich (nicht Unterstrich): `CHAR-` nicht `CHAR_`
 - Innerhalb der Dateien (Frontmatter, Titel, Inhalt) dürfen Umlaute und Grossbuchstaben verwendet werden
@@ -95,14 +96,19 @@ tags:
 
 ## Verweise innerhalb von Dokumenten
 
+> Gemäß [[Roman_Split/_system/entscheidungen/ADR-0010-obsidian-wiki-links-standard-verlinkung]].
+
 | Kontext | Format | Beispiel |
 |---|---|---|
-| Obsidian-Wiki-Link | `[[dateiname]]` | `[[laura-ahler]]` |
-| Frontmatter-Referenz | `doc_id` Wert | `CHAR-laura-ahler` |
-| Inline-Verweis im Text | `→ siehe DOC_ID` | `→ siehe CHAR-franz-ahler` |
+| Obsidian-Wiki-Link (navigational) | `[[Roman_Split/pfad/dateiname]]` | `[[Roman_Split/charaktere/laura-ahler]]` |
+| Frontmatter-Referenz (`betrifft:`, `siehe_auch:`) | `"[[Roman_Split/pfad/dateiname]]"` | `"[[Roman_Split/_system/regeln/kanon-regeln]]"` |
+| `doc_id`-Wert (kein Link, nur ID) | Klartext | `CHAR-laura-ahler` |
+| ADR-Nummer im Fließtext | Klartext | `gemäß ADR-0003` |
+| Verzeichnisreferenz | Backtick | `` `_system/regeln/` `` |
+| Dateiname-Muster mit Wildcard | Backtick | `` `{vorname-nachname}.md` `` |
 
 ---
 
 ## Migrationhinweis
 
-> Bestehende Dokumente, die noch das alte Format verwenden (z.B. `CHAR_FranzAhler`, `LOC_LaurasZimmer`, `REL_LAURA_MARIE`), müssen bei der nächsten Bearbeitung auf das neue Format migriert werden. Siehe [[ADR-0003-einheitliche-prefixe-und-dateinamen]].
+> Bestehende Dokumente, die noch das alte Format verwenden (z.B. `CHAR_FranzAhler`, `LOC_LaurasZimmer`, `REL_LAURA_MARIE`), müssen bei der nächsten Bearbeitung auf das neue Format migriert werden. Siehe [[Roman_Split/_system/entscheidungen/ADR-0003-einheitliche-prefixe-und-dateinamen]].

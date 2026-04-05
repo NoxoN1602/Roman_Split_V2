@@ -18,12 +18,12 @@ tags:
 
 | Dokument | Typ | Inhalt | Wann lesen |
 |----------|-----|--------|-----------|
-| **[[plot-hauptplot]]** | Übersicht | Kern (Logline, Prämisse, Tonalität), Methodik, Figuren, Motive, Subplots | Immer zuerst |
-| **[[plot-struktur]]** | Stabil | Erzählebenen, Konfabulations-Prinzip, Waage, Kommissarin-Twist, Intermezzi | Bei strukturellen Fragen |
-| **[[plot-beats]]** | Arbeitsdokument | 15 Beats mit konkreten Inhalten (Stufe 3) | Bei Makrostruktur-Arbeit |
-| **[[PLOT_WORKING]]** | Arbeitszustand | Aktuelle Stufe, offene Fragen, nächste Schritte, Session-Protokoll | Immer zuerst (mit hauptplot) |
-| `plot-subplots.md` | Arbeitsdokument | Subplots mit Story Circles, Sequenzen | Wird in Stufe 4 angelegt |
-| `plot-szenen.md` | Arbeitsdokument | Szenen-Outline | Wird in Stufe 5 angelegt |
+| **[[Roman_Split/plot/plot-hauptplot]]** | Übersicht | Kern (Logline, Prämisse, Tonalität), Methodik, Figuren, Motive, Subplots | Immer zuerst |
+| **[[Roman_Split/plot/plot-struktur]]** | Stabil | Erzählebenen, Konfabulations-Prinzip, Waage, Kommissarin-Twist, Intermezzi | Bei strukturellen Fragen |
+| **[[Roman_Split/plot/plot-beats]]** | Arbeitsdokument | 15 Beats mit konkreten Inhalten (Stufe 3) | Bei Makrostruktur-Arbeit |
+| **[[Roman_Split/plot/PLOT_WORKING]]** | Arbeitszustand | Aktuelle Stufe, offene Fragen, nächste Schritte, Session-Protokoll | Immer zuerst (mit hauptplot) |
+| [[Roman_Split/plot/plot-subplots]] | Arbeitsdokument | Subplots mit Story Circles, Sequenzen | Wird in Stufe 4 angelegt |
+| [[Roman_Split/plot/plot-szenen]] | Arbeitsdokument | Szenen-Outline | Wird in Stufe 5 angelegt |
 
 ---
 
@@ -39,10 +39,10 @@ tags:
 
 | Typ | Dokument | Relevanz |
 |-----|----------|----------|
-| Charakter | [[johannes-breier]] (v0.4) | Protagonist, Trigger-System, Konfabulations-Prinzip |
-| Referenz | [[REF-save-the-cat]] | Hauptmodell (15 Beats) |
-| Referenz | [[REF-story-circle]] | Ergänzend (Subplots) |
-| Agent | [[plotarchitect]] | Dialogischer Plot-Entwicklungspartner |
-| Agent | [[plotanalyst]] | Strukturanalyse |
+| Charakter | [[Roman_Split/charaktere/johannes-breier]] (v0.4) | Protagonist, Trigger-System, Konfabulations-Prinzip |
+| Referenz | [[Roman_Split/_system/referenz/REF-save-the-cat]] | Hauptmodell (15 Beats) |
+| Referenz | [[Roman_Split/_system/referenz/REF-story-circle]] | Ergänzend (Subplots) |
+| Agent | [[Roman_Split/_system/agenten/plotarchitect]] | Dialogischer Plot-Entwicklungspartner |
+| Agent | [[Roman_Split/_system/agenten/plotanalyst]] | Strukturanalyse |
 
 ---

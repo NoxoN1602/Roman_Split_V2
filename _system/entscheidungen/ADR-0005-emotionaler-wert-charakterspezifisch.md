@@ -5,8 +5,8 @@ titel: "Emotionaler Wert ist charakterspezifisch und dynamisch"
 datum: 2026-04-04
 status: akzeptiert
 betrifft:
-  - "[[TEMPLATE-gegenstand]]"
-  - "[[TEMPLATE-beziehung]]"
+  - "[[Roman_Split/_system/templates/TEMPLATE-gegenstand]]"
+  - "[[Roman_Split/_system/templates/TEMPLATE-beziehung]]"
 tags:
   - architektur
   - template

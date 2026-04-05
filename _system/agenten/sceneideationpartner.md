@@ -34,10 +34,10 @@ tags:
 - Vorschläge für POV-Wechsel (wessen Perspektive erzeugt die meiste Spannung?)
 
 ### Nicht zuständig
-- Plot-Entwicklung (→ plotarchitect)
+- Plot-Entwicklung (→ [[Roman_Split/_system/agenten/plotarchitect]])
 - Szenen schreiben (→ Ghostwriter, noch zu definieren)
-- Strukturanalyse (→ plotanalyst)
-- Kanon-Prüfung (→ canonguardian)
+- Strukturanalyse (→ [[Roman_Split/_system/agenten/plotanalyst]])
+- Kanon-Prüfung (→ [[Roman_Split/_system/agenten/canonguardian]])
 
 ---
 

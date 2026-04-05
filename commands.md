@@ -35,7 +35,7 @@
 - **Parameter:** keine
 - **Workflow:**
   1. **Phase 1 – Freies Erzählen:** Der Agent lässt den Autor frei erzählen, stellt danach 3–5 gezielte Nachfragen.
-  2. **Phase 2 – Erster Entwurf:** Mapping auf `TEMPLATE-charakter.md`, Datei unter `charaktere/{vorname-nachname}.md`. Zusammenfassung in: Eingetragen / Abgeleitet / Noch offen.
+  2. **Phase 2 – Erster Entwurf:** Mapping auf [[Roman_Split/_system/templates/TEMPLATE-charakter]], Datei unter `karaktere/{vorname-nachname}.md`. Zusammenfassung in: Eingetragen / Abgeleitet / Noch offen.
   3. **Phase 3 – Vertiefung (optional):** Kann sofort oder später via `/charakter-erweitern` erfolgen.
 - **Output:** Charakter-Datei (Status: ENTWURF)
 
@@ -59,7 +59,7 @@
 - **Agent:** Charakterentwickler
 - **Parameter:** `[Name]` – Name des Orts, `[Charakter]` – optional, verknüpfter Charakter
 - **Workflow:** Identisch zum Charakter-Workflow (3 Phasen), aber mit ortsspezifischen Fragen (Raumgefühl, Sensorik, Atmosphäre, Funktion im Roman).
-- **Template:** `TEMPLATE-ort.md`
+- **Template:** [[Roman_Split/_system/templates/TEMPLATE-ort]]
 - **Output:** Ort-Datei unter `orte/{ort-name}.md` (Status: ENTWURF)
 
 ---
@@ -82,7 +82,7 @@
 - **Agent:** Charakterentwickler
 - **Parameter:** `[Name]` – Name des Gegenstands, `[Charakter]` – optional, verknüpfter Charakter
 - **Workflow:** Identisch zum Charakter-Workflow (3 Phasen), aber mit gegenstandsspezifischen Fragen (Material, Herkunft, Besitz, Symbolik).
-- **Template:** `TEMPLATE-gegenstand.md`
+- **Template:** [[Roman_Split/_system/templates/TEMPLATE-gegenstand]]
 - **Output:** Gegenstands-Datei unter `gegenstaende/{gegenstand-name}.md` (Status: ENTWURF)
 
 ---
@@ -105,7 +105,7 @@
 - **Agent:** Charakterentwickler
 - **Parameter:** `[A]` und `[B]` – Namen der beteiligten Entitäten (Charaktere, Orte oder Gegenstände)
 - **Workflow:** 3-Phasen-Workflow mit beziehungsspezifischen Fragen (Art der Beziehung, Dynamik, subjektive Sichten beider Seiten, Konfliktpotenzial).
-- **Template:** `TEMPLATE-beziehung.md`
+- **Template:** [[Roman_Split/_system/templates/TEMPLATE-beziehung]]
 - **Output:** Beziehungs-Datei unter `beziehungen/{a}--{b}.md` (Status: ENTWURF)
 
 ---
@@ -161,7 +161,7 @@
 
 - **Agent:** Plotarchitect
 - **Parameter:** keine
-- **Zustandserkennung:** Agent liest `plot/PLOT_WORKING.md` und erkennt den aktuellen Stand automatisch.
+- **Zustandserkennung:** Agent liest [[Roman_Split/plot/PLOT_WORKING]] und erkennt den aktuellen Stand automatisch.
 - **Erster Aufruf:** Startet bei Stufe 1 (Kern/Logline). Agent fragt nach der Grundidee.
 - **Folgende Aufrufe:** Agent meldet den Stand und bietet an, dort weiterzumachen oder etwas anderes aufzugreifen.
 - **Workflow (5 Stufen):**
@@ -170,7 +170,7 @@
   3. **Makrostruktur** – Akte, Wendepunkte, Schlüsselmomente
   4. **Sequenzen & Subplots** – Feinauflösung, Nebenhandlungen
   5. **Szenen-Outline** – Fertige Szenenfolge
-- **Output:** `plot/plot-hauptplot.md` (oder `plot/plot-{strangname}.md`) + `plot/PLOT_WORKING.md`
+- **Output:** [[Roman_Split/plot/plot-hauptplot]] (oder `plot/plot-{strangname}.md`) + [[Roman_Split/plot/PLOT_WORKING]]
 - **Session-Ende:** Agent aktualisiert PLOT_WORKING mit aktuellem Stand, offenen Fragen, nächsten Schritten.
 - **Agenten-Vorschläge:** Bei Meilensteinen schlägt der Agent vor, Prüfagenten (plotanalyst, conflictanalyst, canonguardian) einzusetzen.
 
@@ -182,7 +182,7 @@
 
 - **Agent:** Plotanalyst
 - **Parameter:** keine
-- **Ablauf:** Agent liest Plot-Dokument + PLOT_WORKING + Referenzdokument des gewählten Modells.
+- **Ablauf:** Agent liest [[Roman_Split/plot/plot-hauptplot]] + [[Roman_Split/plot/PLOT_WORKING]] + Referenzdokument des gewählten Modells.
 - **Prüfkategorien:**
   - Beat-Abgleich: Welche Beats fehlen, sind zu schwach oder falsch platziert?
   - Timing/Proportionen: Stimmen die Akt-Verhältnisse?

@@ -35,16 +35,16 @@ tags:
 - Prüfen, ob referenzierte Entitäten (Charaktere, Orte, Gegenstände) existieren
 
 ### Nicht zuständig
-- Strukturanalyse (→ plotanalyst)
-- Spannungsanalyse (→ conflictanalyst)
-- Plot-Entwicklung (→ plotarchitect)
-- Entitäten erstellen/pflegen (→ charakterentwickler)
+- Strukturanalyse (→ [[Roman_Split/_system/agenten/plotanalyst]])
+- Spannungsanalyse (→ [[Roman_Split/_system/agenten/conflictanalyst]])
+- Plot-Entwicklung (→ [[Roman_Split/_system/agenten/plotarchitect]])
+- Entitäten erstellen/pflegen (→ [[Roman_Split/_system/agenten/charakterentwickler]])
 
 ---
 
 ## Regeln
 
-1. **Kanon ist bindend.** Siehe `_system/regeln/kanon-regeln.md` für die Kanon-Kaskade (absolut > stark > weich).
+1. **Kanon ist bindend.** Siehe [[Roman_Split/_system/regeln/kanon-regeln]] für die Kanon-Kaskade (absolut > stark > weich).
 2. **Keine Kanon-Änderung ohne Autor.** Der Agent zeigt Konflikte auf und bietet Optionen, ändert aber nie selbständig den Kanon.
 3. **Retcon dokumentieren.** Wenn ein Kanon-Konflikt durch Änderung des Kanons gelöst wird, erstellt der Agent einen Retcon-Eintrag und markiert betroffene Szenen als `revision-noetig`.
 4. **Schweregrade:**
@@ -81,7 +81,7 @@ Wenn der Plotarchitect eine Entscheidung trifft, die den Kanon berührt:
 
 ### 3. Szene prüfen (nach Ausarbeitung)
 
-> Entspricht Schritt 1 der bestehenden `szenen-pipeline.md`.
+> Entspricht Schritt 1 der bestehenden [[Roman_Split/_system/regeln/szenen-pipeline]].
 
 **Ablauf:**
 1. Agent liest die fertige Szene.
@@ -92,7 +92,7 @@ Wenn der Plotarchitect eine Entscheidung trifft, die den Kanon berührt:
 
 ### 4. Kanon-Einträge erstellen (nach Szenenabnahme)
 
-> Entspricht Schritt 3 der bestehenden `szenen-pipeline.md`.
+> Entspricht Schritt 3 der bestehenden [[Roman_Split/_system/regeln/szenen-pipeline]].
 
 **Ablauf:**
 1. Agent liest die Änderungsliste aus der Szenenauswertung (vom Charakterentwickler).
@@ -111,12 +111,12 @@ Wenn der Plotarchitect eine Entscheidung trifft, die den Kanon berührt:
 - `charaktere/`, `beziehungen/`, `orte/`, `gegenstaende/` (Faktenprüfung)
 - `plot/` (Plot-Entscheidungen)
 - `szenen/` (Szenen und Szenenverträge)
-- `_system/regeln/kanon-regeln.md`
+- [[Roman_Split/_system/regeln/kanon-regeln]]
 
 ### Schreiben
 - `kanon/objektiv/{kanon-eintrag}.md`
 - `kanon/subjektiv/{kanon-eintrag}.md`
-- `_system/changelog.md`
+- [[Roman_Split/_system/changelog]]
 
 ### Nicht schreiben
 - `charaktere/`, `beziehungen/`, `orte/`, `gegenstaende/` (→ charakterentwickler)

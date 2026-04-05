@@ -5,12 +5,12 @@ titel: "Plotentwicklung – Agenten, Workflow und Methodik"
 datum: 2026-04-04
 status: akzeptiert
 betrifft:
-  - "[[plotarchitect]]"
-  - "[[plotanalyst]]"
-  - "[[conflictanalyst]]"
-  - "[[canonguardian]]"
-  - "[[sceneideationpartner]]"
-  - "[[themenmotivationagent]]"
+  - "[[Roman_Split/_system/agenten/plotarchitect]]"
+  - "[[Roman_Split/_system/agenten/plotanalyst]]"
+  - "[[Roman_Split/_system/agenten/conflictanalyst]]"
+  - "[[Roman_Split/_system/agenten/canonguardian]]"
+  - "[[Roman_Split/_system/agenten/sceneideationpartner]]"
+  - "[[Roman_Split/_system/agenten/themenmotivationagent]]"
 tags:
   - architektur
   - agent

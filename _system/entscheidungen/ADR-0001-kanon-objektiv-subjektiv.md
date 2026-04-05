@@ -5,7 +5,7 @@ titel: "Kanon getrennt in objektiv und subjektiv"
 datum: 2026-04-03
 status: akzeptiert
 betrifft:
-  - "[[KON-0001-systemkonzept]]"
+  - "[[Roman_Split/_system/konzept/KON-0001-systemkonzept]]"
 tags:
   - kanon
   - architektur

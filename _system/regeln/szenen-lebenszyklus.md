@@ -5,8 +5,8 @@ titel: "Szenen-Lebenszyklus"
 version: "1.0"
 status: aktiv
 siehe_auch:
-  - "[[szenen-pipeline]]"
-  - "[[naming-conventions]]"
+  - "[[Roman_Split/_system/regeln/szenen-pipeline]]"
+  - "[[Roman_Split/_system/regeln/naming-conventions]]"
 tags:
   - regel
   - szene

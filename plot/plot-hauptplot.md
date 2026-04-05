@@ -14,7 +14,7 @@ tags:
 
 # Hauptplot – Johannes Breier
 
-> **Dieses Dokument ist die kompakte Übersicht.** Strukturelle Details → [[plot-struktur]]. Beats → [[plot-beats]]. Arbeitszustand → [[PLOT_WORKING]].
+> **Dieses Dokument ist die kompakte Übersicht.** Strukturelle Details → [[Roman_Split/plot/plot-struktur]]. Beats → [[Roman_Split/plot/plot-beats]]. Arbeitszustand → [[Roman_Split/plot/PLOT_WORKING]].
 
 ---
 
@@ -41,7 +41,7 @@ tags:
 ## Methodik
 
 **Hauptmodell:** Save the Cat (modifiziert für Anti-Held). **Ergänzend:** Story Circle (Subplots).
-**Referenz:** [[REF-save-the-cat]], [[REF-story-circle]]
+**Referenz:** [[Roman_Split/_system/referenz/REF-save-the-cat]], [[Roman_Split/_system/referenz/REF-story-circle]]
 
 ### Bewusste Modifikationen
 
@@ -61,7 +61,7 @@ tags:
 
 | Figur | Rolle | Charakter-Dokument | Status |
 |-------|-------|-------------------|--------|
-| Johannes Breier | Protagonist, dissoziativer Serienmörder, Journalist | [[johannes-breier]] | ✅ v0.4 |
+| Johannes Breier | Protagonist, dissoziativer Serienmörder, Journalist | [[Roman_Split/charaktere/johannes-breier]] | ✅ v0.4 |
 | Kommissarin (Name offen) | Ermittlerin, romantisches Interesse, entdeckt Wahrheit vor dem Leser | – | ⬜ |
 | Sündenbock (Name offen) | Hauptverdächtiger, Ablenkungsfigur | – | ⬜ |
 | Redaktions-Vertrauter (Name offen) | Johannes' Anker zur Realität | – | ⬜ |
@@ -101,9 +101,9 @@ tags:
 
 | Dokument | Inhalt | Wann lesen |
 |----------|--------|-----------|
-| **[[plot-hauptplot]]** | Diese Übersicht: Kern, Methodik, Figuren, Motive | Immer zuerst |
-| **[[plot-struktur]]** | Stabile Entscheidungen: Erzählebenen, Konfabulation, Waage, Kommissarin-Twist, Intermezzi | Bei strukturellen Fragen |
-| **[[plot-beats]]** | 15 Beats mit konkreten Inhalten | Bei Makrostruktur-Arbeit (Stufe 3) |
-| **[[PLOT_WORKING]]** | Arbeitszustand, Session-Protokoll, nächste Schritte | Immer zuerst (zusammen mit diesem Dokument) |
-| `plot-subplots.md` | Subplots mit Story Circles | Wird in Stufe 4 angelegt |
-| `plot-szenen.md` | Szenen-Outline | Wird in Stufe 5 angelegt |
+| **[[Roman_Split/plot/plot-hauptplot]]** | Diese Übersicht: Kern, Methodik, Figuren, Motive | Immer zuerst |
+| **[[Roman_Split/plot/plot-struktur]]** | Stabile Entscheidungen: Erzählebenen, Konfabulation, Waage, Kommissarin-Twist, Intermezzi | Bei strukturellen Fragen |
+| **[[Roman_Split/plot/plot-beats]]** | 15 Beats mit konkreten Inhalten | Bei Makrostruktur-Arbeit (Stufe 3) |
+| **[[Roman_Split/plot/PLOT_WORKING]]** | Arbeitszustand, Session-Protokoll, nächste Schritte | Immer zuerst (zusammen mit diesem Dokument) |
+| [[Roman_Split/plot/plot-subplots]] | Subplots mit Story Circles | Wird in Stufe 4 angelegt |
+| [[Roman_Split/plot/plot-szenen]] | Szenen-Outline | Wird in Stufe 5 angelegt |

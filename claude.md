@@ -41,7 +41,7 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 
 - **Drei Erzählebenen:** Ebene 1 = objektive Gegenwart; Ebene 2 = Johannes' subjektiv entlastete Wahrnehmung (aktuelle Morde + Erinnerungen Tochter/Frau); Ebene 3 = Intermezzi (anonyme Kindheitsfragmente)
 - **Konfabulations-Prinzip:** ENTLASTUNG, nicht Romantisierung. Variiert: alltäglich, angenehm, tragisch, romantisch. Spezifisch: Tochter (Rettung statt Ertränken), Frau (Suizid statt Mord), aktuelle Morde (harmlose Begegnungen)
-- **Intermezzi:** Erzähltechnik (kein Strang). Anonyme Kindheitsfragmente zwischen Kapiteln. Details → `plot-struktur.md`
+- **Intermezzi:** Erzähltechnik (kein Strang). Anonyme Kindheitsfragmente zwischen Kapiteln. Details → [[Roman_Split/plot/plot-struktur]]
 - **Leserführung:** Hinweis-/Gegenhinweis-Waage + Sündenbock
 - **Kommissarin-Twist:** Erkennt Wahrheit vor dem Leser; verrät es nicht
 - **Enthüllung Tochter/Frau:** Sehr spät, zusammen mit finaler Mörder-Auflösung
@@ -63,6 +63,7 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 | 0007 | Einheitliche Ereignisse | KANN-Abschnitt „Bekannte Ereignisse" in allen Templates |
 | 0008 | Visuelle Referenzen | Grundrisse (.drawio/.drawio.svg) für Orte, Bilder (.png) für Gegenstände |
 | 0009 | Plotentwicklung | Agenten, 5-Stufen-Workflow, Methodik, Kreativ/Prüf-Trennung |
+| 0010 | Obsidian-Wiki-Links | Alle Projektdokument-Verweise als `[[Roman_Split/pfad/datei]]` |
 
 ---
 
@@ -124,25 +125,25 @@ Modelle: **Save the Cat** (Hauptmodell) + **Story Circle** (Subplots). Slash-Bef
 
 | Dokument | Inhalt | Wann lesen |
 |----------|--------|-----------|
-| `plot-hauptplot.md` | Kompakte Übersicht: Kern, Methodik, Figuren, Verweise | Immer zuerst |
-| `plot-struktur.md` | Stabile Entscheidungen: Erzählebenen, Konfabulation, Waage, Intermezzi | Bei strukturellen Fragen |
-| `plot-beats.md` | 15 Beats mit Inhalten (Stufe 3 Arbeitsdokument) | Bei Makrostruktur-Arbeit |
-| `PLOT_WORKING.md` | Arbeitszustand, Session-Protokoll, nächste Schritte | Immer zuerst |
-| `_plot-uebersicht.md` | Index aller Plot-Dokumente | Bei Orientierung |
-| `plot-subplots.md` | Subplots mit Story Circles | Erst in Stufe 4 |
-| `plot-szenen.md` | Szenen-Outline | Erst in Stufe 5 |
+| [[Roman_Split/plot/plot-hauptplot]] | Kompakte Übersicht: Kern, Methodik, Figuren, Verweise | Immer zuerst |
+| [[Roman_Split/plot/plot-struktur]] | Stabile Entscheidungen: Erzählebenen, Konfabulation, Waage, Intermezzi | Bei strukturellen Fragen |
+| [[Roman_Split/plot/plot-beats]] | 15 Beats mit Inhalten (Stufe 3 Arbeitsdokument) | Bei Makrostruktur-Arbeit |
+| [[Roman_Split/plot/PLOT_WORKING]] | Arbeitszustand, Session-Protokoll, nächste Schritte | Immer zuerst |
+| [[Roman_Split/plot/_plot-uebersicht]] | Index aller Plot-Dokumente | Bei Orientierung |
+| [[Roman_Split/plot/plot-subplots]] | Subplots mit Story Circles | Erst in Stufe 4 |
+| [[Roman_Split/plot/plot-szenen]] | Szenen-Outline | Erst in Stufe 5 |
 
 ---
 
 ## 7. KANON-SYSTEM
 
-Siehe `_system/regeln/kanon-regeln.md`. Johannes' subjektiver Kanon weicht fundamental vom objektiven ab (entlastete Erinnerungen vs. tatsächliche Morde). Dramatic-Irony-Modellierung ist Kernmechanik.
+Siehe [[Roman_Split/_system/regeln/kanon-regeln]]. Johannes' subjektiver Kanon weicht fundamental vom objektiven ab (entlastete Erinnerungen vs. tatsächliche Morde). Dramatic-Irony-Modellierung ist Kernmechanik.
 
 ---
 
 ## 8. SZENEN-WORKFLOW
 
-Siehe `_system/regeln/szenen-pipeline.md` und `szenen-lebenszyklus.md`. Wird um Plot-Prüfschritte erweitert (ADR-0009 E10).
+Siehe [[Roman_Split/_system/regeln/szenen-pipeline]] und [[Roman_Split/_system/regeln/szenen-lebenszyklus]]. Wird um Plot-Prüfschritte erweitert (ADR-0009 E10).
 
 ---
 
@@ -170,11 +171,11 @@ Noch nicht erstellt. `bootstrap.md` geplant.
 
 | Test | Status | Datei(en) |
 |------|--------|-----------|
-| Laura Ahler | ✅ | `charaktere/laura-ahler.md` |
-| Marie Kanter | ✅ | `charaktere/marie-kanter.md` |
-| Laura↔Marie | ✅ | `beziehungen/laura-ahler--marie-kanter.md` |
-| Lauras Zimmer | ✅ | `orte/lauras-zimmer.md` |
-| Lauras Armband | ✅ | `gegenstaende/lauras-armband.md` |
+| Laura Ahler | ✅ | [[Roman_Split/charaktere/laura-ahler]] |
+| Marie Kanter | ✅ | [[Roman_Split/charaktere/marie-kanter]] |
+| Laura↔Marie | ✅ | [[Roman_Split/beziehungen/laura-ahler--marie-kanter]] |
+| Lauras Zimmer | ✅ | [[Roman_Split/orte/lauras-zimmer]] |
+| Lauras Armband | ✅ | [[Roman_Split/gegenstaende/lauras-armband]] |
 
 ---
 
@@ -186,7 +187,7 @@ Noch nicht erstellt. `bootstrap.md` geplant.
 
 ### System-Entwicklung
 - [x] Plotarchitect über neue Dokumentenstruktur informieren ✅ (v1.1)
-- [ ] szenen-pipeline.md erweitern | [ ] Kanon-/Szenen-Templates | [ ] Bootstrap.md | [ ] Ghostwriter-Agent
+- [ ] szenen-pipeline erweitern | [ ] Kanon-/Szenen-Templates | [ ] Bootstrap.md | [ ] Ghostwriter-Agent
 
 ---
 
@@ -199,6 +200,7 @@ Noch nicht erstellt. `bootstrap.md` geplant.
 | 04-05 | CHAR-johannes-breier v0.1→v0.4: Trigger-System, klinisches Profil, Konfabulations-Prinzip |
 | 04-05 | Intermezzi als Erzähltechnik. Drei Erzählebenen. Terminologie korrigiert (Entlastung statt Romantisierung). |
 | 04-05 | **Plot-Dokumente aufgeteilt:** hauptplot (Übersicht), struktur (stabile Entscheidungen), beats (Stufe 3). Delta-Regel als permanente Regel eingeführt. Plotarchitect v1.0→v1.1. |
+| 04-05 | **ADR-0010:** Obsidian-Wiki-Links als Standard für alle internen Verlinkungen eingeführt. Alle Systemdokumente aktualisiert. |
 
 ---
 
@@ -209,9 +211,9 @@ ANWEISUNGEN FÜR CLAUDE:
 - **NIEMALS Deltas/Platzhalter in Dateien schreiben** – immer vollständigen Text. write_file überschreibt alles.
 - Bei Architektur-Entscheidungen: IMMER ADR erstellen.
 - Bei Widersprüchen: claude.md + ADRs gelten.
-- Namenskonventionen: ADR-0003 / naming-conventions.md v2.1.
-- Neue Slash-Befehle: IMMER in commands.md eintragen.
-- Roman-Plot: Lies PLOT_WORKING.md + plot-hauptplot.md für den aktuellen Stand. plot-struktur.md bei Bedarf. plot-beats.md für Makrostruktur.
+- Namenskonventionen: ADR-0003 / [[Roman_Split/_system/regeln/naming-conventions]] v2.1.
+- Neue Slash-Befehle: IMMER in [[Roman_Split/commands]] eintragen.
+- Roman-Plot: Lies [[Roman_Split/plot/PLOT_WORKING]] + [[Roman_Split/plot/plot-hauptplot]] für den aktuellen Stand. [[Roman_Split/plot/plot-struktur]] bei Bedarf. [[Roman_Split/plot/plot-beats]] für Makrostruktur.
 - Dramaturgiemodell: Save the Cat (modifiziert) + Story Circle (Subplots).
 - Johannes Breier: CHAR v0.4. Trigger, klinisches Profil, Konfabulations-Prinzip kanonisch.
 - **Konfabulations-Prinzip:** ENTLASTUNG (Schuld entfernen), NICHT Romantisierung. Variiert: alltäglich, angenehm, tragisch oder romantisch.

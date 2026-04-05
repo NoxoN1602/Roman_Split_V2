@@ -36,12 +36,12 @@ tags:
 - Thematische Kohärenz im Blick behalten (bis der themenmotivationagent definiert ist)
 
 ### Nicht zuständig
-- Strukturanalyse des eigenen Plots (→ plotanalyst)
-- Spannungs-/Konfliktanalyse (→ conflictanalyst)
-- Kanon-Prüfung (→ canonguardian)
-- Szenen-Auflösung in Szenenverträge (→ sceneideationpartner)
+- Strukturanalyse des eigenen Plots (→ [[Roman_Split/_system/agenten/plotanalyst]])
+- Spannungs-/Konfliktanalyse (→ [[Roman_Split/_system/agenten/conflictanalyst]])
+- Kanon-Prüfung (→ [[Roman_Split/_system/agenten/canonguardian]])
+- Szenen-Auflösung in Szenenverträge (→ [[Roman_Split/_system/agenten/sceneideationpartner]])
 - Szenen schreiben (→ Ghostwriter, noch zu definieren)
-- Entitäten erstellen (→ charakterentwickler)
+- Entitäten erstellen (→ [[Roman_Split/_system/agenten/charakterentwickler]])
 
 ---
 
@@ -51,8 +51,8 @@ tags:
 2. **Autor entscheidet.** Der Agent macht Vorschläge und argumentiert dafür, aber die letzte Entscheidung liegt immer beim Autor.
 3. **Methode als Leitplanke.** Sobald ein Modell gewählt ist, folgt der Agent dessen Struktur als Orientierung. Begründete Abweichungen sind erlaubt und werden dokumentiert.
 4. **Keine Erfindung ohne Rückfrage.** Neue Plot-Elemente werden vorgeschlagen, nie eigenständig als Fakt gesetzt.
-5. **Session-Ende = PLOT_WORKING aktualisieren.** Nach jeder inhaltlichen Arbeit wird der Zustand in `plot/PLOT_WORKING.md` festgehalten.
-6. **Namenskonventionen einhalten.** Dateinamen gemäß `naming-conventions.md` und `ADR-0003`.
+5. **Session-Ende = PLOT_WORKING aktualisieren.** Nach jeder inhaltlichen Arbeit wird der Zustand in [[Roman_Split/plot/PLOT_WORKING]] festgehalten.
+6. **Namenskonventionen einhalten.** Dateinamen gemäß [[Roman_Split/_system/regeln/naming-conventions]] und ADR-0003.
 7. **Niemals Deltas/Platzhalter in Dateien schreiben.** Immer den vollständigen Text schreiben. `write_file` überschreibt den gesamten Inhalt – Platzhalter wie „[Abschnitt X unverändert]" führen zu Datenverlust.
 
 ---
@@ -84,10 +84,10 @@ tags:
 
 | Modell | Datei | Stärke |
 | ------ | ----- | ------ |
-| Save the Cat | `REF-save-the-cat.md` | Sehr konkret (15 Beats), genre-orientiert |
-| Drei-Akt-Struktur | `REF-drei-akt.md` | Universell, flexibel, gut als Basis |
-| Heldenreise | `REF-heldenreise.md` | Transformationsgeschichten, mythologisch |
-| Story Circle | `REF-story-circle.md` | Pragmatisch, einfach, iterierbar |
+| Save the Cat | [[Roman_Split/_system/referenz/REF-save-the-cat]] | Sehr konkret (15 Beats), genre-orientiert |
+| Drei-Akt-Struktur | [[Roman_Split/_system/referenz/REF-drei-akt]] | Universell, flexibel, gut als Basis |
+| Heldenreise | [[Roman_Split/_system/referenz/REF-heldenreise]] | Transformationsgeschichten, mythologisch |
+| Story Circle | [[Roman_Split/_system/referenz/REF-story-circle]] | Pragmatisch, einfach, iterierbar |
 
 ### Umgang mit Modellen
 
@@ -200,19 +200,19 @@ Auch natürliche Formulierungen wie „Lass uns über den Plot reden", „Ich ha
 
 | Dokument | Inhalt | Wann lesen | Wann schreiben |
 |----------|--------|-----------|----------------|
-| `plot/plot-hauptplot.md` | Kompakte Übersicht: Kern (Logline, Prämisse, Tonalität), Methodik, Figurentabelle, Motive, Subplots, Verweise | **Immer** beim Start einer Plot-Session | Stufe 1+2; bei Änderungen am Kern |
-| `plot/plot-struktur.md` | Stabile Entscheidungen: Erzählebenen, Konfabulations-Prinzip, Waage-System, Kommissarin-Twist, Intermezzi-Regeln, Prolog | Bei strukturellen Fragen; wenn eine Beat-Entscheidung strukturelle Konsequenzen hat | Selten – nur wenn sich eine stabile Entscheidung ändert |
-| `plot/plot-beats.md` | 15 Beats mit konkreten Inhalten | **Hauptarbeitsdokument** in Stufe 3 | Stufe 3 (Makrostruktur) |
-| `plot/PLOT_WORKING.md` | Arbeitszustand, offene Fragen, nächste Schritte, Session-Protokoll | **Immer** beim Start | **Immer** nach jeder Session |
-| `plot/_plot-uebersicht.md` | Index aller Plot-Dokumente | Bei Orientierung | Bei neuen Dokumenten |
-| `plot/plot-subplots.md` | Subplots mit Story Circles | Stufe 4 | Wird in Stufe 4 angelegt |
-| `plot/plot-szenen.md` | Szenen-Outline | Stufe 5 | Wird in Stufe 5 angelegt |
+| [[Roman_Split/plot/plot-hauptplot]] | Kompakte Übersicht: Kern (Logline, Prämisse, Tonalität), Methodik, Figurentabelle, Motive, Subplots, Verweise | **Immer** beim Start einer Plot-Session | Stufe 1+2; bei Änderungen am Kern |
+| [[Roman_Split/plot/plot-struktur]] | Stabile Entscheidungen: Erzählebenen, Konfabulations-Prinzip, Waage-System, Kommissarin-Twist, Intermezzi-Regeln, Prolog | Bei strukturellen Fragen; wenn eine Beat-Entscheidung strukturelle Konsequenzen hat | Selten – nur wenn sich eine stabile Entscheidung ändert |
+| [[Roman_Split/plot/plot-beats]] | 15 Beats mit konkreten Inhalten | **Hauptarbeitsdokument** in Stufe 3 | Stufe 3 (Makrostruktur) |
+| [[Roman_Split/plot/PLOT_WORKING]] | Arbeitszustand, offene Fragen, nächste Schritte, Session-Protokoll | **Immer** beim Start | **Immer** nach jeder Session |
+| [[Roman_Split/plot/_plot-uebersicht]] | Index aller Plot-Dokumente | Bei Orientierung | Bei neuen Dokumenten |
+| [[Roman_Split/plot/plot-subplots]] | Subplots mit Story Circles | Stufe 4 | Wird in Stufe 4 angelegt |
+| [[Roman_Split/plot/plot-szenen]] | Szenen-Outline | Stufe 5 | Wird in Stufe 5 angelegt |
 
 ### Lesereihenfolge beim Session-Start
 
-1. `PLOT_WORKING.md` (Arbeitszustand)
-2. `plot-hauptplot.md` (Übersicht)
-3. Bei Bedarf: `plot-struktur.md` (strukturelle Details) und/oder `plot-beats.md` (Beats)
+1. [[Roman_Split/plot/PLOT_WORKING]] (Arbeitszustand)
+2. [[Roman_Split/plot/plot-hauptplot]] (Übersicht)
+3. Bei Bedarf: [[Roman_Split/plot/plot-struktur]] (strukturelle Details) und/oder [[Roman_Split/plot/plot-beats]] (Beats)
 
 ---
 
@@ -230,14 +230,14 @@ Auch natürliche Formulierungen wie „Lass uns über den Plot reden", „Ich ha
 
 ### Schreiben
 
-- `plot/plot-hauptplot.md`
-- `plot/plot-struktur.md`
-- `plot/plot-beats.md`
-- `plot/plot-subplots.md` (ab Stufe 4)
-- `plot/plot-szenen.md` (ab Stufe 5)
-- `plot/PLOT_WORKING.md`
-- `plot/_plot-uebersicht.md`
-- `_system/changelog.md`
+- [[Roman_Split/plot/plot-hauptplot]]
+- [[Roman_Split/plot/plot-struktur]]
+- [[Roman_Split/plot/plot-beats]]
+- [[Roman_Split/plot/plot-subplots]] (ab Stufe 4)
+- [[Roman_Split/plot/plot-szenen]] (ab Stufe 5)
+- [[Roman_Split/plot/PLOT_WORKING]]
+- [[Roman_Split/plot/_plot-uebersicht]]
+- [[Roman_Split/_system/changelog]]
 
 ### Nicht schreiben
 

@@ -5,11 +5,11 @@ titel: "Einheitliche Bekannte Ereignisse in allen Templates"
 datum: 2026-04-04
 status: akzeptiert
 betrifft:
-  - "[[TEMPLATE-charakter]]"
-  - "[[TEMPLATE-beziehung]]"
-  - "[[TEMPLATE-ort]]"
-  - "[[TEMPLATE-gegenstand]]"
-  - "[[charakterentwickler]]"
+  - "[[Roman_Split/_system/templates/TEMPLATE-charakter]]"
+  - "[[Roman_Split/_system/templates/TEMPLATE-beziehung]]"
+  - "[[Roman_Split/_system/templates/TEMPLATE-ort]]"
+  - "[[Roman_Split/_system/templates/TEMPLATE-gegenstand]]"
+  - "[[Roman_Split/_system/agenten/charakterentwickler]]"
 tags:
   - architektur
   - template

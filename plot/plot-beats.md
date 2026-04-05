@@ -15,7 +15,7 @@ tags:
 # Beat-Struktur (Save the Cat – modifiziert)
 
 > **Zweck:** Die 15 Beats mit konkreten Inhalten. Hauptarbeitsdokument für Stufe 3 (Makrostruktur).
-> **Übersicht:** → [[plot-hauptplot]]. **Strukturelle Regeln:** → [[plot-struktur]]. **Arbeitszustand:** → [[PLOT_WORKING]].
+> **Übersicht:** → [[Roman_Split/plot/plot-hauptplot]]. **Strukturelle Regeln:** → [[Roman_Split/plot/plot-struktur]]. **Arbeitszustand:** → [[Roman_Split/plot/PLOT_WORKING]].
 
 ---
 

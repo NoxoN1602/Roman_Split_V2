@@ -13,7 +13,7 @@ tags:
 # Strukturelle Entscheidungen
 
 > **Zweck:** Stabile Entscheidungen, die sich selten ändern. Erzählebenen, Konfabulations-Prinzip, Leserführung, Kommissarin-Twist, Intermezzi-Regeln.
-> **Übersicht:** → [[plot-hauptplot]]. **Beats:** → [[plot-beats]]. **Arbeitszustand:** → [[PLOT_WORKING]].
+> **Übersicht:** → [[Roman_Split/plot/plot-hauptplot]]. **Beats:** → [[Roman_Split/plot/plot-beats]]. **Arbeitszustand:** → [[Roman_Split/plot/PLOT_WORKING]].
 
 ---
 

@@ -5,9 +5,9 @@ titel: "Szenen-Pipeline nach Abnahme"
 version: "1.0"
 status: aktiv
 siehe_auch:
-  - "[[szenen-lebenszyklus]]"
-  - "[[charakterentwickler]]"
-  - "[[kanon-regeln]]"
+  - "[[Roman_Split/_system/regeln/szenen-lebenszyklus]]"
+  - "[[Roman_Split/_system/agenten/charakterentwickler]]"
+  - "[[Roman_Split/_system/regeln/kanon-regeln]]"
 tags:
   - regel
   - pipeline

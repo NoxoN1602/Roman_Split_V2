@@ -14,7 +14,7 @@ tags:
 
 1. **Kanon ist bindend.** Kein Agent darf kanonische Fakten ignorieren oder widerspruechlich schreiben.
 2. **Zeitgestempelt.** Jeder Kanon-Eintrag hat `gueltig_ab` und optional `gueltig_bis` in Romanzeit.
-3. **Objektiv vs. Subjektiv.** Siehe [[ADR-0001-kanon-objektiv-subjektiv]].
+3. **Objektiv vs. Subjektiv.** Siehe [[Roman_Split/_system/entscheidungen/ADR-0001-kanon-objektiv-subjektiv]].
 4. **Ueberschreibung.** Ein neuerer Kanon-Eintrag mit gleichem Thema ueberschreibt aeltere Eintraege im ueberlappenden Gueltigkeitszeitraum.
 5. **Automatische Erzeugung.** Nach jeder finalisierten Szene erzeugt der Kanon-Waechter neue Kanon-Eintraege.
 6. **Konflikterkennung.** Vor dem Schreiben einer Szene prueft der Kontinuitaets-Pruefer alle relevanten Kanon-Eintraege.

@@ -5,10 +5,10 @@ titel: "Visuelle Referenzen für Orte und Gegenstände"
 datum: 2026-04-04
 status: akzeptiert
 betrifft:
-  - "[[TEMPLATE-ort]]"
-  - "[[TEMPLATE-gegenstand]]"
-  - "[[charakterentwickler]]"
-  - "[[naming-conventions]]"
+  - "[[Roman_Split/_system/templates/TEMPLATE-ort]]"
+  - "[[Roman_Split/_system/templates/TEMPLATE-gegenstand]]"
+  - "[[Roman_Split/_system/agenten/charakterentwickler]]"
+  - "[[Roman_Split/_system/regeln/naming-conventions]]"
 tags:
   - architektur
   - ort

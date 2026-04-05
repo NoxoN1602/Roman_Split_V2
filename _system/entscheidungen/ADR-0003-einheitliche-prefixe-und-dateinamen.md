@@ -5,9 +5,9 @@ titel: "Einheitliche Prefixe und Dateinamen für alle Dokumenttypen"
 datum: 2026-04-03
 status: akzeptiert
 betrifft:
-  - "[[KON-0001-systemkonzept]]"
-  - "[[naming-conventions]]"
-  - "[[ADR-0002-keine-umlaute-dateinamen]]"
+  - "[[Roman_Split/_system/konzept/KON-0001-systemkonzept]]"
+  - "[[Roman_Split/_system/regeln/naming-conventions]]"
+  - "[[Roman_Split/_system/entscheidungen/ADR-0002-keine-umlaute-dateinamen]]"
 tags:
   - namenskonvention
   - architektur
