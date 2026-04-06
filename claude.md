@@ -1,7 +1,7 @@
 # Claude Memory – Roman-Autorensystem
 
 > **Zweck:** Permanentes Gedächtnis für alle Entscheidungen rund um das Roman-Autorensystem.
-> **Letzte Aktualisierung:** 2026-04-05
+> **Letzte Aktualisierung:** 2026-04-06
 > **Hinweis:** Diese Datei wird fortlaufend ergänzt. Claude liest sie zu Beginn jeder Session.
 
 ---
@@ -35,9 +35,10 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 | Figur | Rolle | CHAR-Status |
 |-------|-------|-------------|
 | Johannes Breier | Protagonist, dissoziativer Serienmörder, Journalist | ✅ v0.5 |
-| Kommissarin (Name offen) | Ermittlerin, romantisches Interesse, entdeckt Wahrheit vor dem Leser | ⬜ |
+| Valerie de Beer (Val) | KHK Mordkommission, Ermittlerin, romantisches Interesse, entdeckt Wahrheit vor dem Leser | ✅ v0.2 |
 | Sündenbock (Name offen) | Hauptverdächtiger, Ablenkungsfigur | ⬜ |
 | Redaktions-Vertrauter (Name offen) | Johannes' Anker zur Realität | ⬜ |
+| Ermittlungspartner Val (Name offen) | Vals engster Kollege in der Mordkommission | ⬜ |
 
 ### Strukturelle Grundentscheidungen
 
@@ -45,11 +46,28 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 - **Konfabulations-Prinzip:** ENTLASTUNG, nicht Romantisierung. Variiert: alltäglich, angenehm, tragisch, romantisch. Spezifisch: Tochter (Rettung statt Ertränken), Frau (Suizid statt Mord), aktuelle Morde (harmlose Begegnungen)
 - **Intermezzi:** Erzähltechnik (kein Strang). Anonyme Kindheitsfragmente zwischen Kapiteln. Details → [[Roman_Split/plot/plot-struktur]]
 - **Leserführung:** Hinweis-/Gegenhinweis-Waage + Sündenbock
-- **Kommissarin-Twist:** Erkennt Wahrheit vor dem Leser; verrät es nicht
+- **Kommissarin-Twist:** Valerie de Beer erkennt Wahrheit über Johannes vor dem Leser; schweigt. Sieht ihn einmal in einem Zustand, der nicht seinem normalen grüblerisch-introvertierten Wesen entspricht (plötzlich offen, charmant, zugewandt). Akkumuliert Hinweise intern, formuliert sie nicht aus. Enthüllung in finaler Szene.
 - **Enthüllung Tochter/Frau:** Sehr spät, zusammen mit finaler Mörder-Auflösung
 - **Klinisches Profil:** K-PTBS + dissoziative Amnesie + Konfabulation + funktionaler Alkoholismus
 - **Trigger:** T1 rote Highheels, T2 Schlüsselklirren, T3 reißender Stoff, T4 weibliches Flüstern; ein einzelner Trigger genügt; variiert zwischen den Taten; 4-Phasen-Ablauf; Alkohol als Verstärker
 - **Modus Operandi (kanonisch):** Kontrollierter Jäger im dissoziativen Zustand; außen offen/charmant/präsent (Gegenteil des Normalzustands); opportunistisches Werkzeug (Schlag) + manuelle Strangulation; Abfolge konsistent, Werkzeug variiert; Trigger kann vor oder während der Begegnung zünden. Details → [[Roman_Split/charaktere/johannes-breier]] Abschnitt 6b
+
+### Valerie de Beer – Kurzprofil (kanonisiert)
+
+- **Name:** Valerie de Beer | **Spitzname:** Val
+- **Geburtsdatum:** 23. September 1995 | **Alter (Romanzeitpunkt):** ~30
+- **Rang:** Kriminalhauptkommissarin (KHK), Mordkommission, seit ca. 2–3 Jahren
+- **Herkunft:** Urgrosseltern aus Rotterdam, nach Deutschland emigriert
+- **Ausbildung:** Bachelor Polizei, Hochschule für Polizei Villingen-Schwenningen (2013–2016)
+- **Karriere:** PK 2016–2019 → KK 2019–2022 → KOK 2022–2023 → KHK 2023/2024
+- **Transfer-Trigger:** Kombination A+C ✅ – Querfall mit Todesfolge (bewiesen, aber intern nicht berücksichtigt) → aktive Bewerbung + direktes Gespräch mit Mordkommission-Leiter → Stelle erhalten; erzeugte Ressentiments bei Kollegen
+- **Zwillingsschwester:** Mara de Beer, entführt und ermordet ca. 2003 ✅
+- **Erscheinung:** 1,73 m, schlank (Kampfsport), androgyn-funktional gekleidet; mittellanges gewelltes dunkelbraunes Haar, direkter abwartender Blick; Referenzbild vorhanden
+- **Psychologie:** Emotional gepanzert; Arbeit als Identität und Flucht; Angst vor nachhaltiger Nähe; zerbricht Beziehungen lieber selbst als verletzt zu werden
+- **Familiendynamik:** Eltern nach Tod der Schwester innerlich getrennt; Val hielt sie als Kind zusammen; heute sporadischer, distanzierter Kontakt
+- **Beziehungsmuster:** 2–3 kurze intensive Beziehungen zu älteren Männern; Faszination durch: Lesbarkeit durch Schicht, Schaden als Vertrautheit, Paradox der Kontrolle ✅
+- **Hobby:** Kampfsport, vermutlich Kickboxen ⬜ (noch nicht endgültig kanonisiert)
+- **Offen:** Was bricht ihre Rüstung ❓ | Wohnort ❓ | Ermittlungspartner-Name ❓ | Hobbys endgültig ❓
 
 ---
 
@@ -109,7 +127,7 @@ Trennung Kreation / Prüfung (ADR-0009). Kein Orchestrator – Autor steuert.
 
 | Agent-ID | Typ | Rolle | Status |
 |----------|-----|-------|--------|
-| `charakterentwickler` | Kreativ | CHAR, ORT, GGS, BEZ | ✅ v1.9 |
+| `charakterentwickler` | Kreativ | CHAR, ORT, GGS, BEZ | ✅ v2.0 |
 | `plotarchitect` | Kreativ | Dialogischer Plot-Entwicklungspartner | ✅ v1.1 |
 | `sceneideationpartner` | Kreativ | Szenen-Auflösung + Szenenverträge | ✅ v1.0 |
 | `plotanalyst` | Prüfung | Strukturanalyse gegen Modell | ✅ v1.0 |
@@ -155,7 +173,7 @@ Siehe [[Roman_Split/_system/regeln/szenen-pipeline]] und [[Roman_Split/_system/r
 
 | Template | Version | Status |
 |----------|---------|--------|
-| Charakter | v1.1 | ✅ Getestet |
+| Charakter | v1.2 | ✅ Getestet |
 | Beziehung | v1.1 | ✅ Getestet |
 | Ort | v1.3 | ✅ Getestet |
 | Gegenstand | v1.3 | ✅ Getestet |
@@ -191,6 +209,7 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 | Laura↔Marie | ✅ | [[Roman_Split/beziehungen/laura-ahler--marie-kanter]] |
 | Lauras Zimmer | ✅ | [[Roman_Split/orte/lauras-zimmer]] |
 | Lauras Armband | ✅ | [[Roman_Split/gegenstaende/lauras-armband]] |
+| Valerie de Beer | ✅ v0.2 | [[Roman_Split/charaktere/valerie-de-beer]] |
 
 ---
 
@@ -198,7 +217,9 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 
 ### Plot-Entwicklung
 - [x] Stufe 1+2 ✅ | [x] Johannes CHAR v0.5 ✅ | [x] Trigger ✅ | [x] Klinisches Profil ✅ | [x] Konfabulations-Prinzip ✅ | [x] Intermezzi ✅ | [x] Modus Operandi ✅
-- [ ] **Stufe 3 (Makrostruktur)** | [ ] **Kommissarin CHAR** | [ ] Sündenbock CHAR | [ ] Vertrauter | [ ] Johannes vertiefen (Details)
+- [x] **Valerie de Beer CHAR v0.2 ✅** – Transfer-Trigger, Schwester Mara, Kampfsport kanonisiert
+- [ ] **Stufe 3 (Makrostruktur)** | [ ] Sündenbock CHAR | [ ] Vertrauter CHAR | [ ] Johannes vertiefen (Details)
+- [ ] Valerie vertiefen: Was bricht ihre Rüstung ❓ | Wohnort ❓ | Ermittlungspartner ❓ | Hobbys endgültig ❓
 
 ### System-Entwicklung
 - [x] Plotarchitect über neue Dokumentenstruktur informieren ✅ (v1.1)
@@ -222,6 +243,8 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 | 04-05 | **Wartungsregel bootstrap.md** eingeführt. In claude.md und bootstrap.md verankert. |
 | 04-05 | **Modus Operandi definiert:** Kontrollierter Jäger im dissoziativen Zustand. Opportunistisches Werkzeug + manuelle Strangulation. Dissoziativer Zustand als Abschnitt 6b in CHAR-johannes-breier. Johannes v0.4→v0.5. |
 | 04-05 | **ADR-0011:** BEZ-Lebenszyklus definiert. Keine BEZ vor Erstbegegnung. Pflichtschritt in `/szene-auswerten`, halbautomatisch. Charakterentwickler v1.8→v1.9. |
+| 04-06 | **CHAR-valerie-de-beer v0.1 erstellt.** Name, KHK-Rang, Karrierepfad, Psychologie, Beziehungsmuster, Faszination ältere Männer kanonisiert. Referenzbild vorhanden. |
+| 04-06 | **CHAR-valerie-de-beer v0.2.** Transfer-Trigger (Kombination A+C) kanonisiert. Zwillingsschwester: Mara de Beer. Kampfsport als Hobby (Kickboxen noch nicht final). |
 
 ---
 
@@ -241,5 +264,6 @@ ANWEISUNGEN FÜR CLAUDE:
 - **Konfabulations-Prinzip:** ENTLASTUNG (Schuld entfernen), NICHT Romantisierung. Variiert: alltäglich, angenehm, tragisch oder romantisch.
 - **Modus Operandi:** Kontrollierter Jäger im dissoziativen Zustand. Außenwirkung: offen/charmant/präsent. Opportunistisches Werkzeug + manuelle Strangulation. Trigger variiert zwischen Taten. Details → CHAR Abschnitt 6b.
 - **BEZ-Lebenszyklus (ADR-0011):** Keine BEZ vor Erstbegegnung. In /szene-auswerten: Erstbegegnungen erkennen = Pflichtschritt, halbautomatisch (Autor bestätigt).
+- **Valerie de Beer (Val):** CHAR v0.2. KHK. Geb. 23.09.1995. Villingen-Schwenningen. Zwillingsschwester Mara (ermordet ~2003). Transfer: Querfall bewiesen + direktes Gespräch mit Mordkommission-Leiter (Ressentiments bei Kollegen). Psychologie: emotional gepanzert, Arbeit als Identität, Angst vor Nähe. Beziehungsmuster: bricht selbst ab. Faszination ältere Männer: Lesbarkeit durch Schicht + Schaden als Vertrautheit + Paradox der Kontrolle. Kampfsport (Kickboxen noch nicht final). Referenzbild vorhanden.
 - Session-Initialisierung: Siehe bootstrap.md für vollständige Pflichtlektüre-Liste.
 -->
