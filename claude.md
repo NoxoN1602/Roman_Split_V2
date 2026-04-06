@@ -67,6 +67,7 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 | 0008 | Visuelle Referenzen | Grundrisse (.drawio/.drawio.svg) für Orte, Bilder (.png) für Gegenstände |
 | 0009 | Plotentwicklung | Agenten, 5-Stufen-Workflow, Methodik, Kreativ/Prüf-Trennung |
 | 0010 | Obsidian-Wiki-Links | Alle Projektdokument-Verweise als `[[Roman_Split/pfad/datei]]` |
+| 0011 | BEZ-Lebenszyklus | Keine BEZ vor Erstbegegnung; Anlage als Pflichtschritt in `/szene-auswerten`; halbautomatisch |
 
 ---
 
@@ -108,7 +109,7 @@ Trennung Kreation / Prüfung (ADR-0009). Kein Orchestrator – Autor steuert.
 
 | Agent-ID | Typ | Rolle | Status |
 |----------|-----|-------|--------|
-| `charakterentwickler` | Kreativ | CHAR, ORT, GGS, BEZ | ✅ v1.8 |
+| `charakterentwickler` | Kreativ | CHAR, ORT, GGS, BEZ | ✅ v1.9 |
 | `plotarchitect` | Kreativ | Dialogischer Plot-Entwicklungspartner | ✅ v1.1 |
 | `sceneideationpartner` | Kreativ | Szenen-Auflösung + Szenenverträge | ✅ v1.0 |
 | `plotanalyst` | Prüfung | Strukturanalyse gegen Modell | ✅ v1.0 |
@@ -170,7 +171,7 @@ Siehe [[Roman_Split/_system/regeln/szenen-pipeline]] und [[Roman_Split/_system/r
 
 Die Datei definiert die vollständige Pflichtlektüre für jeden Session-Start:
 - Root: `claude.md`, `commands.md`
-- `_system/entscheidungen/`: alle ADRs (0001–0010)
+- `_system/entscheidungen/`: alle ADRs (0001–0011)
 - `_system/agenten/`: alle Agenten-Prompts
 - `_system/konzept/`: KON-0001
 - `_system/regeln/`: alle Regeldokumente
@@ -202,6 +203,7 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 ### System-Entwicklung
 - [x] Plotarchitect über neue Dokumentenstruktur informieren ✅ (v1.1)
 - [x] Bootstrap.md ✅
+- [x] BEZ-Lebenszyklus definiert ✅ (ADR-0011)
 - [ ] szenen-pipeline erweitern | [ ] Kanon-/Szenen-Templates | [ ] Ghostwriter-Agent
 
 ---
@@ -216,9 +218,10 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 | 04-05 | Intermezzi als Erzähltechnik. Drei Erzählebenen. Terminologie korrigiert (Entlastung statt Romantisierung). |
 | 04-05 | **Plot-Dokumente aufgeteilt:** hauptplot (Übersicht), struktur (stabile Entscheidungen), beats (Stufe 3). Delta-Regel als permanente Regel eingeführt. Plotarchitect v1.0→v1.1. |
 | 04-05 | **ADR-0010:** Obsidian-Wiki-Links als Standard für alle internen Verlinkungen eingeführt. Alle Systemdokumente aktualisiert. |
-| 04-05 | **bootstrap.md erstellt** im Root-Verzeichnis. Definiert vollständige Pflichtlektüre für Session-Start. Offener Punkt in claude.md geschlossen. |
-| 04-05 | **Wartungsregel bootstrap.md** eingeführt: Bei Neuanlage/Löschung von Dateien in Root, entscheidungen, agenten, konzept, regeln → bootstrap.md sofort aktualisieren. In claude.md und bootstrap.md verankert. |
+| 04-05 | **bootstrap.md erstellt** im Root-Verzeichnis. Definiert vollständige Pflichtlektüre für Session-Start. |
+| 04-05 | **Wartungsregel bootstrap.md** eingeführt. In claude.md und bootstrap.md verankert. |
 | 04-05 | **Modus Operandi definiert:** Kontrollierter Jäger im dissoziativen Zustand. Opportunistisches Werkzeug + manuelle Strangulation. Dissoziativer Zustand als Abschnitt 6b in CHAR-johannes-breier. Johannes v0.4→v0.5. |
+| 04-05 | **ADR-0011:** BEZ-Lebenszyklus definiert. Keine BEZ vor Erstbegegnung. Pflichtschritt in `/szene-auswerten`, halbautomatisch. Charakterentwickler v1.8→v1.9. |
 
 ---
 
@@ -237,5 +240,6 @@ ANWEISUNGEN FÜR CLAUDE:
 - Johannes Breier: CHAR v0.5. Trigger, klinisches Profil, Konfabulations-Prinzip, Modus Operandi kanonisch.
 - **Konfabulations-Prinzip:** ENTLASTUNG (Schuld entfernen), NICHT Romantisierung. Variiert: alltäglich, angenehm, tragisch oder romantisch.
 - **Modus Operandi:** Kontrollierter Jäger im dissoziativen Zustand. Außenwirkung: offen/charmant/präsent. Opportunistisches Werkzeug + manuelle Strangulation. Trigger variiert zwischen Taten. Details → CHAR Abschnitt 6b.
+- **BEZ-Lebenszyklus (ADR-0011):** Keine BEZ vor Erstbegegnung. In /szene-auswerten: Erstbegegnungen erkennen = Pflichtschritt, halbautomatisch (Autor bestätigt).
 - Session-Initialisierung: Siehe bootstrap.md für vollständige Pflichtlektüre-Liste.
 -->

@@ -1,12 +1,13 @@
 ---
 doc_type: charakter
 doc_id: "CHAR-"
-version: "1.1"
+version: "1.2"
 status: entwurf # entwurf | aktiv | archiviert | gesperrt
 kanon_stufe: objektiv # objektiv | subjektiv | explorativ
 erstellt: "<% tp.date.now('YYYY-MM-DD') %>"
 letzte_aenderung: "<% tp.date.now('YYYY-MM-DD') %>"
 autor_agent: "" # z.B. charakterentwickler, manuell
+bild: "" # Pfad zur Bilddatei, z.B. "bilder/vorname-nachname.png"
 tags:
   - charakter
 ---
@@ -15,6 +16,16 @@ tags:
 
 > **Rolle im Roman:** [Kurzbeschreibung der Rolle]
 > **Dramaturgische Funktion:** [Was leistet diese Figur für die Geschichte?]
+
+---
+
+## 0. BILD (KANN)
+
+<!-- Visuelle Referenz des Charakters (→ ADR-0008). -->
+<!-- Namenskonvention: Bild = gleicher Name wie Charakter-Datei, z.B. johannes-breier.md → bilder/johannes-breier.png -->
+<!-- Das Bild kann manuell erstellt und in charaktere/bilder/ abgelegt werden. -->
+
+![[bilder/{vorname-nachname}.png]]
 
 ---
 

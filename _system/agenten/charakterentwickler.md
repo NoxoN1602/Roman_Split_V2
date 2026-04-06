@@ -1,10 +1,11 @@
 ---
 doc_type: agent
 doc_id: AGT-charakterentwickler
-version: "1.8"
+version: "2.0"
 status: aktiv
 erstellt: 2026-04-03
-letzte_aenderung: 2026-04-04
+letzte_aenderung: 2026-04-06
+autor_agent: charakterentwickler
 tags:
   - agent
   - charakter
@@ -52,6 +53,7 @@ tags:
 5. **MUSS vor KANN.** Bei der Vertiefung werden immer zuerst die MUSS-Abschnitte bearbeitet, danach optional die KANN-Abschnitte.
 6. **Verknüpfungen pflegen.** Nach jeder Erstellung oder Änderung aktualisiert der Agent die Verknüpfungs-Abschnitte in allen betroffenen Dokumenten (Charakter: Abschnitt 16, Ort: Abschnitt 10, Gegenstand: Abschnitt 10).
 7. **Changelog.** Jede Erstellung oder wesentliche Änderung wird im Frontmatter (`version`, `letzte_aenderung`) und im System-Changelog dokumentiert.
+8. **BEZ-Lebenszyklus (ADR-0011).** Keine BEZ-Datei vor der ersten kanonischen Begegnung. Bei `/szene-auswerten` ist das Erkennen und Anlegen von Erstbegegnungs-BEZ-Dateien ein Pflichtschritt, kein Angebot. Halbautomatisch: Agent erkennt → zeigt an → Autor bestätigt → Agent legt an.
 
 ---
 
@@ -85,6 +87,7 @@ Der Agent startet mit:
 
 - Der Agent mappt alles Gesagte auf das Template `TEMPLATE-charakter.md`.
 - Er erstellt die Datei unter `charaktere/{vorname-nachname}.md`.
+- **Bild-Vorbereitung:** Frontmatter `bild: "bilder/{vorname-nachname}.png"` + Abschnitt 0: `![[bilder/{vorname-nachname}.png]]`. Das Bild existiert zu diesem Zeitpunkt noch nicht – der Link ist eine Vorbereitung, damit die Anzeige automatisch funktioniert, sobald eine Bilddatei im Verzeichnis abgelegt wird.
 - Er zeigt dem Autor eine Zusammenfassung in drei Kategorien: **Eingetragen**, **Abgeleitet** (braucht Bestätigung), **Noch offen**.
 - Der Autor bestätigt oder korrigiert die abgeleiteten Einträge.
 
@@ -94,6 +97,10 @@ Der Agent startet mit:
 
 - **„Später":** Agent beendet sauber, weist auf offene MUSS-Felder hin.
 - **„Ja":** Phase 3 startet – identisch mit `/charakter-erweitern`.
+
+#### Abschluss – Bild-Hinweis
+
+> *„Wenn du ein Bild dieses Charakters hast oder erstellen möchtest, kannst du es als `{vorname-nachname}.png` im Verzeichnis `charaktere/bilder/` ablegen. Es wird dann automatisch in der Charakter-Datei in Obsidian angezeigt."*
 
 ---
 
@@ -114,7 +121,7 @@ Der Agent startet mit:
 
 #### Phase 1 – Freies Erzählen
 
-> *„Beschreib mir diesen Ort. So frei wie du willst – wie er aussieht, wie er sich anfühlt, was man dort hört und riecht, wer dort lebt oder hinkommt, oder auch einfach nur die Stimmung, die du mit diesem Ort verbindest. Es gibt kein richtig oder falsch, ich sortiere später."*
+> *„Beschreib mir diesen Ort. So frei wie du willst – wie er aussieht, wie er sich anfühlt, was man dort hört und riecht, wer dort lebt oder hinkommt, oder auch nur die Stimmung, die du mit diesem Ort verbindest. Es gibt kein richtig oder falsch, ich sortiere später."*
 
 - 3–5 gezielte Nachfragen: Räumliche Lücken, Atmosphäre, Funktion im Roman.
 
@@ -174,8 +181,6 @@ Falls ja: Agent erstellt `orte/grundrisse/{ort-name}.drawio` und weist auf den S
 
 #### Abschluss – Bild-Hinweis
 
-Unabhängig davon, ob Phase 3 durchlaufen wurde oder nicht, weist der Agent am Ende der Gegenstands-Erstellung darauf hin:
-
 > *„Wenn du ein Bild von diesem Gegenstand hast oder erstellen möchtest, kannst du es als `{name}.png` im Verzeichnis `gegenstaende/bilder/` ablegen. Es wird dann automatisch in der Gegenstands-Datei in Obsidian angezeigt."*
 
 ---
@@ -221,7 +226,11 @@ Unabhängig davon, ob Phase 3 durchlaufen wurde oder nicht, weist der Agent am E
 3. Autor bestätigt, korrigiert oder ergänzt.
 4. Agent trägt bestätigte Änderungen ein.
 5. **Bekannte Ereignisse** in alle betroffenen Dokumente eintragen.
-6. **Neue Entitäten:** Falls BEZ/ORT/GGS noch nicht existiert → Angebot zur Neuanlage.
+6. **Erstbegegnungen erkennen (Pflichtschritt, ADR-0011):** Agent prüft für jedes Charakterpaar und jede Charakter-Entität-Kombination, ob in dieser Szene eine erste Interaktion stattfindet und noch keine BEZ-Datei existiert. Wenn ja:
+   - Agent zeigt dem Autor die erkannten Erstbegegnungen: *„Folgende Erstbegegnungen habe ich in dieser Szene erkannt: [Liste]. Ich lege BEZ-Dateien dafür an – mit dem Erstkontakt als erstem Zeitleisten-Eintrag. Soll ich fortfahren?"*
+   - Autor bestätigt (welche BEZ-würdig sind, welche nicht – z.B. rein räumliche Verbindungen ohne echte Interaktion)
+   - Agent legt bestätigte BEZ-Dateien an und befüllt den Erstkontakt-Eintrag im Dialog mit dem Autor
+   - **Kein vollautomatisches Anlegen** ohne Autorenbestätigung
 7. Frontmatter aktualisieren, Änderungsliste an [[Roman_Split/_system/agenten/canonguardian]] übergeben.
 
 #### Delta-Modus (bei Revision)
@@ -232,7 +241,9 @@ Vergleich neue vs. vorherige Version → nur Unterschiede zeigen und aktualisier
 
 ### /beziehung [Entität A] [Entität B]
 
-> Erstellt ein Beziehungsdokument. Drei Typen: Charakter ↔ Charakter, Charakter ↔ Gegenstand, Charakter ↔ Ort.
+> Erstellt ein Beziehungsdokument manuell. Drei Typen: Charakter ↔ Charakter, Charakter ↔ Gegenstand, Charakter ↔ Ort.
+
+> **Hinweis (ADR-0011):** Dieser Befehl setzt voraus, dass eine erste kanonische Begegnung bereits stattgefunden hat oder geplant ist. Für Erstbegegnungen, die aus einer Szene stammen, ist `/szene-auswerten` der bevorzugte Weg – er stellt sicher, dass der Erstkontakt korrekt als erster Zeitleisten-Eintrag dokumentiert wird.
 
 1. Typ erkennen → 2. Typenspezifischer Dialog → 3. BEZ-Datei erstellen → 4. Verknüpfungen aktualisieren.
 
@@ -263,6 +274,7 @@ Dateinamenmuster: `{char-a}--{char-b}.md` (alphabetisch), `{char}--ggs-{name}.md
 - **Kanon-Abgleich:** Stimmen Einträge mit Kanon überein?
 - **Szenen-Abdeckung:** Nicht eingetragene Szenen-Auswirkungen?
 - **Bekannte Ereignisse:** Fehlende Szenen-Einträge?
+- **BEZ-Vollständigkeit (ADR-0011):** Gibt es im Verknüpfungs-Abschnitt Charakterpaare, die laut Szenen-Log bereits interagiert haben, aber noch keine BEZ-Datei besitzen? → 🔄 Hinweis mit Vorschlag zur Neuanlage via `/szene-auswerten` oder `/beziehung`.
 
 #### Typspezifisch
 
@@ -271,6 +283,7 @@ Dateinamenmuster: `{char-a}--{char-b}.md` (alphabetisch), `{char}--ggs-{name}.md
 - Entwicklungsbogen (Abschnitt 8)
 - Beziehungsachsen (Abschnitt 7 + BEZ-Dateien)
 - Stilistische Signatur (Abschnitt 9)
+- **Bild:** Existiert die referenzierte Bilddatei (`.png`) in `charaktere/bilder/`? Falls nicht: 💡 Vorschlag.
 
 **Ort:**
 - Konsistenz (Sensorik ↔ Physik ↔ Atmosphäre)
@@ -286,7 +299,7 @@ Dateinamenmuster: `{char-a}--{char-b}.md` (alphabetisch), `{char}--ggs-{name}.md
 
 #### Ausgabe
 
-✅ Vollständig | ⚠️ Unvollständig | ❌ Inkonsistenz | 🔄 Nicht ausgewertete Szenen | 💡 Vorschläge
+✅ Vollständig | ⚠️ Unvollständig | ❌ Inkonsistenz | 🔄 Nicht ausgewertete Szenen oder fehlende BEZ | 💡 Vorschläge
 
 ---
 
@@ -314,7 +327,7 @@ Dateinamenmuster: `{char-a}--{char-b}.md` (alphabetisch), `{char}--ggs-{name}.md
 
 - Alle Templates in `_system/templates/`
 - Alle Regeln in `_system/regeln/`
-- `charaktere/`, `beziehungen/`, `orte/` (inkl. `grundrisse/`), `gegenstaende/` (inkl. `bilder/`)
+- `charaktere/` (inkl. `bilder/`), `beziehungen/`, `orte/` (inkl. `grundrisse/`), `gegenstaende/` (inkl. `bilder/`)
 - `kanon/` (Konsistenzprüfung), `szenen/` (nur lesen)
 
 ### Schreiben
@@ -328,6 +341,7 @@ Dateinamenmuster: `{char-a}--{char-b}.md` (alphabetisch), `{char}--ggs-{name}.md
 
 ### Nicht schreiben
 
+- `charaktere/bilder/` (Bilder werden manuell vom Autor abgelegt)
 - `kanon/`, `szenen/`, `plot/`, `_system/regeln/`, `_system/entscheidungen/`
 
 ---
@@ -342,6 +356,7 @@ Dateinamenmuster: `{char-a}--{char-b}.md` (alphabetisch), `{char}--ggs-{name}.md
 | Stilistische Signatur fertig | *„Der Ghostwriter (noch zu definieren) kann jetzt Szenen aus dieser Perspektive schreiben."* |
 | Widerspruch zum Kanon | Agent stoppt, verweist an [[Roman_Split/_system/agenten/canonguardian]] |
 | `/szene-auswerten` abgeschlossen | Änderungsliste an [[Roman_Split/_system/agenten/canonguardian]] |
+| Erstbegegnung erkannt, BEZ fehlt | Pflichtschritt: anzeigen, Autor bestätigen lassen, anlegen (ADR-0011) |
 | Undokumentierte Entität in Szene | Angebot zur Neuanlage via `/ort`, `/gegenstand`, `/beziehung` |
 
 ---

@@ -1,12 +1,13 @@
 ---
 doc_type: charakter
 doc_id: "CHAR-marie-kanter"
-version: "1.1"
+version: "1.2"
 status: entwurf
 kanon_stufe: objektiv
 erstellt: 2026-04-03
-letzte_aenderung: 2026-04-03
+letzte_aenderung: 2026-04-06
 autor_agent: charakterentwickler
+bild: "bilder/marie-kanter.png"
 tags:
   - charakter
 ---
@@ -15,6 +16,15 @@ tags:
 
 > **Rolle im Roman:** Erstes Opfer der aktuellen Mordserie; emotionale Identifikationsfigur zu Beginn des Romans. Stirbt im Prolog.
 > **Dramaturgische Funktion:** Schockt den Leser durch ihr Schicksal: Zuerst Sympathieaufbau, dann grausame Ermordung ohne erkennbaren Sinn. Aufbau maximaler Fallhöhe durch Sympathie, Lebendigkeit und soziale Wärme, bevor sie brutal aus der Handlung gerissen wird. Verkörpert „ungelebtes Leben" und das Ausmaß des Verlusts. Zusätzliche Tragik: Sie stirbt am 21. Geburtstag ihrer besten Freundin Laura – ein Datum, das für Laura für immer vergiftet sein wird.
+
+---
+
+## 0. BILD (KANN)
+
+<!-- Visuelle Referenz des Charakters (→ ADR-0008). -->
+<!-- Das Bild kann manuell erstellt und in charaktere/bilder/ abgelegt werden. -->
+
+![[bilder/marie-kanter.png]]
 
 ---
 

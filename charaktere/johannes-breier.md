@@ -1,12 +1,13 @@
 ---
 doc_type: charakter
 doc_id: "CHAR-johannes-breier"
-version: "0.5"
+version: "0.6"
 status: entwurf
 kanon_stufe: objektiv
 erstellt: 2026-04-04
-letzte_aenderung: 2026-04-05
+letzte_aenderung: 2026-04-06
 autor_agent: charakterentwickler
+bild: "bilder/johannes-breier.png"
 tags:
   - charakter
   - protagonist
@@ -16,6 +17,15 @@ tags:
 
 > **Rolle im Roman:** Protagonist. Dissoziativer Serienmörder, der nicht weiß, dass er der Mörder ist. Journalist, der seine eigenen Taten recherchiert und sich selbst jagt.
 > **Dramaturgische Funktion:** Unzuverlässiger Erzähler und tragische Hauptfigur. Seine verzerrte Wahrnehmung ist der Motor der Geschichte. Der Leser erlebt die Morde durch Johannes' subjektiv entlastete Erinnerungen – Erinnerungen, aus denen seine Schuld entfernt wurde – und die Ermittlung durch die objektive Perspektive. Beides durch denselben Mann. Die Fallhöhe seiner finalen Erkenntnis ist die zentrale dramaturgische Kraft.
+
+---
+
+## 0. BILD (KANN)
+
+<!-- Visuelle Referenz des Charakters (→ ADR-0008). -->
+<!-- Das Bild kann manuell erstellt und in charaktere/bilder/ abgelegt werden. -->
+
+![[bilder/johannes-breier.png]]
 
 ---
 

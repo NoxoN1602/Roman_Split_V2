@@ -1,12 +1,13 @@
 ---
 doc_type: charakter
 doc_id: "CHAR-laura-ahler"
-version: "1.1"
+version: "1.2"
 status: entwurf
 kanon_stufe: objektiv
 erstellt: 2026-04-03
-letzte_aenderung: 2026-04-03
+letzte_aenderung: 2026-04-06
 autor_agent: charakterentwickler
+bild: "bilder/laura-ahler.png"
 tags:
   - charakter
 ---
@@ -15,6 +16,15 @@ tags:
 
 > **Rolle im Roman:** Führt ihre beste Freundin Marie Kanter in die Handlung ein.
 > **Dramaturgische Funktion:** Einführung und emotionale Verankerung von Marie; perspektivische Erzählfigur, deren kontrolliertes Weltbild durch Maries Verschwinden erschüttert werden könnte.
+
+---
+
+## 0. BILD (KANN)
+
+<!-- Visuelle Referenz des Charakters (→ ADR-0008). -->
+<!-- Das Bild kann manuell erstellt und in charaktere/bilder/ abgelegt werden. -->
+
+![[bilder/laura-ahler.png]]
 
 ---
 
