@@ -17,7 +17,7 @@ tags:
 # Charakter-Kanon – Valerie de Beer
 
 > **Rolle im Roman:** Kriminalhauptkommissarin, Ermittlerin der Mordkommission. Sie jagt einen Täter, der ihr gegenüber sitzt, ohne es zu wissen.
-> **Dramaturgische Funktion:** Romantisches Interesse von Johannes Breier; zentrale Instanz des Kommissarin-Twists – sie erkennt die Wahrheit über Johannes vor dem Leser und schweigt.
+> **Dramaturgische Funktion:** Romantisches Interesse von Johannes Breier; zentrale Instanz des Kommissarin-Twists – sie erkennt die Wahrheit über Johannes vor dem Leser.
 
 ---
 
@@ -32,12 +32,12 @@ tags:
 ## 1. ROLLE & FUNKTION (MUSS)
 
 **Narrative Rolle:**
-Sie ist Jägerin und Gejagte zugleich. Als Ermittlerin führt sie den Fall, der Johannes Breier als Täter enthüllen wird. Als Frau, die sich auf ihn einlässt, schützt sie ihn unwissentlich vor sich selbst – und wissentlich, sobald sie die Wahrheit kennt. Ihre Entscheidung, zu schweigen, ist der eigentliche Kern ihres Charakterbogens.
+Sie ist Jägerin und Gejagte zugleich. Als Ermittlerin führt sie den Fall, der Johannes Breier als Täter enthüllen wird. Als Frau, die sich auf ihn einlässt, schützt sie ihn unwissentlich vor sich, da sie nicht (wahrhaben) will, dass er eine dunkle Seite hat. Irgendwann beobachtet sie ihn in einem Moment, der ihr etwas signalisiert. Was sie daraus schließt – und ob sie die volle Wahrheit kennt –, bleibt dem Leser verborgen. Der Leser sieht nur: Val hat etwas herausgefunden.
 
 **Dramaturgische Funktion:**
 - Antreiberin der Ermittlungshandlung (externe Spannung)
 - Spiegel für Johannes: Sie sieht ihn so, wie er sich selbst nicht sieht
-- Trägerin des finalen Twists: Die Wahrheit kommt durch sie – aber nicht für den Leser, sondern erst im letzten Akt
+- Trägerin des finalen Twists: Sie beobachtet Johannes in einem anderen Zustand (Trigger) und zieht intern Schlüsse. Was sie weiß, bleibt dem Leser verborgen – sichtbar ist nur: Val hat etwas entdeckt. Auflösung erst im letzten Akt
 - Romantischer Gegenpool: Zuneigung, die die Spannung zwischen Nähe und Verrat erzeugt
 
 **Zuordnung zu Handlungssträngen:**
@@ -247,7 +247,7 @@ Als KOK löst sie einen Fall mit außergewöhnlichem Scharfsinn und Eigeninitiat
 
 - Sie glaubt, Kontrolle zu besitzen, wo sie in Wirklichkeit Angst verwaltet.
 - Ihre Fähigkeit zur Täuschung schützt sie beruflich – und sabotiert sie privat.
-- Der Wert „Gerechtigkeit" wird am Ende gegen Johannes zum Problem: Sie *weiß* die Wahrheit. Was ist gerecht?
+- Der Wert „Gerechtigkeit" wird am Ende gegen Johannes zum Problem: Sie hat etwas über ihn herausgefunden – etwas, das der Leser nicht kennt. Was das für ihre Überzeugung bedeutet, entscheidet sich erst im letzten Akt.
 
 ---
 
@@ -338,7 +338,7 @@ Sie geht kurze, intensive Beziehungen ein – 2–3 bisher. Sie enden nicht durc
 | Konfliktpotenzial | maximal – latent während fast des gesamten Romans |
 | Beziehungsdokument | BEZ-Datei wird angelegt sobald erste Begegnung kanonisiert ✅ (ADR-0011) |
 
-**Besonderheit:** Sie erkennt die Wahrheit über Johannes irgendwann vor dem Leser. Ein bekannter Auslöser: Sie beobachtet ihn in einer Situation, wo er nicht er selbst zu sein scheint – statt grüblerisch und introvertiert plötzlich offen, charmant, zugewandt. Das Bild trügt. Und sie weiß, dass es trügt. ✅
+**Besonderheit (Kommissarin-Twist):** Sie beobachtet Johannes in einer Situation, wo er nicht er selbst zu sein scheint – statt grüblerisch und introvertiert plötzlich offen, charmant, zugewandt (Trigger-Zustand). Sie zieht intern Schlüsse daraus. Aber WAS genau sie schlussfolgert und was sie möglicherweise über ihn weiß, wird dem Leser nicht mitgeteilt. Der Leser sieht nur: Val hat etwas bemerkt. Die Auflösung erfolgt erst im letzten Akt. ✅
 
 ### Beziehung zu: Mara de Beer (Zwillingsschwester, verstorben)
 
@@ -384,7 +384,7 @@ Valerie de Beer ist eine hochkompetente, emotional gepanzerte Ermittlerin, die i
 | ❓ (früh) | Erste Begegnung mit Johannes | Professionelles Interesse; erste Faszination |
 | ❓ (Mitte) | Beobachtet Johannes in „anderem" Zustand | Erste Irritation; Notiz im Kopf |
 | ❓ (Mitte–spät) | Akkumulation der Hinweise; inneres Bild formt sich | Stilles Wissen – noch keine Entscheidung |
-| ❓ (spät) | Sie *weiß* es | Entscheidung: Schweigen. Warum? Das ist ihre Frage. |
+| ❓ (spät) | Val hat etwas entdeckt | Was sie weiß, bleibt dem Leser verborgen; sichtbar ist nur: Val hat etwas herausgefunden. Auflösung: letzter Akt. |
 | ❓ (Ende) | Enthüllung / Verrat an Johannes | Auflösung des zentralen Spannungsbogens |
 
 ### Zielzustand
@@ -428,7 +428,7 @@ Distanziert mit unterdrücktem Innenleben. Kein Selbstmitleid. Gelegentlich bitt
 
 | Kategorie | Grenze |
 | --------- | ------ |
-| Bewusst wissen | Sie darf Johannes' Täterschaft nicht von Anfang an kennen – sie nähert sich ihr |
+| Wissen (Leser) | Was Val über Johannes weiß, darf dem Leser nicht mitgeteilt werden – weder ihr Beobachtungsbefund noch ihre Schlussfolgerungen; das bleibt bis zum letzten Akt verborgen |
 | Bewusst tun | Sie darf nicht freiwillig über Mara sprechen – frühestens in einer Schlüsselszene |
 | Explizit aussprechen | Sie darf Johannes gegenüber nicht formulieren, was sie über ihn denkt – bis zum letzten Akt |
 | Emotional zulassen | Sie darf keine vollständige Liebeserklärung im Innern oder Äußeren zulassen – sie lässt sich nicht so weit fallen |

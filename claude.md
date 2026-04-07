@@ -35,7 +35,7 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 | Figur | Rolle | CHAR-Status |
 |-------|-------|-------------|
 | Johannes Breier | Protagonist, dissoziativer Serienmörder, Journalist | ✅ v0.5 |
-| Valerie de Beer (Val) | KHK Mordkommission, Ermittlerin, romantisches Interesse, entdeckt Wahrheit vor dem Leser | ✅ v0.2 |
+| Valerie de Beer (Val) | KHK Mordkommission, Ermittlerin, romantisches Interesse; beobachtet Johannes in Trigger-Zustand und zieht Schlüsse; WAS sie weiß, bleibt dem Leser bis zum letzten Akt verborgen | ✅ v0.2 |
 | Sündenbock (Name offen) | Hauptverdächtiger, Ablenkungsfigur | ⬜ |
 | Redaktions-Vertrauter (Name offen) | Johannes' Anker zur Realität | ⬜ |
 | Ermittlungspartner Val (Name offen) | Vals engster Kollege in der Mordkommission | ⬜ |
@@ -46,7 +46,7 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 - **Konfabulations-Prinzip:** ENTLASTUNG, nicht Romantisierung. Variiert: alltäglich, angenehm, tragisch, romantisch. Spezifisch: Tochter (Rettung statt Ertränken), Frau (Suizid statt Mord), aktuelle Morde (harmlose Begegnungen)
 - **Intermezzi:** Erzähltechnik (kein Strang). Anonyme Kindheitsfragmente zwischen Kapiteln. Details → [[Roman_Split/plot/plot-struktur]]
 - **Leserführung:** Hinweis-/Gegenhinweis-Waage + Sündenbock
-- **Kommissarin-Twist:** Valerie de Beer erkennt Wahrheit über Johannes vor dem Leser; schweigt. Sieht ihn einmal in einem Zustand, der nicht seinem normalen grüblerisch-introvertierten Wesen entspricht (plötzlich offen, charmant, zugewandt). Akkumuliert Hinweise intern, formuliert sie nicht aus. Enthüllung in finaler Szene.
+- **Kommissarin-Twist:** Valerie de Beer beobachtet Johannes in einem Zustand, der nicht seinem normalen grüblerisch-introvertierten Wesen entspricht (plötzlich offen, charmant, zugewandt – Trigger). Sie zieht intern Schlüsse. WAS sie schlussfolgert und ob/was sie über Johannes weiß, wird dem Leser NICHT mitgeteilt – der Leser sieht nur: Val hat etwas entdeckt. Auflösung in finaler Szene.
 - **Enthüllung Tochter/Frau:** Sehr spät, zusammen mit finaler Mörder-Auflösung
 - **Klinisches Profil:** K-PTBS + dissoziative Amnesie + Konfabulation + funktionaler Alkoholismus
 - **Trigger:** T1 rote Highheels, T2 Schlüsselklirren, T3 reißender Stoff, T4 weibliches Flüstern; ein einzelner Trigger genügt; variiert zwischen den Taten; 4-Phasen-Ablauf; Alkohol als Verstärker
@@ -245,6 +245,7 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 | 04-05 | **ADR-0011:** BEZ-Lebenszyklus definiert. Keine BEZ vor Erstbegegnung. Pflichtschritt in `/szene-auswerten`, halbautomatisch. Charakterentwickler v1.8→v1.9. |
 | 04-06 | **CHAR-valerie-de-beer v0.1 erstellt.** Name, KHK-Rang, Karrierepfad, Psychologie, Beziehungsmuster, Faszination ältere Männer kanonisiert. Referenzbild vorhanden. |
 | 04-06 | **CHAR-valerie-de-beer v0.2.** Transfer-Trigger (Kombination A+C) kanonisiert. Zwillingsschwester: Mara de Beer. Kampfsport als Hobby (Kickboxen noch nicht final). |
+| 04-07 | **Korrektur Kommissarin-Twist.** valerie-de-beer.md und claude.md: Twist-Dokumentation korrigiert. Korrekt: Val beobachtet Johannes in Trigger-Zustand → zieht Schlüsse → WAS sie weiß, bleibt dem Leser verborgen. Falsch war: Val weiß bewusst, dass Johannes der Mörder ist, und schweigt. |
 
 ---
 
@@ -264,6 +265,6 @@ ANWEISUNGEN FÜR CLAUDE:
 - **Konfabulations-Prinzip:** ENTLASTUNG (Schuld entfernen), NICHT Romantisierung. Variiert: alltäglich, angenehm, tragisch oder romantisch.
 - **Modus Operandi:** Kontrollierter Jäger im dissoziativen Zustand. Außenwirkung: offen/charmant/präsent. Opportunistisches Werkzeug + manuelle Strangulation. Trigger variiert zwischen Taten. Details → CHAR Abschnitt 6b.
 - **BEZ-Lebenszyklus (ADR-0011):** Keine BEZ vor Erstbegegnung. In /szene-auswerten: Erstbegegnungen erkennen = Pflichtschritt, halbautomatisch (Autor bestätigt).
-- **Valerie de Beer (Val):** CHAR v0.2. KHK. Geb. 23.09.1995. Villingen-Schwenningen. Zwillingsschwester Mara (ermordet ~2003). Transfer: Querfall bewiesen + direktes Gespräch mit Mordkommission-Leiter (Ressentiments bei Kollegen). Psychologie: emotional gepanzert, Arbeit als Identität, Angst vor Nähe. Beziehungsmuster: bricht selbst ab. Faszination ältere Männer: Lesbarkeit durch Schicht + Schaden als Vertrautheit + Paradox der Kontrolle. Kampfsport (Kickboxen noch nicht final). Referenzbild vorhanden.
+- **Valerie de Beer (Val):** CHAR v0.2. KHK. Geb. 23.09.1995. Villingen-Schwenningen. Zwillingsschwester Mara (ermordet ~2003). Transfer: Querfall bewiesen + direktes Gespräch mit Mordkommission-Leiter (Ressentiments bei Kollegen). Psychologie: emotional gepanzert, Arbeit als Identität, Angst vor Nähe. Beziehungsmuster: bricht selbst ab. Faszination ältere Männer: Lesbarkeit durch Schicht + Schaden als Vertrautheit + Paradox der Kontrolle. Kampfsport (Kickboxen noch nicht final). Referenzbild vorhanden. Kommissarin-Twist: Beobachtet Johannes in Trigger-Zustand, zieht interne Schlüsse – WAS sie weiß, bleibt dem Leser bis zum letzten Akt VERBORGEN.
 - Session-Initialisierung: Siehe bootstrap.md für vollständige Pflichtlektüre-Liste.
 -->
