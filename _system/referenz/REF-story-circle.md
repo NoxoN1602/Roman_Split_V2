@@ -13,6 +13,9 @@ tags:
 
 # Dan Harmons Story Circle
 
+
+![[story-circle.png]]
+
 ## Überblick
 
 Dan Harmon (Schöpfer von „Community" und „Rick and Morty") destillierte Campbells Heldenreise in ein pragmatisches 8-Schritte-Modell. Es ist einfacher, schneller anwendbar und besonders nützlich für iterative Arbeit – man kann den Circle für den Gesamtplot, für einzelne Akte und sogar für einzelne Szenen anwenden.

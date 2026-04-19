@@ -13,6 +13,8 @@ tags:
 
 # Drei-Akt-Struktur
 
+![[drei-akt.png]]
+
 ## Überblick
 
 Die Drei-Akt-Struktur ist das älteste und universellste Dramaturgiemodell. Sie geht auf Aristoteles' Poetik zurück (Anfang, Mitte, Ende) und wurde von Syd Field für die moderne Erzählung systematisiert. Sie ist weniger detailliert als Save the Cat, aber dafür flexibler und auf praktisch jede Erzählform anwendbar.

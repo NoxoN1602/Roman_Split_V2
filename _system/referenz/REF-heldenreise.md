@@ -13,6 +13,10 @@ tags:
 
 # Die Heldenreise (Hero's Journey)
 
+
+![[heldenreise.png]]
+
+![[heldenreise2.png|300]]
 ## Überblick
 
 Joseph Campbell identifizierte in „The Hero with a Thousand Faces" (1949) ein universelles Muster in Mythen und Erzählungen weltweit. Christopher Vogler adaptierte es in „The Writer's Journey" für die praktische Anwendung. Die Heldenreise beschreibt den Weg eines Protagonisten von der gewöhnlichen Welt durch eine Transformation und zurück.

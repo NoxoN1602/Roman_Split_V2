@@ -13,6 +13,8 @@ tags:
 
 # Save the Cat – Beat Sheet
 
+![[Save_The_Cat.png]]
+
 ## Überblick
 
 Blake Snyders „Save the Cat" definiert 15 Beats, die zusammen eine vollständige Erzählstruktur ergeben. Ursprünglich für Drehbücher entwickelt, wurde das Modell von Jessica Brody für Romane adaptiert. Es ist besonders stark bei genre-orientierten Geschichten (Thriller, Romance, Fantasy, Krimi), weil es sehr konkrete Vorgaben macht, WAS wann passieren muss.
@@ -134,11 +136,5 @@ Blake Snyders „Save the Cat" definiert 15 Beats, die zusammen eine vollständi
 
 ---
 
-## Illustration
-
-![[Save_The_Cat.png]]
-
-
----
 
 <!-- ENDE DER REFERENZ -->
