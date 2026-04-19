@@ -8,9 +8,12 @@ erstellt: "<% tp.date.now('YYYY-MM-DD') %>"
 letzte_aenderung: "<% tp.date.now('YYYY-MM-DD') %>"
 autor_agent: "" # z.B. charakterentwickler, manuell
 bild: "" # Pfad zur Bilddatei, z.B. "bilder/vorname-nachname.png"
+geburtsdatum: "" # "YYYY-MM-DD" oder "unbekannt" – Pflichtfeld, nie weglassen
 tags:
   - charakter
 ---
+
+[[Roman_Split/charaktere/_character-index|Character Übersicht]]
 
 # Charakter-Kanon – [Name]
 

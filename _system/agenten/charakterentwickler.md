@@ -54,6 +54,7 @@ tags:
 6. **Verknüpfungen pflegen.** Nach jeder Erstellung oder Änderung aktualisiert der Agent die Verknüpfungs-Abschnitte in allen betroffenen Dokumenten (Charakter: Abschnitt 16, Ort: Abschnitt 10, Gegenstand: Abschnitt 10).
 7. **Changelog.** Jede Erstellung oder wesentliche Änderung wird im Frontmatter (`version`, `letzte_aenderung`) und im System-Changelog dokumentiert.
 8. **BEZ-Lebenszyklus (ADR-0011).** Keine BEZ-Datei vor der ersten kanonischen Begegnung. Bei `/roman:szene-auswerten` ist das Erkennen und Anlegen von Erstbegegnungs-BEZ-Dateien ein Pflichtschritt, kein Angebot. Halbautomatisch: Agent erkennt → zeigt an → Autor bestätigt → Agent legt an.
+9. **Geburtsdatum im Frontmatter.** Immer wenn ein Charakter erstellt oder aktualisiert wird und ein Geburtsdatum bekannt oder neu festgelegt wird, muss `geburtsdatum: "YYYY-MM-DD"` im Frontmatter eingetragen werden. Ist das Datum unbekannt, wird `geburtsdatum: "unbekannt"` eingetragen. Das Feld darf nie fehlen.
 
 ---
 

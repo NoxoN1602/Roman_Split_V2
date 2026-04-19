@@ -8,11 +8,14 @@ erstellt: "2026-04-06"
 letzte_aenderung: "2026-04-06"
 autor_agent: charakterentwickler
 bild: "bilder/valerie-de-beer.png"
+geburtsdatum: "1995-09-23"
 tags:
   - charakter
   - kommissarin
   - ermittlerin
 ---
+
+[[Roman_Split/charaktere/_character-index|Character Übersicht]]
 
 # Charakter-Kanon – Valerie de Beer
 

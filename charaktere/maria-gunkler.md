@@ -1,22 +1,25 @@
 ---
 doc_type: charakter
 doc_id: "CHAR-maria-gunkler"
-version: "0.1"
+version: "0.2"
 status: entwurf
 kanon_stufe: objektiv
 erstellt: "2026-04-19"
 letzte_aenderung: "2026-04-19"
 autor_agent: charakterentwickler
 bild: "bilder/maria-gunkler.png"
+geburtsdatum: "1973-12-18"
 tags:
   - charakter
   - vorgeschichte
   - opfer
 ---
 
+[[Roman_Split/charaktere/_character-index|Character Übersicht]]
+
 # Charakter-Kanon – Maria Gunkler
 
-> **Rolle im Roman:** Hintergrundcharakter. Opfer häuslicher Gewalt, von Herbert Gunkler getötet. Ihre Hinterlassenschaft – der Umschlag und die Parkquittung – ist der entscheidende Katalysator für Vals Transfer zur Mordkommission.
+> **Rolle im Roman:** Hintergrundcharakter. Opfer häuslicher Gewalt, von Herbert Gunkler getötet. Ihre Hinterlassenschaft – der [[umschlag-maria-gunkler|Umschlag]] und die [[parkquittung-gunkler|Parkquittung]] – ist der entscheidende Katalysator für Vals Transfer zur Mordkommission.
 > **Dramaturgische Funktion:** Gibt Val eine persönliche Geschichte mit Schuld und Vertrauen. Ihre Stimme klingt durch die Beschriftung des Umschlags nach.
 
 ---
@@ -54,16 +57,65 @@ Maria Gunkler ist tot, bevor der Roman beginnt. Sie tritt nicht auf. Aber sie hi
 | Vorname(n)         | Maria ✅ |
 | Spitzname(n)       | — |
 | Geschlecht         | weiblich ✅ |
-| Geburtsdatum       | ❓ |
-| Todesdatum         | 2022 oder 2023 ✅ (exakt ❓) |
+| Geburtsdatum       | 18. Dezember 1973 ✅ |
+| Todesdatum         | 13. März 2023 ✅ (49 Jahre alt) |
 | Familienstand      | verheiratet (Herbert Gunkler) – ermordet von ihm ✅ |
 | Vater              | ❓ |
 | Mutter             | ❓ |
 | Geschwister        | ❓ |
 
-### 2.2–2.6
+### 2.2 Körperliche Merkmale
 
-> ⚠️ Hintergrundcharakter. Details werden nur ausgearbeitet, wenn narrativ erforderlich.
+#### Allgemein
+
+| Feld                | Wert |
+| ------------------- | ---- |
+| Größe               | 1,63 m ✅ |
+| Gewicht             | ❓ |
+| Körperbau           | schlank bis zierlich; wirkt zerbrechlicher als sie ist ✅ |
+| Haltung             | privat: kleiner, leiser, immer mit einem Ohr bei der Tür ✅; öffentlich: aufrecht, kontrolliert ⬜ |
+| Hautfarbe / Hauttyp | hell, manchmal blass; öffentlich perfekt abgedeckt ✅ |
+| Wahrnehmung durch andere | öffentlich: gepflegt, freundlich, unauffällig; privat: erschöpft, wachsam ✅ |
+
+#### Gesicht und Kopf
+
+| Feld                     | Wert |
+| ------------------------ | ---- |
+| Gesichtsform             | oval, weich — ein Gesicht, das früher warm gewirkt haben muss ✅ |
+| Gesichtshaut             | öffentlich: perfekt abgedeckt (Foundation etwas zu deckend an manchen Tagen) ✅; privat: blass, Spuren sichtbar ✅ |
+| Besondere Merkmale       | gelegentlich Concealer sichtbar, wenn man genau hinschaut ✅ |
+| Augenfarbe               | dunkelbraun ✅ |
+| Blick                    | wach und müde zugleich; öffentlich: freundlich, nie ganz direkt; privat: leer im stillen Moment ✅ |
+| Augenbrauen              | ❓ |
+| Nase                     | ❓ |
+| Mund / Lippen            | Lächeln öffentlich geübt, nicht spontan; verschwindet beim Zählen bis drei ✅ |
+
+#### Haare
+
+| Feld            | Wert |
+| --------------- | ---- |
+| Haarfarbe       | schwarzbraun ✅ |
+| Haarstruktur    | ❓ |
+| Frisur          | öffentlich: sorgfältig frisiert (Dutt oder glatt nach hinten) ✅; privat: offen oder nachlässig zusammengebunden ✅ |
+
+#### Kleidung & äußere Erscheinung
+
+| Feld                         | Wert |
+| ---------------------------- | ---- |
+| Öffentlich                   | gepflegt, gedeckte Farben, langer Ärmel auch im Sommer ✅ |
+| Privat                       | funktional, wenig Mühe; das Gegenteil der öffentlichen Erscheinung ✅ |
+| Wiederkehrendes Muster       | Ärmel, die nicht zur Jahreszeit passen; Sonnenbrille bei bedecktem Himmel ✅ |
+
+#### Signale für aufmerksame Beobachter
+
+- Foundation an manchen Tagen eine Spur zu gleichmäßig ✅
+- Reflexartiges Zusammenzucken bei unerwarteten Geräuschen ✅
+- Lächeln, das nicht die Augen erreicht ✅
+- Ärmel, die nicht zur Jahreszeit passen ✅
+
+### 2.3–2.6
+
+> ⚠️ Hintergrundcharakter. Weitere Details werden nur ausgearbeitet, wenn narrativ erforderlich.
 
 ---
 
@@ -104,16 +156,19 @@ Maria Gunkler ist tot, bevor der Roman beginnt. Sie tritt nicht auf. Aber sie hi
 
 **Was ist festgesetzt?**
 - Name: Maria Gunkler ✅
-- Opfer häuslicher Gewalt, von Herbert getötet ✅
+- Geburtsdatum: 18. Dezember 1973 ✅
+- Todesdatum: 13. März 2023 (49 Jahre alt) ✅
+- Opfer häuslicher Gewalt und sexuellen Missbrauchs durch Herbert ✅
+- Von Herbert getötet als die Situation eskalierte ✅
 - Hat Umschlag für Val vorbereitet ✅
 - Hat Parkquittung mit „?" markiert und versteckt ✅
 - Beschriftung des Umschlags: „Fick dich, Herbert 😠" ✅
 - Tritt im Hauptplot nicht auf ✅
+- Doppelleben: öffentlich gepflegte Fassade, privat unterdrückt und gequält ✅
 
 **Was ist noch unklar?**
-- Geburtsdatum, Erscheinung ❓
-- Genaues Todesdatum ❓
 - Wie intensiv war der Kontakt zu Val wirklich? ❓
+- Haarstruktur, Augenbrauen, Nasenform ❓
 
 ---
 

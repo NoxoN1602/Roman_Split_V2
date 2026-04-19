@@ -55,8 +55,10 @@ Der Roman ist primär ein **Beziehungs-Thriller**. Das Duell Valerie ↔ Johanne
 | Redaktions-Vertrauter (Name offen) | Johannes' alter Weggefährte, Anker zur Realität | ⬜ |
 | Chef (Name offen) | Wiederkehrende Nebenfigur, Reibungspunkt, Sanktionierer | ⬜ |
 | Sebastian Kahl | Vals engster Kollege in der Mordkommission, KOK; heimlich verliebt in Val; selektive Naivität als blinder Fleck | ✅ v0.1 |
-| Herbert Gunkler | Vorgeschichte: HG-Täter + Mörder (Brenners erster Fall); Hintergrundcharakter, tritt im Hauptplot nicht auf | ✅ rudimentär |
-| Maria Gunkler | Vorgeschichte: HG-Opfer, von Herbert getötet; hat Umschlag für Val + Parkquittung mit „?" hinterlassen | ✅ rudimentär |
+| Herbert Gunkler | Vorgeschichte: HG-Täter + Mörder (Brenners erster Fall); Hintergrundcharakter, tritt im Hauptplot nicht auf | ✅ v0.2 |
+| Maria Gunkler | Vorgeschichte: HG-Opfer, von Herbert getötet (13.03.2023); Doppelleben; hat Umschlag für Val + Parkquittung mit „?" hinterlassen | ✅ v0.2 |
+| Franz Ahler | Lauras Vater, Silkes Ehemann; Hintergrundcharakter; Anlageberater; emotional distanziert | ✅ v0.2 |
+| Silke Ahler | Lauras Mutter, Franz' Ehefrau; Hintergrundcharakter; Nestbauer, überbehütend | ✅ v0.1 |
 
 ### Strukturelle Grundentscheidungen
 
@@ -243,8 +245,14 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 | Valerie de Beer | ✅ v0.2 | [[Roman_Split/charaktere/valerie-de-beer]] |
 | Markus Brenner | ✅ v0.1 | [[Roman_Split/charaktere/markus-brenner]] |
 | Sebastian Kahl | ✅ v0.1 | [[Roman_Split/charaktere/sebastian-kahl]] |
-| Herbert Gunkler | ✅ rudimentär | [[Roman_Split/charaktere/herbert-gunkler]] |
-| Maria Gunkler | ✅ rudimentär | [[Roman_Split/charaktere/maria-gunkler]] |
+| Herbert Gunkler | ✅ v0.2 | [[Roman_Split/charaktere/herbert-gunkler]] |
+| Maria Gunkler | ✅ v0.2 | [[Roman_Split/charaktere/maria-gunkler]] |
+| Franz Ahler | ✅ v0.2 | [[Roman_Split/charaktere/franz-ahler]] |
+| Silke Ahler | ✅ v0.1 | [[Roman_Split/charaktere/silke-ahler]] |
+| BEZ Franz ↔ Silke | ✅ v0.1 | [[Roman_Split/beziehungen/franz-ahler--silke-ahler]] |
+| BEZ Franz ↔ Laura | ✅ v0.1 | [[Roman_Split/beziehungen/franz-ahler--laura-ahler]] |
+| BEZ Laura ↔ Silke | ✅ v0.1 | [[Roman_Split/beziehungen/laura-ahler--silke-ahler]] |
+| Character-Index | ✅ v1.0 | [[Roman_Split/charaktere/_character-index]] |
 | Umschlag Maria Gunkler | ✅ v0.1 | [[Roman_Split/gegenstaende/umschlag-maria-gunkler]] |
 | Parkquittung Gunkler | ✅ v0.1 | [[Roman_Split/gegenstaende/parkquittung-gunkler]] |
 | BEZ Brenner ↔ Val | ✅ v0.1 | [[Roman_Split/beziehungen/markus-brenner--valerie-de-beer]] |
@@ -298,6 +306,12 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 | 04-19 | **Gunkler-Vorgeschichte vollständig dokumentiert.** CHAR Herbert Gunkler + Maria Gunkler (rudimentär). GGS Umschlag Maria Gunkler (Beschriftung: „Fick dich, Herbert 😠") + Parkquittung mit handgeschriebenem „?". BEZ: Brenner↔Val, Herbert↔Maria, Maria↔Val, Val↔Umschlag, Val↔Parkquittung. |
 | 04-19 | **Obsidian CLI integriert.** Binary verfügbar unter `/Applications/Obsidian.app/Contents/MacOS/obsidian`. Befehle: backlinks, unresolved, orphans, search, wordcount etc. Wird automatisch nach Dateioperationen eingesetzt (Konsistenz-Check). Dokumentiert in Claude-Memory. |
 | 04-19 | **Slash-Commands auf `/roman:*` umgestellt.** Alle Commands in `.claude/commands/roman/` verschoben. Syntax: `/roman:plot`, `/roman:neuer-charakter` etc. Autocomplete zeigt alle Unterbefehle. Agenten-Dateien, commands.md, statusline-roman.sh aktualisiert. |
+| 04-19 | **Character-Index erstellt.** `charaktere/_character-index.md` mit Dataview-Galerie (8 Bilder/Zeile, Grid) und Steckbrief-Tabelle mit Altersberechnung. `geburtsdatum` als Pflichtfeld in alle CHAR-Dateien + Template eingeführt. Backlink „Character Übersicht" in alle CHAR-Dateien + Template. Dataview-Query: `#charakter` + Ordnerfilter. |
+| 04-19 | **CHAR Franz Ahler v0.2 erstellt.** Lauras Vater, Silkes Ehemann. Anlageberater, Jahrgang 1974. Physisches Profil vollständig (rundes Gesicht, Henriquatre, eckige Brille, grau-meliert). Emotionale Distanz, latentes Gewissen, Gewohnheitsehe. |
+| 04-19 | **CHAR Silke Ahler v0.1 erstellt.** Lauras Mutter, Franz' Ehefrau. Jahrgang 1976. Nestbauer, Harmoniebedürfnis, überbehütend. Physisches Profil vollständig (dunkelrotes Haar, grüne Augen, ovale Brille). Seit Lauras Geburt nicht mehr erwerbstätig. |
+| 04-19 | **BEZ Franz↔Silke, Franz↔Laura, Laura↔Silke angelegt.** Gewohnheitsehe, wohlwollende Distanz Vater↔Tochter, Überbehütung Mutter↔Tochter. |
+| 04-19 | **CHAR Herbert Gunkler v0.2.** Physisches Profil ergänzt: „Der Charmante". 1,80m, breitschultrig, gescheitelt, Blaugrau-Augen, grausamer Zug um den Mund. Geburtsdatum: 15. April 1971. |
+| 04-19 | **CHAR Maria Gunkler v0.2.** Geburtsdatum: 18.12.1973. Todesdatum: 13.03.2023 (49 J.). Doppelleben kanonisiert: öffentliche Fassade vs. privater Erschöpfungszustand. Physisches Profil vollständig. Opfer häuslicher Gewalt und sexuellen Missbrauchs. |
 | 04-19 | **Nebenhandlungs-Methodik dokumentiert.** Val↔Markus = strukturell verzahnt (in Haupt-Beats mitnotieren). Eigenständige Subplots (Informationshandel, Vals Familiendynamik) bekommen in Stufe 4 eigenen Story Circle. Eingetragen in PLOT_WORKING. |
 | 04-19 | **Sebastian Kahl CHAR v0.1 erstellt.** KOK Mordkommission, Vals de-facto-Partner. Geb. 14.02.1996 (Valentinstag). 1,91m, blond lockig. Introvertiert, scharfsinnig, computer-affin. Heimlich verliebt in Val. Selektive Naivität als blinder Fleck. BEZ Sebastian↔Val + BEZ Brenner↔Sebastian rudimentär angelegt. |
 

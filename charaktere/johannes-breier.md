@@ -8,10 +8,13 @@ erstellt: 2026-04-04
 letzte_aenderung: 2026-04-06
 autor_agent: charakterentwickler
 bild: "bilder/johannes-breier.png"
+geburtsdatum: "unbekannt"
 tags:
   - charakter
   - protagonist
 ---
+
+[[Roman_Split/charaktere/_character-index|Character Übersicht]]
 
 # Charakter-Kanon – Johannes Breier
 

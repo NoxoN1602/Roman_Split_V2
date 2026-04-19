@@ -8,11 +8,14 @@ erstellt: "2026-04-19"
 letzte_aenderung: "2026-04-19"
 autor_agent: charakterentwickler
 bild: "bilder/markus-brenner.png"
+geburtsdatum: "1982-07-17"
 tags:
   - charakter
   - antagonist
   - mordkommission
 ---
+
+[[Roman_Split/charaktere/_character-index|Character Übersicht]]
 
 # Charakter-Kanon – Markus Brenner
 

@@ -8,9 +8,12 @@ erstellt: 2026-04-03
 letzte_aenderung: 2026-04-06
 autor_agent: charakterentwickler
 bild: "bilder/marie-kanter.png"
+geburtsdatum: "2005-01-21"
 tags:
   - charakter
 ---
+
+[[Roman_Split/charaktere/_character-index|Character Übersicht]]
 
 # Charakter-Kanon – Marie Kanter
 

@@ -1,18 +1,21 @@
 ---
 doc_type: charakter
 doc_id: "CHAR-herbert-gunkler"
-version: "0.1"
+version: "0.2"
 status: entwurf
 kanon_stufe: objektiv
 erstellt: "2026-04-19"
 letzte_aenderung: "2026-04-19"
 autor_agent: charakterentwickler
 bild: "bilder/herbert-gunkler.png"
+geburtsdatum: "1971-04-15"
 tags:
   - charakter
   - vorgeschichte
   - taeter
 ---
+
+[[Roman_Split/charaktere/_character-index|Character Übersicht]]
 
 # Charakter-Kanon – Herbert Gunkler
 
@@ -53,16 +56,60 @@ Herbert Gunkler ist der Mann, um den sich die gesamte Querfall-Episode dreht –
 | Vorname(n)         | Herbert ✅ |
 | Spitzname(n)       | — |
 | Geschlecht         | männlich ✅ |
-| Geburtsdatum       | ❓ (ca. 1970–1980 ⬜) |
+| Geburtsdatum       | 15. April 1971 ✅ |
 | Todesdatum         | — |
 | Familienstand      | verwitwet (Maria ermordet) ✅ |
 | Vater              | ❓ |
 | Mutter             | ❓ |
 | Geschwister        | ❓ |
 
-### 2.2–2.6
+### 2.2 Körperliche Merkmale
 
-> ⚠️ Hintergrundcharakter – physische und biografische Details werden nur ausgearbeitet, wenn narrativ erforderlich. Alle Felder ❓.
+#### Allgemein
+
+| Feld                | Wert |
+| ------------------- | ---- |
+| Größe               | 1,80 m ✅ |
+| Gewicht             | ❓ |
+| Körperbau           | breitschultrig, gepflegt-athletisch; präsent ohne einschüchternd zu wirken ✅ |
+| Haltung             | aufrecht, selbstsicher ⬜ |
+| Hautfarbe / Hauttyp | hell, gepflegt ✅ |
+| Wahrnehmung durch andere | charmant, ordentlich, bürgerlich-respektabel; hinterlässt einen guten ersten Eindruck ✅ |
+
+#### Gesicht und Kopf
+
+| Feld                     | Wert |
+| ------------------------ | ---- |
+| Gesichtsform             | markant, leicht eckig ✅ |
+| Gesichtshaut             | gepflegt ⬜ |
+| Besondere Merkmale       | grausamer Zug um den Mund – subtil, erst auf den zweiten Blick sichtbar ✅ |
+| Augenfarbe               | hellblau oder blaugrau ✅ |
+| Augenform                | ❓ |
+| Blick                    | direkt und offen; nicht warm, nicht vertrauenerweckend – aber geradeheraus und unverstellt ✅ |
+| Augenbrauen              | ❓ |
+| Nase                     | ❓ |
+| Mund / Lippen            | leichter grausamer Zug, der die Fassade des Charmanten unterbricht ✅ |
+
+#### Haare
+
+| Feld            | Wert |
+| --------------- | ---- |
+| Haarfarbe       | dunkelbraun, leichtes Grau an den Schläfen ✅ |
+| Haarstruktur    | ❓ |
+| Frisur / Länge  | gescheitelt; Seiten sehr kurz geschnitten ✅ |
+| Bart            | glattrasiert ✅ |
+| Alterungszeichen | Grau an den Schläfen ✅ |
+
+#### Kleidung & äußere Erscheinung
+
+| Feld                         | Wert |
+| ---------------------------- | ---- |
+| Grundstil                    | ordentlich, bürgerlich; nichts Aufregendes, immer passend ✅ |
+| Pflegegrad                   | gepflegt ✅ |
+
+### 2.3–2.6
+
+> ⚠️ Hintergrundcharakter – weitere biografische Details werden nur ausgearbeitet, wenn narrativ erforderlich.
 
 ---
 

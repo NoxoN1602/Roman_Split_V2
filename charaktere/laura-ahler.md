@@ -8,9 +8,12 @@ erstellt: 2026-04-03
 letzte_aenderung: 2026-04-06
 autor_agent: charakterentwickler
 bild: "bilder/laura-ahler.png"
+geburtsdatum: "2005-01-28"
 tags:
   - charakter
 ---
+
+[[Roman_Split/charaktere/_character-index|Character Übersicht]]
 
 # Charakter-Kanon – Laura Ahler
 
@@ -440,8 +443,8 @@ Geradlinig, behütet. Materiell versorgt durch fürsorgliche Eltern. Einzelkind 
 | Charakter | Beziehung | Dokument |
 | --------- | --------- | -------- |
 | Marie Kanter | Beste Freundin, soziales Bindeglied | → BEZ-laura-ahler--marie-kanter |
-| Franz Ahler | Vater | → BEZ-laura-ahler--franz-ahler |
-| Silke Ahler | Mutter | → BEZ-laura-ahler--silke-ahler |
+| Franz Ahler | Vater | [[Roman_Split/beziehungen/franz-ahler--laura-ahler]] |
+| Silke Ahler | Mutter | [[Roman_Split/beziehungen/laura-ahler--silke-ahler]] |
 
 ### Orte
 
