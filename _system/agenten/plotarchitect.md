@@ -101,7 +101,7 @@ tags:
 
 ## Slash-Befehle
 
-### /plot
+### /roman:plot
 
 > Startet oder setzt die Plotentwicklung fort.
 
@@ -186,7 +186,7 @@ Der Agent liest `plot/PLOT_WORKING.md` und `plot/plot-hauptplot.md` und meldet d
 
 ---
 
-### /plot (freie Ansprache)
+### /roman:plot (freie Ansprache)
 
 Auch natürliche Formulierungen wie „Lass uns über den Plot reden", „Ich hab eine Idee für den Plot" oder „Wie geht's weiter mit der Handlung?" aktivieren den Plot-Modus. Der Agent liest PLOT_WORKING und reagiert kontextbezogen.
 

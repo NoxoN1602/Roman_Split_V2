@@ -187,14 +187,14 @@ Nach Maries Tod verschiebt sich die Bedeutung radikal: Das Armband wird zum schm
 
 | Charakter | Beziehung zum Gegenstand | Dokument |
 | --------- | ------------------------ | -------- |
-| Laura Ahler | Besitzerin | [[charaktere/laura-ahler]] |
-| Marie Kanter | Letzte Trägerin (Leihgabe) | [[charaktere/marie-kanter]] |
+| Laura Ahler | Besitzerin | [[Roman_Split/charaktere/laura-ahler]] |
+| Marie Kanter | Letzte Trägerin (Leihgabe) | [[Roman_Split/charaktere/marie-kanter]] |
 
 ### Orte
 
 | Ort | Standort / Bedeutung | Dokument |
 | --- | -------------------- | -------- |
-| Lauras Zimmer | Aufbewahrungsort (Schmuckkästchen auf Schminktisch) | [[orte/lauras-zimmer]] |
+| Lauras Zimmer | Aufbewahrungsort (Schmuckkästchen auf Schminktisch) | [[Roman_Split/orte/lauras-zimmer]] |
 | (Entführungsort) | Fundort des Armbands (noch nicht definiert) | – |
 
 ### Andere Gegenstände
@@ -207,7 +207,7 @@ Nach Maries Tod verschiebt sich die Bedeutung radikal: Das Armband wird zum schm
 
 | Beziehung | Relevanz | Dokument |
 | --------- | -------- | -------- |
-| Laura ↔ Marie | Nur Marie darf Lauras Schmuck ausleihen – exklusive Vertrauensgeste | [[beziehungen/laura-ahler--marie-kanter]] |
+| Laura ↔ Marie | Nur Marie darf Lauras Schmuck ausleihen – exklusive Vertrauensgeste | [[Roman_Split/beziehungen/laura-ahler--marie-kanter]] |
 
 ### Plot-Stränge
 

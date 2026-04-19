@@ -124,13 +124,20 @@ Blake Snyders „Save the Cat" definiert 15 Beats, die zusammen eine vollständi
 
 ## Typische Probleme und Lösungen
 
-| Problem | Lösung |
-|---------|--------|
-| Akt 2 hängt durch | Midpoint schärfen. Fun and Games konkreter machen. |
-| Protagonist zu passiv | Catalyst und Break into Two prüfen – handelt er wirklich aktiv? |
-| Ende fühlt sich unvorbereitet an | Set-Up prüfen: Alle Finale-Elemente müssen in Akt 1 angelegt sein (Plant/Payoff). |
-| Transformation unglaubwürdig | Dark Night of the Soul vertiefen. Die Erkenntnis muss aus der B-Story kommen. |
+| Problem                             | Lösung                                                                              |
+| ----------------------------------- | ----------------------------------------------------------------------------------- |
+| Akt 2 hängt durch                   | Midpoint schärfen. Fun and Games konkreter machen.                                  |
+| Protagonist zu passiv               | Catalyst und Break into Two prüfen – handelt er wirklich aktiv?                     |
+| Ende fühlt sich unvorbereitet an    | Set-Up prüfen: Alle Finale-Elemente müssen in Akt 1 angelegt sein (Plant/Payoff).   |
+| Transformation unglaubwürdig        | Dark Night of the Soul vertiefen. Die Erkenntnis muss aus der B-Story kommen.       |
 | Geschichte fühlt sich formelhaft an | Abweichungen einbauen: Beats verschieben, kombinieren oder umkehren. Dokumentieren. |
+
+---
+
+## Illustration
+
+![[Save_The_Cat.png]]
+
 
 ---
 

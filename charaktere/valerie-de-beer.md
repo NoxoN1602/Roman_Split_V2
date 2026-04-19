@@ -53,20 +53,20 @@ Sie ist Jägerin und Gejagte zugleich. Als Ermittlerin führt sie den Fall, der 
 
 ### 2.1 Stammdaten
 
-| Feld | Wert |
-| ---- | ---- |
-| Nachname | de Beer |
-| Vorname(n) | Valerie |
-| Spitzname(n) | Val ✅ |
-| Geschlecht | weiblich |
-| Geburtsdatum | 23. September 1995 ✅ |
-| Todesdatum | — |
-| Familienstand | ledig |
-| Vater | ❓ Name offen |
-| Mutter | ❓ Name offen |
-| Geschwister | Zwillingsschwester Mara de Beer (entführt und ermordet, ca. 2003) ✅ |
+| Feld          | Wert                                                                |
+| ------------- | ------------------------------------------------------------------- |
+| Nachname      | de Beer                                                             |
+| Vorname(n)    | Valerie                                                             |
+| Spitzname(n)  | Val ✅                                                               |
+| Geschlecht    | weiblich                                                            |
+| Geburtsdatum  | 23. September 1995 ✅                                                |
+| Todesdatum    | —                                                                   |
+| Familienstand | ledig                                                               |
+| Vater         | Erik ✅                                                              |
+| Mutter        | Cornelia ("Corrie") ✅                                               |
+| Geschwister   | Zwillingsschwester Mara de Beer (entführt und ermordet, ca. 2003) ✅ |
 
-**Herkunft:** Urgrosseltern stammen aus Rotterdam und emigrierten nach Deutschland ✅. Ob mütterlicherseits oder väterlicherseits ❓.
+**Herkunft:** Urgrosseltern väterlicherseits stammen aus Rotterdam und emigrierten nach Deutschland ✅.
 
 ### 2.2 Körperliche Merkmale
 
@@ -74,28 +74,28 @@ Sie ist Jägerin und Gejagte zugleich. Als Ermittlerin führt sie den Fall, der 
 
 #### Allgemein
 
-| Feld | Wert |
-| ---- | ---- |
-| Größe | 1,73 m ✅ |
-| Gewicht | ❓ offen |
-| Körperbau | schlank, durchtrainiert (Kampfsport) ⬜ |
-| Haltung | aufrecht, leicht geschlossen – Arme häufig verschränkt ⬜ |
-| Hautfarbe / Hauttyp | hell, unmarkiert ⬜ |
-| Wahrnehmung durch andere | markant, attraktiv wenn sie es zulässt; wirkt auf den ersten Blick eher einschüchternd als einladend ⬜ |
+| Feld                     | Wert                                                                                                    |
+| ------------------------ | ------------------------------------------------------------------------------------------------------- |
+| Größe                    | 1,73 m ✅                                                                                                |
+| Gewicht                  | 65 kg                                                                                                   |
+| Körperbau                | schlank, durchtrainiert (Kampfsport) ✅                                                                  |
+| Haltung                  | aufrecht, leicht geschlossen – Arme häufig verschränkt ⬜                                                |
+| Hautfarbe / Hauttyp      | hell, unmarkiert ✅                                                                                      |
+| Wahrnehmung durch andere | markant, attraktiv wenn sie es zulässt; wirkt auf den ersten Blick eher einschüchternd als einladend ✅  |
 
 #### Gesicht und Kopf
 
-| Feld | Wert |
-| ---- | ---- |
-| Gesichtsform | schmal, länglich, ausgeprägte Kieferlinie ⬜ |
-| Gesichtshaut | hell, ebenmäßig, keine auffälligen Merkmale ⬜ |
-| Besondere Merkmale | keine sichtbaren ⬜ |
-| Augenfarbe | dunkelbraun ⬜ |
-| Augenform | mandelförmig, leicht schmal – wirken intensiver als groß ⬜ |
-| Blick | direkt, abwartend, analytisch; kein Lächeln als Default ⬜ |
-| Augenbrauen | dicht, natürlich, nicht gezupft ⬜ |
-| Nase | gerade, schmal, unauffällig ⬜ |
-| Mund / Lippen | schmal bis mittelbreit, oft zusammengepresst oder neutral ⬜ |
+| Feld               | Wert                                                        |
+| ------------------ | ----------------------------------------------------------- |
+| Gesichtsform       | schmal, länglich, ausgeprägte Kieferlinie ⬜                 |
+| Gesichtshaut       | hell, ebenmäßig, keine auffälligen Merkmale ⬜               |
+| Besondere Merkmale | keine sichtbaren ⬜                                          |
+| Augenfarbe         | dunkelbraun ⬜                                               |
+| Augenform          | mandelförmig, leicht schmal – wirken intensiver als groß ⬜  |
+| Blick              | direkt, abwartend, analytisch; kein Lächeln als Default ⬜   |
+| Augenbrauen        | dicht, natürlich, nicht gezupft ⬜                           |
+| Nase               | gerade, schmal, unauffällig ⬜                               |
+| Mund / Lippen      | schmal bis mittelbreit, oft zusammengepresst oder neutral ⬜ |
 
 #### Haare
 
@@ -137,29 +137,29 @@ Sie ist Jägerin und Gejagte zugleich. Als Ermittlerin führt sie den Fall, der 
 
 #### Körperliche Spuren & Besonderheiten
 
-| Feld | Wert |
-| ---- | ---- |
-| Narben | ❓ offen |
-| Verletzungsfolgen | keine sichtbaren ⬜ |
-| Tätowierungen / Piercings | ❓ offen |
-| Körperliche Einschränkungen | keine ⬜ |
-| Chronische Spuren | keine sichtbaren ⬜ |
+| Feld                        | Wert              |
+| --------------------------- | ----------------- |
+| Narben                      | keine             |
+| Verletzungsfolgen           | keine sichtbaren  |
+| Tätowierungen / Piercings   | keine             |
+| Körperliche Einschränkungen | keine             |
+| Chronische Spuren           | keine sichtbaren  |
 
 #### Geruch & physische Aura
 
-| Feld | Wert |
-| ---- | ---- |
-| Eigengeruch | neutral, ggf. leichtes Duftwasser – zurückhaltend ⬜ |
-| Physische Wirkung auf andere | nüchtern einschüchternd auf Unbekannte; Kollegen, die sie kennen, unterschätzen das nicht ⬜ |
+| Feld                         | Wert                                                                                       |
+| ---------------------------- | ------------------------------------------------------------------------------------------ |
+| Eigengeruch                  | neutral, Parfum Philosophy – Pure Grace                                                    |
+| Physische Wirkung auf andere | nüchtern einschüchternd auf Unbekannte; Kollegen, die sie kennen, unterschätzen das nicht  |
 
 #### Alterungs- & Veränderungsmarker
 
-| Feld | Wert |
-| ---- | ---- |
-| Sichtbare Alterung | keine ⬜ |
-| Physischer Verfall / Stabilisierung | stabil über den Roman – Veränderungen eher im Innern ⬜ |
-| Gewichtsveränderungen | keine ⬜ |
-| Veränderungen im Pflegeverhalten | ❓ offen – mögliche Vernachlässigung in kritischen Phasen |
+| Feld                                | Wert                                                 |
+| ----------------------------------- | ---------------------------------------------------- |
+| Sichtbare Alterung                  | ganz minimaler strenger Zug um den Mund              |
+| Physischer Verfall / Stabilisierung | stabil über den Roman – Veränderungen eher im Innern |
+| Gewichtsveränderungen               | keine                                                |
+| Veränderungen im Pflegeverhalten    | Keine, immer diszipliniert                           |
 
 ### 2.3 Ausbildung
 
@@ -184,7 +184,7 @@ Sie ist Jägerin und Gejagte zugleich. Als Ermittlerin führt sie den Fall, der 
 | 2022–2023 | Kriminaloberkommissarin (KOK) – erste Beförderung ✅ |
 | 2023/2024 | Kriminalhauptkommissarin (KHK) – zweite Beförderung; Transfer Mordkommission ✅ |
 
-**Anmerkung:** Aufstieg außergewöhnlich schnell für ihr Alter. Erzeugt latentes Ressentiment in männlich geprägtem Kollegenumfeld ⬜.
+**Anmerkung:** Aufstieg außergewöhnlich schnell für ihr Alter. Erzeugt latentes Ressentiment in männlich geprägtem Kollegenumfeld.
 
 ### 2.4 Beruf
 
@@ -203,6 +203,8 @@ Sie ist Jägerin und Gejagte zugleich. Als Ermittlerin führt sie den Fall, der 
 
 **Transfer zur Mordkommission (kanonisiert ✅ – Kombination A+C):**
 Als KOK löst sie einen Fall mit außergewöhnlichem Scharfsinn und Eigeninitiative – ein Querfall aus dem Bereich häusliche Gewalt, der in einem Mord endet und bei dem sie Profiling-Fähigkeiten weit jenseits ihres Auftrags zeigt. Dennoch wird sie intern nicht für eine freie Stelle in der Mordkommission berücksichtigt. Anstatt das zu akzeptieren, bewirbt sie sich aktiv und sucht das direkte Gespräch mit dem Leiter der Mordkommission. Das Gespräch überzeugt – die Stelle bekommt sie. Das Vorgehen bringt ihr bei Kollegen nicht nur Sympathien: Es gilt als zu direkt, zu selbstsicher, zu wenig geduldig mit dem üblichen Dienstweg. Das Ressentiment sitzt.
+
+→ Vollständige Ausarbeitung: Abschnitt 12 (Prägende Erfahrungen – Querfall-Episode). Zentraler Beteiligte: [[Roman_Split/charaktere/markus-brenner]] (KHK, Mordkommission).
 
 **Dauer in der Mordkommission:** ca. 2–3 Jahre ✅
 
@@ -457,6 +459,20 @@ Geboren 23. September 1995 als Zwilling (Schwester: Mara de Beer). Mara wird ca.
 - Transfer zur Mordkommission gegen Widerstand aus dem System – Initiative statt Geduld ✅
 - 2–3 kurze Beziehungen zu älteren Männern, die sie selbst beendet hat ✅
 
+**Die Querfall-Episode (2022/2023) – kanonisiert ✅**
+
+Val verfolgt als KOK einen Fall häuslicher Gewalt. Der Täter ist polizeibekannt, die Frau deckt ihn. Val kann nichts nachweisen – aber sie kennt sein psychologisches Profil genau. Sie erkennt, dass dieses Profil auf einen offenen Mordfall in der Mordkommission passt, der von KHK Markus Brenner bearbeitet wird.
+
+Sie sucht Brenner auf. Er weist sie ab – zu wenig Substanz, falsche Zuständigkeit. Sie eskaliert zum Leiter der Mordkommission, der die Information zur Kenntnis nimmt.
+
+Die häusliche Gewalt eskaliert. Die Frau wird getötet – Brenner übernimmt den Fall. Val konfrontiert ihn erneut. Er blockt sie wieder, obwohl er ahnt, dass sie recht haben könnte. Sie eskaliert erneut und handelt parallel ohne Erlaubnis: Sie durchsucht die Wohnung der getöteten Frau.
+
+Sie findet etwas, das die Frau versteckt hatte – einen versteckten Hinweis, der HG-Täter und erstes Mordopfer direkt verbindet. Val kann es korrekt deuten, weil sie die Frau kannte. Sie legt den Fund dem Leiter vor.
+
+Der Zusammenhang ist eindeutig. Brenner hatte den Täter vor der Nase und hat ihn nicht gesehen. Er hat die Kollegin, die es sah, zweimal aktiv abgewimmelt. Val bekommt ihren Platz in der Mordkommission. Brenner behält seinen – aber trägt die Narbe.
+
+Das ist der Ursprung ihrer Feindschaft. ✅ → Vollständige relationale Dokumentation: [[Roman_Split/beziehungen/markus-brenner--valerie-de-beer]]
+
 **Brüche:**
 - Der Bruch zwischen dem, was ihre Eltern ihr gegeben haben (Sicherheit als Illusion), und dem, was sie selbst gefunden hat (Sicherheit als Kompetenz)
 - Die Entscheidung, den Beruf vor alles andere zu stellen – als Wahl getarnte Flucht
@@ -530,6 +546,7 @@ Geboren 23. September 1995 als Zwilling (Schwester: Mara de Beer). Mara wird ca.
 | Charakter | Beziehung | Dokument |
 | --------- | --------- | -------- |
 | Johannes Breier | Ermittlungskontakt / romantisches Interesse | BEZ-Datei: ausstehend (ADR-0011) |
+| Markus Brenner | Berufliche Feindschaft / Antagonist | [[Roman_Split/beziehungen/markus-brenner--valerie-de-beer]] |
 | Mara de Beer (verstorben) | Zwillingsschwester – fundamentalster Verlust | ❓ noch nicht angelegt |
 | Ermittlungspartner (Name offen) | Enger Kollege | ❓ noch nicht angelegt |
 | Mutter (Name offen) | Elternteil | ❓ noch nicht angelegt |

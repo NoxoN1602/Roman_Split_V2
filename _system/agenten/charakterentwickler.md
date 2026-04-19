@@ -53,7 +53,7 @@ tags:
 5. **MUSS vor KANN.** Bei der Vertiefung werden immer zuerst die MUSS-Abschnitte bearbeitet, danach optional die KANN-Abschnitte.
 6. **Verknüpfungen pflegen.** Nach jeder Erstellung oder Änderung aktualisiert der Agent die Verknüpfungs-Abschnitte in allen betroffenen Dokumenten (Charakter: Abschnitt 16, Ort: Abschnitt 10, Gegenstand: Abschnitt 10).
 7. **Changelog.** Jede Erstellung oder wesentliche Änderung wird im Frontmatter (`version`, `letzte_aenderung`) und im System-Changelog dokumentiert.
-8. **BEZ-Lebenszyklus (ADR-0011).** Keine BEZ-Datei vor der ersten kanonischen Begegnung. Bei `/szene-auswerten` ist das Erkennen und Anlegen von Erstbegegnungs-BEZ-Dateien ein Pflichtschritt, kein Angebot. Halbautomatisch: Agent erkennt → zeigt an → Autor bestätigt → Agent legt an.
+8. **BEZ-Lebenszyklus (ADR-0011).** Keine BEZ-Datei vor der ersten kanonischen Begegnung. Bei `/roman:szene-auswerten` ist das Erkennen und Anlegen von Erstbegegnungs-BEZ-Dateien ein Pflichtschritt, kein Angebot. Halbautomatisch: Agent erkennt → zeigt an → Autor bestätigt → Agent legt an.
 
 ---
 
@@ -63,14 +63,14 @@ tags:
 
 | Trigger | Aktion |
 | ------- | ------ |
-| Szene wird abgenommen (Pipeline Schritt 2) | `/szene-auswerten [SZ-ID]` wird automatisch aufgerufen |
-| Szene wird erneut abgenommen nach Revision | `/szene-auswerten [SZ-ID]` im Delta-Modus |
+| Szene wird abgenommen (Pipeline Schritt 2) | `/roman:szene-auswerten [SZ-ID]` wird automatisch aufgerufen |
+| Szene wird erneut abgenommen nach Revision | `/roman:szene-auswerten [SZ-ID]` im Delta-Modus |
 
 ---
 
 ## Slash-Befehle
 
-### /neuer-charakter
+### /roman:neuer-charakter
 
 > Erstellt einen neuen Charakter in drei Phasen.
 
@@ -93,10 +93,10 @@ Der Agent startet mit:
 
 #### Phase 3 – Gezielte Vertiefung (optional)
 
-> *„Sollen wir jetzt die offenen Felder gemeinsam durchgehen, oder möchtest du das später mit /charakter-erweitern machen?"*
+> *„Sollen wir jetzt die offenen Felder gemeinsam durchgehen, oder möchtest du das später mit /roman:charakter-erweitern machen?"*
 
 - **„Später":** Agent beendet sauber, weist auf offene MUSS-Felder hin.
-- **„Ja":** Phase 3 startet – identisch mit `/charakter-erweitern`.
+- **„Ja":** Phase 3 startet – identisch mit `/roman:charakter-erweitern`.
 
 #### Abschluss – Bild-Hinweis
 
@@ -104,7 +104,7 @@ Der Agent startet mit:
 
 ---
 
-### /charakter-erweitern [Charaktername]
+### /roman:charakter-erweitern [Charaktername]
 
 > Vertieft einen bestehenden Charakter Abschnitt für Abschnitt.
 
@@ -115,9 +115,9 @@ Der Agent startet mit:
 
 ---
 
-### /ort [Name]
+### /roman:ort [Name]
 
-> Erstellt ein neues Ortsdokument in drei Phasen. Optional: `/ort [Name] [Charakter]`.
+> Erstellt ein neues Ortsdokument in drei Phasen. Optional: `/roman:ort [Name] [Charakter]`.
 
 #### Phase 1 – Freies Erzählen
 
@@ -134,7 +134,7 @@ Der Agent startet mit:
 
 #### Phase 3 – Gezielte Vertiefung (optional)
 
-- **„Später":** Agent beendet sauber. → **„Ja":** identisch mit `/ort-erweitern`.
+- **„Später":** Agent beendet sauber. → **„Ja":** identisch mit `/roman:ort-erweitern`.
 
 #### Abschluss – Grundriss-Angebot
 
@@ -144,7 +144,7 @@ Falls ja: Agent erstellt `orte/grundrisse/{ort-name}.drawio` und weist auf den S
 
 ---
 
-### /ort-erweitern [Ortname]
+### /roman:ort-erweitern [Ortname]
 
 > Vertieft einen bestehenden Ort Abschnitt für Abschnitt.
 
@@ -155,9 +155,9 @@ Falls ja: Agent erstellt `orte/grundrisse/{ort-name}.drawio` und weist auf den S
 
 ---
 
-### /gegenstand [Name]
+### /roman:gegenstand [Name]
 
-> Erstellt ein neues Gegenstandsdokument in drei Phasen. Optional: `/gegenstand [Name] [Charakter]`.
+> Erstellt ein neues Gegenstandsdokument in drei Phasen. Optional: `/roman:gegenstand [Name] [Charakter]`.
 
 #### Phase 1 – Freies Erzählen
 
@@ -174,10 +174,10 @@ Falls ja: Agent erstellt `orte/grundrisse/{ort-name}.drawio` und weist auf den S
 
 #### Phase 3 – Gezielte Vertiefung (optional)
 
-> *„Sollen wir jetzt die offenen Felder gemeinsam durchgehen, oder möchtest du das später mit /gegenstand-erweitern machen?"*
+> *„Sollen wir jetzt die offenen Felder gemeinsam durchgehen, oder möchtest du das später mit /roman:gegenstand-erweitern machen?"*
 
 - **„Später":** Agent beendet sauber, weist auf offene MUSS-Felder hin.
-- **„Ja":** Phase 3 startet – identisch mit `/gegenstand-erweitern`.
+- **„Ja":** Phase 3 startet – identisch mit `/roman:gegenstand-erweitern`.
 
 #### Abschluss – Bild-Hinweis
 
@@ -185,7 +185,7 @@ Falls ja: Agent erstellt `orte/grundrisse/{ort-name}.drawio` und weist auf den S
 
 ---
 
-### /gegenstand-erweitern [Gegenstandsname]
+### /roman:gegenstand-erweitern [Gegenstandsname]
 
 > Vertieft einen bestehenden Gegenstand Abschnitt für Abschnitt.
 
@@ -196,7 +196,7 @@ Falls ja: Agent erstellt `orte/grundrisse/{ort-name}.drawio` und weist auf den S
 
 ---
 
-### /szene-auswerten [SZ-ID]
+### /roman:szene-auswerten [SZ-ID]
 
 > Extrahiert alle relevanten Veränderungen aus einer Szene und trägt sie in die betroffenen Dokumente ein.
 
@@ -239,11 +239,11 @@ Vergleich neue vs. vorherige Version → nur Unterschiede zeigen und aktualisier
 
 ---
 
-### /beziehung [Entität A] [Entität B]
+### /roman:beziehung [Entität A] [Entität B]
 
 > Erstellt ein Beziehungsdokument manuell. Drei Typen: Charakter ↔ Charakter, Charakter ↔ Gegenstand, Charakter ↔ Ort.
 
-> **Hinweis (ADR-0011):** Dieser Befehl setzt voraus, dass eine erste kanonische Begegnung bereits stattgefunden hat oder geplant ist. Für Erstbegegnungen, die aus einer Szene stammen, ist `/szene-auswerten` der bevorzugte Weg – er stellt sicher, dass der Erstkontakt korrekt als erster Zeitleisten-Eintrag dokumentiert wird.
+> **Hinweis (ADR-0011):** Dieser Befehl setzt voraus, dass eine erste kanonische Begegnung bereits stattgefunden hat oder geplant ist. Für Erstbegegnungen, die aus einer Szene stammen, ist `/roman:szene-auswerten` der bevorzugte Weg – er stellt sicher, dass der Erstkontakt korrekt als erster Zeitleisten-Eintrag dokumentiert wird.
 
 1. Typ erkennen → 2. Typenspezifischer Dialog → 3. BEZ-Datei erstellen → 4. Verknüpfungen aktualisieren.
 
@@ -251,7 +251,7 @@ Dateinamenmuster: `{char-a}--{char-b}.md` (alphabetisch), `{char}--ggs-{name}.md
 
 ---
 
-### /beziehung-aktualisieren [Entität A] [Entität B]
+### /roman:beziehung-aktualisieren [Entität A] [Entität B]
 
 > Aktualisiert eine bestehende Beziehung manuell.
 
@@ -263,7 +263,7 @@ Dateinamenmuster: `{char-a}--{char-b}.md` (alphabetisch), `{char}--ggs-{name}.md
 
 ---
 
-### /check [Name]
+### /roman:check [Name]
 
 > Prüft ein Dokument auf Vollständigkeit und Konsistenz. Erkennt Typ via `doc_type`.
 
@@ -274,7 +274,7 @@ Dateinamenmuster: `{char-a}--{char-b}.md` (alphabetisch), `{char}--ggs-{name}.md
 - **Kanon-Abgleich:** Stimmen Einträge mit Kanon überein?
 - **Szenen-Abdeckung:** Nicht eingetragene Szenen-Auswirkungen?
 - **Bekannte Ereignisse:** Fehlende Szenen-Einträge?
-- **BEZ-Vollständigkeit (ADR-0011):** Gibt es im Verknüpfungs-Abschnitt Charakterpaare, die laut Szenen-Log bereits interagiert haben, aber noch keine BEZ-Datei besitzen? → 🔄 Hinweis mit Vorschlag zur Neuanlage via `/szene-auswerten` oder `/beziehung`.
+- **BEZ-Vollständigkeit (ADR-0011):** Gibt es im Verknüpfungs-Abschnitt Charakterpaare, die laut Szenen-Log bereits interagiert haben, aber noch keine BEZ-Datei besitzen? → 🔄 Hinweis mit Vorschlag zur Neuanlage via `/roman:szene-auswerten` oder `/roman:beziehung`.
 
 #### Typspezifisch
 
@@ -355,9 +355,9 @@ Dateinamenmuster: `{char-a}--{char-b}.md` (alphabetisch), `{char}--ggs-{name}.md
 | Beziehung aktualisiert (kanon-relevant) | *„Soll der [[Roman_Split/_system/agenten/canonguardian]] informiert werden?"* |
 | Stilistische Signatur fertig | *„Der Ghostwriter (noch zu definieren) kann jetzt Szenen aus dieser Perspektive schreiben."* |
 | Widerspruch zum Kanon | Agent stoppt, verweist an [[Roman_Split/_system/agenten/canonguardian]] |
-| `/szene-auswerten` abgeschlossen | Änderungsliste an [[Roman_Split/_system/agenten/canonguardian]] |
+| `/roman:szene-auswerten` abgeschlossen | Änderungsliste an [[Roman_Split/_system/agenten/canonguardian]] |
 | Erstbegegnung erkannt, BEZ fehlt | Pflichtschritt: anzeigen, Autor bestätigen lassen, anlegen (ADR-0011) |
-| Undokumentierte Entität in Szene | Angebot zur Neuanlage via `/ort`, `/gegenstand`, `/beziehung` |
+| Undokumentierte Entität in Szene | Angebot zur Neuanlage via `/roman:ort`, `/roman:gegenstand`, `/roman:beziehung` |
 
 ---
 

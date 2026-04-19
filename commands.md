@@ -1,8 +1,10 @@
 # Befehlsreferenz – Roman-Autorensystem
 
 > **Zweck:** Vollständige Liste aller verfügbaren Slash-Befehle.
-> **Letzte Aktualisierung:** 2026-04-04
+> **Letzte Aktualisierung:** 2026-04-19
 > **Hinweis:** Diese Datei wird bei jedem neuen Befehl aktualisiert. Claude liest sie zu Beginn jeder Session.
+>
+> **Ausführung in Claude Code:** Alle Befehle sind als native Slash-Commands unter `.claude/commands/roman/` hinterlegt. Autocomplete mit `/roman` zeigt alle verfügbaren Unterbefehle. Die Command-Dateien sind schlank und verweisen auf den jeweiligen Agenten-Prompt und den passenden Abschnitt in dieser Referenz – operative Details bleiben also hier zentral dokumentiert. **Neue Commands:** Immer beide Orte pflegen (`commands.md` + `.claude/commands/roman/{name}.md`).
 
 ---
 
@@ -10,24 +12,24 @@
 
 | Nr. | Befehl | Agent | Typ | Kurzbeschreibung |
 | --- | ------ | ----- | --- | ---------------- |
-| 1 | `/neuer-charakter` | Charakterentwickler | Erstellen | Neuen Charakter anlegen (3-Phasen-Workflow) |
-| 2 | `/charakter-erweitern [Name]` | Charakterentwickler | Vertiefen | Bestehenden Charakter abschnittsweise vertiefen |
-| 3 | `/ort [Name] [Charakter?]` | Charakterentwickler | Erstellen | Neues Ortsdokument anlegen |
-| 4 | `/ort-erweitern [Name]` | Charakterentwickler | Vertiefen | Bestehenden Ort abschnittsweise vertiefen |
-| 5 | `/gegenstand [Name] [Charakter?]` | Charakterentwickler | Erstellen | Neues Gegenstandsdokument anlegen |
-| 6 | `/gegenstand-erweitern [Name]` | Charakterentwickler | Vertiefen | Bestehenden Gegenstand abschnittsweise vertiefen |
-| 7 | `/beziehung [A] [B]` | Charakterentwickler | Erstellen | Neue Beziehung zwischen zwei Entitäten anlegen |
-| 8 | `/beziehung-aktualisieren [A] [B]` | Charakterentwickler | Aktualisieren | Bestehende Beziehung manuell aktualisieren |
-| 9 | `/check [Name]` | Charakterentwickler | Prüfen | Vollständigkeit und Konsistenz prüfen (alle Typen) |
-| 10 | `/szene-auswerten [SZ-ID]` | Charakterentwickler | Pipeline | Veränderungen aus Szene extrahieren und eintragen |
-| 11 | `/plot` | Plotarchitect | Kreativ | Plotentwicklung starten oder fortsetzen |
-| 12 | `/plot-check` | Plotanalyst | Prüfung | Plot gegen gewähltes Modell analysieren |
+| 1 | `/roman:neuer-charakter` | Charakterentwickler | Erstellen | Neuen Charakter anlegen (3-Phasen-Workflow) |
+| 2 | `/roman:charakter-erweitern [Name]` | Charakterentwickler | Vertiefen | Bestehenden Charakter abschnittsweise vertiefen |
+| 3 | `/roman:ort [Name] [Charakter?]` | Charakterentwickler | Erstellen | Neues Ortsdokument anlegen |
+| 4 | `/roman:ort-erweitern [Name]` | Charakterentwickler | Vertiefen | Bestehenden Ort abschnittsweise vertiefen |
+| 5 | `/roman:gegenstand [Name] [Charakter?]` | Charakterentwickler | Erstellen | Neues Gegenstandsdokument anlegen |
+| 6 | `/roman:gegenstand-erweitern [Name]` | Charakterentwickler | Vertiefen | Bestehenden Gegenstand abschnittsweise vertiefen |
+| 7 | `/roman:beziehung [A] [B]` | Charakterentwickler | Erstellen | Neue Beziehung zwischen zwei Entitäten anlegen |
+| 8 | `/roman:beziehung-aktualisieren [A] [B]` | Charakterentwickler | Aktualisieren | Bestehende Beziehung manuell aktualisieren |
+| 9 | `/roman:check [Name]` | Charakterentwickler | Prüfen | Vollständigkeit und Konsistenz prüfen (alle Typen) |
+| 10 | `/roman:szene-auswerten [SZ-ID]` | Charakterentwickler | Pipeline | Veränderungen aus Szene extrahieren und eintragen |
+| 11 | `/roman:plot` | Plotarchitect | Kreativ | Plotentwicklung starten oder fortsetzen |
+| 12 | `/roman:plot-check` | Plotanalyst | Prüfung | Plot gegen gewähltes Modell analysieren |
 
 ---
 
 ## Befehle im Detail
 
-### /neuer-charakter
+### /roman:neuer-charakter
 
 > Erstellt einen neuen Charakter in drei Phasen.
 
@@ -36,12 +38,12 @@
 - **Workflow:**
   1. **Phase 1 – Freies Erzählen:** Der Agent lässt den Autor frei erzählen, stellt danach 3–5 gezielte Nachfragen.
   2. **Phase 2 – Erster Entwurf:** Mapping auf [[Roman_Split/_system/templates/TEMPLATE-charakter]], Datei unter `charaktere/{vorname-nachname}.md`. Zusammenfassung in: Eingetragen / Abgeleitet / Noch offen.
-  3. **Phase 3 – Vertiefung (optional):** Kann sofort oder später via `/charakter-erweitern` erfolgen.
+  3. **Phase 3 – Vertiefung (optional):** Kann sofort oder später via `/roman:charakter-erweitern` erfolgen.
 - **Output:** Charakter-Datei (Status: ENTWURF)
 
 ---
 
-### /charakter-erweitern [Name]
+### /roman:charakter-erweitern [Name]
 
 > Vertieft einen bestehenden Charakter Abschnitt für Abschnitt.
 
@@ -52,7 +54,7 @@
 
 ---
 
-### /ort [Name] [Charakter?]
+### /roman:ort [Name] [Charakter?]
 
 > Erstellt ein neues Ortsdokument in drei Phasen.
 
@@ -64,18 +66,18 @@
 
 ---
 
-### /ort-erweitern [Name]
+### /roman:ort-erweitern [Name]
 
 > Vertieft einen bestehenden Ort abschnittsweise.
 
 - **Agent:** Charakterentwickler
 - **Parameter:** `[Name]` – Name des Orts
-- **Ablauf:** Wie `/charakter-erweitern`, aber mit ortsspezifischen Fragen (Licht, Zustand, Sensorische Signatur, Atmosphäre).
+- **Ablauf:** Wie `/roman:charakter-erweitern`, aber mit ortsspezifischen Fragen (Licht, Zustand, Sensorische Signatur, Atmosphäre).
 - **Output:** Aktualisierte Ort-Datei
 
 ---
 
-### /gegenstand [Name] [Charakter?]
+### /roman:gegenstand [Name] [Charakter?]
 
 > Erstellt ein neues Gegenstandsdokument in drei Phasen.
 
@@ -87,18 +89,18 @@
 
 ---
 
-### /gegenstand-erweitern [Name]
+### /roman:gegenstand-erweitern [Name]
 
 > Vertieft einen bestehenden Gegenstand abschnittsweise.
 
 - **Agent:** Charakterentwickler
 - **Parameter:** `[Name]` – Name des Gegenstands
-- **Ablauf:** Wie `/charakter-erweitern`, aber mit gegenstandsspezifischen Fragen (Physische Beschreibung, Herkunft, Symbolik, Grenzen).
+- **Ablauf:** Wie `/roman:charakter-erweitern`, aber mit gegenstandsspezifischen Fragen (Physische Beschreibung, Herkunft, Symbolik, Grenzen).
 - **Output:** Aktualisierte Gegenstands-Datei
 
 ---
 
-### /beziehung [A] [B]
+### /roman:beziehung [A] [B]
 
 > Legt eine neue Beziehung zwischen zwei Entitäten an.
 
@@ -110,7 +112,7 @@
 
 ---
 
-### /beziehung-aktualisieren [A] [B]
+### /roman:beziehung-aktualisieren [A] [B]
 
 > Aktualisiert eine bestehende Beziehung manuell.
 
@@ -121,7 +123,7 @@
 
 ---
 
-### /check [Name]
+### /roman:check [Name]
 
 > Prüft Vollständigkeit und Konsistenz eines Dokuments (generisch für alle Entitätstypen).
 
@@ -137,7 +139,7 @@
 
 ---
 
-### /szene-auswerten [SZ-ID]
+### /roman:szene-auswerten [SZ-ID]
 
 > Extrahiert alle relevanten Veränderungen aus einer abgenommenen Szene und trägt sie in die betroffenen Dokumente ein.
 
@@ -155,7 +157,7 @@
 
 ---
 
-### /plot
+### /roman:plot
 
 > Startet oder setzt die Plotentwicklung fort. Auch über freie Ansprache aufrufbar (z.B. „Lass uns über den Plot reden").
 
@@ -176,7 +178,7 @@
 
 ---
 
-### /plot-check
+### /roman:plot-check
 
 > Analysiert den aktuellen Plot gegen das gewählte Dramaturgiemodell.
 
@@ -195,7 +197,7 @@
 
 ## Hinweise
 
-- **Kein Autocomplete:** In Claude.ai gibt es kein natives Slash-Command-System. Die Befehle werden als normaler Text eingegeben. Bei Unsicherheit einfach fragen: *„Welche Befehle gibt es?"*
-- **Freie Ansprache:** Der `/plot`-Befehl kann auch durch natürliche Formulierungen aktiviert werden (z.B. „Lass uns am Plot arbeiten").
-- **Neue Befehle:** Werden hier ergänzt, sobald sie definiert sind – unabhängig davon, welcher Agent sie ausführt.
+- **Autocomplete in Claude Code:** `/roman` im Chat tippen → alle Unterbefehle erscheinen mit Beschreibung.
+- **Freie Ansprache:** Der `/roman:plot`-Befehl kann auch durch natürliche Formulierungen aktiviert werden (z.B. „Lass uns am Plot arbeiten").
+- **Neue Befehle:** Werden hier ergänzt, sobald sie definiert sind – unabhängig davon, welcher Agent sie ausführt. Gleichzeitig neue Datei unter `.claude/commands/roman/{name}.md` anlegen.
 - **Neue Agenten:** Sobald weitere Agenten Slash-Befehle erhalten, wird die Spalte „Agent" in der Übersichtstabelle entsprechend aktualisiert.

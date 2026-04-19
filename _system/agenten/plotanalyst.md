@@ -52,7 +52,7 @@ tags:
 
 ## Slash-Befehle
 
-### /plot-check
+### /roman:plot-check
 
 > Analysiert den aktuellen Plot gegen das gewählte Modell.
 
@@ -89,9 +89,9 @@ tags:
 4. Agent präsentiert den Bericht dem Autor.
 5. Bei Bedarf: *„Soll der Plotarchitect sich um [Problem X] kümmern?"*
 
-### /plot-check nach Szenenausarbeitung
+### /roman:plot-check nach Szenenausarbeitung
 
-Wenn `/plot-check` im Kontext einer fertigen Szene aufgerufen wird:
+Wenn `/roman:plot-check` im Kontext einer fertigen Szene aufgerufen wird:
 - Agent prüft, ob die Szene den vorgesehenen Beat erfüllt.
 - Agent prüft, ob die Szene unbeabsichtigt einen anderen Beat beeinflusst.
 - Ergebnis: ✅ Beat erfüllt | ⚠️ Beat nur teilweise erfüllt | ❌ Beat nicht erfüllt

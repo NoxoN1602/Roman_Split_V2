@@ -1,7 +1,7 @@
 # Claude Memory – Roman-Autorensystem
 
 > **Zweck:** Permanentes Gedächtnis für alle Entscheidungen rund um das Roman-Autorensystem.
-> **Letzte Aktualisierung:** 2026-04-06
+> **Letzte Aktualisierung:** 2026-04-19
 > **Hinweis:** Diese Datei wird fortlaufend ergänzt. Claude liest sie zu Beginn jeder Session.
 
 ---
@@ -18,17 +18,29 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 
 > ⚠️ **PERMANENTE REGEL – bootstrap.md aktuell halten:** Immer wenn eine Datei im Root-Verzeichnis oder in `_system/entscheidungen/`, `_system/agenten/`, `_system/konzept/` oder `_system/regeln/` **neu angelegt oder gelöscht** wird, muss `bootstrap.md` **sofort im selben Arbeitsschritt** angepasst werden – ohne Ausnahme, ohne Rückfrage. Neue Datei → in Pflichtlektüre eintragen. Gelöschte Datei → aus Pflichtlektüre entfernen.
 
+> ⚠️ **PERMANENTE REGEL – claude.md bei Entscheidungen erweitern:** Wird im Dialog eine Entscheidung getroffen, an die Claude sich in späteren Sessions erinnern muss (Architektur, Kanon, Figuren, Plot, Methodik, Namenskonventionen, Workflows), muss diese **sofort** in `claude.md` bzw. im passenden ADR/Regel-Dokument festgehalten werden. Für grundlegende Entscheidungen neues ADR in `_system/entscheidungen/`; Kurzreferenz in `claude.md` nachziehen. Chronologie-Eintrag in Abschnitt 13 nicht vergessen.
+
+> ⚠️ **PERMANENTE REGEL – Saubere Dokumentation, bei Unsicherheit nachfragen:** Entscheidungen, Begründungen und Kanon-Änderungen werden beim Treffen dokumentiert, nicht nachträglich. Wenn unklar ist, ob etwas dokumentierenswert ist oder wo es hingehört (claude.md vs. ADR vs. CHAR/Plot-Dokument), **vor dem Schreiben nachfragen** – nicht raten. Lieber einmal kurz rückfragen als falsch ablegen und später suchen müssen.
+
 ---
 
 ## 1b. ROMAN-KURZPROFIL
 
 > **Logline:** Ein traumatisierter Journalist, der den Tod seiner Tochter und seiner Frau nie verwunden hat, beginnt eine Mordserie zu recherchieren, die seine Stadt erschüttert. Was er nicht weiß: Er selbst ist der Mörder. Seine Psyche spaltet die Realität – wo er harmlose Begegnungen erlebt, hinterlässt er Leichen. Als er sich mit der ermittelnden Kommissarin verbündet und verliebt, jagt er sich selbst in eine Wahrheit, die alles zerstören wird.
+>
+> ⚠️ **Logline-Überarbeitung geplant:** Nach Abschluss aller 15 Beats soll die Logline angepasst werden, um den Beziehungs-Thriller-Kern (Duell Valerie ↔ Johannes) stärker abzubilden.
 
 > **Prämisse:** Kann ein Mensch schuldig sein, wenn er seine Schuld nicht kennt?
 
-> **Genre:** Psychologischer Thriller | **Inspirationen:** Angel Heart, Shutter Island
+> **Genre:** Psychologischer Beziehungs-Thriller | **Inspirationen:** Angel Heart, Shutter Island
 
-> **Methode:** Save the Cat (modifiziert) + Story Circle (Subplots) | **Plot-Status:** Stufe 2 ✅ – Stufe 3 steht an
+> **Methode:** Save the Cat (modifiziert) + Story Circle (Subplots) | **Plot-Status:** Stufe 3 in Arbeit (Beats 0–5 im Entwurf)
+
+### Roman-Architektur: Beziehungs-Thriller (Entscheidung 04-07)
+
+Der Roman ist primär ein **Beziehungs-Thriller**. Das Duell Valerie ↔ Johannes ist der dramaturgische Kern, nicht nur Johannes' Selbstjagd. Die Selbstjagd (Johannes jagt sich selbst, ohne es zu wissen) ist ein Twist, nicht das Hauptthema. Die gemeinsame Jagd nach dem Mörder bringt die beiden zusammen (beruflich → privat). Am Ende deckt Valerie den Mord auf und identifiziert Johannes als Täter – das ist der große Konflikt.
+
+**Konsequenzen:** Valerie braucht ab Beat 5 etwa gleich viel Erzählraum wie Johannes. Der Leser muss regelmäßig in Valeries Kopf sein (mit Einschränkungen aus ihren Grenzen & Verboten).
 
 ### Kernfiguren
 
@@ -36,9 +48,15 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 |-------|-------|-------------|
 | Johannes Breier | Protagonist, dissoziativer Serienmörder, Journalist | ✅ v0.5 |
 | Valerie de Beer (Val) | KHK Mordkommission, Ermittlerin, romantisches Interesse; beobachtet Johannes in Trigger-Zustand und zieht Schlüsse; WAS sie weiß, bleibt dem Leser bis zum letzten Akt verborgen | ✅ v0.2 |
+| Marie Kanter | Erstes Opfer der aktuellen Mordserie; verschwindet aus Club | ✅ (Testcharakter) |
+| Laura Ahler | Maries Freundin; Perspektive in der Club-Szene; Rolle darüber hinaus offen | ✅ (Testcharakter) |
+| Markus Brenner | KHK Mordkommission, Antagonist für Val; sabotiert sie als Person; macht sich selbst verdächtig (Sündenbock-Alternative); nie POV-Figur | ✅ v0.1 |
 | Sündenbock (Name offen) | Hauptverdächtiger, Ablenkungsfigur | ⬜ |
-| Redaktions-Vertrauter (Name offen) | Johannes' Anker zur Realität | ⬜ |
-| Ermittlungspartner Val (Name offen) | Vals engster Kollege in der Mordkommission | ⬜ |
+| Redaktions-Vertrauter (Name offen) | Johannes' alter Weggefährte, Anker zur Realität | ⬜ |
+| Chef (Name offen) | Wiederkehrende Nebenfigur, Reibungspunkt, Sanktionierer | ⬜ |
+| Sebastian Kahl | Vals engster Kollege in der Mordkommission, KOK; heimlich verliebt in Val; selektive Naivität als blinder Fleck | ✅ v0.1 |
+| Herbert Gunkler | Vorgeschichte: HG-Täter + Mörder (Brenners erster Fall); Hintergrundcharakter, tritt im Hauptplot nicht auf | ✅ rudimentär |
+| Maria Gunkler | Vorgeschichte: HG-Opfer, von Herbert getötet; hat Umschlag für Val + Parkquittung mit „?" hinterlassen | ✅ rudimentär |
 
 ### Strukturelle Grundentscheidungen
 
@@ -52,6 +70,19 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 - **Trigger:** T1 rote Highheels, T2 Schlüsselklirren, T3 reißender Stoff, T4 weibliches Flüstern; ein einzelner Trigger genügt; variiert zwischen den Taten; 4-Phasen-Ablauf; Alkohol als Verstärker
 - **Modus Operandi (kanonisch):** Kontrollierter Jäger im dissoziativen Zustand; außen offen/charmant/präsent (Gegenteil des Normalzustands); opportunistisches Werkzeug (Schlag) + manuelle Strangulation; Abfolge konsistent, Werkzeug variiert; Trigger kann vor oder während der Begegnung zünden. Details → [[Roman_Split/charaktere/johannes-breier]] Abschnitt 6b
 
+### Beat-Arbeit (Stufe 3 – Stand 04-07)
+
+Beats 0–5 sind im Entwurf. Kernentscheidungen:
+
+- **Beat 0 (Prolog):** Anonymes Kind, Missbrauch, sensorisch → steht
+- **Beat 1 (Opening Image):** Johannes' Morgenroutine, Straßenbahn (kein Auto), Redaktion, Chef-Konflikt (Kriminalistik statt offizielles Ressort)
+- **Beat 3 (Set-Up):** Zwei parallele Stränge: A) Johannes' Welt (Vertrauter, Chef, Rückblenden Tochter/Frau durch Trigger in Wohnung) + B) Laura & Marie im Club (Echtzeit, nicht Rückblende) → Marie verschwindet = erster Mord
+- **Beat 4 (Catalyst):** Kollege berichtet über den Fall, Johannes erkennt den Club → Rereading: Echo der Tat
+- **Beat 5 (Debate):** Erste Begegnung Johannes ↔ Valerie. Debate = wie weit gehen beide?
+- **Informationshandel-Subplot:** Johannes nutzt Valeries vertrauliche Infos für Artikel → verbessert sein Standing, aber Verrat an Vertrauen → zweite Waage
+
+Details → [[Roman_Split/plot/plot-beats]] und [[Roman_Split/plot/PLOT_WORKING]]
+
 ### Valerie de Beer – Kurzprofil (kanonisiert)
 
 - **Name:** Valerie de Beer | **Spitzname:** Val
@@ -60,7 +91,7 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 - **Herkunft:** Urgrosseltern aus Rotterdam, nach Deutschland emigriert
 - **Ausbildung:** Bachelor Polizei, Hochschule für Polizei Villingen-Schwenningen (2013–2016)
 - **Karriere:** PK 2016–2019 → KK 2019–2022 → KOK 2022–2023 → KHK 2023/2024
-- **Transfer-Trigger:** Kombination A+C ✅ – Querfall mit Todesfolge (bewiesen, aber intern nicht berücksichtigt) → aktive Bewerbung + direktes Gespräch mit Mordkommission-Leiter → Stelle erhalten; erzeugte Ressentiments bei Kollegen
+- **Transfer-Trigger:** Kombination A+C ✅ – Querfall-Episode (2022/2023): Val verfolgt als KOK einen HG-Fall (Herbert Gunkler). Erkennt Profil-Übereinstimmung mit Mordfall von KHK Markus Brenner. Brenner weist sie ab → Val eskaliert zum Vorgesetzten. HG eskaliert, Maria Gunkler wird getötet. Val durchsucht Wohnung illegal, findet: Umschlag für Val (von Maria, mit Beweisen häuslicher Gewalt, beschriftet „Fick dich, Herbert 😠") + Parkquittung mit handgeschriebenem „?" (Datum/Uhrzeit = Tatzeitfenster Mordfall). Legt Fund dem Vorgesetzten vor → Brenner steht schlecht da → Val bekommt Mordkommissions-Stelle. Erzeugt Ressentiments (Brenner + Kollegen).
 - **Zwillingsschwester:** Mara de Beer, entführt und ermordet ca. 2003 ✅
 - **Erscheinung:** 1,73 m, schlank (Kampfsport), androgyn-funktional gekleidet; mittellanges gewelltes dunkelbraunes Haar, direkter abwartender Blick; Referenzbild vorhanden
 - **Psychologie:** Emotional gepanzert; Arbeit als Identität und Flucht; Angst vor nachhaltiger Nähe; zerbricht Beziehungen lieber selbst als verletzt zu werden
@@ -139,7 +170,7 @@ Trennung Kreation / Prüfung (ADR-0009). Kein Orchestrator – Autor steuert.
 
 ## 6. PLOT-SYSTEM (ADR-0009)
 
-Stufen: 1 Kern ✅ | 2 Methodik ✅ | **3 Makrostruktur ⬜** | 4 Sequenzen | 5 Szenen-Outline
+Stufen: 1 Kern ✅ | 2 Methodik ✅ | **3 Makrostruktur – in Arbeit (Beats 0–5 ✅, 6–15 ⬜)** | 4 Sequenzen | 5 Szenen-Outline
 
 Modelle: **Save the Cat** (Hauptmodell) + **Story Circle** (Subplots). Slash-Befehle: `/plot`, `/plot-check`.
 
@@ -210,6 +241,18 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 | Lauras Zimmer | ✅ | [[Roman_Split/orte/lauras-zimmer]] |
 | Lauras Armband | ✅ | [[Roman_Split/gegenstaende/lauras-armband]] |
 | Valerie de Beer | ✅ v0.2 | [[Roman_Split/charaktere/valerie-de-beer]] |
+| Markus Brenner | ✅ v0.1 | [[Roman_Split/charaktere/markus-brenner]] |
+| Sebastian Kahl | ✅ v0.1 | [[Roman_Split/charaktere/sebastian-kahl]] |
+| Herbert Gunkler | ✅ rudimentär | [[Roman_Split/charaktere/herbert-gunkler]] |
+| Maria Gunkler | ✅ rudimentär | [[Roman_Split/charaktere/maria-gunkler]] |
+| Umschlag Maria Gunkler | ✅ v0.1 | [[Roman_Split/gegenstaende/umschlag-maria-gunkler]] |
+| Parkquittung Gunkler | ✅ v0.1 | [[Roman_Split/gegenstaende/parkquittung-gunkler]] |
+| BEZ Brenner ↔ Val | ✅ v0.1 | [[Roman_Split/beziehungen/markus-brenner--valerie-de-beer]] |
+| BEZ Herbert ↔ Maria | ✅ v0.1 | [[Roman_Split/beziehungen/herbert-gunkler--maria-gunkler]] |
+| BEZ Maria ↔ Val | ✅ v0.1 | [[Roman_Split/beziehungen/maria-gunkler--valerie-de-beer]] |
+| Sebastian Kahl | ✅ v0.1 | [[Roman_Split/charaktere/sebastian-kahl]] |
+| BEZ Sebastian ↔ Val | ✅ v0.1 | [[Roman_Split/beziehungen/sebastian-kahl--valerie-de-beer]] |
+| BEZ Brenner ↔ Sebastian | ✅ v0.1 | [[Roman_Split/beziehungen/markus-brenner--sebastian-kahl]] |
 
 ---
 
@@ -218,8 +261,12 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 ### Plot-Entwicklung
 - [x] Stufe 1+2 ✅ | [x] Johannes CHAR v0.5 ✅ | [x] Trigger ✅ | [x] Klinisches Profil ✅ | [x] Konfabulations-Prinzip ✅ | [x] Intermezzi ✅ | [x] Modus Operandi ✅
 - [x] **Valerie de Beer CHAR v0.2 ✅** – Transfer-Trigger, Schwester Mara, Kampfsport kanonisiert
-- [ ] **Stufe 3 (Makrostruktur)** | [ ] Sündenbock CHAR | [ ] Vertrauter CHAR | [ ] Johannes vertiefen (Details)
-- [ ] Valerie vertiefen: Was bricht ihre Rüstung ❓ | Wohnort ❓ | Ermittlungspartner ❓ | Hobbys endgültig ❓
+- [x] **Stufe 3 begonnen: Beats 0–5 im Entwurf ✅** – Beziehungs-Thriller als Kern, Marie = erstes Opfer, Club-Szene, Catalyst-Mechanismus, Debate = erste Begegnung
+- [x] **Markus Brenner CHAR v0.1 ✅** – Antagonist für Val, Querfall-Episode, häusliche Dynamik, physisches Profil kanonisiert
+- [ ] **Stufe 3 fortsetzen: Beats 6–15** | [ ] Sündenbock CHAR | [ ] Redaktions-Vertrauter CHAR (Johannes' Weggefährte) | [ ] Chef knapp CHAR
+- [ ] **Logline anpassen** (nach Beat-Arbeit) – Beziehungs-Thriller-Kern abbilden
+- [x] **Vals Ermittlungspartner: Sebastian Kahl ✅** – KOK, heimlich verliebt, selektive Naivität als blinder Fleck
+- [ ] Valerie vertiefen: Was bricht ihre Rüstung ❓ | Wohnort ❓ | Hobbys endgültig ❓
 
 ### System-Entwicklung
 - [x] Plotarchitect über neue Dokumentenstruktur informieren ✅ (v1.1)
@@ -246,6 +293,13 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 | 04-06 | **CHAR-valerie-de-beer v0.1 erstellt.** Name, KHK-Rang, Karrierepfad, Psychologie, Beziehungsmuster, Faszination ältere Männer kanonisiert. Referenzbild vorhanden. |
 | 04-06 | **CHAR-valerie-de-beer v0.2.** Transfer-Trigger (Kombination A+C) kanonisiert. Zwillingsschwester: Mara de Beer. Kampfsport als Hobby (Kickboxen noch nicht final). |
 | 04-07 | **Korrektur Kommissarin-Twist.** valerie-de-beer.md und claude.md: Twist-Dokumentation korrigiert. Korrekt: Val beobachtet Johannes in Trigger-Zustand → zieht Schlüsse → WAS sie weiß, bleibt dem Leser verborgen. Falsch war: Val weiß bewusst, dass Johannes der Mörder ist, und schweigt. |
+| 04-07 | **Stufe 3 begonnen: Beats 0–5 im Entwurf.** Grundlegende Weichenstellung: Roman = Beziehungs-Thriller (Duell Val ↔ Johannes = Kern). Marie Kanter = erstes Opfer, Club-Szene in Echtzeit aus Lauras Perspektive. Catalyst: Kollege berichtet, Johannes erkennt Club (Rereading: Echo der Tat). Debate = erste Begegnung Val ↔ Johannes. Informationshandel-Subplot definiert (Johannes nutzt Valeries Infos für Artikel). Chef als wiederkehrende Nebenfigur. Vertrauter = alter Weggefährte. |
+| 04-19 | **Markus Brenner CHAR v0.1 erstellt.** KHK Mordkommission, Antagonist für Val. Querfall-Episode vollständig ausgearbeitet: HG-Fall Herbert/Maria Gunkler als Auslöser von Vals Transfer. Physisches Profil kanonisiert (1,89m, 110kg, Seitenscheitel, blaue Augen). Häusliche Dynamik (Frau Alexandra, Sohn 12 J., psychischer Druck). Sabotage gegen Val als Person, nicht als Fallstrategie. Nie POV-Figur. |
+| 04-19 | **Gunkler-Vorgeschichte vollständig dokumentiert.** CHAR Herbert Gunkler + Maria Gunkler (rudimentär). GGS Umschlag Maria Gunkler (Beschriftung: „Fick dich, Herbert 😠") + Parkquittung mit handgeschriebenem „?". BEZ: Brenner↔Val, Herbert↔Maria, Maria↔Val, Val↔Umschlag, Val↔Parkquittung. |
+| 04-19 | **Obsidian CLI integriert.** Binary verfügbar unter `/Applications/Obsidian.app/Contents/MacOS/obsidian`. Befehle: backlinks, unresolved, orphans, search, wordcount etc. Wird automatisch nach Dateioperationen eingesetzt (Konsistenz-Check). Dokumentiert in Claude-Memory. |
+| 04-19 | **Slash-Commands auf `/roman:*` umgestellt.** Alle Commands in `.claude/commands/roman/` verschoben. Syntax: `/roman:plot`, `/roman:neuer-charakter` etc. Autocomplete zeigt alle Unterbefehle. Agenten-Dateien, commands.md, statusline-roman.sh aktualisiert. |
+| 04-19 | **Nebenhandlungs-Methodik dokumentiert.** Val↔Markus = strukturell verzahnt (in Haupt-Beats mitnotieren). Eigenständige Subplots (Informationshandel, Vals Familiendynamik) bekommen in Stufe 4 eigenen Story Circle. Eingetragen in PLOT_WORKING. |
+| 04-19 | **Sebastian Kahl CHAR v0.1 erstellt.** KOK Mordkommission, Vals de-facto-Partner. Geb. 14.02.1996 (Valentinstag). 1,91m, blond lockig. Introvertiert, scharfsinnig, computer-affin. Heimlich verliebt in Val. Selektive Naivität als blinder Fleck. BEZ Sebastian↔Val + BEZ Brenner↔Sebastian rudimentär angelegt. |
 
 ---
 
@@ -261,10 +315,18 @@ ANWEISUNGEN FÜR CLAUDE:
 - Neue Slash-Befehle: IMMER in [[Roman_Split/commands]] eintragen.
 - Roman-Plot: Lies [[Roman_Split/plot/PLOT_WORKING]] + [[Roman_Split/plot/plot-hauptplot]] für den aktuellen Stand. [[Roman_Split/plot/plot-struktur]] bei Bedarf. [[Roman_Split/plot/plot-beats]] für Makrostruktur.
 - Dramaturgiemodell: Save the Cat (modifiziert) + Story Circle (Subplots).
+- **Roman-Architektur:** Beziehungs-Thriller. Duell Valerie ↔ Johannes = Kern. Valerie braucht ab Beat 5 gleich viel Erzählraum wie Johannes.
 - Johannes Breier: CHAR v0.5. Trigger, klinisches Profil, Konfabulations-Prinzip, Modus Operandi kanonisch.
 - **Konfabulations-Prinzip:** ENTLASTUNG (Schuld entfernen), NICHT Romantisierung. Variiert: alltäglich, angenehm, tragisch oder romantisch.
 - **Modus Operandi:** Kontrollierter Jäger im dissoziativen Zustand. Außenwirkung: offen/charmant/präsent. Opportunistisches Werkzeug + manuelle Strangulation. Trigger variiert zwischen Taten. Details → CHAR Abschnitt 6b.
 - **BEZ-Lebenszyklus (ADR-0011):** Keine BEZ vor Erstbegegnung. In /szene-auswerten: Erstbegegnungen erkennen = Pflichtschritt, halbautomatisch (Autor bestätigt).
-- **Valerie de Beer (Val):** CHAR v0.2. KHK. Geb. 23.09.1995. Villingen-Schwenningen. Zwillingsschwester Mara (ermordet ~2003). Transfer: Querfall bewiesen + direktes Gespräch mit Mordkommission-Leiter (Ressentiments bei Kollegen). Psychologie: emotional gepanzert, Arbeit als Identität, Angst vor Nähe. Beziehungsmuster: bricht selbst ab. Faszination ältere Männer: Lesbarkeit durch Schicht + Schaden als Vertrautheit + Paradox der Kontrolle. Kampfsport (Kickboxen noch nicht final). Referenzbild vorhanden. Kommissarin-Twist: Beobachtet Johannes in Trigger-Zustand, zieht interne Schlüsse – WAS sie weiß, bleibt dem Leser bis zum letzten Akt VERBORGEN.
+- **Valerie de Beer (Val):** CHAR v0.2. KHK. Geb. 23.09.1995. Villingen-Schwenningen. Zwillingsschwester Mara (ermordet ~2003). Transfer: Querfall-Episode 2022/2023 (HG-Fall Gunkler → Mord → illegale Wohnungsdurchsuchung → Fund → Brenner bloßgestellt → Stelle erhalten). Psychologie: emotional gepanzert, Arbeit als Identität, Angst vor Nähe. Beziehungsmuster: bricht selbst ab. Faszination ältere Männer: Lesbarkeit durch Schicht + Schaden als Vertrautheit + Paradox der Kontrolle. Kampfsport (Kickboxen noch nicht final). Referenzbild vorhanden. Kommissarin-Twist: Beobachtet Johannes in Trigger-Zustand, zieht interne Schlüsse – WAS sie weiß, bleibt dem Leser bis zum letzten Akt VERBORGEN.
+- **Markus Brenner:** CHAR v0.1. KHK Mordkommission, ~6–7 Jahre Dienstalter (deutlich mehr als Val). Geb. 17.07.1982. 1,89m, 110kg, Seitenscheitel braun, blaue Augen, glattrasiert. Business Casual. Verheiratet (Alexandra, ~1,60m), Sohn 12 J. Psychischer Druck auf Familie – normalisiert Dominanzverhalten (Verbindung zum HG-Fall). Antagonist für Val als Person, nicht als Fallstrategie. Nie POV-Figur. Macht sich durch Sabotage selbst verdächtig (Sündenbock-Alternative). Kein Mörder.
+- **Querfall-Episode (Gunklers):** Herbert Gunkler (HG-Täter + Mörder) – Frau Maria Gunkler (Opfer). Maria hat für Val einen Umschlag mit HG-Beweisen vorbereitet (Beschriftung: „Fick dich, Herbert 😠"). In derselben Schublade: Parkquittung mit handgeschriebenem „?" – Datum/Uhrzeit = Tatzeitfenster Brenners Mordfall. Val erkennt Verbindung, legt Vorgesetztem vor. Details → CHAR/BEZ/GGS-Dateien.
+- **Marie Kanter = erstes Opfer** der aktuellen Mordserie. Verschwindet aus Club (Lauras Geburtstag). Club-Szene in Echtzeit, Lauras Perspektive. Johannes war im selben Club.
+- **Informationshandel-Subplot:** Johannes nutzt Valeries vertrauliche Infos für Artikel → Standing verbessert sich, aber Verrat an Vertrauen. Zweite Waage.
+- **Chef:** Wiederkehrend, Sanktionen, Steine im Weg. Knapp charakterisieren.
+- **Redaktions-Vertrauter (Johannes):** Alter Weggefährte in der Redaktion. Noch zu charakterisieren. ⬜
+- **Sebastian Kahl (Vals Partner):** KOK Mordkommission. Geb. 14.02.1996 (Valentinstag). 1,91m, schlank, blond lockig. Introvertiert, scharfsinnig, computer-affin. Heimlich verliebt in Val – sie ahnt nichts. Selektive Naivität: Wer sein Vertrauen hat, ist fast unkündbar – gefährlich im Johannes-Konflikt. Wird passiv wenn Brenner auftritt. Kontrast zu Val (die eskaliert). CHAR v0.1 → [[Roman_Split/charaktere/sebastian-kahl]]
 - Session-Initialisierung: Siehe bootstrap.md für vollständige Pflichtlektüre-Liste.
 -->
