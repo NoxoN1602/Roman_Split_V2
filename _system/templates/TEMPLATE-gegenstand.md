@@ -13,6 +13,8 @@ tags:
   - gegenstand
 ---
 
+[[Roman_Split/gegenstaende/_gegenstand-index|Gegenstände Übersicht]]
+
 # Gegenstand-Kanon – [Name des Gegenstands]
 
 > **Rolle im Roman:** [Kurzbeschreibung der Rolle]

@@ -15,6 +15,8 @@ tags:
   - vorgeschichte
 ---
 
+[[Roman_Split/gegenstaende/_gegenstand-index|Gegenstände Übersicht]]
+
 # Gegenstand-Kanon – Umschlag Maria Gunkler
 
 > **Rolle im Roman:** Beweisstück aus der Querfall-Episode (Vorgeschichte). Maria Gunkler hat ihn für Valerie de Beer zusammengestellt – als Vorbereitung für einen Moment, der nie kam.

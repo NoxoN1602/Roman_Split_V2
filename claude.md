@@ -253,6 +253,8 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 | BEZ Franz ↔ Laura | ✅ v0.1 | [[Roman_Split/beziehungen/franz-ahler--laura-ahler]] |
 | BEZ Laura ↔ Silke | ✅ v0.1 | [[Roman_Split/beziehungen/laura-ahler--silke-ahler]] |
 | Character-Index | ✅ v1.0 | [[Roman_Split/charaktere/_character-index]] |
+| Gegenstand-Index | ✅ v1.0 | [[Roman_Split/gegenstaende/_gegenstand-index]] |
+| Ort-Index | ✅ v1.0 | [[Roman_Split/orte/_ort-index]] |
 | Umschlag Maria Gunkler | ✅ v0.1 | [[Roman_Split/gegenstaende/umschlag-maria-gunkler]] |
 | Parkquittung Gunkler | ✅ v0.1 | [[Roman_Split/gegenstaende/parkquittung-gunkler]] |
 | BEZ Brenner ↔ Val | ✅ v0.1 | [[Roman_Split/beziehungen/markus-brenner--valerie-de-beer]] |
@@ -312,6 +314,7 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 | 04-19 | **BEZ Franz↔Silke, Franz↔Laura, Laura↔Silke angelegt.** Gewohnheitsehe, wohlwollende Distanz Vater↔Tochter, Überbehütung Mutter↔Tochter. |
 | 04-19 | **CHAR Herbert Gunkler v0.2.** Physisches Profil ergänzt: „Der Charmante". 1,80m, breitschultrig, gescheitelt, Blaugrau-Augen, grausamer Zug um den Mund. Geburtsdatum: 15. April 1971. |
 | 04-19 | **CHAR Maria Gunkler v0.2.** Geburtsdatum: 18.12.1973. Todesdatum: 13.03.2023 (49 J.). Doppelleben kanonisiert: öffentliche Fassade vs. privater Erschöpfungszustand. Physisches Profil vollständig. Opfer häuslicher Gewalt und sexuellen Missbrauchs. |
+| 04-19 | **Ort- und Gegenstand-Indizes erstellt.** `orte/_ort-index.md` + `gegenstaende/_gegenstand-index.md` analog zum Character-Index. Galerie + Steckbrief-Tabelle. Ort-Index mit SVG-Fallback: zeigt `.drawio.svg`-Grundriss wenn kein `bild` gesetzt. `bild`-Feld als optional in ORT-Template + lauras-zimmer ergänzt. Backlinks in alle bestehenden ORT/GGS-Dateien + Templates. Agenten-Regel 10 (Index-Backlinks als Pflicht für CHAR/ORT/GGS). Filter `doc_type !== "index"` in allen drei Indizes. |
 | 04-19 | **Nebenhandlungs-Methodik dokumentiert.** Val↔Markus = strukturell verzahnt (in Haupt-Beats mitnotieren). Eigenständige Subplots (Informationshandel, Vals Familiendynamik) bekommen in Stufe 4 eigenen Story Circle. Eingetragen in PLOT_WORKING. |
 | 04-19 | **Sebastian Kahl CHAR v0.1 erstellt.** KOK Mordkommission, Vals de-facto-Partner. Geb. 14.02.1996 (Valentinstag). 1,91m, blond lockig. Introvertiert, scharfsinnig, computer-affin. Heimlich verliebt in Val. Selektive Naivität als blinder Fleck. BEZ Sebastian↔Val + BEZ Brenner↔Sebastian rudimentär angelegt. |
 

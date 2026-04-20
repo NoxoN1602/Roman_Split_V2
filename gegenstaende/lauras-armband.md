@@ -10,12 +10,15 @@ autor_agent: "charakterentwickler"
 gegenstand_typ: "schmuck"
 bild: "bilder/lauras-armband.png"
 tags:
+
   - gegenstand
   - schmuck
   - indiz
   - laura-ahler
   - marie-kanter
 ---
+
+[[Roman_Split/gegenstaende/_gegenstand-index|Gegenstände Übersicht]]
 
 # Gegenstand-Kanon – Lauras Pentagramm-Armband
 

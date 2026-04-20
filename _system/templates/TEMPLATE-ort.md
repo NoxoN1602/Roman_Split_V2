@@ -9,9 +9,12 @@ letzte_aenderung: "<% tp.date.now('YYYY-MM-DD') %>"
 autor_agent: "" # z.B. charakterentwickler, manuell
 ort_typ: "" # innenraum | aussenraum | gebaeude | landschaft | fahrzeug | oeffentlich | virtuell
 grundriss: "" # Pfad zur .drawio-Quelldatei, z.B. "grundrisse/lauras-zimmer.drawio"
+bild: "" # Optionales Referenz-/Stimmungsbild, z.B. "bilder/lauras-zimmer.png"
 tags:
   - ort
 ---
+
+[[Roman_Split/orte/_ort-index|Ort Übersicht]]
 
 # Ort-Kanon – [Name des Orts]
 

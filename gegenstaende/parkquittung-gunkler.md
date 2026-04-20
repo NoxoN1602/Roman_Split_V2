@@ -15,6 +15,8 @@ tags:
   - vorgeschichte
 ---
 
+[[Roman_Split/gegenstaende/_gegenstand-index|Gegenstände Übersicht]]
+
 # Gegenstand-Kanon – Parkquittung Gunkler
 
 > **Rolle im Roman:** Entscheidendes Beweisstück in der Querfall-Episode. Verbindet Herbert Gunkler mit dem Tatort des ersten Mordfalls (Brenners Fall) zum korrekten Tatzeitfenster.

@@ -9,9 +9,12 @@ letzte_aenderung: 2026-04-04
 autor_agent: charakterentwickler
 ort_typ: innenraum
 grundriss: "grundrisse/lauras-zimmer.drawio"
+bild: "" # Optionales Referenz-/Stimmungsbild, z.B. "bilder/lauras-zimmer.png"
 tags:
   - ort
 ---
+
+[[Roman_Split/orte/_ort-index|Ort Übersicht]]
 
 # Ort-Kanon – Lauras Zimmer
 
