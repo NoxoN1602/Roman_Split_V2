@@ -48,10 +48,10 @@ Der Roman ist primär ein **Beziehungs-Thriller**. Das Duell Valerie ↔ Johanne
 |-------|-------|-------------|
 | Johannes Breier | Protagonist, dissoziativer Serienmörder, Journalist | ✅ v0.5 |
 | Valerie de Beer (Val) | KHK Mordkommission, Ermittlerin, romantisches Interesse; beobachtet Johannes in Trigger-Zustand und zieht Schlüsse; WAS sie weiß, bleibt dem Leser bis zum letzten Akt verborgen | ✅ v0.2 |
-| Marie Kanter | Erstes Opfer der aktuellen Mordserie; verschwindet aus Club | ✅ (Testcharakter) |
+| Marie Kanter | Drittes Opfer der aktuellen Mordserie; erstes in aktiver Ermittlung; verschwindet aus Club (Beat 3) | ✅ (Testcharakter) |
 | Laura Ahler | Maries Freundin; Perspektive in der Club-Szene; Rolle darüber hinaus offen | ✅ (Testcharakter) |
 | Markus Brenner | KHK Mordkommission, Antagonist für Val; sabotiert sie als Person; macht sich selbst verdächtig (Sündenbock-Alternative); nie POV-Figur | ✅ v0.1 |
-| Sündenbock (Name offen) | Hauptverdächtiger, Ablenkungsfigur | ⬜ |
+| Sündenbock (Name offen) | Hauptverdächtiger, Nachtleben-Arbeiter; strukturelle Verbindung zu allen 3 Fällen via Venue-Präsenz; Motiv offen | ⬜ |
 | Redaktions-Vertrauter (Name offen) | Johannes' alter Weggefährte, Anker zur Realität | ⬜ |
 | Chef (Name offen) | Wiederkehrende Nebenfigur, Reibungspunkt, Sanktionierer | ⬜ |
 | Sebastian Kahl | Vals engster Kollege in der Mordkommission, KOK; heimlich verliebt in Val; selektive Naivität als blinder Fleck | ✅ v0.1 |
@@ -78,7 +78,7 @@ Beats 0–5 sind im Entwurf. Kernentscheidungen:
 
 - **Beat 0 (Prolog):** Anonymes Kind, Missbrauch, sensorisch → steht
 - **Beat 1 (Opening Image):** Johannes' Morgenroutine, Straßenbahn (kein Auto), Redaktion, Chef-Konflikt (Kriminalistik statt offizielles Ressort)
-- **Beat 3 (Set-Up):** Zwei parallele Stränge: A) Johannes' Welt (Vertrauter, Chef, Rückblenden Tochter/Frau durch Trigger in Wohnung) + B) Laura & Marie im Club (Echtzeit, nicht Rückblende) → Marie verschwindet = erster Mord
+- **Beat 3 (Set-Up):** Zwei parallele Stränge: A) Johannes' Welt (Vertrauter, Chef, Rückblenden Tochter/Frau durch Trigger in Wohnung) + B) Laura & Marie im Club (Echtzeit, nicht Rückblende) → Marie verschwindet = drittes Opfer der Serie, erstes in aktiver Ermittlung; Trigger in der Club-Szene: T1 (rote Highheels) + T4 (weibliches Flüstern), vorläufig
 - **Beat 4 (Catalyst):** Kollege berichtet über den Fall, Johannes erkennt den Club → Rereading: Echo der Tat
 - **Beat 5 (Debate):** Erste Begegnung Johannes ↔ Valerie. Debate = wie weit gehen beide?
 - **Informationshandel-Subplot:** Johannes nutzt Valeries vertrauliche Infos für Artikel → verbessert sein Standing, aber Verrat an Vertrauen → zweite Waage
@@ -165,7 +165,7 @@ Trennung Kreation / Prüfung (ADR-0009). Kein Orchestrator – Autor steuert.
 | `sceneideationpartner` | Kreativ | Szenen-Auflösung + Szenenverträge | ✅ v1.0 |
 | `plotanalyst` | Prüfung | Strukturanalyse gegen Modell | ✅ v1.0 |
 | `conflictanalyst` | Prüfung | Spannungs-/Konfliktanalyse | ✅ v1.0 |
-| `canonguardian` | Prüfung | Kanon-Konsistenzprüfung | ✅ v1.0 |
+| `canonguardian` | Prüfung | Kanon-Konsistenzprüfung; Slash-Befehl: `/roman:canon-check` | ✅ v1.0 |
 | `themenmotivationagent` | Prüfung | Themen-/Motiv-Konsistenz | ⬜ Vorgesehen |
 
 ---
@@ -222,7 +222,7 @@ Siehe [[Roman_Split/_system/regeln/szenen-pipeline]] und [[Roman_Split/_system/r
 
 Die Datei definiert die vollständige Pflichtlektüre für jeden Session-Start:
 - Root: `claude.md`, `commands.md`
-- `_system/entscheidungen/`: alle ADRs (0001–0011)
+- `_system/entscheidungen/`: alle ADRs (0001–xxxx)
 - `_system/agenten/`: alle Agenten-Prompts
 - `_system/konzept/`: KON-0001
 - `_system/regeln/`: alle Regeldokumente
@@ -317,6 +317,7 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 | 04-19 | **Ort- und Gegenstand-Indizes erstellt.** `orte/_ort-index.md` + `gegenstaende/_gegenstand-index.md` analog zum Character-Index. Galerie + Steckbrief-Tabelle. Ort-Index mit SVG-Fallback: zeigt `.drawio.svg`-Grundriss wenn kein `bild` gesetzt. `bild`-Feld als optional in ORT-Template + lauras-zimmer ergänzt. Backlinks in alle bestehenden ORT/GGS-Dateien + Templates. Agenten-Regel 10 (Index-Backlinks als Pflicht für CHAR/ORT/GGS). Filter `doc_type !== "index"` in allen drei Indizes. |
 | 04-19 | **Nebenhandlungs-Methodik dokumentiert.** Val↔Markus = strukturell verzahnt (in Haupt-Beats mitnotieren). Eigenständige Subplots (Informationshandel, Vals Familiendynamik) bekommen in Stufe 4 eigenen Story Circle. Eingetragen in PLOT_WORKING. |
 | 04-19 | **Sebastian Kahl CHAR v0.1 erstellt.** KOK Mordkommission, Vals de-facto-Partner. Geb. 14.02.1996 (Valentinstag). 1,91m, blond lockig. Introvertiert, scharfsinnig, computer-affin. Heimlich verliebt in Val. Selektive Naivität als blinder Fleck. BEZ Sebastian↔Val + BEZ Brenner↔Sebastian rudimentär angelegt. |
+| 05-02 | **Skill `/roman:canon-check` eingeführt.** Canonguardian-Skill: ermittelt geänderte Dateien via `git status`, prüft sie gegen claude.md Abschnitt 1b + kanon/, gibt strukturierten Prüfbericht mit ❌/⚠️/💡 aus. Optionaler Scope-Parameter. Plotarchitect + Charakterentwickler schlagen den Check aktiv vor bei Session-Ende- und Kontextwechsel-Signalen (z.B. „Fertig für heute", „wir machen mit … weiter"). |
 
 ---
 

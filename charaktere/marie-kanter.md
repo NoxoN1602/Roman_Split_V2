@@ -17,7 +17,7 @@ tags:
 
 # Charakter-Kanon – Marie Kanter
 
-> **Rolle im Roman:** Erstes Opfer der aktuellen Mordserie; emotionale Identifikationsfigur zu Beginn des Romans. Stirbt im Prolog.
+> **Rolle im Roman:** Drittes Opfer der aktuellen Mordserie; erstes Opfer, das aktiv ermittelt wird. Emotionale Identifikationsfigur zu Beginn des Romans. Verschwindet im Set-Up (Beat 3) aus dem Club.
 > **Dramaturgische Funktion:** Schockt den Leser durch ihr Schicksal: Zuerst Sympathieaufbau, dann grausame Ermordung ohne erkennbaren Sinn. Aufbau maximaler Fallhöhe durch Sympathie, Lebendigkeit und soziale Wärme, bevor sie brutal aus der Handlung gerissen wird. Verkörpert „ungelebtes Leben" und das Ausmaß des Verlusts. Zusätzliche Tragik: Sie stirbt am 21. Geburtstag ihrer besten Freundin Laura – ein Datum, das für Laura für immer vergiftet sein wird.
 
 ---
@@ -34,7 +34,7 @@ tags:
 ## 1. ROLLE & FUNKTION (MUSS)
 
 **Narrative Rolle:**
-Erstes Opfer der aktuellen Mordserie; emotionale Identifikationsfigur zu Beginn des Romans. Stirbt im Prolog.
+Drittes Opfer der aktuellen Mordserie; erstes Opfer, das aktiv ermittelt wird. Emotionale Identifikationsfigur zu Beginn des Romans. Verschwindet im Set-Up (Beat 3) aus dem Club.
 
 **Dramaturgische Funktion:**
 Maximale Fallhöhe: Der Leser soll Marie mögen, ihre Lebendigkeit spüren, sich mit ihr identifizieren – und dann durch ihren Tod geschockt werden. Marie verkörpert ungelebtes Leben und das Ausmaß des Verlusts. Ihr Schicksal macht die Mordserie persönlich und emotional greifbar. Der Tod am Abend von Lauras 21. Geburtstag – die beiden wollten feiern gehen – vergiftet dieses Datum dauerhaft für Laura und verknüpft Feier und Verlust untrennbar.
@@ -337,7 +337,7 @@ Marie lebt in einem Zustand dynamischer Stabilität: beruflich erfüllt, sozial 
 
 | Romanzeit / Szene | Wendepunkt | Auswirkung |
 | ------------------ | ---------- | ---------- |
-| Abend des 28. Januar 2026 (Prolog) | Marie wird auf dem Weg zur Geburtstagsfeier für Laura entführt und ermordet | Marie wird aus der Handlung gerissen; ihr Tod am Abend von Lauras 21. Geburtstag wird zum emotionalen Motor des Romans und vergiftet dieses Datum dauerhaft |
+| Abend des 28. Januar 2026 (Beat 3, Set-Up) | Marie verschwindet im Club während der Geburtstagsfeier für Laura; wird ermordet | Marie wird aus der Handlung gerissen; ihr Tod am Abend von Lauras 21. Geburtstag wird zum emotionalen Motor des Romans und vergiftet dieses Datum dauerhaft |
 
 ### Zielzustand
 

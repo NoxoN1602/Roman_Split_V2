@@ -67,6 +67,7 @@ tags:
 | ------- | ------ |
 | Szene wird abgenommen (Pipeline Schritt 2) | `/roman:szene-auswerten [SZ-ID]` wird automatisch aufgerufen |
 | Szene wird erneut abgenommen nach Revision | `/roman:szene-auswerten [SZ-ID]` im Delta-Modus |
+| Session-Ende oder Kontextwechsel erkannt (z.B. „Fertig für heute", „wir machen mit [Thema] weiter", Aufruf eines anderen Agenten) | `/roman:canon-check` aktiv vorschlagen |
 
 ---
 

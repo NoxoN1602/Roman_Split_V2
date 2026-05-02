@@ -133,9 +133,9 @@ Herbert Gunkler ist der Mann, um den sich die gesamte Querfall-Episode dreht –
 - Tritt im Hauptplot nicht auf ✅
 
 **Was ist noch unklar?**
-- Geburtsdatum, Erscheinung, Biografie ❓
 - Name des ersten Mordopfers ❓
 - Aktueller Status (Haft?) ❓
+- Biografie / Kindheit ❓
 
 ---
 

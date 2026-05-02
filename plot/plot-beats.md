@@ -2,10 +2,10 @@
 doc_type: plot-beats
 doc_id: PLOT-beats
 titel: "Beat-Struktur (Save the Cat)"
-version: "1.1"
+version: "1.2"
 status: in-arbeit
 erstellt: 2026-04-05
-letzte_aenderung: 2026-04-07
+letzte_aenderung: 2026-05-02
 tags:
   - plot
   - beats
@@ -27,17 +27,17 @@ tags:
 | 1   | Opening Image          | ~1%        | Johannes' Morgenroutine, Straßenbahn, Redaktion, Chef-Konflikt                                    | –                                                 | Entwurf ✅ |
 | 2   | Theme Stated           | ~5%        | Schuld/Verantwortung/Wahrnehmung beiläufig angesprochen; Platzierung noch offen                   | –                                                 | offen     |
 | 3   | Set-Up                 | 1–15%      | Johannes' Welt + parallel: Laura & Marie im Club (erster Mord); Rückblenden Tochter/Frau          | –                                                 | Entwurf ✅ |
-| 4   | Catalyst               | ~12%       | Johannes erfährt vom Mord an Marie – Kollege berichtet, Johannes erkennt den Club                 | –                                                 | Entwurf ✅ |
-| 5   | Debate                 | 12–20%     | Erste Begegnung Johannes ↔ Valerie; Frage: wie weit gehen beide, um an den anderen heranzukommen? | –                                                 | Entwurf ✅ |
-| 6   | Break into Two         | ~25%       | –                                                                                                 | –                                                 | offen     |
-| 7   | B-Story                | ~25%       | –                                                                                                 | –                                                 | offen     |
+| 4   | Catalyst               | ~12%       | Johannes erfährt vom Vermisstenfall (nicht Mord) – erkennt den Club – geht freiwillig zur Polizei als Zeuge | –                                                 | Entwurf ✅ |
+| 5   | Debate                 | 12–20%     | Erste Begegnung Johannes ↔ Valerie; Leichenfund-Anruf während Gespräch; Valerie hat persönlichen Grund für den Fall | –                                                 | Entwurf ✅ |
+| 6   | Break into Two         | ~25%       | Chef verbietet Recherche explizit – Johannes ignoriert es; aktive, unwiderrufliche Entscheidung    | –                                                 | Entwurf ✅ |
+| 7   | B-Story                | ~25%       | Beziehung J ↔ V vertieft sich; frühe Sackgasse (erster offensichtlicher Verdächtiger, schnell ausgeschlossen) | –                                                 | Entwurf (teilweise) |
 | 8   | Fun and Games          | 25–50%     | –                                                                                                 | Waage beginnt zu pendeln                          | offen     |
-| 9   | Midpoint               | ~50%       | –                                                                                                 | Sündenbock wird Hauptverdächtiger (false victory) | offen     |
+| 9   | Midpoint               | ~50%       | Sündenbock (Nachtleben-Arbeiter) taucht auf – Datenbankabgleich 3 Fälle – false victory          | Sündenbock wird Hauptverdächtiger (false victory) | Entwurf (teilweise) |
 | 10  | Bad Guys Close In      | 50–75%     | –                                                                                                 | Waage kippt Richtung Johannes                     | offen     |
 | 11  | All Is Lost            | ~80%       | –                                                                                                 | Enthüllung Tochter/Frau?                          | offen     |
 | 12  | Dark Night of the Soul | 80–85%     | –                                                                                                 | Johannes' Konstrukt bricht                        | offen     |
 | 13  | Break into Three       | ~85%       | –                                                                                                 | –                                                 | offen     |
-| 14  | Finale                 | 85–99%     | –                                                                                                 | Kommissarin „verrät"; finale Erkenntnis           | offen     |
+| 14  | Finale                 | 85–99%     | –                                                                                                 | Valerie „verrät"; finale Erkenntnis           | offen     |
 | 15  | Final Image            | ~100%      | –                                                                                                 | –                                                 | offen     |
 
 ---
@@ -135,6 +135,7 @@ Zwei parallele Stränge, die der Leser noch nicht verbindet:
 - Rückblenden Tochter/Frau werden durch Trigger in der Wohnung ausgelöst
 - Trigger-Vorbereitung im Alltag, aber nicht Prolog-Trigger
 - Laura als Figur wird eingeführt; ob sie wiederkehrt (z.B. als Zeugin), ist offen – wird nach Bedarf entschieden
+- **Trigger in der Club-Szene (vorläufig):** T1 (rote Highheels) + T4 (weibliches Flüstern); wird in der Szene selbst ausdetailliert, kann sich noch ändern
 
 **Thematische Funktion:**
 Alles, was später relevant wird, muss hier angedeutet werden. Johannes' Welt, seine Verluste, seine Obsession mit Kriminalistik. Parallel: Das erste Opfer hat ein Gesicht.
@@ -145,19 +146,21 @@ Alles, was später relevant wird, muss hier angedeutet werden. Johannes' Welt, s
 
 ### Beat 4 – Catalyst (~12%)
 
-**Status:** Entwurf ✅
+**Status:** Entwurf ✅ (überarbeitet 05-02)
 
 **Was passiert:**
-Ein Kollege in der Redaktion berichtet über einen seltsamen Fall: Eine junge Frau ist aus einem Club verschwunden, die Leiche wurde gefunden. Johannes erkennt den Club – er war kürzlich selbst dort. Sein Interesse springt an. Er will den Fall.
+Ein Kollege in der Redaktion berichtet: Eine junge Frau ist aus einem Club verschwunden – noch kein Mord, nur ein Vermisstenfall. Johannes erkennt den Club. Sein Interesse springt an.
+
+Er entscheidet sich, **selbst zur Polizei zu gehen** – nicht als Journalist, sondern als potenzieller Zeuge. Er gibt offen an, an dem Abend im Club gewesen zu sein und vielleicht beitragen zu können. Einen Journalisten würde man womöglich abwimmeln; einen Zeugen kann man nicht wegschicken. Das ist ein taktischer Zug, kein Bürgersinn.
 
 **Rereading-Ebene:**
-Beim ersten Lesen wirkt Johannes' Interesse journalistisch motiviert: Er kennt die Örtlichkeit, sein Kriminalistik-Instinkt springt an. Beim Rereading wird klar: Er war dort, WEIL er dort Marie getötet hat. Sein „Interesse" ist das Echo der dissoziativen Episode – das Unterbewusste zieht ihn zurück, das Bewusstsein rationalisiert es als Neugier. Konfabulations-Prinzip in Aktion.
+Beim ersten Lesen: journalistischer Instinkt, Ortskenntnis, ungewöhnliche Eigeninitiative. Beim Rereading: Er war dort, weil er dort Marie getötet hat. Das Unterbewusste zieht ihn zurück zum Tatort, das Bewusstsein rationalisiert es als Neugier. Konfabulations-Prinzip in Aktion.
 
 **Noch offen:**
-- Ob der Leser zu diesem Zeitpunkt erfährt, dass die Tote Marie ist, oder ob das erst später kommt (Tendenz: erst später → erzeugt leise Dramatic Irony, weil der Leser den Zusammenhang ahnt)
+- Wer ist der Kollege, der berichtet? (Vertrauter oder jemand anderes in der Redaktion?)
 
 **Thematische Funktion:**
-Das Ereignis, das alles verändert. Keine Entscheidung von Johannes – etwas zieht ihn an.
+Das Ereignis, das alles verändert. Keine bewusste Entscheidung – etwas zieht ihn an.
 
 **Waage:** –
 
@@ -165,20 +168,30 @@ Das Ereignis, das alles verändert. Keine Entscheidung von Johannes – etwas zi
 
 ### Beat 5 – Debate (12–20%)
 
-**Status:** Entwurf ✅
+**Status:** Entwurf ✅ (überarbeitet 05-02)
 
 **Was passiert:**
-**Erste Begegnung Johannes ↔ Valerie.** Johannes recherchiert den Mord – er versucht, an Informationen zu kommen, und stößt dabei auf die Ermittlung. Mögliche Kontexte: Er wird als Zeuge befragt (war im Club), oder er taucht bei der Polizei/am Tatort auf.
+**Erste Begegnung Johannes ↔ Valerie.** Johannes meldet sich bei der Polizei als Zeuge – gibt nicht zu erkennen, dass er Journalist ist. Das ist eine bewusste taktische Entscheidung: Als Zeuge hat er Zugang, den er als Reporter nicht hätte.
 
-Valerie sieht einen hartnäckigen Journalisten, der zu viel weiß für einen Unbeteiligten. Für sie ist er zunächst ein professionelles Problem. Für ihn ist sie eine Quelle, ein Hindernis – und bald etwas, das ihn zum ersten Mal seit Jahren anspricht.
+Er gelangt an Valerie de Beer. Valerie hat den Fall, weil: (a) ihr Dezernat für schwere Gewaltkriminalität zuständig ist, und (b) sie das Muster bereits kennt – sie hat einen ungelösten ähnlichen Fall aus ihrer Vergangenheit (Fall 2, vor ca. 1–2 Jahren). Als dieser neue Fall reinkommt, kämpft sie dafür, ihn zu bekommen. Für sie ist es nicht nur Professionalität – es ist unfertige Arbeit.
 
-**Die Debate ist NICHT:** „Soll Johannes den Fall recherchieren?" (Das hat er längst entschieden.)
-**Die Debate IST:** Wie weit gehen beide, um an den anderen heranzukommen? Johannes will Informationen. Valerie will den Journalisten kontrollieren. Beide unterschätzen, was sie aneinander haben werden.
+**Sebastian Kahl** ist beim Gespräch dabei – Valerie zieht ihn hinzu. Er sieht Johannes von der ersten Minute an. Seine selektive Naivität greift sofort: Er nimmt Johannes für bare Münze, während Valerie misstrauisch bleibt.
 
-**Voraussetzung:** Zum Zeitpunkt der Begegnung muss klar sein, dass Marie nicht nur vermisst, sondern ermordet wurde.
+Valerie wundert sich: Zeugen kommen normalerweise nicht freiwillig. Johannes ist entweder außergewöhnlich pflichtbewusst – oder er hat einen Grund, nah an der Ermittlung zu bleiben.
+
+**Schlüsselmoment:** Mitten im ersten Gespräch bekommt Valerie den Anruf. Leiche gefunden. Der Vermisstenfall wird zum Mordfall. Johannes sieht ihren Gesichtsausdruck wechseln, bevor er weiß, warum.
+
+**Hintergrund – Die Vorgängerfälle:**
+- **Fall 1:** Vor Valeires Zeit in der Mordkommission (ca. 2021/2022). Anderer Ermittler, ungelöst. Valerie kennt ihn nur aus Akten.
+- **Fall 2:** Valerie hat ihn bearbeitet. Ungelöst. Ihr persönlicher Wundpunkt.
+- **Fall 3 (Marie Kanter):** Valerie erkennt das Muster sofort. Sie ist die Einzige, die alle drei Verbindungen sieht.
+
+**Die Debate:**
+Nicht: „Soll Johannes recherchieren?" (Längst entschieden.)
+Sondern: **Wie weit geht jeder, um den anderen zu nutzen?** Er will Informationen. Sie will ihn kontrollieren – und ihn vielleicht auch nutzen (Zugänge, die sie nicht hat). Beide unterschätzen, was sie aneinander haben werden.
 
 **Thematische Funktion:**
-Die Schwelle vor dem Break into Two. Pflanzt die zentrale Dynamik des Romans: Johannes und Valerie als Duell-Partner, die denselben Mörder jagen.
+Die Schwelle vor dem Break into Two. Pflanzt die zentrale Dynamik: Johannes und Valerie als Duellpartner, die denselben Mörder jagen – ohne es zu wissen.
 
 **Waage:** –
 
@@ -186,17 +199,17 @@ Die Schwelle vor dem Break into Two. Pflanzt die zentrale Dynamik des Romans: Jo
 
 ### Beat 6 – Break into Two (~25%)
 
-**Status:** offen
+**Status:** Entwurf ✅ (05-02)
 
 **Was passiert:**
-Johannes entscheidet sich aktiv, den Fall zu verfolgen – möglicherweise gegen den Widerstand des Chefs. Er tritt in die „neue Welt" ein: Ermittlung statt Routine. Kein Zurück.
+Der Chef bekommt mit, dass Johannes den Mordfall recherchiert, und **verbietet es explizit** – das ist nicht sein Ressort, er hat keine Genehmigung, und es könnte die Zeitung in Schwierigkeiten bringen.
 
-**Noch zu klären:**
-- Was genau markiert die aktive Entscheidung?
-- Spielt Valerie hier schon eine Rolle (z.B. gibt sie ihm einen ersten Informationsbrocken)?
+Johannes ignoriert das Verbot. Aus einer Mischung aus **persönlichem Interesse** (das er selbst nicht benennen kann), **Arroganz** und dem Wunsch, dem Chef eins auszuwischen und den Rebellen zu spielen.
 
-**Thematische Funktion:**
-Aktive Entscheidung. Alte Welt (stabile Dunkelheit) → neue Welt (Ermittlung + Begegnung mit Valerie).
+**Konsequenz:** Er hat jetzt keinen institutionellen Rückhalt mehr. Kein Ressort, keine Redaktion im Rücken. Das macht ihn vollständig abhängig von Valerie als einziger verlässlicher Quelle – die Machtbalance im Informationshandel-Subplot verschiebt sich sofort zu seinen Ungunsten.
+
+**Was den Break markiert:**
+Die aktive, unwiderrufliche Entscheidung. Davor: „Ich folge einer Geschichte." Danach: „Ich mache das trotz allem, auf eigenes Risiko." Alte Welt (stabile Dunkelheit, Routine) → neue Welt (Ermittlung, Valerie, kein Netz).
 
 **Waage:** –
 
@@ -204,17 +217,23 @@ Aktive Entscheidung. Alte Welt (stabile Dunkelheit) → neue Welt (Ermittlung + 
 
 ### Beat 7 – B-Story (~25%)
 
-**Status:** offen
+**Status:** Entwurf (teilweise, 05-02)
 
 **Was passiert:**
 Die Beziehung Johannes ↔ Valerie vertieft sich. Erste echte menschliche Verbindung seit Jahren. B-Story = Liebe + Nemesis.
 
+Parallel dazu: **Frühe Sackgasse.** Ein erster offensichtlicher Verdächtiger aus Maries Umfeld taucht auf – ein Ex, ein Bekannter, jemand, der sich auffällig verhalten hat. Die Polizei untersucht ihn, Johannes folgt der Spur. Er erweist sich relativ schnell als Sackgasse. Funktion: Realismus, Ablenkung, Kontrastfolie für den späteren Sündenbock.
+
 > ⚠️ **Architektur-Entscheidung (Session 04-07):** Der Roman ist primär ein Beziehungs-Thriller – das Duell Valerie ↔ Johannes ist der Kern, nicht nur Johannes' Selbstjagd. Valerie braucht ab hier etwa gleich viel Erzählraum wie Johannes. Der Leser muss in ihren Kopf können – mit den Einschränkungen aus CHAR Abschnitt 10 (Grenzen & Verbote).
 
-**Thematische Funktion:**
-B-Story trägt das Thema. Kommissarin = Liebe und Nemesis in einer Person.
+**Noch offen:**
+- Wer ist dieser frühe Verdächtige? (→ braucht kurze Charakterisierung, kein vollständiges CHAR-Dokument)
+- Wie schnell wird er ausgeschlossen – noch in Beat 7 oder erst in Beat 8?
 
-**Waage:** –
+**Thematische Funktion:**
+B-Story trägt das Thema. Valerie = Liebe und Nemesis in einer Person. Die Sackgasse etabliert: Diese Ermittlung ist nicht einfach.
+
+**Waage:** Pendelt leicht. Erster Verdächtiger erzeugt kurz Richtung → wird dann abgebogen.
 
 ---
 
@@ -237,13 +256,31 @@ Der „Spaß"-Teil: Spannung, Ermittlung, Annäherung, gegenseitiges Abtasten.
 
 ### Beat 9 – Midpoint (~50%)
 
-**Status:** offen
+**Status:** Entwurf (teilweise, 05-02)
 
 **Was passiert:**
-Sündenbock taucht als Hauptverdächtiger auf. False victory.
+Der **Sündenbock** taucht als Hauptverdächtiger auf. **False victory.**
+
+**Wer er ist:** Ein Mann, der im Nachtleben arbeitet – Türsteher, Promoter, Veranstaltungstechniker o.ä. Er bewegt sich beruflich durch verschiedene Clubs und Venues. Sein Name taucht im Datenbankabgleich auf: Er war an allen drei Tatorten präsent. Nicht weil er die Frauen kannte, sondern weil er dort arbeitete oder als Stammgast bekannt war. Die Verbindung ist strukturell, nicht persönlich – das macht sie schwer zu widerlegen.
+
+**Zusätzliche Verbindung zu Marie (Fall 3):** Möglicherweise ein digitaler Kontakt – Dating-App, unerwiderte Nachricht. Laura könnte ihn als Gesicht von jenem Abend erinnern.
+
+**Die Vorgängerfälle:**
+- In Fall 1: Sein Name taucht irgendwo in einer Zeugenliste oder Venue-Dokumentation auf.
+- In Fall 2: Valerie hat ihn als möglichen Kontakt vermerkt, aber nicht genug, um weiterzukommen.
+- Jetzt, mit Fall 3, ergibt sich das Muster.
+
+**Wirkung auf Valerie:** Sie will glauben, dass es dieser Mann ist – weil das ihren ungelösten Fall abschließen würde. Diese emotionale Investition macht sie schärfer und blinder zugleich.
+
+**Wirkung auf Johannes:** Er glaubt, dem Mörder nah zu sein. Recherchiert aktiv mit. Hilft dabei, den falschen Mann zu verdächtigen – unwissentlich, aber mit echtem Engagement.
+
+**Noch offen:**
+- Name und konkretes Profil des Sündenbocks (→ CHAR-Dokument, nach Stufe 3)
+- Genaue Tätigkeit im Nachtleben
+- Ob er tatsächlich kriminelle Energie hat (wahrscheinlich ja – nicht sauber, aber kein Mörder)
 
 **Thematische Funktion:**
-Falsche Entlastung = Verdrängung in Reinform. Johannes glaubt, dem Mörder nah zu sein.
+Falsche Entlastung = Verdrängung in Reinform. Johannes hilft aktiv, den falschen Mann zu jagen – das ist die bitterste Ironie des Romans.
 
 **Waage:** Kippt stark Richtung Sündenbock. Johannes scheint entlastet.
 
@@ -254,7 +291,7 @@ Falsche Entlastung = Verdrängung in Reinform. Johannes glaubt, dem Mörder nah 
 **Status:** offen
 
 **Was passiert:**
-Die Wahrheit rückt näher. Risse in Johannes' Wahrnehmung. Indizien häufen sich. Kommissarin-Beziehung vertieft sich.
+Die Wahrheit rückt näher. Risse in Johannes' Wahrnehmung. Indizien häufen sich. Valerie-Beziehung vertieft sich.
 
 **Thematische Funktion:**
 Kein externer Antagonist – der Feind ist die Realität selbst.
@@ -299,7 +336,7 @@ Innere Transformation – aber hier negativ: nicht Erkenntnis, sondern Zerfall.
 Eine Erkenntnis – aber welche? Vielleicht glaubt Johannes, die Wahrheit über den Sündenbock gefunden zu haben.
 
 **Thematische Funktion:**
-A-Story und B-Story verschmelzen. Kommissarin weiß bereits mehr als Johannes.
+A-Story und B-Story verschmelzen. Valerie weiß bereits mehr als Johannes.
 
 **Waage:** –
 

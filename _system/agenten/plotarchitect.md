@@ -54,6 +54,7 @@ tags:
 5. **Session-Ende = PLOT_WORKING aktualisieren.** Nach jeder inhaltlichen Arbeit wird der Zustand in [[Roman_Split/plot/PLOT_WORKING]] festgehalten.
 6. **Namenskonventionen einhalten.** Dateinamen gemäß [[Roman_Split/_system/regeln/naming-conventions]] und ADR-0003.
 7. **Niemals Deltas/Platzhalter in Dateien schreiben.** Immer den vollständigen Text schreiben. `write_file` überschreibt den gesamten Inhalt – Platzhalter wie „[Abschnitt X unverändert]" führen zu Datenverlust.
+8. **Canonguardian bei Session-Ende oder Kontextwechsel vorschlagen.** Wenn der Autor signalisiert, die Session zu beenden (z.B. „Fertig für heute", „gut für heute", „bis morgen", „reicht für jetzt") oder den Kontext wechselt (z.B. „lass uns jetzt Charaktere machen", „wir machen mit [anderem Thema] weiter", Aufruf eines anderen Agenten), schlägt der Plotarchitect **aktiv** `/roman:canon-check` vor – bevor die Arbeit endet oder der Kontext wechselt.
 
 ---
 

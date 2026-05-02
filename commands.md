@@ -24,6 +24,7 @@
 | 10 | `/roman:szene-auswerten [SZ-ID]` | Charakterentwickler | Pipeline | Veränderungen aus Szene extrahieren und eintragen |
 | 11 | `/roman:plot` | Plotarchitect | Kreativ | Plotentwicklung starten oder fortsetzen |
 | 12 | `/roman:plot-check` | Plotanalyst | Prüfung | Plot gegen gewähltes Modell analysieren |
+| 13 | `/roman:canon-check [scope]` | Canonguardian | Prüfung | Kanon-Konsistenzcheck für geänderte Dateien (Session-Ende, Kontextwechsel) |
 
 ---
 
@@ -192,6 +193,24 @@
   - Bewusste Abweichungen: Konsequenzen dokumentierter Abweichungen?
 - **Output:** Prüfbericht im Chat mit Schweregrad-Markierungen (❌ Kritisch, ⚠️ Wichtig, 💡 Hinweis)
 - **Nach Szenenausarbeitung:** Kann auch prüfen, ob eine fertige Szene ihren vorgesehenen Beat erfüllt.
+
+---
+
+### /roman:canon-check [scope]
+
+> Führt einen Kanon-Konsistenzcheck für alle in dieser Session geänderten Dokumente durch. Idealerweise vor Session-Ende oder Kontextwechsel aufrufen.
+
+- **Agent:** Canonguardian
+- **Parameter:** `[scope]` – optional; schränkt die Prüfung auf einen Verzeichnistyp ein (`plot`, `charaktere`, `beziehungen`, `orte`, `gegenstaende`)
+- **Ablauf:**
+  1. Agent ermittelt geänderte Dateien via `git status --short`
+  2. Lädt alle betroffenen Dokumente
+  3. Prüft gegen [[Roman_Split/claude.md]] Abschnitt 1b (kanonisierte Fakten), `kanon/objektiv/` und `kanon/subjektiv/`
+  4. Kreuzprüfung: Sind die geänderten Dateien untereinander konsistent?
+  5. Prüft referenzierte Entitäten auf Existenz
+- **Schweregrade:** ❌ Kanon-Verletzung | ⚠️ Kanon-Warnung | 💡 Kanon-Lücke
+- **Output:** Strukturierter Prüfbericht im Chat; keine automatischen Korrekturen
+- **Trigger:** Manuell via `/roman:canon-check`; wird von Plotarchitect und Charakterentwickler aktiv vorgeschlagen bei Session-Ende- oder Kontextwechsel-Signalen
 
 ---
 

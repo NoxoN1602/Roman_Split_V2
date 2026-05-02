@@ -4,7 +4,7 @@ doc_id: PLOT-struktur
 titel: "Strukturelle Entscheidungen"
 version: "1.0"
 erstellt: 2026-04-05
-letzte_aenderung: 2026-04-05
+letzte_aenderung: 2026-05-02
 tags:
   - plot
   - struktur
@@ -83,13 +83,14 @@ tags:
 
 ---
 
-## 5. Kommissarin-Twist
+## 5. Kommissarin-Twist (Valerie de Beer)
 
 - Ermittelt die Mordserie. Johannes nähert sich als Journalist; sie verbünden sich.
 - Beziehung wird **romantisch** – echte Gefühle auf beiden Seiten.
 - Sie gibt vertrauliche Informationen weiter (moralisch/rechtlich problematisch).
-- **Twist:** Erkennt **vor dem Leser**, dass Johannes schuldig ist. Teilt es nicht mit.
-- **Auflösung:** Leser erfährt es erst durch ihren letzten Akt – sie „verrät" Johannes.
+- **Twist:** Valerie beobachtet Johannes in einem Zustand, der nicht seinem normalen Wesen entspricht (im Trigger-Zustand: plötzlich offen, charmant, zugewandt – Gegenteil des grüblerisch-introvertierten Alltags). Sie zieht interne Schlüsse. **WAS** sie schlussfolgert und ob/was sie über Johannes weiß, wird dem Leser NICHT mitgeteilt – der Leser sieht nur: Val hat etwas entdeckt.
+- ⚠️ **Kanonische Korrektur (04-07):** Val weiß NICHT bewusst, dass Johannes der Mörder ist und schweigt darüber. Sie hat etwas Verdächtiges wahrgenommen und Schlüsse gezogen – deren Inhalt bleibt dem Leser bis zur finalen Szene verborgen.
+- **Auflösung:** Im letzten Akt – Valerie identifiziert Johannes als Täter. Der Leser erfährt erst dann, was Val gewusst oder geahnt hat.
 - **Rereading-Wert:** Szenen, in denen ihr Verhalten subtil anders war, werden beim zweiten Lesen erkennbar.
 - **Save the Cat:** B-Story – Liebe und Nemesis in einer Person.
 

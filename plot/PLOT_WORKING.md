@@ -1,8 +1,8 @@
 ---
 doc_type: plot-working
 titel: "PLOT_WORKING – Arbeitszustand"
-version: "0.7"
-letzte_session: 2026-04-07
+version: "0.8"
+letzte_session: 2026-05-02
 tags:
   - plot
   - working
@@ -32,9 +32,11 @@ tags:
 
 ### Zusammenfassung
 
-> Stufe 3 begonnen. Beats 0–5 sind im Entwurf (konkrete Inhalte). Beats 6–15 haben Funktionsbeschreibungen, aber noch keine konkreten Inhalte.
+> Stufe 3 in Arbeit. Beats 0–9 sind im Entwurf (konkrete Inhalte). Beats 10–15 haben Funktionsbeschreibungen, aber noch keine konkreten Inhalte.
 >
 > **Grundlegende Weichenstellung (04-07):** Der Roman ist primär ein **Beziehungs-Thriller** – das Duell Valerie ↔ Johannes ist der Kern, nicht nur die Selbstjagd. Die Selbstjagd ist ein interessanter Twist, aber nicht das Hauptthema. Valerie braucht ab Beat 5 etwa gleich viel Erzählraum wie Johannes. Die Logline soll nach Abschluss der Beat-Arbeit angepasst werden.
+>
+> **Weichenstellungen (05-02):** Beat 4 = Entführungsfall (Mord kommt erst in Beat 5). Johannes geht freiwillig als Zeuge zur Polizei (versteckt Journalist-Status). Valeries Zugang zum Fall: strukturelle Zuständigkeit + ungelöster Vorgängerfall 2. Vorgängerfälle: 2 gesamt, Val hat nur Fall 2 bearbeitet. Break into Two = Chef-Verbot + Auflehnung. Sündenbock = Nachtleben-Arbeiter mit struktureller Verbindung zu allen 3 Fällen.
 
 ---
 
@@ -56,6 +58,12 @@ tags:
 | 12 | Wie genau verläuft die erste Begegnung Johannes ↔ Valerie? (Zeugenbefragung? Journalist bei der Polizei?) | hoch | 04-07 |
 | 13 | Was markiert den Break into Two (Beat 6)? Aktive Entscheidung zum Fall. | hoch | 04-07 |
 | 14 | Chef – muss noch knapp charakterisiert werden | niedrig | 04-07 |
+| 15 | Frühe Sackgasse (Beat 7): Wer ist der erste Verdächtige aus Maries Umfeld? Kurze Charakterisierung reicht; kein vollständiges CHAR-Dokument nötig | mittel | 05-02 |
+| 16 | **Sündenbock ausarbeiten** (Beat 9): Name, genaue Tätigkeit im Nachtleben, spezifische Verbindung zu allen 3 Fällen, ob er kriminelle Energie hat (nicht sauber, aber kein Mörder) | hoch | 05-02 |
+| 17 | **Fall 1 – Details**: Wann genau? Welcher Ermittler? Opfer-Name? Wurde er je gelöst? Wo war der Tatort (welcher Club/welche Location)? | mittel | 05-02 |
+| 18 | **Fall 2 – Details**: Wann? Welche Location? Was weiß Valerie? Leiche gefunden oder immer noch vermisst? | mittel | 05-02 |
+| 19 | **Nachtleben-Locations**: Welche Clubs/Bars? Brauchen wir Ortsdokumente? Sind Fall 1, 2, 3 in verschiedenen Clubs in derselben Stadt? | mittel | 05-02 |
+| 20 | Zeitpunkt Leichenfund Marie: Kurz vor Beat 5 oder direkt während des ersten Gesprächs (Option B fixiert – Anruf während Gespräch) | ✅ fixiert | 05-02 |
 
 ---
 
@@ -102,12 +110,14 @@ Kein klassischer Subplot – strukturell mit dem Hauptplot verschweißt:
 
 | Nr. | Aktion | Agent | Priorität |
 |-----|--------|-------|-----------|
-| 1 | **Stufe 3 fortsetzen: Beats 6–9** – Break into Two, B-Story, Fun and Games, Midpoint | plotarchitect | hoch |
-| 2 | **Stufe 3 fortsetzen: Beats 10–15** – zweite Hälfte + Finale | plotarchitect | hoch |
-| 3 | **Sündenbock entwickeln** – nach Beats, Funktion aus Dramaturgie ableiten | charakterentwickler + plotarchitect | danach |
-| 4 | **Chef knapp charakterisieren** – wiederkehrende Nebenfigur | charakterentwickler | niedrig |
-| 5 | **Redaktions-Vertrauter (Johannes) charakterisieren** – alter Weggefährte in der Redaktion | charakterentwickler | mittel |
-| 6 | **Logline anpassen** – Beziehungs-Thriller-Kern abbilden | plotarchitect | nach Beat-Arbeit |
+| 1 | **Stufe 3 fortsetzen: Beats 10–15** – Bad Guys Close In, All Is Lost, Dark Night, Break into Three, Finale, Final Image | plotarchitect | hoch |
+| 2 | **Sündenbock CHAR anlegen** – Nachtleben-Arbeiter; Name, Tätigkeit, Verbindung zu allen 3 Fällen | charakterentwickler | hoch |
+| 3 | **Frühe Sackgasse charakterisieren** – erster Verdächtiger aus Maries Umfeld; knapp, kein volles CHAR-Dokument | charakterentwickler / plotarchitect | mittel |
+| 4 | **Nachtleben-Locations definieren** – welche Clubs für Fall 1, 2, 3; ggf. Ortsdokumente anlegen | charakterentwickler | mittel |
+| 5 | **Fall 1 + Fall 2 dokumentieren** – OFr. 17 + 18 klären | plotarchitect | mittel |
+| 6 | **Redaktions-Vertrauter (Johannes) charakterisieren** – alter Weggefährte in der Redaktion | charakterentwickler | mittel |
+| 7 | **Chef knapp charakterisieren** – wiederkehrende Nebenfigur | charakterentwickler | niedrig |
+| 8 | **Logline anpassen** – Beziehungs-Thriller-Kern abbilden | plotarchitect | nach Beat-Arbeit |
 
 ---
 
@@ -123,10 +133,12 @@ Der Roman ist primär ein **Beziehungs-Thriller**. Das Duell Valerie ↔ Johanne
 - Valerie braucht ab Beat 5 etwa gleich viel Erzählraum wie Johannes
 - Der Leser muss regelmäßig in Valeries Kopf sein (mit Einschränkungen aus CHAR Grenzen & Verbote)
 
-### Marie Kanter = erstes Opfer der aktuellen Serie
+### Marie Kanter = drittes Opfer der aktuellen Serie (kanonisiert 05-02)
 
-- Marie ist das erste Opfer der aktuellen Mordserie
-- Ob es frühere Opfer gab, ist nicht bekannt
+- Marie ist das **dritte** Opfer der aktuellen Mordserie – und das **erste, das aktiv ermittelt wird**
+- Fall 1 (ca. 2021/2022) und Fall 2 (vor Valeires Beteiligung) existieren als Vorgänger
+- Ob es zwischen Frau/Tochter und Fall 1 weitere Opfer gibt, bleibt **bewusst offen**
+- Wichtig: Es gab eine frühere „Mordserie" – Johannes' Frau und Tochter – die jedoch noch nicht als solche erkennbar ist
 - Marie verschwindet aus einem Club, in dem Laura Ahlers Geburtstag gefeiert wird
 - Club-Szene wird in Echtzeit aus Lauras Perspektive erzählt (parallel zum Johannes-Set-Up)
 - Johannes war im selben Club (Leser weiß das noch nicht)
@@ -181,5 +193,7 @@ Der Roman ist primär ein **Beziehungs-Thriller**. Das Duell Valerie ↔ Johanne
 | 04-07 | Korrektur | Kommissarin-Twist korrigiert (claude.md + valerie-de-beer.md) | Val beobachtet → zieht Schlüsse → WAS sie weiß bleibt verborgen. |
 | **04-19** | **System + Charaktere** | Obsidian CLI integriert (backlinks, unresolved, orphans). Slash-Commands auf `/roman:*` umstrukturiert. Nebenhandlungs-Methodik dokumentiert (Val↔Markus = in Beats mitnotieren; eigenständige Subplots in Stufe 4). Sebastian Kahl CHAR v0.1 + BEZ Sebastian↔Val + BEZ Brenner↔Sebastian angelegt. Nächste Schritte unverändert: Beats 6–9. |
 | **04-07** | **Stufe 3** | **Beats 0–5 mit konkreten Inhalten befüllt.** Grundlegende Weichenstellung: Beziehungs-Thriller (Duell Val ↔ Johannes = Kern). Marie Kanter = erstes Opfer, Club-Szene in Echtzeit. Catalyst: Kollege berichtet, Johannes erkennt Club. Debate = erste Begegnung Val ↔ Johannes. Informationshandel-Subplot definiert. Chef + Vertrauter als Nebenfiguren skizziert. | Beats 0–5 im Entwurf. Beats 6–15 offen. Nächste Session: Beats 6–9. |
+| **05-02** | **Bereinigung** | plot-hauptplot.md, plot-struktur.md, plot-beats.md aktualisiert (Valerie de Beer überall namentlich). Canonguardian-Check: 2 Verletzungen + 4 Warnungen behoben. marie-kanter.md (Prolog→Beat 3), johannes-breier.md (Kommissarin→Valerie), valerie-de-beer.md (Ermittlungspartner→Sebastian Kahl + Querfall-Objekte präzisiert), herbert-gunkler.md (interner Widerspruch), plot-hauptplot.md (Johannes v0.5→v0.6). | System sauber. Nächste Session: Beats 6–9. |
+| **05-02** | **Stufe 3: Beats 4–9 überarbeitet und ausdetailliert** | Beat 4: Entführungsfall statt Mord; Johannes geht freiwillig als Zeuge zur Polizei. Beat 5: Erster Kontakt zu Valerie; Leichenfund-Anruf während Gespräch (Option B); Valerie hat Fall wegen struktureller Zuständigkeit + persönlichem Interesse (ungelöster Fall 2). Vorgängerfälle: 2 Fälle, Val bearbeitete nur Fall 2. Beat 6: Chef-Verbot + explizite Auflehnung als Break into Two; Johannes ohne institutionellen Rückhalt. Beat 7: Frühe Sackgasse (erster Verdächtiger, schnell raus) ergänzt. Beat 9: Sündenbock = Nachtleben-Arbeiter (strukturelle Verbindung zu allen 3 Fällen via Venue-Präsenz); Valeries emotionale Investition. | Beats 4–9 im Entwurf. Offen: Beats 10–15, Sündenbock CHAR, frühe Sackgasse, Nachtleben-Locations. |
 
 ---

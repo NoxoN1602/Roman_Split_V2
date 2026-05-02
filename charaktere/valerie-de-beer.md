@@ -202,7 +202,7 @@ Sie ist Jägerin und Gejagte zugleich. Als Ermittlerin führt sie den Fall, der 
 | Beziehung zur Arbeit | identitätsstiftend – sie *ist* ihre Arbeit ✅ |
 | Arbeitsmotivation | Gerechtigkeit (Kern); Kontrolle (Mittel); Sinn (Fundament) ✅ |
 | Beruflicher Stressfaktor | hoch, selbstgewählt ✅ |
-| Verhältnis zu Kollegen | wenige Vertraute; ein enger Ermittlungspartner (Name offen ❓); gegenüber anderen: professionell distanziert, teils Ressentiments wegen schnellem Aufstieg ✅ |
+| Verhältnis zu Kollegen | wenige Vertraute; engster Ermittlungspartner: Sebastian Kahl (KOK) ✅; gegenüber anderen: professionell distanziert, teils Ressentiments wegen schnellem Aufstieg ✅ |
 
 **Transfer zur Mordkommission (kanonisiert ✅ – Kombination A+C):**
 Als KOK löst sie einen Fall mit außergewöhnlichem Scharfsinn und Eigeninitiative – ein Querfall aus dem Bereich häusliche Gewalt, der in einem Mord endet und bei dem sie Profiling-Fähigkeiten weit jenseits ihres Auftrags zeigt. Dennoch wird sie intern nicht für eine freie Stelle in der Mordkommission berücksichtigt. Anstatt das zu akzeptieren, bewirbt sie sich aktiv und sucht das direkte Gespräch mit dem Leiter der Mordkommission. Das Gespräch überzeugt – die Stelle bekommt sie. Das Vorgehen bringt ihr bei Kollegen nicht nur Sympathien: Es gilt als zu direkt, zu selbstsicher, zu wenig geduldig mit dem üblichen Dienstweg. Das Ressentiment sitzt.
@@ -365,14 +365,14 @@ Sie geht kurze, intensive Beziehungen ein – 2–3 bisher. Sie enden nicht durc
 
 **Hintergrund:** Nach dem Mord an Mara (ca. 2003 ✅) stand die Familie vor dem Zerbrechen. Valerie hielt die Eltern unbewusst zusammen; ihr zuliebe spielten diese eine heile Welt ✅. Die Eltern blieben auch nach Valéries Auszug zusammen – aus Gewohnheit, nicht aus Wahl ✅. Sporadischer, distanzierter Kontakt ✅.
 
-### Beziehung zu: Ermittlungspartner (Name offen ❓)
+### Beziehung zu: Sebastian Kahl
 
 | Feld | Wert |
 | ---- | ---- |
-| Funktion | engster beruflicher Vertrauter; einzige Person, bei der Valérie gelegentlich Risse zeigt |
-| Emotionale Ladung | mittel; Vertrauen, kein Eros |
-| Konfliktpotenzial | gering bis latent |
-| Beziehungsdokument | wird angelegt, wenn Figur ausgearbeitet ist |
+| Funktion | engster beruflicher Vertrauter; KOK, de-facto-Sachbearbeiter; einzige Person, bei der Val gelegentlich Risse zeigt |
+| Emotionale Ladung | mittel; Vertrauen, kein Eros (aus Vals Sicht) |
+| Konfliktpotenzial | latent → offen (wenn Val & Johannes sich annähern) |
+| Beziehungsdokument | [[Roman_Split/beziehungen/sebastian-kahl--valerie-de-beer]] |
 
 ---
 
@@ -470,7 +470,11 @@ Sie sucht Brenner auf. Er weist sie ab – zu wenig Substanz, falsche Zuständig
 
 Die häusliche Gewalt eskaliert. Die Frau wird getötet – Brenner übernimmt den Fall. Val konfrontiert ihn erneut. Er blockt sie wieder, obwohl er ahnt, dass sie recht haben könnte. Sie eskaliert erneut und handelt parallel ohne Erlaubnis: Sie durchsucht die Wohnung der getöteten Frau.
 
-Sie findet etwas, das die Frau versteckt hatte – einen versteckten Hinweis, der HG-Täter und erstes Mordopfer direkt verbindet. Val kann es korrekt deuten, weil sie die Frau kannte. Sie legt den Fund dem Leiter vor.
+Sie findet zwei Dinge, die die Frau versteckt hatte ✅:
+1. Einen Umschlag mit Beweisen häuslicher Gewalt – Fotos und Belege. Beschriftet: „Fick dich, Herbert 😠". Val erkennt durch den Inhalt, dass er für sie bestimmt war. → [[Roman_Split/gegenstaende/umschlag-maria-gunkler]]
+2. Eine Parkquittung mit handgeschriebenem „?". Datum und Uhrzeit stimmen mit dem Tatzeitfenster des ersten Mordfalls überein. Val erkennt die Verbindung sofort. → [[Roman_Split/gegenstaende/parkquittung-gunkler]]
+
+Val legt den Fund dem Leiter vor.
 
 Der Zusammenhang ist eindeutig. Brenner hatte den Täter vor der Nase und hat ihn nicht gesehen. Er hat die Kollegin, die es sah, zweimal aktiv abgewimmelt. Val bekommt ihren Platz in der Mordkommission. Brenner behält seinen – aber trägt die Narbe.
 
@@ -516,7 +520,6 @@ Das ist der Ursprung ihrer Feindschaft. ✅ → Vollständige relationale Dokume
 ## 15. STATUS & OFFENES
 
 **Was ist noch unklar?**
-- Name und Charakter des Ermittlungspartners ❓
 - Wohnort / Wohnungsbeschreibung ❓
 - Hobbys endgültig (Kickboxen noch nicht kanonisiert) ⬜
 - Was durch ihre Rüstung bricht ❓
@@ -551,7 +554,7 @@ Das ist der Ursprung ihrer Feindschaft. ✅ → Vollständige relationale Dokume
 | Johannes Breier | Ermittlungskontakt / romantisches Interesse | BEZ-Datei: ausstehend (ADR-0011) |
 | Markus Brenner | Berufliche Feindschaft / Antagonist | [[Roman_Split/beziehungen/markus-brenner--valerie-de-beer]] |
 | Mara de Beer (verstorben) | Zwillingsschwester – fundamentalster Verlust | ❓ noch nicht angelegt |
-| Ermittlungspartner (Name offen) | Enger Kollege | ❓ noch nicht angelegt |
+| Sebastian Kahl | KOK, engster Kollege, heimlich verliebt | [[Roman_Split/beziehungen/sebastian-kahl--valerie-de-beer]] |
 | Mutter (Name offen) | Elternteil | ❓ noch nicht angelegt |
 | Vater (Name offen) | Elternteil | ❓ noch nicht angelegt |
 

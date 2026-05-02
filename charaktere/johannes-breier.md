@@ -440,14 +440,14 @@ An einem Punkt des Romans beobachtet die Kommissarin Johannes aus der Ferne im d
 
 ## 7. BEZIEHUNGSACHSEN (MUSS)
 
-### Beziehung zu: Kommissarin (Name offen)
+### Beziehung zu: Valerie de Beer
 
 | Feld               | Wert |
 | ------------------- | ---- |
 | Funktion            | B-Story; Liebe und Nemesis in einer Person |
 | Emotionale Ladung   | hoch – erste echte Verbindung seit dem Tod der Frau |
 | Konfliktpotenzial   | maximal – sie wird ihn am Ende „verraten" |
-| Beziehungsdokument  | → BEZ noch anzulegen |
+| Beziehungsdokument  | → BEZ noch anzulegen (ADR-0011: erst nach Erstbegegnung) |
 
 ### Beziehung zu: Chef
 
@@ -667,7 +667,7 @@ Physischer und psychischer Missbrauch durch beide Eltern (Details der Rollenvert
 
 | Charakter | Beziehung | Dokument |
 | --------- | --------- | -------- |
-| Kommissarin (Name offen) | Romantisches Interesse, Nemesis | → BEZ noch anzulegen |
+| Valerie de Beer | Romantisches Interesse, Nemesis | → BEZ noch anzulegen (ADR-0011) |
 | Tochter (Name offen) | Opfer (Vorgeschichte) | → BEZ noch anzulegen |
 | Frau (Name offen) | Opfer (Vorgeschichte) | → BEZ noch anzulegen |
 | Chef (Name offen) | Vorgesetzter, Beschützer/Antagonist | → BEZ noch anzulegen |
@@ -694,7 +694,7 @@ Physischer und psychischer Missbrauch durch beide Eltern (Details der Rollenvert
 | Strang | Rolle der Figur | Dokument |
 | ------ | --------------- | -------- |
 | Hauptplot (Mordserie) | Protagonist, Täter und Ermittler | → PLOT-hauptplot |
-| B-Story (Kommissarin) | Romantisches Interesse | → PLOT-hauptplot |
+| B-Story (Valerie de Beer) | Romantisches Interesse, Nemesis | → PLOT-hauptplot |
 | Rückblenden (Tochter/Frau) | Trauernder Ehemann/Vater (Fassade) | → PLOT-hauptplot |
 | Kindheit (Prolog/Trigger) | Opfer (als Kind) | → PLOT-hauptplot |
 
