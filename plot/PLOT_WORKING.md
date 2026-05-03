@@ -17,7 +17,6 @@ tags:
 ## Aktueller Stand
 
 **Stufe:** 3 – Makrostruktur (in Arbeit)
-**Letzte Session:** 2026-04-07
 **Gewählte Methode:** Save the Cat (modifiziert) + Story Circle für Subplots
 
 ### Plot-Dokumente
@@ -26,13 +25,13 @@ tags:
 |----------|--------|---------|
 | [[Roman_Split/plot/plot-hauptplot]] | Kompakte Übersicht: Kern, Methodik, Figuren, Verweise | v1.0 |
 | [[Roman_Split/plot/plot-struktur]] | Stabile Entscheidungen: Erzählebenen, Konfabulation, Waage, Intermezzi | v1.0 |
-| [[Roman_Split/plot/plot-beats]] | 15 Beats – Beats 0–5 im Entwurf, Rest offen | v1.1 |
+| [[Roman_Split/plot/plot-beats]] | 15 Beats – Beats 0–13 im Entwurf, Rest offen | v1.5 |
 | [[Roman_Split/plot/PLOT_WORKING]] | Dieses Dokument | v0.7 |
 | [[Roman_Split/plot/_plot-uebersicht]] | Index aller Plot-Dokumente | aktuell |
 
 ### Zusammenfassung
 
-> Stufe 3 in Arbeit. Beats 0–9 sind im Entwurf (konkrete Inhalte). Beats 10–15 haben Funktionsbeschreibungen, aber noch keine konkreten Inhalte.
+> Stufe 3 in Arbeit. Beats 0–13 sind im Entwurf (konkrete Inhalte). Beats 14–15 haben Funktionsbeschreibungen, aber noch keine konkreten Inhalte.
 >
 > **Grundlegende Weichenstellung (04-07):** Der Roman ist primär ein **Beziehungs-Thriller** – das Duell Valerie ↔ Johannes ist der Kern, nicht nur die Selbstjagd. Die Selbstjagd ist ein interessanter Twist, aber nicht das Hauptthema. Valerie braucht ab Beat 5 etwa gleich viel Erzählraum wie Johannes. Die Logline soll nach Abschluss der Beat-Arbeit angepasst werden.
 >
@@ -64,6 +63,8 @@ tags:
 | 18 | **Fall 2 – Details**: Wann? Welche Location? Was weiß Valerie? Leiche gefunden oder immer noch vermisst? | mittel | 05-02 |
 | 19 | **Nachtleben-Locations**: Welche Clubs/Bars? Brauchen wir Ortsdokumente? Sind Fall 1, 2, 3 in verschiedenen Clubs in derselben Stadt? | mittel | 05-02 |
 | 20 | Zeitpunkt Leichenfund Marie: Kurz vor Beat 5 oder direkt während des ersten Gesprächs (Option B fixiert – Anruf während Gespräch) | ✅ fixiert | 05-02 |
+| 21 | **Anzahl Opfer gesamt**: Mindestens ein weiterer Mord im Handlungsverlauf. Ob Beat-10-Zeitlücke ein Mordfall ist, und wie viele Fälle insgesamt, noch offen | hoch | 05-03 |
+| 22 | **Sündenbock – Alibi-Situation**: Kein Alibi / schwaches Alibi / übersehenes Alibi – noch nicht entschieden | mittel | 05-03 |
 
 ---
 
@@ -110,7 +111,8 @@ Kein klassischer Subplot – strukturell mit dem Hauptplot verschweißt:
 
 | Nr. | Aktion | Agent | Priorität |
 |-----|--------|-------|-----------|
-| 1 | **Stufe 3 fortsetzen: Beats 10–15** – Bad Guys Close In, All Is Lost, Dark Night, Break into Three, Finale, Final Image | plotarchitect | hoch |
+| 1 | **Stufe 3 fortsetzen: Beats 14–15** – Finale, Final Image | plotarchitect | hoch |
+| 1b | **Beat 10 weiter ausarbeiten** – Trigger-Auslöser Vertrauten-Szene, Anzahl Opfer (OFr. 21), Sündenbock-Alibi (OFr. 22) klären | plotarchitect | mittel |
 | 2 | **Sündenbock CHAR anlegen** – Nachtleben-Arbeiter; Name, Tätigkeit, Verbindung zu allen 3 Fällen | charakterentwickler | hoch |
 | 3 | **Frühe Sackgasse charakterisieren** – erster Verdächtiger aus Maries Umfeld; knapp, kein volles CHAR-Dokument | charakterentwickler / plotarchitect | mittel |
 | 4 | **Nachtleben-Locations definieren** – welche Clubs für Fall 1, 2, 3; ggf. Ortsdokumente anlegen | charakterentwickler | mittel |
@@ -118,6 +120,7 @@ Kein klassischer Subplot – strukturell mit dem Hauptplot verschweißt:
 | 6 | **Redaktions-Vertrauter (Johannes) charakterisieren** – alter Weggefährte in der Redaktion | charakterentwickler | mittel |
 | 7 | **Chef knapp charakterisieren** – wiederkehrende Nebenfigur | charakterentwickler | niedrig |
 | 8 | **Logline anpassen** – Beziehungs-Thriller-Kern abbilden | plotarchitect | nach Beat-Arbeit |
+| 9 | **GGS-Dokument Tatort-Tafel** – Johannes' private Journalisten-Tafel; Entstehung Beat 6/7; Val hat sie gesehen und mitgearbeitet; Ablenkungsfaden (Beat 10); Funktion in Beat 12 + 13 | charakterentwickler | mittel |
 
 ---
 
@@ -195,5 +198,9 @@ Der Roman ist primär ein **Beziehungs-Thriller**. Das Duell Valerie ↔ Johanne
 | **04-07** | **Stufe 3** | **Beats 0–5 mit konkreten Inhalten befüllt.** Grundlegende Weichenstellung: Beziehungs-Thriller (Duell Val ↔ Johannes = Kern). Marie Kanter = erstes Opfer, Club-Szene in Echtzeit. Catalyst: Kollege berichtet, Johannes erkennt Club. Debate = erste Begegnung Val ↔ Johannes. Informationshandel-Subplot definiert. Chef + Vertrauter als Nebenfiguren skizziert. | Beats 0–5 im Entwurf. Beats 6–15 offen. Nächste Session: Beats 6–9. |
 | **05-02** | **Bereinigung** | plot-hauptplot.md, plot-struktur.md, plot-beats.md aktualisiert (Valerie de Beer überall namentlich). Canonguardian-Check: 2 Verletzungen + 4 Warnungen behoben. marie-kanter.md (Prolog→Beat 3), johannes-breier.md (Kommissarin→Valerie), valerie-de-beer.md (Ermittlungspartner→Sebastian Kahl + Querfall-Objekte präzisiert), herbert-gunkler.md (interner Widerspruch), plot-hauptplot.md (Johannes v0.5→v0.6). | System sauber. Nächste Session: Beats 6–9. |
 | **05-02** | **Stufe 3: Beats 4–9 überarbeitet und ausdetailliert** | Beat 4: Entführungsfall statt Mord; Johannes geht freiwillig als Zeuge zur Polizei. Beat 5: Erster Kontakt zu Valerie; Leichenfund-Anruf während Gespräch (Option B); Valerie hat Fall wegen struktureller Zuständigkeit + persönlichem Interesse (ungelöster Fall 2). Vorgängerfälle: 2 Fälle, Val bearbeitete nur Fall 2. Beat 6: Chef-Verbot + explizite Auflehnung als Break into Two; Johannes ohne institutionellen Rückhalt. Beat 7: Frühe Sackgasse (erster Verdächtiger, schnell raus) ergänzt. Beat 9: Sündenbock = Nachtleben-Arbeiter (strukturelle Verbindung zu allen 3 Fällen via Venue-Präsenz); Valeries emotionale Investition. | Beats 4–9 im Entwurf. Offen: Beats 10–15, Sündenbock CHAR, frühe Sackgasse, Nachtleben-Locations. |
+| **05-03** | **Stufe 3: Beat 10 (Bad Guys Close In) als Entwurf** | Normalisierungs-Prinzip (Mikro-Episoden ab Beat 1/3 einführen). Risse-Typen A→B als Eskalationsprinzip. Substanzprofil ergänzt: Benzos + Alkohol, kein LSD. Tatort-Tafel mit zwei Schichten (unbekannte Fäden + Ablenkungsfaden). Außenperspektive als Erzähltechnik. Valerie-Kurve: Beat 10 ahnungslos, Schock-Erkenntnis Beat 13/14, physisch sichtbar, WAS verborgen bis Finale. | Beat 10 im Entwurf. Offen: Beats 11–15, Anzahl Opfer (OFr. 21), Sündenbock-Alibi (OFr. 22). |
+| **05-03** | **Stufe 3: Beat 11 überarbeitet + Beats 12–13 als Gerüst** | Beat 11: Zwei-Täter-Hoffnung entfernt (→ verschoben in Beat 12/13). Beat 11 endet ohne Ausweg: Kollaps + Intimszene + Hände-Blitz. Beat 12 (Gerüst): Dark Night – Johannes allein, obsessiv, Zwei-Täter-Theorie entsteht am Tatort-Tafel. Beat 13 (Gerüst): Break into Three – Johannes präsentiert Val die Theorie; Val skeptisch (verdächtigt ihn bereits); Kernszene: Mörder beschreibt sich selbst als Täter vor der Ermittlerin, die ihn liebt. | Beats 12–13 als Gerüst. Offen: Timing Vals Schock-Erkenntnis (Beat 12/13), Kollaps Zwei-Täter-Theorie (Beat 13 oder 14). |
+| **05-03** | **Stufe 3: Beat 12 als Entwurf** | Tatort-Tafel präzisiert: Johannes' eigene Journalisten-Tafel (ab Beat 6/7), Val hat sie gesehen und mitgearbeitet, Johannes ist stolz darauf; Val hat eigene offizielle Tafel im Büro. Ablenkungsfaden (Beat 10) wird in Beat 12 zum Auslöser der Zwei-Täter-Theorie: Johannes findet ihn, kann sich nicht erinnern, ihn selbst gelegt zu haben. Vertrauter-Szene: kommt vorbei, sieht Zustand, wird abgewimmelt. Zeitverlauf: ~5–7 Tage. Val distanziert sich still (teilt nichts mehr). GGS-Tatort-Tafel als offene Aufgabe notiert. | Beat 12 im Entwurf. Beat 13 noch Gerüst. |
+| **05-03** | **Stufe 3: Beats 12–13 finalisiert, Beat 13 auf Entwurf** | Beat 12: Brenner-SB-Mechanismus ergänzt: Brenner = Informantenführer, fälscht Alibi proaktiv (schützt SB + sabotiert Val). Johannes entdeckt es durch Clubszene-Quellen. Theorie: SB = echter Mörder, Brenner = Gehilfe/Schutzschirm. Beat 13: Zwei-Spur-Struktur dokumentiert (mit Jo öffentlich / gegen Jo privat). Val hat Handydaten auf Johannes bereits. Alibi-Fälschung wird in Beat 13 aufgedeckt. SB durch eigene Handydaten entlastet. Brenner korrupt aber kein Mörder. Vals Beweistabelle dokumentiert. | Beats 0–13 im Entwurf. Offen: Beats 14–15. |
 
 ---

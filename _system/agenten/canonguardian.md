@@ -1,10 +1,10 @@
 ---
 doc_type: agent
 doc_id: AGT-canonguardian
-version: "1.0"
+version: "1.1"
 status: aktiv
 erstellt: 2026-04-04
-letzte_aenderung: 2026-04-04
+letzte_aenderung: 2026-05-03
 tags:
   - agent
   - kanon
@@ -88,7 +88,8 @@ Wenn der Plotarchitect eine Entscheidung trifft, die den Kanon berührt:
 2. Agent prüft alle Faktenaussagen gegen den Kanon.
 3. Agent prüft zeitliche Konsistenz.
 4. Agent prüft Charakter-Verhalten gegen Abschnitt 10 (Grenzen & Verbote).
-5. Ergebnis: ✅ / ⚠️ / ❌
+5. Agent prüft für alle in der Szene betroffenen BEZ-Dateien: Wenn `/roman:szene-auswerten` einen Valenzwechsel gemeldet hat, muss `valenz_verlauf` einen neuen Eintrag enthalten UND die Abschnitt-2-Tabelle eine neue Zeile mit Valenz-Spalte. Fehlender Eintrag → ⚠️ Valenz-Lücke.
+6. Ergebnis: ✅ / ⚠️ / ❌
 
 ### 4. Kanon-Einträge erstellen (nach Szenenabnahme)
 

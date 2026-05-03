@@ -1,10 +1,10 @@
 ---
 doc_type: agent
 doc_id: AGT-charakterentwickler
-version: "2.0"
+version: "2.1"
 status: aktiv
 erstellt: 2026-04-03
-letzte_aenderung: 2026-04-06
+letzte_aenderung: 2026-05-03
 autor_agent: charakterentwickler
 tags:
   - agent
@@ -56,6 +56,7 @@ tags:
 8. **BEZ-Lebenszyklus (ADR-0011).** Keine BEZ-Datei vor der ersten kanonischen Begegnung. Bei `/roman:szene-auswerten` ist das Erkennen und Anlegen von Erstbegegnungs-BEZ-Dateien ein Pflichtschritt, kein Angebot. Halbautomatisch: Agent erkennt → zeigt an → Autor bestätigt → Agent legt an.
 9. **Geburtsdatum im Frontmatter.** Immer wenn ein Charakter erstellt oder aktualisiert wird und ein Geburtsdatum bekannt oder neu festgelegt wird, muss `geburtsdatum: "YYYY-MM-DD"` im Frontmatter eingetragen werden. Ist das Datum unbekannt, wird `geburtsdatum: "unbekannt"` eingetragen. Das Feld darf nie fehlen.
 10. **Index-Backlinks.** Jede neue CHAR-Datei erhält direkt nach dem Frontmatter `[[Roman_Split/charaktere/_character-index|Character Übersicht]]`. Jede neue ORT-Datei erhält `[[Roman_Split/orte/_ort-index|Ort Übersicht]]`. Jede neue GGS-Datei erhält `[[Roman_Split/gegenstaende/_gegenstand-index|Gegenstände Übersicht]]`. Diese Links sind bereits in den Templates verankert — nie weglassen.
+11. **Valenz-Verlauf (BEZ-Dateien).** Jede neue BEZ-Datei erhält im Frontmatter ein `valenz_verlauf`-Feld als YAML-Liste mit mindestens einem Eintrag für `Romanbeginn`. Zulässige Werte für `wert`: `positiv`, `negativ`, `neutral`, `angespannt`, `komplex`. Die Liste ist **append-only** – kein Eintrag wird je geändert oder gelöscht, nur neue Einträge werden angehängt. Jeder neue Listeneintrag spiegelt sich als neue Zeile in der Abschnitt-2-Tabelle ("Szenenreferenzierte Veränderungen", Spalte "Valenz") wider. Format: `{ab: "SZ-XXXX oder Romanzeit", wert: "...", grund: "Ein Satz Begründung"}`.
 
 ---
 
@@ -213,6 +214,7 @@ Falls ja: Agent erstellt `orte/grundrisse/{ort-name}.drawio` und weist auf den S
 | **Charakter: Psychologische Veränderungen** | Charakter-Datei | 8 |
 | **Charakter: Status-Änderungen** | Charakter-Datei | 2 + 8 |
 | **Beziehungsveränderungen** | BEZ-Datei + Charakter-Datei | Zeitleisten + Abschnitt 7 |
+| **Valenzwechsel in Beziehung** | BEZ-Datei Frontmatter `valenz_verlauf` (append) + Abschnitt 2 Spalte „Valenz" | `valenz_verlauf` + Zeitleiste |
 | **Veränderung der Beziehung zu Ort/Gegenstand** | BEZ-Datei | Zeitleisten |
 | **Ort: Physische Veränderungen** | ORT-Datei | 5 + 7 |
 | **Ort: Atmosphärische Veränderungen** | ORT-Datei | 4 + 5 |

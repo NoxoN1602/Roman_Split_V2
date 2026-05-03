@@ -10,6 +10,10 @@ letzte_aenderung: "<% tp.date.now('YYYY-MM-DD') %>"
 autor_agent: ""
 entitaet_a: "" # CHAR-Referenz (immer ein Charakter)
 entitaet_b: "" # CHAR-, GGS- oder ORT-Referenz
+valenz_verlauf:
+  - ab: "Romanbeginn"
+    wert: ""   # positiv | negativ | neutral | angespannt | komplex
+    grund: ""
 tags:
   - beziehung
 ---
@@ -42,9 +46,9 @@ tags:
 
 ### Szenenreferenzierte Veränderungen
 
-| Ab Szene / Romanzeit | Veränderung | Neuer objektiver Status |
-| --------------------- | ----------- | ----------------------- |
-|                       |             |                         |
+| Ab Szene / Romanzeit | Veränderung | Valenz | Neuer objektiver Status |
+| --------------------- | ----------- | ------ | ----------------------- |
+|                       |             |        |                         |
 
 ---
 

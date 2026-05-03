@@ -10,6 +10,10 @@ letzte_aenderung: 2026-04-19
 autor_agent: charakterentwickler
 entitaet_a: "CHAR-markus-brenner"
 entitaet_b: "CHAR-sebastian-kahl"
+valenz_verlauf:
+  - ab: "Romanbeginn"
+    wert: angespannt
+    grund: "Kollegiale Einschüchterungsdynamik; Brenner dominiert, Sebastian weicht aus"
 tags:
   - beziehung
   - mordkommission

@@ -10,6 +10,10 @@ letzte_aenderung: "2026-04-19"
 autor_agent: charakterentwickler
 entitaet_a: "CHAR-maria-gunkler"
 entitaet_b: "CHAR-valerie-de-beer"
+valenz_verlauf:
+  - ab: "Romanbeginn"
+    wert: komplex
+    grund: "Posthume Verbindung; stilles Vertrauen das Maria nie ausgesprochen hat"
 tags:
   - beziehung
   - vorgeschichte

@@ -65,6 +65,20 @@ tags:
 
 > Vollständiges Trigger-System mit Kindheitsverankerung: → `charaktere/johannes-breier.md` Abschnitt 6.
 
+### Risse-Systematik (ab Beat 10)
+
+**Normalisierungs-Prinzip:** Trigger-Reaktionen (Mikro-Episoden) werden ab Beat 1/3 regelmäßig und beiläufig eingeführt. Der Leser gewöhnt sich daran wie an eine Eigenheit – kein Warnsignal. Sie dürfen NICHT erst ab Beat 10 einsetzen.
+
+| Typ | Beschreibung | Beginn | Dominanz |
+|-----|-------------|--------|---------|
+| **A – Fast nichts** | Satz bricht ab, Blick woanders, Haltestelle verpasst. Sekunden. Kaum wahrnehmbar. | Beat 1/3 | Beat 1–10-Mitte |
+| **B – Spürbar** | Stimme kommt zu spät, Farbe stimmt kurz nicht. 3–5 Sekunden. Beunruhigend, noch erklärbar. | Beat 10-Ende | Beat 11 ff. |
+| **Einbrüche (Phase 3)** | Fragmenthafte Einbrüche in die Gegenwart. Äußerst sparsam. | Beat 11–14 | Nur mit höchster Vorsicht |
+
+**Substanzprofil (ergänzt):** Alkohol (canon) + Benzodiazepine oder Schlaftabletten. Kombinationswirkung erklärt Zeitlücken und physische Spuren glaubwürdig. Kein LSD.
+
+**Außenperspektive:** Val oder der Vertraute bemerken die Abwesenheit und sprechen ihn an. Er erklärt sie weg. Gibt dem Leser einen externen Ankerpunkt, ohne Johannes' subjektiven Filter zu verlassen.
+
 ---
 
 ## 4. Leserführung – Waage-System

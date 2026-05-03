@@ -10,6 +10,10 @@ letzte_aenderung: "2026-04-19"
 autor_agent: charakterentwickler
 entitaet_a: "CHAR-valerie-de-beer"
 entitaet_b: "GGS-parkquittung-gunkler"
+valenz_verlauf:
+  - ab: "Romanbeginn"
+    wert: komplex
+    grund: "Schlüsselindiz mit emotionalem Gewicht; verbindet Vals Profiling mit Marias stiller Beobachtung"
 tags:
   - beziehung
   - beweisstück

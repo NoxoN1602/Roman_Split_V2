@@ -13,7 +13,7 @@ Nimm die Rolle **Charakterentwickler** ein.
 
 Extrahiere alle Veränderungen aus der Szene und trage sie ein. Kategorien:
 - Charakter (physisch/psychologisch/Status)
-- Beziehung (neu oder verändert; Erstbegegnungs-BEZ halbautomatisch anlegen)
+- Beziehung (neu oder verändert; Erstbegegnungs-BEZ halbautomatisch anlegen; Valenzwechsel → neuen Eintrag in `valenz_verlauf` anhängen + Valenz-Spalte in Abschnitt-2-Tabelle; bestehende Einträge nie ändern)
 - Ort (physisch/atmosphärisch)
 - Gegenstand (Zustand/Besitz/Bedeutung)
 - Verknüpfungen (neue Verbindungen)

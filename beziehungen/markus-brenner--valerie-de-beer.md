@@ -10,6 +10,10 @@ letzte_aenderung: "2026-04-19"
 autor_agent: charakterentwickler
 entitaet_a: "CHAR-markus-brenner"
 entitaet_b: "CHAR-valerie-de-beer"
+valenz_verlauf:
+  - ab: "Romanbeginn"
+    wert: negativ
+    grund: "Berufliche Feindschaft seit Querfall-Episode 2022/2023"
 tags:
   - beziehung
   - antagonismus

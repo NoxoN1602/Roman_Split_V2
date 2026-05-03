@@ -1,7 +1,7 @@
 # Claude Memory – Roman-Autorensystem
 
 > **Zweck:** Permanentes Gedächtnis für alle Entscheidungen rund um das Roman-Autorensystem.
-> **Letzte Aktualisierung:** 2026-04-19
+> **Letzte Aktualisierung:** 2026-05-03
 > **Hinweis:** Diese Datei wird fortlaufend ergänzt. Claude liest sie zu Beginn jeder Session.
 
 ---
@@ -34,7 +34,7 @@ Ein agentengestütztes Autorensystem auf Basis von Markdown-Dateien in Obsidian,
 
 > **Genre:** Psychologischer Beziehungs-Thriller | **Inspirationen:** Angel Heart, Shutter Island
 
-> **Methode:** Save the Cat (modifiziert) + Story Circle (Subplots) | **Plot-Status:** Stufe 3 in Arbeit (Beats 0–5 im Entwurf)
+> **Methode:** Save the Cat (modifiziert) + Story Circle (Subplots) | **Plot-Status:** Stufe 3 in Arbeit (Beats 0–13 im Entwurf)
 
 ### Roman-Architektur: Beziehungs-Thriller (Entscheidung 04-07)
 
@@ -66,15 +66,16 @@ Der Roman ist primär ein **Beziehungs-Thriller**. Das Duell Valerie ↔ Johanne
 - **Konfabulations-Prinzip:** ENTLASTUNG, nicht Romantisierung. Variiert: alltäglich, angenehm, tragisch, romantisch. Spezifisch: Tochter (Rettung statt Ertränken), Frau (Suizid statt Mord), aktuelle Morde (harmlose Begegnungen)
 - **Intermezzi:** Erzähltechnik (kein Strang). Anonyme Kindheitsfragmente zwischen Kapiteln. Details → [[Roman_Split/plot/plot-struktur]]
 - **Leserführung:** Hinweis-/Gegenhinweis-Waage + Sündenbock
-- **Kommissarin-Twist:** Valerie de Beer beobachtet Johannes in einem Zustand, der nicht seinem normalen grüblerisch-introvertierten Wesen entspricht (plötzlich offen, charmant, zugewandt – Trigger). Sie zieht intern Schlüsse. WAS sie schlussfolgert und ob/was sie über Johannes weiß, wird dem Leser NICHT mitgeteilt – der Leser sieht nur: Val hat etwas entdeckt. Auflösung in finaler Szene.
+- **Kommissarin-Twist:** Valerie de Beer beobachtet Johannes in einem Zustand, der nicht seinem normalen grüblerisch-introvertierten Wesen entspricht (plötzlich offen, charmant, zugewandt – Trigger). Sie zieht intern Schlüsse. WAS sie schlussfolgert und ob/was sie über Johannes weiß, wird dem Leser NICHT mitgeteilt – der Leser sieht nur: Val hat etwas entdeckt. Auflösung in finaler Szene. **Timing:** Schock-Erkenntnis in Beat 13 oder 14; physisch sichtbar für den Leser; Val behält es für sich; Verhalten ändert sich subtil; das WAS bleibt bis zum Finale verborgen. **Erkenntnismechanismus (Beat 13/14):** Trigger-Beobachtung + aktive Nachforschung: Val besorgt die Akte zum Tod von Johannes' Frau. Dort steht explizit: *„Kein Abschiedsbrief."* – in direktem Widerspruch zu dem, was Johannes ihr in Beat 11 erzählt hat. Kombiniert mit der Trigger-Beobachtung überzeugt sie das. Erst in Beat 15 (Finale) erklärt Val diesen Erkenntnisweg.
 - **Enthüllung Tochter/Frau:** Sehr spät, zusammen mit finaler Mörder-Auflösung
-- **Klinisches Profil:** K-PTBS + dissoziative Amnesie + Konfabulation + funktionaler Alkoholismus
+- **Klinisches Profil:** K-PTBS + dissoziative Amnesie + Konfabulation + funktionaler Alkoholismus; Substanzprofil: Alkohol (canon) + Benzodiazepine/Schlaftabletten (erklärt Zeitlücken + physische Spuren)
 - **Trigger:** T1 rote Highheels, T2 Schlüsselklirren, T3 reißender Stoff, T4 weibliches Flüstern; ein einzelner Trigger genügt; variiert zwischen den Taten; 4-Phasen-Ablauf; Alkohol als Verstärker
 - **Modus Operandi (kanonisch):** Kontrollierter Jäger im dissoziativen Zustand; außen offen/charmant/präsent (Gegenteil des Normalzustands); opportunistisches Werkzeug (Schlag) + manuelle Strangulation; Abfolge konsistent, Werkzeug variiert; Trigger kann vor oder während der Begegnung zünden. Details → [[Roman_Split/charaktere/johannes-breier]] Abschnitt 6b
+- **Normalisierungs-Prinzip (Mikro-Episoden):** Trigger-Reaktionen ab Beat 1/3 regelmäßig einführen – Typ A (kaum wahrnehmbar) bis Beat 10-Mitte, Typ B (spürbar) ab Beat 10-Ende. Leser liest sie als Eigenheit, nicht als Signal. Details + Eskalationstabelle → [[Roman_Split/plot/plot-struktur]] Abschnitt 3.
 
-### Beat-Arbeit (Stufe 3 – Stand 04-07)
+### Beat-Arbeit (Stufe 3 – Stand 05-03)
 
-Beats 0–5 sind im Entwurf. Kernentscheidungen:
+Beats 0–11 sind im Entwurf. Kernentscheidungen:
 
 - **Beat 0 (Prolog):** Anonymes Kind, Missbrauch, sensorisch → steht
 - **Beat 1 (Opening Image):** Johannes' Morgenroutine, Straßenbahn (kein Auto), Redaktion, Chef-Konflikt (Kriminalistik statt offizielles Ressort)
@@ -119,6 +120,7 @@ Details → [[Roman_Split/plot/plot-beats]] und [[Roman_Split/plot/PLOT_WORKING]
 | 0009 | Plotentwicklung | Agenten, 5-Stufen-Workflow, Methodik, Kreativ/Prüf-Trennung |
 | 0010 | Obsidian-Wiki-Links | Alle Projektdokument-Verweise als `[[Roman_Split/pfad/datei]]` |
 | 0011 | BEZ-Lebenszyklus | Keine BEZ vor Erstbegegnung; Anlage als Pflichtschritt in `/szene-auswerten`; halbautomatisch |
+| 0012 | Valenz-Verlauf | BEZ-Dateien führen `valenz_verlauf` als append-only YAML-Liste; Werte: `positiv` / `negativ` / `neutral` / `angespannt` / `komplex`; Eintrag immer mit Handlungspunkt (`ab`), nie Autorendatum; Charakterentwickler v2.1 + Canonguardian v1.1 |
 
 ---
 
@@ -318,6 +320,10 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 | 04-19 | **Nebenhandlungs-Methodik dokumentiert.** Val↔Markus = strukturell verzahnt (in Haupt-Beats mitnotieren). Eigenständige Subplots (Informationshandel, Vals Familiendynamik) bekommen in Stufe 4 eigenen Story Circle. Eingetragen in PLOT_WORKING. |
 | 04-19 | **Sebastian Kahl CHAR v0.1 erstellt.** KOK Mordkommission, Vals de-facto-Partner. Geb. 14.02.1996 (Valentinstag). 1,91m, blond lockig. Introvertiert, scharfsinnig, computer-affin. Heimlich verliebt in Val. Selektive Naivität als blinder Fleck. BEZ Sebastian↔Val + BEZ Brenner↔Sebastian rudimentär angelegt. |
 | 05-02 | **Skill `/roman:canon-check` eingeführt.** Canonguardian-Skill: ermittelt geänderte Dateien via `git status`, prüft sie gegen claude.md Abschnitt 1b + kanon/, gibt strukturierten Prüfbericht mit ❌/⚠️/💡 aus. Optionaler Scope-Parameter. Plotarchitect + Charakterentwickler schlagen den Check aktiv vor bei Session-Ende- und Kontextwechsel-Signalen (z.B. „Fertig für heute", „wir machen mit … weiter"). |
+| 05-03 | **ADR-0012: Valenz-Verlauf eingeführt.** BEZ-Dateien führen `valenz_verlauf` als append-only YAML-Liste im Frontmatter. Werte: `positiv`, `negativ`, `neutral`, `angespannt`, `komplex`. Jeder Eintrag hat `ab` (Handlungspunkt), `wert`, `grund`. Charakterentwickler v2.1 (Regel 11, neue Extraktionskategorie), Canonguardian v1.1 (Konsistenzprüfung Schritt 5), TEMPLATE-beziehung aktualisiert. Alle 11 bestehenden BEZ-Dateien mit Initialwert befüllt. Beziehungen-Index zeigt Progressionskette. |
+| 05-03 | **Stufe 3: Beat 10 (Bad Guys Close In) als Entwurf.** Normalisierungs-Prinzip kanonisiert (Mikro-Episoden ab Beat 1/3, Typ A→B als Eskalation). Substanzprofil ergänzt (Benzos + Alkohol, kein LSD). Tatort-Tafel mit zwei Schichten. Außenperspektive als Erzähltechnik. Valerie-Kurve: Beat 10 ahnungslos, Schock-Erkenntnis Beat 13/14, physisch sichtbar, WAS verborgen bis Finale. Offene Fragen 21 (Opferanzahl) + 22 (Sündenbock-Alibi) eingetragen. |
+| 05-03 | **Stufe 3: Beat 11 (All Is Lost) als Entwurf.** Sündenbock-Alibi → Ermittlung kollabiert (keine Hoffnung mehr). Johannes erzählt Val von Frau+Tochter (erste Öffnung). Selbstbemerkte Lücke: (1) Abschiedsbrief – er hat Gefühl, aber keine Worte; Akte sagt explizit „Kein Abschiedsbrief" → Vals späterer Entdeckungsweg (Beat 13/14, erklärt in Beat 15). (2) „Ich wusste es sofort" – er hat sie nicht herausgezogen. Hände-Blitz nachts: abstrakt (Hände drücken statt ziehen = Kanon: Tochter auf dem Eis). Methode Tod der Frau skizziert: Schlafmittel + Badewanne + Ertrinken. Kommissarin-Twist um Erkenntnismechanismus erweitert. |
+| 05-03 | **Stufe 3: Beats 12–13 als Entwurf.** Beat 12: Brenner-SB-Mechanismus – Brenner = Informantenführer, fälscht Alibi proaktiv (schützt Informant + sabotiert Val). Johannes entdeckt es durch Clubszene-Recherche. Ablenkungsfaden + Brenner-Verbindung = Theorie (SB = Mörder, Brenner = Gehilfe). Beat 13: Zwei-Spur-Struktur (Val mit Jo öffentlich / gegen Jo privat). Val hat Handydaten auf Johannes bereits. Alibi-Fälschung in Beat 13 aufgedeckt. SB durch Handydaten entlastet. Brenner korrupt, kein Mörder. Vals akkumulierte Beweislage dokumentiert. |
 
 ---
 
@@ -325,6 +331,7 @@ Bedingte Zusatzlektüre (Plot, Charaktere, Szenen) wird bedarfsgesteuert geladen
 ANWEISUNGEN FÜR CLAUDE:
 - Lies diese Datei und commands.md zu Beginn jeder Session.
 - **NIEMALS Google Drive durchsuchen** – nur Filesystem unter Roman_Split/.
+- **Sei kritisch** - Ja-Sager schreiben keine guten Bücher, nur Durschnittsware. Wir wollen ein gutes Buch.
 - **NIEMALS Deltas/Platzhalter in Dateien schreiben** – immer vollständigen Text. write_file überschreibt alles.
 - **NIEMALS bootstrap.md veralten lassen:** Neue Datei in Root/entscheidungen/agenten/konzept/regeln → sofort in bootstrap.md eintragen. Gelöschte Datei → sofort entfernen. Kein separater Schritt, immer im selben Arbeitsschritt.
 - Bei Architektur-Entscheidungen: IMMER ADR erstellen.

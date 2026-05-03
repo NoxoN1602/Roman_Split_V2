@@ -10,6 +10,13 @@ letzte_aenderung: "2026-04-19"
 autor_agent: charakterentwickler
 entitaet_a: "CHAR-herbert-gunkler"
 entitaet_b: "CHAR-maria-gunkler"
+valenz_verlauf:
+  - ab: "Romanbeginn"
+    wert: negativ
+    grund: "Ehe als Kontrollsystem; häusliche Gewalt"
+  - ab: "13.03.2023 (Vorgeschichte)"
+    wert: negativ
+    grund: "Tödliche Eskalation; Maria wird ermordet"
 tags:
   - beziehung
   - vorgeschichte

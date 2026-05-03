@@ -10,6 +10,13 @@ letzte_aenderung: 2026-04-04
 autor_agent: charakterentwickler
 entitaet_a: "CHAR-laura-ahler"
 entitaet_b: "CHAR-marie-kanter"
+valenz_verlauf:
+  - ab: "Romanbeginn"
+    wert: positiv
+    grund: "Enge Freundschaft seit Kindergarten"
+  - ab: "28.01.2026 (Prolog)"
+    wert: komplex
+    grund: "Maries Tod beendet die lebende Beziehung; Laura verliert primären sozialen Anker"
 tags:
   - beziehung
   - charakter-charakter

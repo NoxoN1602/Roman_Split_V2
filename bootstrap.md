@@ -50,6 +50,7 @@ Roman_Split/_system/entscheidungen/ADR-0008-grundrisse-drawio-format.md
 Roman_Split/_system/entscheidungen/ADR-0009-plotentwicklung-agenten-und-workflow.md
 Roman_Split/_system/entscheidungen/ADR-0010-obsidian-wiki-links-standard-verlinkung.md
 Roman_Split/_system/entscheidungen/ADR-0011-bez-lebenszyklus-erstbegegnung.md
+Roman_Split/_system/entscheidungen/ADR-0012-valenz-verlauf-bez-dateien.md
 ```
 
 ### _system/agenten (alle Agenten-Prompts)

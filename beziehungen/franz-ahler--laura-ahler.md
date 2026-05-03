@@ -10,6 +10,10 @@ letzte_aenderung: "2026-04-19"
 autor_agent: charakterentwickler
 entitaet_a: "CHAR-franz-ahler"
 entitaet_b: "CHAR-laura-ahler"
+valenz_verlauf:
+  - ab: "Romanbeginn"
+    wert: neutral
+    grund: "Wohlwollende Distanz; Franz ist da und doch abwesend"
 tags:
   - beziehung
 ---

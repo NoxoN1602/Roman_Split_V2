@@ -119,7 +119,7 @@
 
 - **Agent:** Charakterentwickler
 - **Parameter:** `[A]` und `[B]` – Namen der beteiligten Entitäten
-- **Ablauf:** Agent öffnet BEZ-Datei → zeigt aktuellen Status (letzter Zeitleisten-Eintrag, subjektive Sichten) → fragt nach Veränderung und Auslöser (Szene oder Entwicklung zwischen Szenen) → neuer Zeitleisten-Eintrag.
+- **Ablauf:** Agent öffnet BEZ-Datei → zeigt aktuellen Status (letzter Zeitleisten-Eintrag, letzter `valenz_verlauf`-Eintrag, subjektive Sichten) → fragt nach Veränderung und Auslöser (Szene oder Entwicklung zwischen Szenen) → neuer Zeitleisten-Eintrag + neuer `valenz_verlauf`-Eintrag wenn Valenz sich ändert (append-only, Handlungspunkt als `ab`).
 - **Output:** Aktualisierte Beziehungs-Datei
 
 ---
@@ -149,7 +149,7 @@
 - **Aufruf:** Manuell durch den Autor **oder** automatisch als Pipeline-Schritt 2
 - **Kategorien der Extraktion:**
   - Charakter: Physische, psychologische und Status-Änderungen
-  - Beziehung: Neue oder veränderte Beziehungen
+  - Beziehung: Neue oder veränderte Beziehungen; Valenzwechsel → neuen Eintrag in `valenz_verlauf` anhängen (append-only) + Valenz-Spalte in Abschnitt-2-Tabelle
   - Ort: Physische und atmosphärische Veränderungen
   - Gegenstand: Zustands-, Besitz- und Bedeutungsveränderungen
   - Verknüpfungen: Neue Verbindungen zwischen Entitäten

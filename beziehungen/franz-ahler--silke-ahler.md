@@ -10,6 +10,10 @@ letzte_aenderung: "2026-04-19"
 autor_agent: charakterentwickler
 entitaet_a: "CHAR-franz-ahler"
 entitaet_b: "CHAR-silke-ahler"
+valenz_verlauf:
+  - ab: "Romanbeginn"
+    wert: neutral
+    grund: "Gewohnheitsehe; funktioniert ohne emotionale Tiefe"
 tags:
   - beziehung
 ---

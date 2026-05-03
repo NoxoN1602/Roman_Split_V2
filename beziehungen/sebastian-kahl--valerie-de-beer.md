@@ -10,6 +10,10 @@ letzte_aenderung: 2026-04-19
 autor_agent: charakterentwickler
 entitaet_a: "CHAR-sebastian-kahl"
 entitaet_b: "CHAR-valerie-de-beer"
+valenz_verlauf:
+  - ab: "Romanbeginn"
+    wert: positiv
+    grund: "Perfekte Arbeitsbeziehung; emotionale Asymmetrie nach außen unsichtbar"
 tags:
   - beziehung
   - mordkommission

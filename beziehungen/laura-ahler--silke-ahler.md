@@ -10,6 +10,10 @@ letzte_aenderung: "2026-04-19"
 autor_agent: charakterentwickler
 entitaet_a: "CHAR-laura-ahler"
 entitaet_b: "CHAR-silke-ahler"
+valenz_verlauf:
+  - ab: "Romanbeginn"
+    wert: angespannt
+    grund: "Engste und gleichzeitig einengendste Beziehung; Fürsorge und Kontrolle untrennbar"
 tags:
   - beziehung
 ---

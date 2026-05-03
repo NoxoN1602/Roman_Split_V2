@@ -10,6 +10,10 @@ letzte_aenderung: "2026-04-19"
 autor_agent: charakterentwickler
 entitaet_a: "CHAR-valerie-de-beer"
 entitaet_b: "GGS-umschlag-maria-gunkler"
+valenz_verlauf:
+  - ab: "Romanbeginn"
+    wert: komplex
+    grund: "Vertrauensbeweis der zu spät kam; persönliche Schuldfrage ungelöst"
 tags:
   - beziehung
   - beweisstück
